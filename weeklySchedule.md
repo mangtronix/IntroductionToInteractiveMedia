@@ -1,27 +1,25 @@
-
-- Class [Zoom](https://nyu.zoom.us/j/98127583237)
+# Mang's section of Intro to IM #
 - Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
 - Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
-## New York University Abu Dhabi    
-## Interactive Media Program    
-## Course title: Introduction to Interactive Media  
+**New York University Abu Dhabi**  
+**Interactive Media Program**  
+**Course title: Introduction to Interactive Media**  
 Course number: IM-UH 1010   
-Section: 3    
+Section: Michael Ang    
 Credit Hours: 4         
 Prerequisites: None       
 
-Course website: [https://github.com/michaelshiloh/IntroductionToInteractiveMedia](https://github.com/michaelshiloh/IntroductionToInteractiveMedia)      
-Instructor: Michael Shiloh mshiloh@nyu.edu    
+Course website: [https://github.com/mangtronix/IntroductionToInteractiveMedia](https://github.com/mangtronix/IntroductionToInteractiveMedia)      
+Instructor: Michael Ang (Mang) michael.ang@nyu.edu    
 Office hours: By appointment  
 Meeting times:    
-	10:25-11:40 Tuesday  
-	10:25-1:05 Thursday     
-Session: Spring 2022       
-Class location: online
-[Discord](https://discord.com/channels/714727038078025851/716332110268465172)   
+- 3:35-6:15PM Monday
+- 5:00-6:15PM Wednesday
 
-**This is subject to change**
+Session: Fall 2022    
+
+**This is subject to change. NOT YET UPDATED FOR FALL 2022.**
 
 ### This document: Weekly Schedule
 
