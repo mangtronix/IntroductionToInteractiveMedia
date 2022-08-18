@@ -2,9 +2,9 @@
 - Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
 - Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
-## New York University Abu Dhabi    
-## Interactive Media Program    
-## Course title: Introduction to Interactive Media  
+**New York University Abu Dhabi**  
+**Interactive Media Program**  
+**Course title: Introduction to Interactive Media**  
 Course number: IM-UH 1010   
 Section: Michael Ang    
 Credit Hours: 4         
