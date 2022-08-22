@@ -19,9 +19,9 @@ Meeting times:
 
 Session: Fall 2022     
 
-**This is subject to change. NOT YET UPDATED FOR FALL 2022.**
+**This is subject to change. UPDATE FOR FALL 2022 IN PROGRESS.**
 
-Weekly Schedule
+## Weekly Schedule
 - [Week 1](#week-1) - Introductions / GitHub, p5.js
 - [Week 2](#week-2) - Variables, animation, conditionals
 - [Week 3](#week-3) - Functions, arrays, object oriented programming (OOP)
@@ -30,14 +30,14 @@ Weekly Schedule
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
 - FALL BREAK
-- [Week 8](#week-8)
-- [Week 9](#week-9)
-- [Week 10](#week-10)
-- [Week 11](#week-11)
-- [Week 12](#week-12)
-- [Week 13](#week-13)
-- [Week 14](#week-14)
-
+- [Week 8](#week-8) - Introduction to Arduino, electricity
+- [Week 9](#week-9) - Analog and digital I/O
+- [Week 10](#week-10) - Sound, movement, circuit schematics
+- [Week 11](#week-11) - Connecting Arduino to p5.js
+- [Week 12](#week-12) - Motors, soldering, fabricating
+- [Week 13](#week-13) - Circuit debugging
+- [Week 14](#week-14) - Final project
+- [IM Show](#im-show) - IM End of Semester Show
 
 
 
@@ -1798,6 +1798,9 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 ## FALL BREAK / FALL BREAK / FALL BREAK
 
+## Week 8
+### Week 8.1 - 10/24
+
 #####  Mid-semester feedback
 
 - What was the more surprising thing you learned so far in this class?
@@ -1811,7 +1814,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 - IDE
 - blink
 
-### March 24
+### Week 8.2 - 10/26
 #### Plan for today: 
 
 - Electricity
@@ -1940,7 +1943,8 @@ Make sure everything is working
 - Change the parameter in delay()
 - Upload again and verify that the LED blinks at the new rate
 
-### March 29
+## Week 9
+### Week 9.1 - 10/31 Happy Halloween!
 #### Plan for today: 
 
 - Review basic Arduino and Digital Output
@@ -2049,13 +2053,13 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
-### March 31
+### Week 9.2 - 11/02
 #### Plan for today: 
 - Discuss reading
-- Analogue Input
-- Analogue Output
+- Analog Input
+- Analog Output
 
-#### Analogue Input
+#### Analog Input
 
 Build this circuit. Try to follow the schematic and not the breadboard view:
 
@@ -2102,9 +2106,9 @@ Here is an example:
 	and then don't have time to get help, that is unexcusable.
 - Use constants for pin numbers
 
-#### Analogue Output
+#### Analog Output
 
-- Analogue Outputs, `analogWrite()`, PWM and (some) actuators go together
+- Analog Outputs, `analogWrite()`, PWM and (some) actuators go together
 	- `analogWrite()` only works on the six PWM pins (3, 5, 6, 9, 10, and 11).
 	- LEDs, motors, and some other actuators respond properly to PWM
 	- Other actuators, like a solenoid, do not respond well to PWM and really
@@ -2168,25 +2172,14 @@ void loop() {
 	 sensor to an analog output device
 1. Use a potentiometer to select from 4 different behaviors of a circuit
 
-### April 5
+## Week 10
+### Week 10.1 - 11/07
 #### Plan for today: 
 
-- Announcements
 - Documentation
 - Discussion
 - Look at homework
 
-#### Announcements
-
-- Unfortunately, the faculty and staff of the Interactive Media program have
-	decided that we do not have the bandwidth to mount both an End-Of-Semester
-	showcase and a capstone show. Since this is the first year that the
-	Interactive Media program is mounting a Capstone Show, we have decided not
-	to have an End-Of-Semester showcase this semester. I am exploring ways to
-	make our final project presentations in-person and a bit more exciting
-- Instead of copying p5.js from p5js.org to Github, it is now sufficient to
-	provide a link to the sketch on p5js.org. Some of you have been doing this
-	and I realized that it makes much more sense.
 
 #### Documentation
 - Almost all of you are missing points simply for leaving out parts of the
@@ -2220,7 +2213,7 @@ Tom Igoe's blog post on Physical Computing and Interactive Art
 #### Look at homework
 - Creative projects using simple digital and analog inputs and outputs
 
-### April 7
+### Week 10.2 - 11/09
 #### Plan for today: 
 - Sound
 - Servo motor
@@ -2523,19 +2516,15 @@ void loop() {
 }
 ````
 
-### April 12
+
+## Week 11
+### Week 11.1 - 11/14
 #### Plan for today: 
 - Announcement
 - Discussion
 - Look at homework (musical instruments)
-- Time permitting
-	
-#### Announcement
-- Thursday April 14 we will meet in-person in the IM lab, C3-029. Please allow
-	extra time to find the lab if it's your first time
-- Thursday April 14 4pm soldering?
 
-#### Discussion (Avinash and Basil)
+#### Discussion
 - What did the writer mean by Vision?
 - Do you agree with the writer when he says future tech neglects the
 	importance of hands?
@@ -2569,26 +2558,45 @@ What techniques have you learned to help you find problems?
 
 - The first thing in your README.md should be a description!
 
-Correct these schematics
-- Aisha
-- Avinash
-- Basil
-- Dhabia
-- Ryan
-- Pranav
-
-Good ones
-- Liam
-- Kevin
-- Shaikha
-
-### April 14
+### Week 11.2 - 11/16
 #### Plan for today: 
 - Serial Communication
 
 #### Serial Communication
 
-(integrate my notes on serial from fall 2021)
+Communicating between p5.js and Arduino
+- [Serial Input to p5.js Using the p5.webserial Library](https://itp.nyu.edu/physcomp/labs/
+
+Communication example by Aaron Sherwood
+-	[This code](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl)
+	connects to the serial port through the web browser and sends and receives messages to a connected Arduino
+- Before you incorporate this in your project, first test this as it is and
+	make sure you understand it
+- Briefly, what this code does:
+	- Arduino waits for a message from p5.  
+	- Arduino expects two values separated by a comma. It uses these two values
+		to control two LEDs.  
+	- Arduino then reads two sensors and sends the values back to p5, separated
+		by a comma.
+	- p5 reads these two values from Arduino. One value controls the text color,
+		the other controls the text transparency
+	- p5 sends two values back to Arduino indicating if the mouse was clicked,
+		and if so, which half of the screen it was in.
+
+- Once it's working, duplicate the code and then start adapting it to your
+	needs:
+	- Duplicate Aaron's project so that you get the other files as well
+	- Increase or decrease the amount of data that is exchanged. You may need
+		more, or you may need less. 
+	- Modify the data that is exchanged. You may need a digital sensor on the
+		Arduino instead of an analog sensor. Similarly, on the p5 side, you may
+		need something different from a mouse click or changing the text color and
+		transparency.
+	- Once you are reliable sending information back and forth you can start
+		adding the rest of your program
+
+
+Older examples using serial server
 
 MacOS or Windows
 - Follow Jack's excellent tutorial
@@ -2620,13 +2628,14 @@ In-class exercise (break class into groups of 2-3 students)
 	every time the ball bounces one led lights up and then turns off, and you
 	can control the wind from one analog sensor 
 
-### April 19
+## Week 12
+### Week 12.1 - 11/21
 #### Plan for today: 
 - Discussion
 - Problems with homework
 - Look at final proposals
 
-Discussion of *Design Meets Disability* (Aisha and Abdullah)
+Discussion of *Design Meets Disability*
 
 1. Considering only modern day technology like your phones, can you identify
 	 any "features" that are implemented to help people with certain
@@ -2640,7 +2649,7 @@ Discussion of *Design Meets Disability* (Aisha and Abdullah)
 1. In the case of glasses, the author mentions “what others see is more
 	 important than what you see yourself” - do you guys agree?
 	
-### April 21
+### Week 12.2 - 11/23
 #### Plan for today: 
 - Motors
 - Soldering
@@ -2823,18 +2832,14 @@ void loop() {
 - Stranded vs. solid core wire
 - Strain relief
 
-### April 26
+## Week 13
+### Week 13.1 - 11/28
 #### Plan for today: 
-- Shall we meet in person on Thursday?
-- Does anyone need anything from me? (radios e.g.)
-- Any other problems?
-- New improved serial communication
 - Blink without `delay()`
+- Soldering
+- How to use a Digital Multimeter (DMM) 
+- Work on projects
 
-##### New improved serial communication
-
-Use [this](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl)
-Note that the Arduino code is at the bottom of sketch.js
 
 ##### Blink Without `delay()`
 
@@ -2864,13 +2869,9 @@ Play a melody and blink an LED
 without using `delay()`:
 [toneMelodyAndBlinkWithoutDelay](https://github.com/michaelshiloh/toneMelodyAndBlinkWithoutDelay)
 
-### April 28
-#### Plan for today: 
-- **We will meet in person on Thursday April 28 in the IM lab, C3-029**
+#### Soldering
 - [Soldering
 	resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)
-- How to use a Digital Multimeter (DMM) 
-- Work on projects
 
 #### How to use a Digital Multimeter (DMM) 
 
@@ -2886,56 +2887,28 @@ without using `delay()`:
 		- Checking motorso
 - How to connect to Arduino pins or the solderless breadboard
 
-### May 6
+
+### Week 13.2 - 11/30 NO CLASS
+NO CLASS - NATIONAL DAY HOLIDAY
+
+
+## Week 14
+### Week 14.1 - 12/05
 #### Plan for today: 
-- Course Evaluation
-- Better communication example
+- Final project check-in
+- Work session
+
+### Week 14.2 - 12/07
+#### Plan for today: 
+- Final project presentations
+
+### Week 14.3 - 12/11 SUNDAY CLASS
+SUNDAY CLASS - LEGISLATIVE DAY - 5:00-6:15PM
+
+#### Plan for today:
+- Course review
+- Course evaluation
 - Project help
-
-
-#### Better communication example
--	[This code](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl)
-	does not require an external program. It's all contained in the p5 sketch.
-- Before you incorporate this in your project, first test this as it is and
-	make sure you understand it
-- Briefly, what this code does:
-	- Arduino waits for a message from p5.  
-	- Arduino expects two values separated by a comma. It uses these two values
-		to control two LEDs.  
-	- Arduino then reads two sensors and sends the values back to p5, separated
-		by a comma.
-	- p5 reads these two values from Arduino. One value controls the text color,
-		the other controls the text transparency
-	- p5 sends two values back to Arduino indicating if the mouse was clicked,
-		and if so, which half of the screen it was in.
-
-- Once it's working, duplicate the code and then start adapting it to your
-	needs:
-	- Duplicate Aaron's project so that you get the other files as well
-	- Increase or decrease the amount of data that is exchanged. You may need
-		more, or you may need less. 
-	- Modify the data that is exchanged. You may need a digital sensor on the
-		Arduino instead of an analog sensor. Similarly, on the p5 side, you may
-		need something different from a mouse click or changing the text color and
-		transparency.
-	- Once you are reliable sending information back and forth you can start
-		adding the rest of your program
-
-### May 10
-##### todays-lecture
-#### Administration
-
-**We will meet in person in the IM lab, C3-029**
-
-- **Record Zoom!**
-- Please say something if I forget the end of class
-	- 10:25-11:40 Tuesday  
-	- 10:25-1:05 Thursday     
-
-#### Plan for today: 
-- Course Evaluation
-- Announcements
-- Final adjustments to projects
 
 #### Announcements
 
@@ -2945,3 +2918,8 @@ unattended.
 
 If the mess continues swipe access to the lab will be disabled at 9pm as a
 courtesy to the lab staff. 
+
+## IM Show
+IM End of Semester Show
+- Each student needs to show at least one project
+- Time TBD
