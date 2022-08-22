@@ -21,17 +21,15 @@ Session: Fall 2022
 
 **This is subject to change. NOT YET UPDATED FOR FALL 2022.**
 
-### January 25 2022
+## Week 1
+
+### Week 1.1 - 08/29
 
 #### Administration
 
-- **Record Zoom!**
-- introductions
+- Introductions
 - Syllabus etc.
 - Join the Discord server 
-- **Connect to Zoom 10 minutes early**
-	- This is to make sure you have time to fix any potential Zoom issues
-	- You may keep your camera and mic turned off until class time
 
 #### What’s the class about?
 
@@ -91,18 +89,7 @@ harp</a></li>
 </li>
 </ul>
 
-### January 27
-
-#### Announcements
-
-- I made a mistake and had to change the Zoom meeting URL. I have updated all
-	the pages on Github with the new Zoom URL which is
-	[this](https://nyu.zoom.us/j/98127583237)
-- Since the first meeting was with the old link, you won't be able to
-	find that meeting recording in Brightspace. However you can access
-	the first meeting recording
-	[here](https://nyu.zoom.us/rec/share/39WzmzYv5s5_mVmNTASLwR676e1uvgySeVXj1UkNXA6UjVoFgr2z5pMAN1ETIsqh.zbuDSymgupqIzpzF)
-
+### Week 1.2 - 08/31
 
 #### Let's get started
 
@@ -224,7 +211,9 @@ but all class assignments must be handed in on Github.
 - Optionally change the commit comment
 - Click on "Commit new file"
 
-### February 1
+## Week 2
+
+### Week 2.1 - 09/05
 
 #### Homework
 Look at self portraits
@@ -358,16 +347,7 @@ function draw() {
 }
 ````
 
-### February 3
-#### Administration
-
-- **Record Zoom!**
-- Please say something if I forget the end of class
-- Attention
-	- Cameras on
-	- Notifications off
-	- Pay attention to whomever is talking
-	- Failure to do this will be marked as an unexcused absence
+### Week 2.2 - 09/07
 
 ##### Review
 
@@ -571,8 +551,9 @@ function draw() {
 }
 ````
 
+## Week 3
 
-### February 8
+### Week 3.1 - 09/12
 
 ##### Discuss reading
 
@@ -698,7 +679,7 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-### February 10
+### Week 3.2 - 09/14
 
 #### Topics today
 - Finish walking through the "paint" program from Thursday
@@ -761,7 +742,8 @@ tutorial. You might also find
 [this](https://genekogan.com/code/p5js-transformations/) useful for a
 slightly different perspective.
 
-### February 15
+## Week 4
+### Week 4.1 - 09/19
 
 #### Plan for today
 
@@ -772,7 +754,8 @@ slightly different perspective.
 
 ##### Look at some homework
 
-### February 17
+### Week 4.2 - 09/21
+#### Substitute - Mang away
 #### Plan for today: Working with text
 
 - How put text on the canvas
@@ -1152,8 +1135,10 @@ have them work in pairs to make something
 share what they made
 show generative word from circles sketch
 
+## Week 5
 
-### February 22
+### Week 5.1 - 09/26
+#### Substitute - Mang away
 #### Plan for today: 
 
 - Discussion
@@ -1261,7 +1246,7 @@ For more information and ideas
 - Reference page for p5.Image for other methods
 - Examples -> image
 
-### February 24
+### Week 5.2 - 09/28
 
 #### Plan for today: 
 
@@ -1558,7 +1543,7 @@ whatever you want.
 #### Sound!
 
 Download this to your laptop: 
-https://github.com/michaelshiloh/IntroductionToInteractiveMedia/blob/master/media/doorbell.png
+https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.png
 
 File -> Examples -> Sound
 
@@ -1625,7 +1610,9 @@ changing the envelopes. [Example](https://github.com/aaronsherwood/introduction_
 If we had multiple sound files, how would we play the
 next one when we click the mouse?
 
-### March 1
+## Week 6
+
+### Week 6.1 - 10/03
 #### Plan for today: 
 
 - Discussion of reading 
@@ -1695,19 +1682,11 @@ Some video examples:
 	Aaron that uses frame differencing to detect which vertical slice of the
 	camera image has the most motion, and trigger a corresponding sound clip
 
-### March 3
+### Week 6.2 - 10/05
 #### Plan for today: 
 
-- Attendance
 - Review frame differencing
 - Random items
-
-#### Attendance
-- Please don't join class from a noisy location as it makes it hard to hear
-	you
-- Remember that cameras are required for the entire duration of the class. I
-	often see cameras turned off during class. This is not permissible unless you
-	receive explicit permission from me.
 
 #### Review frame differencing
 - If you wanted to display white (instead of the color of the difference)
@@ -1781,19 +1760,23 @@ Use the mouse position to select sound tracks
 A nice set of p5.js tutorials by [Happy
 Coding](https://happycoding.io/tutorials/p5js/)
 
-### March 3
+## Week 7
+### Week 7.1 - 10/10
 #### Plan for today: 
 
 - Project status
 - Debugging
 
-### March 10
+### Week 7.2 - 10/12
 #### Plan for today: 
 
 - Midterm projects: Share in a group
 - Mid-semester feedback
 - Homework due after break
 - Introduction to Arduino
+
+
+## FALL BREAK / FALL BREAK / FALL BREAK
 
 #####  Mid-semester feedback
 
