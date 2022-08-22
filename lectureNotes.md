@@ -21,6 +21,26 @@ Session: Fall 2022
 
 **This is subject to change. NOT YET UPDATED FOR FALL 2022.**
 
+Weekly Schedule
+- [Week 1](#week-1) - Introductions / GitHub, p5.js
+- [Week 2](#week-2) - Variables, animation, conditionals
+- [Week 3](#week-3) - Functions, arrays, object oriented programming (OOP)
+- [Week 4](#week-4) - Working with text
+- [Week 5](#week-5) - Working with pixels, sound
+- [Week 6](#week-6) - Computer Vision
+- [Week 7](#week-7) - Midterm presentations
+- FALL BREAK
+- [Week 8](#week-8)
+- [Week 9](#week-9)
+- [Week 10](#week-10)
+- [Week 11](#week-11)
+- [Week 12](#week-12)
+- [Week 13](#week-13)
+- [Week 14](#week-14)
+
+
+
+
 ## Week 1
 
 ### Week 1.1 - 08/29
@@ -93,7 +113,7 @@ harp</a></li>
 
 #### Let's get started
 
-##### Github
+##### GitHub
 - What is Github?
 - Difference between an account and a repository
 - Follow along with me and create an account
