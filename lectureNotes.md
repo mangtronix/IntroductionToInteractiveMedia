@@ -138,7 +138,7 @@ Name your repository "introduction to interactive Media".
 
 ##### Simple shapes in p5.js
 
-Open [p5.js editor](https://editor.p5.js/)
+Open [p5.js editor](https://editor.p5js.org/)
 
 - `ellipse()`
 - `rect()`
