@@ -77,7 +77,7 @@ Low barrier to entry, high ceiling</li>
 <li><a href="http://www.youtube.com/watch?v=zkpH1BjD6Wc" >Tree-climbing robot</a></li>
 <li><a href="http://www.youtube.com/watch?v=tOsNXg2vAd4#t=120" >Insect robot</a></li>
 <li><a href="http://www.youtube.com/watch?v=YblSltHDbIU" >Treadbot</a></li>
-<li><a href="http://www.future-cities-lab.net/projects/#/murmurwall/" >Murmur Wall</a></li>
+<li><a href="https://www.futureforms.us/murmur-wall" >Murmur Wall</a></li>
 <li><a href="http://vimeo.com/72826106" >Floating Couch</a></li>
 <li><a href="https://www.youtube.com/watch?v=BZysu9QcceM#t=36" >Wooden Segment Mirror</a></li>
 <li><a href="https://www.youtube.com/watch?v=pNkz8wEJljc" >Generative design</a></li>
@@ -100,11 +100,8 @@ harp</a></li>
  	<li><a href="http://melissafelderman.com/digitalgraffitiwall/index.html">Digital Graffiti Wall</a></li>
  	<li><a href="http://www.willjfield.com/itp-2/explorer-space-simulator/">Space Simulator</a></li>
  	<li><a href="https://vimeo.com/114414122">Wind based jug organ</a></li>
- 	<li><a href="http://www.yining1023.com/?p=392">Atmospheric Touch Lamp</a></li>
  	<li><a href="http://andysigler.com/projects/dipinator/">The Dipinator</a></li>
- 	<li><a href="http://www.gabebc.com/Jitterbox">Jitterbox</a></li>
- 	<li><a href="http://macdavel.blogspot.ae/">Youtube DDR</a></li>
- 	<li><a href="https://lilikha.wordpress.com/">I Hand a Dream</a></li>
+ 	<li><a href="https://www.gabebc.com/jitterbox">Jitterbox</a></li>
 </ul>
 </li>
 </ul>
