@@ -68,9 +68,11 @@ No background needed, strong DIY attitude</li>
  	<li>
 Low barrier to entry, high ceiling</li>
 </ul>
-- Examples
+
+#### Example
 <ul>
  	<li>Carlos Guedes' wonderful <a href="https://vimeo.com/235763130">Phobos</a>, Orquestra Robótica Disfuncional (1 min)</li>
+	<li>Mang's <a href="https://www.michaelang.com/project/city-refl3ctor">City Refl3ctor</li>
  	<li>Sudhu Tewari's <a href="https://www.youtube.com/watch?v=MjNB3nKPMb8" >Yasmin Electro Mechanical Sequencer</a></li>
  	<li>List of <a href="http://eat.cca.edu/" >inspirational movies</a> collected by <a href="http://www.ultrafuzz.net/" >Barney Haynes</a> (also <a href="https://vimeo.com/barneyhaynes" >here</a>) and shown at his interface classes.</li>
  	<li>List collected by <a href="https://github.com/zamfi">J.D. Zamfirescu</a>
