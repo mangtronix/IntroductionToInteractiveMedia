@@ -181,20 +181,20 @@ function setup() {
   line( 0,0, 300, 100);
   
   let foo = radians(90);
-  prlet(foo);                  //!!!!!!!!!!!!!!!!!!!!!!!! THIS IS VERY USEFUL!!!!!!!
+  print(foo);                  //!!!!!!!!!!!!!!!!!!!!!!!! THIS IS VERY USEFUL!!!!!!!
   
   arc(50, 55, // center of the ellipse
       50, 50, // width and height
       0, radians(180)); // start and stop angle
   
   triangle( 100, 100, 10, 200, 100, 300);
-  polet(width/2, height/2);
+  print(width/2, height/2);
 }
 
 let x = 0;
 function draw() {
-	// Where am I poleting?
-  prlet(mouseX, mouseY);
+	// Where am I?
+  print(mouseX, mouseY);
   
 	// I can do animation!
   circle(x, 500, 40);
