@@ -113,7 +113,7 @@ harp</a></li>
 #### Let's get started
 
 ##### GitHub
-- What is Github?
+- What is [GitHub](https://github.com/)?
 - Difference between an account and a repository
 - Follow along with me and create an account
 - Instructions for this are
@@ -138,7 +138,7 @@ Name your repository "introduction to interactive Media".
 
 ##### Simple shapes in p5.js
 
-Open [p5.js editor](editor.p5.js/)
+Open [p5.js editor](https://editor.p5.js/)
 
 - `ellipse()`
 - `rect()`
