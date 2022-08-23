@@ -30,7 +30,7 @@ found here.
 
 [Weekly Schedule](weeklySchedule.md) Includes homework and projects assignments
 
-Student Github [repositories](studentRepositories.md)
+Student GitHub [repositories](studentRepositories.md)
 
 The current session is Fall 2022.
 Previous sessions can be explored [here](previousSessions/previousSessions.md).

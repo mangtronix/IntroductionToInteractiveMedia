@@ -41,7 +41,7 @@ Primitive shapes, Programming concepts
 
 ##### Email:
 
-Email me a link to your Github repository
+Email me a link to your GitHub repository
 
 ##### Production:
 
@@ -58,7 +58,7 @@ Make a self-portrait using p5.js.
 	while we look at it)
 - The portrait does not need to be realistic. The purpose is to practice using
 	the simple drawing functions.
-- In your Github repository, create a new folder named `Feb1`
+- In your GitHub repository, create a new folder named `Feb1`
 	- Upload your program into the new folder, with the extension `.js`.
 		- If you use any variables, chose good names.
 	- Upload a screenshot of your portrait into the new folder
@@ -93,7 +93,7 @@ Scroll through and look for images:
 	- [COMPUTER_GRAPHICS_AND_ART_Aug1977](http://dada.compart-bremen.de/docUploads/COMPUTER_GRAPHICS_AND_ART_Aug1977.pdf)
 	- [ProgrammInformation21_PI21](http://dada.compart-bremen.de/docUploads/ProgrammInformation21_PI21.pdf)
 	- [COMPUTER_GRAPHICS_AND_ART_May1976](http://dada.compart-bremen.de/docUploads/COMPUTER_GRAPHICS_AND_ART_May1976.pdf)
-- In your Github repository, create a new folder named 
+- In your GitHub repository, create a new folder named 
 `Feb8`
 	- Use **CONTROL SHIFT F** or **COMMAND SHIFT F** to indent your code properly
 	- Upload your program into the new folder, 
@@ -194,7 +194,7 @@ Reading Assignment
 Production Assignment
 
 Start working on your midterm project
-- Create a new folder in your Github repository called "midtermProject"
+- Create a new folder in your GitHub repository called "midtermProject"
 - Create a file called "journal.md" and in it describe:
 	- Initial concept for the project
 	- Identify 

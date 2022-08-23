@@ -210,22 +210,22 @@ function draw() {
 **Notice that when working in the web editor your sketches are not
 saved!**
 - You can create an account on p5.js if you wish for your own use
-but all class assignments must be handed in on Github.
-- Github is designed to save works in progress. It is not only permissible to
+but all class assignments must be handed in on GitHub.
+- GitHub is designed to save works in progress. It is not only permissible to
 	save unfinished work, it is advisable so that work doesn't get lost
-- Github tracks changes so you can go back to any previous commit
+- GitHub tracks changes so you can go back to any previous commit
 - This saves you from having multiple versions of a program on your laptop
 - You can even compare different commits to see what changes you made 
 	between them
 
-##### Saving a sketch to Github
+##### Saving a sketch to GitHub
 
 - Navigate to desired folder
 - Click on "Add file" 
 - Select "Create new file"
 - Type in optional new folder(s) followed by slashes `/` followed by a file
 	name
-- Copy your code from the p5.js editor and paste it into Github
+- Copy your code from the p5.js editor and paste it into GitHub
 - Scroll down to the bottom
 - Optionally change the commit comment
 - Click on "Commit new file"
@@ -1207,9 +1207,9 @@ foo() {
 }
 ````
 - If code is commented out, explain why
-- If the video clip is in your Github repo, embed it in the README.md
+- If the video clip is in your GitHub repo, embed it in the README.md
 	- If the video clip is on Vimeo or YouTube, put a link in your README.md
-- Tidy your code before putting it on Github
+- Tidy your code before putting it on GitHub
 - Use the correct suffix for your variables, classes, and functions. If a
 	class defines a single car, don't call it `cars`. If individual cars are
 	then gathered in an array of multiple cars, don't call it `arrayCar`.
@@ -2546,7 +2546,7 @@ void loop() {
 If you want my help solving a problem in your assignment, do the following:
 1. Figure out the simplest circuit and program that demonstrates your problem
 1. Upload your schematic, code, and 
-the best picture you can take of your breadboard circuit to Github 
+the best picture you can take of your breadboard circuit to GitHub 
 1. Write a message on Discord, describing carefully
 	1. What you think should happen
 	1. What you observe happens

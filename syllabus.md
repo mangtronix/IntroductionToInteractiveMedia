@@ -105,11 +105,11 @@ investigate solutions to common problems. Expect to be asked to show your work
 every time we meet. Some classes everyone may demonstrate their work, other
 classes only a few students may, but always be prepared.
 
-All of your work must be documented on your Github repository. Instructions
+All of your work must be documented on your GitHub repository. Instructions
 will be given in class.
 
 Project documentation:
-You are expected to document your work on your Github repository.
+You are expected to document your work on your GitHub repository.
 The purpose of
 this is twofold. First, it is a valuable way for you to communicate to
 me that you are keeping up with the work in the class. I read the site to see
