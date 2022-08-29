@@ -69,6 +69,88 @@ No background needed, strong DIY attitude</li>
 Low barrier to entry, high ceiling</li>
 </ul>
 
+#### Red Burns advice to new students
+[Let's Stop Focusing on Shiny Gadgets and Start Using Tech to Empower People](https://www.wired.com/2013/09/focus-on-people-not-tech-and-other-impt-lessons-for-interaction-design-and-life/)
+
+**What I hope for you:**
+
+That you combine that edgy mixture of self-confidence and doubt.
+
+That you have enough self-confidence to try new things.
+
+That you have enough self doubt to question.
+
+That you think of technology as a verb, not a noun; it is subtle but important difference.
+
+That you remember the issues are usually not technical.
+
+That you create opportunities to improvise.
+
+That you provoke it. That you expect it.
+
+That you make visible what, without you, might never have been seen.
+
+That you communicate emotion.
+
+That you create images that might take a writer ten pages to write.
+
+That you observe, imagine and create.
+
+That you look for the question, not the solution.
+
+That you are not seduced by speed and power.
+
+That you don’t see the world as a market, but rather a place that people live in -- you are designing for people, not machines.
+
+That you have a stake in magic and mystery and art.
+
+That sometimes we fall back on Rousseau and separate mind from body.
+
+That you understand the value of pictures, words, and critical thinking.
+
+That poetry drives you, not hardware.
+
+That you are willing to risk, make mistakes, and learn from failure.
+
+That you develop a practice founded in critical reflection.
+
+That you build a bridge between theory and practice.
+
+That you embrace the unexpected.
+
+That you value serendipity.
+
+That you reinvent and re-imagine.
+
+That you listen. That you ask questions. That you speculate and experiment.
+
+That you play. That you are spontaneous. That you collaborate.
+
+That you welcome students from other parts of the world and understand we don’t live in a monolithic world.
+
+That each day is magic for you.
+
+That you turn your thinking upside down.
+
+That you make whole pieces out of disparate parts.
+
+That you find what makes the difference.
+
+That your curiosity knows no bounds.
+
+That you understand what looks easy is hard.
+
+That you imagine and re-imagine.
+
+That you develop a moral compass.
+
+That you welcome loners, cellists, and poets.
+
+That you are flexible. That you are open.
+
+That you can laugh at yourself. That you are kind.
+
+
 #### Example
 <ul>
  	<li>Carlos Guedes' wonderful <a href="https://vimeo.com/235763130">Phobos</a>, Orquestra Robótica Disfuncional (1 min)</li>
