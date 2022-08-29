@@ -49,7 +49,9 @@ Session: Fall 2022
 
 - Introductions
 - Syllabus etc.
-- Join the Discord server 
+- Reading discussions
+- Join the Discord server
+- Check Wordpress account on https://intro.nyuadim.com/wp-admin
 
 #### What’s the class about?
 
