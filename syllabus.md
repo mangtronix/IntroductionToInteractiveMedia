@@ -149,8 +149,7 @@ how they communicate.
 
 Here is an example of good weekly documentation:
 
-[Matt
-Richardson](https://mattatitp.wordpress.com/category/physical-computing/page/2/)
+[Dev's Intro to IM Blog](https://intro.nyuadim.com/author/dk3936/)
 
 The writing is expected to be well reasoned, grammatically correct, and
 written as if it were a paper being turned in. You should link to any relevant
@@ -158,8 +157,10 @@ sources, and provide as much context as you can using images, video, audio, or
 other forms of expression. I’ll set you all up with an account the first day
 of class.
 
+<!-- Link is dead
 Here’s some excellent [final project
 documentation](http://www.changyeonlee.com/physical-computing/2014/10/21/introduction-to-physical-computing-final-project-ideation)
+-->
 
 #### Student-Led Discussions:
 Throughout the semester there will be readings assigned to pairs of students to lead subsequent discussion regarding the readings (or videos).
