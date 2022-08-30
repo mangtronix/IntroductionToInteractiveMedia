@@ -19,6 +19,8 @@ Meeting times:
 
 Session: Fall 2022     
 
+[p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
+
 **This is subject to change. UPDATE FOR FALL 2022 IN PROGRESS.**
 
 ## Weekly Schedule
