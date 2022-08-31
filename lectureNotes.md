@@ -197,7 +197,10 @@ harp</a></li>
 ### Week 1.2 - 08/31
 
 #### Let's get started
+- What is p5.js?
+  - [https://p5js.org/](https://p5js.org/)
 
+<!-- $$$ move to after break
 ##### GitHub
 - What is [GitHub](https://github.com/)?
 - Difference between an account and a repository
@@ -220,7 +223,7 @@ Name your repository "introduction to interactive Media".
 	- Inserting images: ![](media/eye-calipers.jpg)
 	- Always remember to commit your changes!
 	- More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
-
+-->
 
 ##### Simple shapes in p5.js
 
@@ -303,7 +306,12 @@ but all class assignments must be handed in on GitHub.
 - This saves you from having multiple versions of a program on your laptop
 - You can even compare different commits to see what changes you made 
 	between them
+	
+##### Sharing your sketch
+- [How to embed your P5js sketch directly into a blog post](https://intro.nyuadim.com/2022/01/06/how-to-embed-a-p5js-sketch-in-your-blog-post/)
+- Code snippets in blog post
 
+<!-- $$$ move to after break
 ##### Saving a sketch to GitHub
 
 - Navigate to desired folder
@@ -315,6 +323,7 @@ but all class assignments must be handed in on GitHub.
 - Scroll down to the bottom
 - Optionally change the commit comment
 - Click on "Commit new file"
+-->
 
 ## Week 2
 
