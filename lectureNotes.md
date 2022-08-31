@@ -296,16 +296,8 @@ function draw() {
 	- `width`, `height`, `mouseX`, `mouseY`
 	- many others; we will discover more as we go along
 
-**Notice that when working in the web editor your sketches are not
-saved!**
-- You can create an account on p5.js if you wish for your own use
-but all class assignments must be handed in on GitHub.
-- GitHub is designed to save works in progress. It is not only permissible to
-	save unfinished work, it is advisable so that work doesn't get lost
-- GitHub tracks changes so you can go back to any previous commit
-- This saves you from having multiple versions of a program on your laptop
-- You can even compare different commits to see what changes you made 
-	between them
+**Create an account on p5js.org so you can save your sketches!**
+Sketches will be submitted by making a blog post and submitting through Brightspace (in future weeks)
 	
 ##### Sharing your sketch
 - [How to embed your P5js sketch directly into a blog post](https://intro.nyuadim.com/2022/01/06/how-to-embed-a-p5js-sketch-in-your-blog-post/)
