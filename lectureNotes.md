@@ -327,6 +327,11 @@ Look at self portraits
 #### Questions
 Did any questions come up since we last met?
 
+- Uploading files to web editor
+  - Click triangle next to "Sketch Files" and click "Upload file"
+  - [p5.js Web Editor: Uploading Media Files (Coding Train)](https://www.youtube.com/watch?v=rO6M5hj0V-o)
+  - [Load image example sketch (p5js Editor)](https://editor.p5js.org/mangtronix/sketches/xw78_aQeb)
+
 ##### Variables
 
 - Javascript is not a typed language: you don't need to declare
