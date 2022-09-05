@@ -1,4 +1,4 @@
-# Mang's Intro to IM - Week 1-7 Lecture Notes#
+# Mang's Intro to IM - Week 1-7 Lecture Notes #
 
 [Week 1-7 lecture notes](lectureNotes.md)
 
