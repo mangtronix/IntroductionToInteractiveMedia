@@ -323,6 +323,8 @@ p5.js Links
 - [True and False](https://p5js.org/examples/data-true-and-false.html)
 - [Variable Scope](https://p5js.org/examples/data-variable-scope.html)
 - [Array](https://p5js.org/examples/arrays-array.html)
+- [Mouse Functions](https://p5js.org/examples/input-mouse-functions.html)
+  - Example of storing a value in a variable
 
 - Javascript is not a typed language: you don't need to declare
 	a variable's type
