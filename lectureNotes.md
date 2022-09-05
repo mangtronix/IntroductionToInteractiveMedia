@@ -328,6 +328,7 @@ p5.js Links
 
 - Javascript is not a typed language: you don't need to declare
 	a variable's type
+- [Week 2 - Variable (p5js editor)](https://editor.p5js.org/mangtronix/sketches/X3tNw_gGC)
 - `let myNumber = 4.5;`
 - `let myString = "the quick brown fox";`
 - `let myArray = ["the", "quick", "brown", "fox"];`
