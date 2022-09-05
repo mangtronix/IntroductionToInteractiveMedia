@@ -318,6 +318,12 @@ Did any questions come up since we last met?
 
 ##### Variables
 
+p5.js Links
+- [Variables](https://p5js.org/examples/data-variables.html)
+- [True and False](https://p5js.org/examples/data-true-and-false.html)
+- [Variable Scope](https://p5js.org/examples/data-variable-scope.html)
+- [Array](https://p5js.org/examples/arrays-array.html)
+
 - Javascript is not a typed language: you don't need to declare
 	a variable's type
 - `let myNumber = 4.5;`
@@ -329,6 +335,11 @@ How can we find out what a variable's value is?
 `print()` 
 
 ##### Animation
+
+p5.js Links
+- [Setup and Draw](https://p5js.org/examples/structure-setup-and-draw.html)
+- [Width and Height](https://p5js.org/examples/structure-width-and-height.html)
+
 
 Use the `draw()` function to draw something different in each frame. This can
 be the location of a shape but you can manipulate anything such as color also:
