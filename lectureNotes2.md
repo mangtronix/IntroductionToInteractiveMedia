@@ -1,6 +1,8 @@
 # Mang's section of Intro to IM #
 [Week 1-7 lecture notes](lectureNotes.md)
+
 [Week 8-14 lecture notes](lectureNotes2.md)
+
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Week 8-14 Lecture Notes ##
