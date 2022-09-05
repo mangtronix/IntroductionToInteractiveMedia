@@ -350,7 +350,7 @@ be the location of a shape but you can manipulate anything such as color also:
 The  `draw()` function is called once per frame. Think of it as drawing a new
 page on a ["flip book"](https://en.wikipedia.org/wiki/Flip_book)
 
-https://editor.p5js.org/mangtronix/sketches/YkprSBTwX
+[Week 2 - Drawing (p5js editor)](https://editor.p5js.org/mangtronix/sketches/YkprSBTwX)
 ````
 let foo = 0;
 
