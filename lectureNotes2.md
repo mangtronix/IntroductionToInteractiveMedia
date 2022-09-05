@@ -1,11 +1,10 @@
-# Mang's section of Intro to IM #
+# Mang's Intro to IM - Week 8-14 Lecture Notes #
+
 [Week 1-7 lecture notes](lectureNotes.md)
 
 [Week 8-14 lecture notes](lectureNotes2.md)
 
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
-
-## Week 8-14 Lecture Notes ##
 
 ## Weekly Schedule
 - [Week 1](lectureNotes.md#week-1) - Introductions / GitHub, p5.js
@@ -169,6 +168,8 @@ Make sure everything is working
 - Upload the Blink example
 - Change the parameter in delay()
 - Upload again and verify that the LED blinks at the new rate
+
+[Back to top](#weekly-schedule)
 
 ## Week 9
 ### Week 9.1 - 10/31 Happy Halloween!
@@ -398,6 +399,8 @@ void loop() {
 	 Arduino literature) to select a different range for mapping an analog
 	 sensor to an analog output device
 1. Use a potentiometer to select from 4 different behaviors of a circuit
+
+[Back to top](#weekly-schedule)
 
 ## Week 10
 ### Week 10.1 - 11/07
@@ -742,7 +745,7 @@ void loop() {
   delay(1);        // delay in between reads for stability
 }
 ````
-
+[Back to top](#weekly-schedule)
 
 ## Week 11
 ### Week 11.1 - 11/14
@@ -854,6 +857,8 @@ In-class exercise (break class into groups of 2-3 students)
 - take the [gravity wind example](https://editor.p5js.org/aaronsherwood/sketches/I7iQrNCul) and make it so
 	every time the ball bounces one led lights up and then turns off, and you
 	can control the wind from one analog sensor 
+
+[Back to top](#weekly-schedule)
 
 ## Week 12
 ### Week 12.1 - 11/21
@@ -1059,6 +1064,8 @@ void loop() {
 - Stranded vs. solid core wire
 - Strain relief
 
+[Back to top](#weekly-schedule)
+
 ## Week 13
 ### Week 13.1 - 11/28
 #### Plan for today: 
@@ -1118,6 +1125,7 @@ without using `delay()`:
 ### Week 13.2 - 11/30 NO CLASS
 NO CLASS - NATIONAL DAY HOLIDAY
 
+[Back to top](#weekly-schedule)
 
 ## Week 14
 ### Week 14.1 - 12/05

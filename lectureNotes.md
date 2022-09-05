@@ -1,11 +1,10 @@
-# Mang's section of Intro to IM #
+# Mang's Intro to IM - Week 1-7 Lecture Notes#
+
 [Week 1-7 lecture notes](lectureNotes.md)
 
 [Week 8-14 lecture notes](lectureNotes2.md)
 
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
-
-## Week 1-7 Lecture Notes ##
 
 ## Weekly Schedule
 - [Week 1](#week-1) - Introductions / GitHub, p5.js
@@ -24,7 +23,6 @@
 - [Week 13](lectureNotes2.md#week-13) - Circuit debugging
 - [Week 14](lectureNotes2.md#week-14) - Final project
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show
-
 
 
 ## Week 1
@@ -300,6 +298,8 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 - Optionally change the commit comment
 - Click on "Commit new file"
 -->
+
+[Back to top](#weekly-schedule)
 
 ## Week 2
 
@@ -645,6 +645,7 @@ function draw() {
   }
 }
 ````
+[Back to top](#weekly-schedule)
 
 ## Week 3
 
@@ -836,6 +837,8 @@ Walk through
 tutorial. You might also find
 [this](https://genekogan.com/code/p5js-transformations/) useful for a
 slightly different perspective.
+
+[Back to top](#weekly-schedule)
 
 ## Week 4
 ### Week 4.1 - 09/19
@@ -1229,6 +1232,8 @@ show generative basic example
 have them work in pairs to make something
 share what they made
 show generative word from circles sketch
+
+[Back to top](#weekly-schedule)
 
 ## Week 5
 
@@ -1705,6 +1710,8 @@ changing the envelopes. [Example](https://github.com/aaronsherwood/introduction_
 If we had multiple sound files, how would we play the
 next one when we click the mouse?
 
+[Back to top](#weekly-schedule)
+
 ## Week 6
 
 ### Week 6.1 - 10/03
@@ -1854,6 +1861,8 @@ Use the mouse position to select sound tracks
 
 A nice set of p5.js tutorials by [Happy
 Coding](https://happycoding.io/tutorials/p5js/)
+
+[Back to top](#weekly-schedule)
 
 ## Week 7
 ### Week 7.1 - 10/10
