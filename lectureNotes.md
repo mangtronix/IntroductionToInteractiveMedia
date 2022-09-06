@@ -459,6 +459,24 @@ function draw() {
 
 ### Week 2.2 - 09/07
 
+Overview:
+- Overview of Readings
+- Review
+- Loops
+- Functions
+- Homework assignment + reading
+
+##### Overview of Readings
+Each week there will be assigned reading. You need to read / watch the material before the start of
+Monday's class. For each reading two students will be assigned to lead an in-class discussion.
+
+[Explanation of in-class discussion (Syllabus)](https://intro.nyuadim.com/syllabus/#studentled)
+
+[List of discussion leaders (Google Sheet)](https://docs.google.com/spreadsheets/d/17D0OmMMfGEs0hR8dcBImTF0n7Mua1aAklDBKq9baHQo/edit?usp=sharing)
+
+[List of readings (Weekly Schedule)](https://intro.nyuadim.com/)
+
+
 ##### Review
 
 - conditionals 
