@@ -460,13 +460,13 @@ function draw() {
 ### Week 2.2 - 09/07
 
 Overview:
-- Overview of Readings
+- Readings
 - Review
 - Loops
 - Functions
 - Homework assignment + reading
 
-##### Overview of Readings
+##### Readings
 Each week there will be assigned reading. You need to read / watch the material before the start of
 Monday's class. For each reading two students will be assigned to lead an in-class discussion.
 
