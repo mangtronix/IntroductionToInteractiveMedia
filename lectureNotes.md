@@ -684,7 +684,9 @@ function draw() {
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
 - [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/
 - [p5.js rotate (p5js reference)](https://p5js.org/reference/#/p5/rotate)
-- [9.1: Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial (YouTube)](https://www.youtube.com/watch?v=o9sgjuh-CBM)
+- [p5js transformations (Gene Kogan)](https://genekogan.com/code/p5js-transformations/)
+  - Running examples of transformations
+- [9.1: Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial (Dan Shiffman YouTube)](https://www.youtube.com/watch?v=o9sgjuh-CBM)
 
 [Back to top](#weekly-schedule)
 
