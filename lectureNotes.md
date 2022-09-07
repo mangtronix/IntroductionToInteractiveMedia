@@ -678,6 +678,14 @@ function draw() {
   }
 }
 ````
+
+#### Week 2.2 Additional Resources
+- [Programming with p5.js for Beginners (Coding Train Videos)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
+- [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/
+- [p5.js rotate (p5js reference)](https://p5js.org/reference/#/p5/rotate)
+- [9.1: Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial (YouTube)](https://www.youtube.com/watch?v=o9sgjuh-CBM)
+
 [Back to top](#weekly-schedule)
 
 ## Week 3
