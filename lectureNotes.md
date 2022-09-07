@@ -659,6 +659,7 @@ function drawOneHouseAt( x) {
 
 #### Variable Scope (again)
 
+https://editor.p5js.org/mangtronix/sketches/DaceAEVzA
 ````
 let foo;  // this is a global variable, visible in all functions
 
@@ -682,11 +683,12 @@ function draw() {
 #### Week 2.2 Additional Resources
 - [Programming with p5.js for Beginners (Coding Train Videos)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
-- [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/
+- [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 - [p5.js rotate (p5js reference)](https://p5js.org/reference/#/p5/rotate)
 - [p5js transformations (Gene Kogan)](https://genekogan.com/code/p5js-transformations/)
   - Running examples of transformations
 - [9.1: Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial (Dan Shiffman YouTube)](https://www.youtube.com/watch?v=o9sgjuh-CBM)
+- [Intro to IM Sketch Collection (p5 web editor)](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 [Back to top](#weekly-schedule)
 
