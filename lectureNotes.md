@@ -724,7 +724,7 @@ that draws a grid of lines at regular intervals on the canvas
 
 #### Callback Functions
 
-`MouseClicked()` [example](https://p5js.org/reference/#/p5/mouseClicked) in
+`couseClicked()` [example](https://p5js.org/reference/#/p5/mouseClicked) in
 the reference section
 
 **Notes**
@@ -732,6 +732,7 @@ the reference section
 	for you when that event happens
 
 
+https://editor.p5js.org/mangtronix/sketches/7zooOaxnq
 ````
 const redLocationX = 40;
 const redLocationY = 40;
