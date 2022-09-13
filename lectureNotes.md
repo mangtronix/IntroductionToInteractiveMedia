@@ -834,6 +834,8 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 Very simply, arrays let you store multiple things under one variable name, and
 let you identify which thing you want by using an `index`
 
+- [JavaScript Array Reference (w3schools)](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+- [Week 3.2 - Arrays (p5editor)](https://editor.p5js.org/mangtronix/sketches/RgFNsZcxI)
 
 ````
 function setup() {
