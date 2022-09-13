@@ -866,8 +866,15 @@ function setup() {
 	is exactly the same as the `for()` loop used to print the array. I could
 	have used either in both places. I did this to show you that they are
 	interchangeable.
+	
+- Some ways to iterate over an array
+  - [JS Loop For (w3schools)](https://www.w3schools.com/js/js_loop_for.asp)
+  - [JS Loop For Of (w3schools)](https://www.w3schools.com/js/js_loop_forof.asp)
 
 #### Object Oriented Programming (OOP)
+
+- [JavaScript Classes (w3schools)](https://www.w3schools.com/js/js_classes.asp)
+- [Classes (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 Walk through these examples:
 - [Ball Class Example 1 (p5editor)](https://editor.p5js.org/mangtronix/sketches/VsFd39EN2)
@@ -875,7 +882,7 @@ Walk through these examples:
 - [Ball Class Example 3 (p5editor)](https://editor.p5js.org/mangtronix/sketches/zef9Vc-s7)
 - [Ball Class Example 4 (p5editor)](https://editor.p5js.org/mangtronix/sketches/M_G7Qs6Jf)
 - [Car Class Example (p5editor)](https://editor.p5js.org/mangtronix/sketches/ShJMnrrkW)
-
+- [Flocking example (p5js)](https://p5js.org/examples/simulate-flocking.html) (note: uses older '.prototype' way of emulating classes)
 
 #### Transformations
 
