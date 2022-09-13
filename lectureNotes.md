@@ -869,11 +869,12 @@ function setup() {
 
 #### Object Oriented Programming (OOP)
 
-Walk through
-[this](https://github.com/michaelshiloh/resourcesForClasses/tree/master/src/p5jsSketches/simpleP5jsClassExample)
-
-A fun [OOP example](https://editor.p5js.org/aaronsherwood/sketches/JO7e1p6aDr)
-by Prof. Aaron
+Walk through these examples:
+- [Ball Class Example 1 (p5editor)](https://editor.p5js.org/mangtronix/sketches/VsFd39EN2)
+- [Ball Class Example 2 (p5editor)](https://editor.p5js.org/mangtronix/sketches/-7sWqG_Bu)
+- [Ball Class Example 3 (p5editor)](https://editor.p5js.org/mangtronix/sketches/zef9Vc-s7)
+- [Ball Class Example 4 (p5editor)](https://editor.p5js.org/mangtronix/sketches/M_G7Qs6Jf)
+- [Car Class Example (p5editor)](https://editor.p5js.org/mangtronix/sketches/ShJMnrrkW)
 
 
 #### Transformations
