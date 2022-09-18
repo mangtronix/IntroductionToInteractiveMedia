@@ -1203,6 +1203,7 @@ format".
 - Now you can load this file into an array of `Strings` and then process each
 	line one at a time, pulling out individual fields:
 
+[Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U)
 ````
 /*
  * example to process a CSV file containing data
