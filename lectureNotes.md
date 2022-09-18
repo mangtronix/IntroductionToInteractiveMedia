@@ -1086,11 +1086,12 @@ slightly different perspective.
 #### Plan for today
 
 - Discuss reading
+- [Week 4 - Choosing Students (p5editor)](https://editor.p5js.org/mangtronix/sketches/DMnZyF6Xc)
 - Look at homework
 
 Additional p5js resources:
 - [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-- [https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa](Introduction to p5.js)
+- [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa)
 
 ##### Discuss reading
 - Led by Aadil, Aayat
