@@ -1086,9 +1086,14 @@ slightly different perspective.
 #### Plan for today
 
 - Discuss reading
-- Look at some homework
+- Look at homework
+
+Additional p5js resources:
+- [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa](Introduction to p5.js)
 
 ##### Discuss reading
+- Led by Aadil, Aayat
 
 ##### Look at some homework
 
