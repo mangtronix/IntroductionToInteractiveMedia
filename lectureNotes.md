@@ -1110,6 +1110,7 @@ Additional p5js resources:
 
 ###### The most basic usage
 
+[Week 4 - Basic Text](https://editor.p5js.org/mangtronix/sketches/Gsvk37_QK)
 ````
 function setup() {
   createCanvas(400, 400);
@@ -1118,7 +1119,9 @@ function setup() {
 }
 ````
 
-###### Different Fonts
+###### Different Fonts and Position
+
+[Week 4 - Basic Text](https://editor.p5js.org/mangtronix/sketches/Gsvk37_QK)
 
 ````
 function setup() {
@@ -1136,6 +1139,7 @@ You can also load your own fonts but that requires uploading them to the p5.js
 server
 
 Help->Reference->LoadFont
+[Typography (p5 reference)](https://p5js.org/reference/#group-Typography)
 
 **Important**: Note that p5.js is asynchronous, 
 meaning that `setup()` will continue even if the `loadFont()` hasn't finished.
