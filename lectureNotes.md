@@ -1359,6 +1359,7 @@ Pull words from a CSV file
 and by using `random()` in a clever way,
 write poems or slogans or whatever. 
 
+[Week 4 - Fill in the blank](https://editor.p5js.org/mangtronix/sketches/3q3Nir5AA)
 Here is a terribly lame example:
 
 ````
@@ -1379,12 +1380,12 @@ Generate poetry from a file of words
  */
 
 // Let's put the index of the word into numbers:
-const ITEM1 = 0;
-const COLOR1 = 1;
-const ITEM2 = 2;
-const COLOR2 = 3;
-const VERB = 4;
-const LOCATION = 5;
+let ITEM1 = 0;
+let COLOR1 = 1;
+let ITEM2 = 2;
+let COLOR2 = 3;
+let VERB = 4;
+let LOCATION = 5;
 // final means that I will not change these variables
 // It is conventional to use all caps for variable names that will not change
 
@@ -1411,34 +1412,36 @@ function draw() {
   // and split that row into individual words
   singleRow = split(strings[int (random(strings.length))], ',');
   // get item1
-  let item1 = singleRow[ITEM1] + " are " ;
+  let item1 = singleRow[ITEM1];
 
   // Now keep doing this for each word
   singleRow = split(strings[int (random(strings.length))], ',');
   // get color1
-  let color1 = singleRow[COLOR1] + ", " ;
+  let color1 = singleRow[COLOR1];
 
   // Now the second half of the first line: "violets are blue"
   singleRow = split(strings[int (random(strings.length))], ',');
-  let item2 = singleRow[ITEM2] + " are " ;
+  let item2 = singleRow[ITEM2];
   singleRow = split(strings[int (random(strings.length))], ',');
   // get color2
   let color2 =  singleRow[COLOR2];
 
   // that's the end of the first line of the poem
-  print(item1 + " are " + color1 ", " + item2 + " are " + color2);
+  print(item1 + " are " + color1 + ", " + item2 + " are " + color2);
 
   // Now the second line: when I verb I verb of location
-
   message = "When I " ;
   singleRow = split(strings[int (random(strings.length))], ',');
-  message = message + singleRow[VERB]);
-  print(" I " );
+  message += singleRow[VERB];
+  
+  message += ", I ";
   singleRow = split(strings[int (random(strings.length))], ',');
-  message = message + singleRow[VERB]);
-  print(" to the " );
+  message += singleRow[VERB];
+  
+  message += " to the ";
   singleRow = split(strings[int (random(strings.length))], ',');
-  message = message + singleRow[LOCATION]);
+  message += singleRow[LOCATION];
+  print(message);
 
   // that's the end of the second line of the poem so start a new line
   // and also put an extra blank line
