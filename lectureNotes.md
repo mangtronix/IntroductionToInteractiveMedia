@@ -1103,6 +1103,7 @@ Additional p5js resources:
 #### Plan for today: Working with text
 
 - How put text on the canvas
+  - [p5js Typography reference](https://p5js.org/reference/#group-Typography) 
 - Data Visualization 
 - Generative Text
 
