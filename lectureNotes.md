@@ -1101,9 +1101,7 @@ Additional p5js resources:
 
 ##### Look at some homework
 
-### Week 4.2 - 09/21
-#### Substitute - Mang away
-#### Plan for today: Working with text
+#### Working with text
 
 - How put text on the canvas
   - [p5js Typography reference](https://p5js.org/reference/#group-Typography) 
@@ -1357,6 +1355,10 @@ Things to notice:
 
 JSON and XML are other format for organizing data in a file. 
 They are more complex than CSV, and again p5.js provides functions.
+
+
+### Week 4.2 - 09/21
+#### Substitute - Mang away
 
 ##### Generative Text
 Pull words from a CSV file 
