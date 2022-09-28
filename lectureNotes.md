@@ -3666,7 +3666,7 @@ whatever you want.
 #### Sound!
 
 Download this to your laptop: 
-https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.png
+https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.mp3
 
 File -> Examples -> Sound
 
