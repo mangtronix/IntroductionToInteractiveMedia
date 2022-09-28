@@ -1626,6 +1626,7 @@ and after making any changes you must call `updatePixels()`
 to write from the `pixels` array back to the canvas
 if you want to make the changes visible
 
+[Week 5 - updatePixels](https://editor.p5js.org/mangtronix/sketches/MrA1DHw6t)
 ````
 function setup() {
   let pink = color(255, 102, 204);
@@ -3324,6 +3325,7 @@ The `p5.Image` class
 	- Data (the pixels, width, height, etc.)
 	- Functionality `(image()`, `get()`, etc.)
 
+[Week 5 - Kitteh image](https://editor.p5js.org/mangtronix/sketches/I5abrleuy)
 ````
 let catImg;
 function preload() {
@@ -3343,6 +3345,7 @@ this image at this location and scale to this size
 - `photo.get(x,y,w,h)` - Returns a new p5.Image containing a portion of the image
 - `photo.get(x,y)` - Returns the color of the pixel at this location
 
+[Week 5 - Kitteh crop](https://editor.p5js.org/mangtronix/sketches/-JYVEnkpl)
 ````
 let catImg;
 function preload() {
@@ -3382,6 +3385,7 @@ and after making any changes you must call `updatePixels()`
 to write from the `pixels` array back to the canvas
 if you want to make the changes visible
 
+[Week 5 - updatePixels](https://editor.p5js.org/mangtronix/sketches/MrA1DHw6t)
 ````
 function setup() {
   let pink = color(255, 102, 204);
@@ -3407,7 +3411,7 @@ you need to offset by that many widths
 - Remember to set `pixelDensity(1);` in case you have a high 
 resolution display
 
-
+[Week 5 - Pixel row](https://editor.p5js.org/mangtronix/sketches/d8Vh-8f2j)
 ````
 function setup() {
   pixelDensity(1);
@@ -3447,6 +3451,7 @@ It's important to remember that a pixel is just four numbers
 so you can manipulate pixels mathematically 
 e.g. make it fade:
 
+[Week 5 - Pixel fade](https://editor.p5js.org/mangtronix/sketches/ylKtrdQQv)
 ````
 function setup() {
   pixelDensity(1);
@@ -3475,6 +3480,7 @@ function draw() {
 Just for fun, here is the last example from the video where Dan
 created a random (only in the green channel) background:
 
+[Week 5 - Random pixels](https://editor.p5js.org/mangtronix/sketches/y4mmciZNq)
 ````
 function setup() {
   createCanvas(256,256);
@@ -3510,6 +3516,7 @@ A fun examples from Professor Sherwood:
 
 ![](media/circularImages.png)
 
+[Week 5 - Random image](https://editor.p5js.org/mangtronix/sketches/6wkk3qnao)
 ````
 let tiles = [];
 let tileSize = 100;
