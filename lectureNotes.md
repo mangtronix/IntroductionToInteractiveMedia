@@ -1903,12 +1903,8 @@ whatever you want.
 
 #### Sound!
 
-Download this to your laptop: 
+Upload this to your p5 editor: 
 https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.mp3
-
-File -> Examples -> Sound
-
-Preload Soundfile
 
 Very basic example:
 
@@ -1950,11 +1946,14 @@ As always, it's useful to explore the examples and the reference page
 
 - Sound examples
 	- File -> Examples -> Sound
-		- Record Save
-		- Live Input
+		- [Load and Play Sound](https://editor.p5js.org/p5/sketches/Sound:_Load_and_Play_Sound)
+		- [Sound Effect](https://editor.p5js.org/p5/sketches/Sound:_Sound_Effect)
+		- [Record Save](https://editor.p5js.org/p5/sketches/Sound:_Record_Save)
+		- [Live Input](https://editor.p5js.org/p5/sketches/Sound:_Live_Input)
 
 **Remember**
-Sound requires a separate library which must be included
+Sound requires a separate library which must be included and to record sound it has to be enabled in the
+security preferences.
 
 ##### Sound Synthesis
 
@@ -1962,11 +1961,9 @@ The other way to make sounds is to create them mathematically
 
 - Sound examples
 	- File -> Examples -> Sound
-		- Oscillator Waveform
-		- Filters
+		- [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
+		- [Frequency Modulation](https://editor.p5js.org/p5/sketches/Sound:_FreqModulation)
 
-We can create our own complex sounds starting with basic oscillators and then
-changing the envelopes. [Example](https://github.com/aaronsherwood/introduction_interactive_media/blob/master/processingExamples/sound/synthesis/synthesis.pde)
 
 ##### Working in groups (time permitting):
 If we had multiple sound files, how would we play the
