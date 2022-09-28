@@ -1904,7 +1904,7 @@ whatever you want.
 #### Sound!
 
 Download this to your laptop: 
-https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.png
+https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.mp3
 
 File -> Examples -> Sound
 
@@ -1912,6 +1912,7 @@ Preload Soundfile
 
 Very basic example:
 
+[Week 5 - Sound](https://editor.p5js.org/mangtronix/sketches/JA0W5jhOJ)
 ````
 /*
 Must upload doorbell.mp3
