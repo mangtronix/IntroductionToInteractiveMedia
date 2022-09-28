@@ -1817,6 +1817,7 @@ https://github.com/michaelshiloh/IntroductionToInteractiveMedia/blob/master/medi
 
 How would we use them?
 
+[Week 5 - Walk animation](https://editor.p5js.org/mangtronix/sketches/33cCGQMvQ)
 ````
 let spritesheet;
 let sprites = [];
