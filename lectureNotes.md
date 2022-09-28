@@ -1614,6 +1614,10 @@ For more information and ideas
 - Sprite sheets
 - Sound
 - Introduce midterm project
+  - Each student makes their own project
+- Additional tutorials
+  - [Happy Coding p5js tutorials](https://happycoding.io/tutorials/p5js/) 
+- Monday discussion
 
 #### The `pixels` array: Treating the canvas as an image
 
