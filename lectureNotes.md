@@ -1986,6 +1986,8 @@ next one when we click the mouse?
 - Computer Vision
 	- Frame Differencing
 
+- Posenet (time permitting)
+
 #### Homework feedback
 
 <!--
@@ -2049,6 +2051,13 @@ Some video examples:
 	[example](https://editor.p5js.org/aaronsherwood/sketches/uxNAkReWT) by Prof.
 	Aaron that uses frame differencing to detect which vertical slice of the
 	camera image has the most motion, and trigger a corresponding sound clip
+
+Posenet
+  - Skeleton extraction from image using machine learning
+  - [ml5.js - Friendly Machine Learning for the Web](https://learn.ml5js.org/#/)
+  - [ml5js Posenet](https://learn.ml5js.org/#/reference/posenet)
+  - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
+  - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
 ### Week 6.2 - 10/05
 #### Plan for today: 
