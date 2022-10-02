@@ -1988,6 +1988,7 @@ next one when we click the mouse?
 
 #### Homework feedback
 
+<!--
 - I love the diversity in data sets that you found! So much more creative than
 	the example I showed in class.
 - In general, your descriptions and comments are weak. Most of you need
@@ -2011,7 +2012,7 @@ next one when we click the mouse?
 			[Pranav](https://github.com/sripranav9/IntroductionToInteractiveMedia/blob/main/February22/dataVisualization.js)
 	- [Dhabia](https://github.com/noorajabir/IntroToIM/tree/main/Feb%2022) for excellent presentation
 	- [Shaikha](https://github.com/ShaikhaAlN/IntroToIM/tree/main/Feb22) for whimsical project
-
+-->
 
 #### Working with a camera: Computer Vision!
 
