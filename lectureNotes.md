@@ -2017,6 +2017,7 @@ next one when we click the mouse?
 
 Basic sketch showing how to get input from camera:
 
+[Week 6 - Capture](https://editor.p5js.org/mangtronix/sketches/srrGqhU3f)
 ````
 let capture;
 
@@ -2071,6 +2072,7 @@ Some video examples:
 
 ##### Perlin Noise
 
+[Week 6 - Random line](https://editor.p5js.org/mangtronix/sketches/nWUFIeBEL)
 ````
 function draw() {
   background(204);
@@ -2084,6 +2086,8 @@ fashion? Organic things (e.g. butterflies, leaves blowing in the wind, clouds)
 don't jump instantly from one place to another,
 they tend to move close to where they were last time
 
+
+[Week 6 - Perlin noise line](https://editor.p5js.org/mangtronix/sketches/FrQDtMNmd)
 ````
 let offset = 0.0;
 
