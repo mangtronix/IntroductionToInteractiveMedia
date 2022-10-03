@@ -1984,6 +1984,8 @@ next one when we click the mouse?
 - Discussion of reading 
 - Homework feedback
   - Post a midterm project update!
+- Midterm is due on MONDAY Oct 10 before class
+  - We'll have in class presentations of the projects
 - Computer Vision
 	- Frame Differencing
 
