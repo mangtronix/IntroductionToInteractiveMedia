@@ -1990,6 +1990,8 @@ next one when we click the mouse?
 	- Frame Differencing
 
 - Posenet (time permitting)
+- Class Wednesday (Oct 5) will be online
+- Class Monday (Oct 10) Midterm Presentations will be in person!
 
 #### Homework feedback
 
