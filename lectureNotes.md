@@ -1983,6 +1983,7 @@ next one when we click the mouse?
 
 - Discussion of reading 
 - Homework feedback
+  - Post a midterm project update!
 - Computer Vision
 	- Frame Differencing
 
