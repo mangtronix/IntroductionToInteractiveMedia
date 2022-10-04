@@ -2068,6 +2068,7 @@ Posenet
 ### Week 6.2 - 10/05
 #### Plan for today: 
 
+- Announcment - midterm will be due Oct 12 (last class)
 - Review frame differencing
 - Random items
 
