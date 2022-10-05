@@ -2134,9 +2134,13 @@ Look at other array methods in the reference page:
 - How do you know when a non-blocking function is done?
 - Soundfile reference page
 
-##### Working in groups: 
-Use the mouse position to select sound tracks
-
+##### Game techniques
+- [Week 6 - Game State](https://editor.p5js.org/mangtronix/sketches/lwALEq10U)
+  - Sketch that transitions between start, playing, and end states
+- [Week 6 - Time in game](https://editor.p5js.org/mangtronix/sketches/TS0cjoC86)
+  - Writing a millisInGame() that returns milliseconds since game (re)started
+- [Week 6 - continuous scrolling background image](https://editor.p5js.org/mangtronix/sketches/xZQRSxmgl)
+  - Scrolling background image
 
 ##### Other resources
 
