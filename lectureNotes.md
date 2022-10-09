@@ -2068,7 +2068,7 @@ Posenet
 ### Week 6.2 - 10/05
 #### Plan for today: 
 
-- Announcment - midterm will be due Oct 12 (last class)
+- Announcement - midterm will be due Oct 12 (last class)
 - Review frame differencing
 - Random items
 
@@ -2161,6 +2161,9 @@ Coding](https://happycoding.io/tutorials/p5js/)
   - IM End of Semester Show will be Wednesday December 14
     - Each student must attend and show a project from at least one class
   - Pick up your Arduino kit from the bookstore 
+  - Has everyone completed tool training?
+  - Midterm is due next class (Wednesday Oct 12)
+  - Bring your Arduino kit to next class
 - Project status
 - Debugging
 
