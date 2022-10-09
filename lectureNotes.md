@@ -2198,3 +2198,5 @@ Name your repository "introduction to interactive Media".
 	- Always remember to commit your changes!
 	- More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
 -->
+
+[Week 8-14 lecture notes](lectureNotes2.md)
