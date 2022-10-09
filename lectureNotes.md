@@ -2157,6 +2157,10 @@ Coding](https://happycoding.io/tutorials/p5js/)
 ### Week 7.1 - 10/10
 #### Plan for today: 
 
+- Announcements
+  - IM End of Semester Show will be Wednesday December 14
+    - Each student must attend and show a project from at least one class
+  - Pick up your Arduino kit from the bookstore 
 - Project status
 - Debugging
 
@@ -2165,7 +2169,6 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 - Midterm projects: Share in a group
 - Mid-semester feedback
-- Homework due after break
 - Introduction to Arduino
 
 
