@@ -37,8 +37,19 @@
 
 ##### Introduction to Arduino
 
-- IDE
-- blink
+- [What is an Arduino? (Sparkfun)](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)
+- [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
+- Our class kit
+  - [Sparkfun Inventor's Kit for Arduino Uno](https://www.sparkfun.com/products/15631)
+
+- Arduino IDE (Integrated Development Environment)
+  - Download [Arduino 2.0 IDE](https://www.arduino.cc/en/software)
+  - [Arduino 2.0 IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+  
+- Making an LED blink
+  -  Arduino IDE -> File -> Examples 01.Basics -> Blink
+  -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
+  -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
 
 ### Week 8.2 - 10/26
 #### Plan for today: 
