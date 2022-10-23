@@ -27,6 +27,10 @@
 ## Week 8
 ### Week 8.1 - 10/24
 
+**Bring** your Arduino kit to class, including any adapter you need to connect to USB.
+
+**Install** the Arduino 2.0 IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
+
 #####  Mid-semester feedback
 
 - What was the more surprising thing you learned so far in this class?
