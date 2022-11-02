@@ -302,6 +302,24 @@ How is that possible?
 - Analog Input
 - Analog Output
 
+#### Arduino Programming Syntax
+Programming in Arduino uses C/C++ with a very small number of modifications.
+
+p5js uses JavaScript which has a syntax that's based on C. The way JavaScript
+programs run is very different than programs written in C but the syntax of
+the language (e.g. how `for` loops are declared) is very similar.
+
+One of the main differences for simple Arduino programs is how variables are
+declared. We need to declare the *type* of the variable, for example on the Arduino Uno a `byte`
+can store a value from 0-255, an `int` can be used for values -32,768 to 32,767 and a `float` can
+be used for values like -2.1 and 20332.22.
+
+Storing a `float` in memory requires 32 bits (4 bytes). With the limited memory on
+the Arduino Uno (2k bytes of RAM) it's important for us as programmers to
+specify the type of each of our variables and understand how much memory they take up.
+
+- [Arduino Syntax Cheat Sheet](https://github.com/liffiton/Arduino-Cheat-Sheet)
+
 #### Analog Input
 
 Build this circuit. Try to follow the schematic and not the breadboard view:
