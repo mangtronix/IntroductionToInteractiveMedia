@@ -319,6 +319,15 @@ the Arduino Uno (2k bytes of RAM) it's important for us as programmers to
 specify the type of each of our variables and understand how much memory they take up.
 
 - [Arduino Syntax Cheat Sheet](https://github.com/liffiton/Arduino-Cheat-Sheet)
+- [Arduino Memory](https://www.arduino.cc/en/Tutorial/Foundations/Memory)
+
+
+>Notice that there's not much SRAM available in the Uno. It's easy to use it all up by having lots of strings in your program. For example, a declaration like:
+>
+>char message[] = "I support the Cape Wind project.";
+>
+>puts 33 bytes into SRAM (each character takes a byte, plus the '\0' terminator). This might not seem like a lot, but it doesn't take long to get >to 2048, especially if you have a large amount of text to send to a display, or a large lookup table, for example.
+
 
 #### Analog Input
 
