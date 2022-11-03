@@ -516,6 +516,7 @@ page](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
 - Arduino supports tabs just like in p5.js
 - Arduino has arrays just like in p5.js
 - What is resistor for? 
+	- [What is a resistor?](https://www.atlearner.com/2020/02/what-is-resistor.html)
 	- LED needs a resistor to limit current so it doesn't burn out
 	- LDR needs a resistor to form a voltage divider
 	- Piezo buzzer neither burns out nor needs a voltage divider
