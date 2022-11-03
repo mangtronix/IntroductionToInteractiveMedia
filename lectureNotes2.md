@@ -89,6 +89,7 @@ Electricity is mysterious
 	- Like a rock or water falling from a height
 	- Unlike a rock or water, electricity can only travel in a conductor
 - AC vs. DC - very briefly, will discuss more as it comes up
+- (Advanced)[The Big Misconception About Electricity](https://youtu.be/bHIhgxav9LY)
 
 What makes a circuit?
 
