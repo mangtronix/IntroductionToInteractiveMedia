@@ -449,7 +449,8 @@ void loop() {
 ### Week 10.1 - 11/07
 #### Plan for today: 
 
-- Documentation
+- Announcements
+  - Documentation grading 
 - Discussion
 - Look at homework
 
