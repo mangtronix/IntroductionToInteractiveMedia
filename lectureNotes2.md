@@ -471,7 +471,7 @@ Here is an example:
 
 ![](media/handDrawnSchematicExample.jpg)
 
-- Fritzing](https://fritzing.org/) (~$8 download, simple)
+- [Fritzing](https://fritzing.org/) (~$8 download, simple)
 - [KiCad](https://www.kicad.org/) (open source, complex)
 
 ### Week 10.2 - 11/09
