@@ -457,8 +457,6 @@ void loop() {
 #### Discussion
 
 Tom Igoe's blog post on Physical Computing and Interactive Art
-- Breakout rooms
-- All together
 
 #### Look at homework
 - Creative projects using simple digital and analog inputs and outputs
