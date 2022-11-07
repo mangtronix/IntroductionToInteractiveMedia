@@ -367,9 +367,7 @@ Which ones are resistive?
 
 #### Misc
 - Hand drawn schematics in your homework are fine!
-Here is an example:
-
-![](media/handDrawnSchematicExample.jpg)
+f
 
 - Hand drawn switches can use the simple symbol
 - Resources are available to help you with homework (me, Jack), but only
@@ -450,7 +448,8 @@ void loop() {
 #### Plan for today: 
 
 - Announcements
-  - Documentation grading 
+  - Documentation grading
+  - Assignments now require a schematic - can be hand-drawn or use a tool like [Fritzing](https://fritzing.org/) (~$8 download, simple) or [KiCad](https://www.kicad.org/) (open source, complex)
 - Discussion
 - Look at homework
 
@@ -460,6 +459,20 @@ Tom Igoe's blog post on Physical Computing and Interactive Art
 
 #### Look at homework
 - Creative projects using simple digital and analog inputs and outputs
+
+
+#### Schematics
+
+- [How to Read a Schematic (Sparkfun)](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all)
+- Hand-drawn
+  - Best way to get started! Think about your circuit, then draw it
+
+Here is an example:
+
+![](media/handDrawnSchematicExample.jpg)
+
+- Fritzing](https://fritzing.org/) (~$8 download, simple)
+- [KiCad](https://www.kicad.org/) (open source, complex)
 
 ### Week 10.2 - 11/09
 #### Plan for today: 
