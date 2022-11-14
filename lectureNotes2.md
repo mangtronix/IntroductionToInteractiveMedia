@@ -825,6 +825,7 @@ What techniques have you learned to help you find problems?
 
 Communicating between p5.js and Arduino
 - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
+- [More tutorials (serial output, bidirectional communication)](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 
 Communication example by Aaron Sherwood
 -	[This code](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl)
