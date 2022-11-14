@@ -2,6 +2,9 @@
  * Week 11 Serial communication
  *
  * Pair with https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj
+ * 
+ * Inputs:
+ *   - A0 - 10k potentiometer connected to 5V and GND
  *
  * If you get "Can't upload" make sure your p5js sketch is stopped.
  * Only one program can access a given serial port at once.
