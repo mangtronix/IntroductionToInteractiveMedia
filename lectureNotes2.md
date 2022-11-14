@@ -816,9 +816,6 @@ the best picture you can take of your breadboard circuit to GitHub
 
 What techniques have you learned to help you find problems?
 
-##### Homework feedback
-
-- The first thing in your README.md should be a description!
 
 ### Week 11.2 - 11/16
 #### Plan for today: 
