@@ -868,8 +868,7 @@ On linux
 	1. sudo npm install -g p5.serialserver --unsafe-perm --build-from-source
 1. Invoke it
 	1. p5serial
- -->
- 
+
 Examples
 - A minimal [example](https://editor.p5js.org/michaelshiloh/sketches/h2RQaOmYP) 
 	- Clicking the mouse turns on an LED
@@ -878,6 +877,8 @@ Examples
 	- Two sensors on Arduino control the position of a circle on p5.js
 	- Clicking the mouse on different parts of the canvas controls two LEDs
 		on Arduino
+ -->
+ 
 
 In-class exercise (break class into groups of 2-3 students)
 
