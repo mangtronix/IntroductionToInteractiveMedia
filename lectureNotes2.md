@@ -855,7 +855,8 @@ Communication example by Aaron Sherwood
 		adding the rest of your program
 
 
-Older examples using serial server
+
+<!-- Older examples using serial server
 
 MacOS or Windows
 - Follow Jack's excellent tutorial
@@ -867,7 +868,8 @@ On linux
 	1. sudo npm install -g p5.serialserver --unsafe-perm --build-from-source
 1. Invoke it
 	1. p5serial
-
+ -->
+ 
 Examples
 - A minimal [example](https://editor.p5js.org/michaelshiloh/sketches/h2RQaOmYP) 
 	- Clicking the mouse turns on an LED
