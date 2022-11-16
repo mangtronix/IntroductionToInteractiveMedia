@@ -827,6 +827,10 @@ Communicating between p5.js and Arduino
 - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/Week_11_Serial_pot.ino)
+  - Bidirectional communication example
+    - [Week 11.2 Bidirectional serial](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
+    - [Arduino code](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
+    - [webserial library (copy to Sketch files)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5.web-serial.js)
 - [More tutorials (serial output, bidirectional communication)](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 
 Communication example by Aaron Sherwood
