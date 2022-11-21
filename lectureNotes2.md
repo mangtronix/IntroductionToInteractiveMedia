@@ -964,8 +964,9 @@ buzzer?
 	- You can provide a voltage (with Arduino, the voltage is always 5V)
 	- Each device has it's own "resistance"
 
-LEDs have relatively <strong>high</strong> "resistance", 
-and so consume <strong>low</strong> current.
+Small LEDs use relatively <strong>low</strong> current.
+- [What is the resistance of a typical LED?](https://www.quora.com/What-is-the-resistance-of-a-typical-red-LED)
+
 Motors have relatively <strong>low</strong> "resistance", 
 and so consume <strong>high</strong> current
 
