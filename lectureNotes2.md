@@ -827,6 +827,10 @@ Communicating between p5.js and Arduino
 - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/Week_11_Serial_pot.ino)
+  - Bidirectional communication example
+    - [Week 11.2 Bidirectional serial](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
+    - [Arduino code](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
+    - [webserial library (copy to Sketch files)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5.web-serial.js)
 - [More tutorials (serial output, bidirectional communication)](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 
 Communication example by Aaron Sherwood
@@ -960,8 +964,9 @@ buzzer?
 	- You can provide a voltage (with Arduino, the voltage is always 5V)
 	- Each device has it's own "resistance"
 
-LEDs have relatively <strong>high</strong> "resistance", 
-and so consume <strong>low</strong> current.
+Small LEDs use relatively <strong>low</strong> current (~20-30mA).
+- [What is the resistance of a typical LED?](https://www.quora.com/What-is-the-resistance-of-a-typical-red-LED)
+
 Motors have relatively <strong>low</strong> "resistance", 
 and so consume <strong>high</strong> current
 
@@ -1092,6 +1097,9 @@ void loop() {
   }
 }
 ````
+
+[Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
+- Tutorial for using motor driver board to control yellow geared motor
 
 #### Fabrication and Construction Techniques
 
