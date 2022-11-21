@@ -1200,7 +1200,7 @@ unattended.
 If the mess continues swipe access to the lab will be disabled at 9pm as a
 courtesy to the lab staff. 
 
-## IM Show
+## IM Show - Wednesday Dec 14 - 3-6pm
 IM End of Semester Show
 - Each student needs to show at least one project
 - Time TBD
