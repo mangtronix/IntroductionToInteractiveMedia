@@ -1023,7 +1023,8 @@ How did I choose which pins to use?
 - This leaves PWM pins 5 and 6 for the speed controls (pwma and pwmb)
 - Might as well choose nearby digital pins
 
-Code
+[Code - Week 12 - Simple motor driver (DMA GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week%2012%20-%20Simple%20Motor%20Driver/Week%2012%20-%20Simple%20Motor%20Driver.ino)
+
 
 ````
 
@@ -1064,6 +1065,8 @@ void loop() {
 
 Here is the code that Noah developed to control the motor speed and
 direction using a potentiometer:
+
+[Code - Week 12 - Motor Driver - 2 channel (DMA GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week%2012%20-%20Motor%20Driver%202%20channel/Week%2012%20-%20Motor%20Driver%202%20channel.ino)
 
 ````
 const int ain1Pin = 3;
@@ -1197,7 +1200,7 @@ unattended.
 If the mess continues swipe access to the lab will be disabled at 9pm as a
 courtesy to the lab staff. 
 
-## IM Show
+## IM Show - Wednesday Dec 14 - 3-6pm
 IM End of Semester Show
 - Each student needs to show at least one project
 - Time TBD
