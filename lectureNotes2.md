@@ -1110,6 +1110,11 @@ void loop() {
 - Stranded vs. solid core wire
 - Strain relief
 
+#### NeoPixels
+- Individually addressable RGB LEDs
+- [NeoPixel Guide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections)
+- [simple_neopixel.ino (GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/simple_neopixel/simple_neopixel.ino)
+
 [Back to top](#weekly-schedule)
 
 ## Week 13
