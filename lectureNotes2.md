@@ -1169,7 +1169,7 @@ without using `delay()`:
 		- Checking Arduino digital outputs
 	- Resistance
 		- Checking resistive sensors
-		- Checking motorso
+		- Checking motors
 - How to connect to Arduino pins or the solderless breadboard
 
 
