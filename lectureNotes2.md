@@ -1208,4 +1208,7 @@ courtesy to the lab staff.
 ## IM Show - Wednesday Dec 14 - 3-6pm
 IM End of Semester Show
 - Each student needs to show at least one project
-- Time TBD
+- Wednesday Dec 14 - 3-6pm
+- Arts Center Foyer and Black Box Theater
+- Performances in Black Black 5-6pm
+- Setup Tuesday Dec 13
