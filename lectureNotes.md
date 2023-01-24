@@ -179,6 +179,8 @@ harp</a></li>
 </ul>
 
 #### Homework
+- Join the Discord server (optional, recommended)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
 - Log into the class Wordpress using your user account. If you have problems let Mang know
   - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
 - Create an account on [p5js.org](https://p5js.org/)
