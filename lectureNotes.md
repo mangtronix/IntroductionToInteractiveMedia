@@ -184,13 +184,6 @@ harp</a></li>
   - [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa)
   - [Code! Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 
-[Week 1-7 lecture notes](lectureNotes.md)
-
-[Week 8-14 lecture notes](lectureNotes2.md)
-
-[p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
-
-
 <!-- $$$ move to after break
 ##### GitHub
 - What is [GitHub](https://github.com/)?
