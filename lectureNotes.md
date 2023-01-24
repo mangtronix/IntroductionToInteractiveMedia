@@ -175,6 +175,10 @@ harp</a></li>
 </ul>
 </li>
 </ul>
+#### Homework
+- Log into the class Wordpress using your user account. If you have problems let Mang know
+  - [Wordpress login information]
+- Create an account on [p5js.org](https://p5js.org/)
 
 ### Week 1.2 - 08/31
 
