@@ -57,7 +57,8 @@
   -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
   -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
 
-### Week 8.2 - 10/26
+## Week 9
+### Week 9.1 - 3/28
 #### Plan for today: 
 
 - Electricity
@@ -189,8 +190,7 @@ Make sure everything is working
 
 [Back to top](#weekly-schedule)
 
-## Week 9
-### Week 9.1 - 10/31 Happy Halloween!
+### Week 9.2 - 3/30 - Arduino Digital / Analog IO
 #### Plan for today: 
 
 - Review basic Arduino and Digital Output
@@ -299,7 +299,8 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
-### Week 9.2 - 11/02
+## Week 10
+### Week 10.1 - 4/4 - Arduino Programming Syntax
 #### Plan for today: 
 - Discuss reading
 - Analog Input
@@ -445,8 +446,7 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-## Week 10
-### Week 10.1 - 11/07
+### Week 10.2 - 4/6  - Schematics
 #### Plan for today: 
 
 - Announcements
@@ -476,7 +476,8 @@ Here is an example:
 - [Fritzing](https://fritzing.org/) (~$8 download, simple)
 - [KiCad](https://www.kicad.org/) (open source, complex)
 
-### Week 10.2 - 11/09
+## Week 11
+### Week 11.1 - 4/11 - Sound / servo
 #### Plan for today: 
 - Sound
 - Servo motor
@@ -781,8 +782,7 @@ void loop() {
 ````
 [Back to top](#weekly-schedule)
 
-## Week 11
-### Week 11.1 - 11/14
+### Week 11.2 - 4/13
 #### Plan for today: 
 - Announcement
 - Discussion
@@ -818,8 +818,8 @@ the best picture you can take of your breadboard circuit to GitHub
 
 What techniques have you learned to help you find problems?
 
-
-### Week 11.2 - 11/16
+## Week 12
+### Week 12.1 - 4/18 - Serial communication
 #### Plan for today: 
 - Serial Communication
 
@@ -899,10 +899,12 @@ In-class exercise (break class into groups of 2-3 students)
 	every time the ball bounces one led lights up and then turns off, and you
 	can control the wind from one analog sensor 
 
+### Week 12.2 - 4/20 - NO CLASS - Eid Eid Eid
+
 [Back to top](#weekly-schedule)
 
-## Week 12
-### Week 12.1 - 11/21
+## Week 13
+### Week 13.1 - 4/25 - Look at final proposals
 #### Plan for today: 
 - Discussion
 - Problems with homework
@@ -922,7 +924,7 @@ Discussion of *Design Meets Disability*
 1. In the case of glasses, the author mentions “what others see is more
 	 important than what you see yourself” - do you guys agree?
 	
-### Week 12.2 - 11/23
+### Week 13.2 - 4/27 - Motors, soldering, fabrication
 #### Plan for today: 
 - Motors
 - Soldering
@@ -1119,8 +1121,8 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-## Week 13
-### Week 13.1 - 11/28
+## Week 14
+### Week 14.1 - 5/2
 #### Plan for today: 
 - Blink without `delay()`
 - Soldering
@@ -1175,42 +1177,18 @@ without using `delay()`:
 - How to connect to Arduino pins or the solderless breadboard
 
 
-### Week 13.2 - 11/30 NO CLASS
-NO CLASS - NATIONAL DAY HOLIDAY
+### Week 13.2 - 5/4 - Work session
+- Work on final projects
 
 [Back to top](#weekly-schedule)
 
-## Week 14
-### Week 14.1 - 12/05
-#### Plan for today: 
-- Final project check-in
-- Work session
-
-### Week 14.2 - 12/07
+## Week 15
+### Week 15.1 - 5/9 - Final project presentations
 #### Plan for today: 
 - Final project presentations
 
-### Week 14.3 - 12/11 SUNDAY CLASS
-SUNDAY CLASS - LEGISLATIVE DAY - 5:00-6:15PM
-
-#### Plan for today:
+### Week 15.2 - 5/11
+#### Plan for today: 
 - Course review
 - Course evaluation
-- Project help
 
-#### Announcements
-
-Clean up after yourselves in the lab!  Students have started leaving trash on
-the tables as well as their personal belongings over a long period of time
-unattended. 
-
-If the mess continues swipe access to the lab will be disabled at 9pm as a
-courtesy to the lab staff. 
-
-## IM Show - Wednesday Dec 14 - 3-6pm
-IM End of Semester Show
-- Each student needs to show at least one project
-- Wednesday Dec 14 - 3-6pm
-- Arts Center Foyer and Black Box Theater
-- Performances in Black Black 5-6pm
-- Setup Tuesday Dec 13
