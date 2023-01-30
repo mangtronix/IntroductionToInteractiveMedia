@@ -25,9 +25,11 @@
 - [IM Show](#im-show) - IM End of Semester Show
 
 ## Week 8
-### Week 8.1 - 10/24
+### Week 8.1 - 3/21 - NO CLASS - Fall Break Fall Break Fall Break
 
-**Bring** your Arduino kit to class, including any adapter you need to connect to USB.
+### Week 8.2 - 3/23 - Introduction to Arduino
+
+**Bring** your Arduino kit to class, **including any adapter you need to connect to USB**.
 
 **Install** the Arduino 2.0 IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
 
