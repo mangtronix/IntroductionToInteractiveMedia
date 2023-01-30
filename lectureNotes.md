@@ -27,7 +27,7 @@
 
 ## Week 1
 
-### Week 1.1 - 08/29
+### Week 1.1 - 1/24
 
 #### Administration
 
@@ -185,7 +185,7 @@ harp</a></li>
   - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
 - Create an account on [p5js.org](https://p5js.org/)
 
-### Week 1.2 - 08/31
+### Week 1.2 - 1/26
 
 #### Let's get started
 - What is p5.js?
@@ -327,7 +327,7 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 
 ## Week 2
 
-### Week 2.1 - 09/05
+### Week 2.1 - 1/31
 
 #### Homework
 Look at self portraits
@@ -481,7 +481,7 @@ function draw() {
 }
 ````
 
-### Week 2.2 - 09/07
+### Week 2.2 - 2/2
 
 Overview:
 - Readings
@@ -718,7 +718,7 @@ function draw() {
 
 ## Week 3
 
-### Week 3.1 - 09/12
+### Week 3.1 - 2/7
 
 ##### Discuss reading
 
@@ -845,7 +845,7 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-### Week 3.2 - 09/14
+### Week 3.2 - 2/9
 
 #### Topics today
 - Finish walking through the "paint" program from Monday
@@ -921,7 +921,7 @@ slightly different perspective.
 [Back to top](#weekly-schedule)
 
 ## Week 4
-### Week 4.1 - 09/19
+### Week 4.1 - 2/14
 
 #### Plan for today
 
@@ -1197,8 +1197,7 @@ JSON and XML are other format for organizing data in a file.
 They are more complex than CSV, and again p5.js provides functions.
 
 
-### Week 4.2 - 09/21
-#### Substitute - Mang away
+### Week 4.2 - 2/16
 
 ##### Generative Text
 Pull words from a CSV file 
@@ -1337,8 +1336,7 @@ show generative word from circles sketch
 
 ## Week 5
 
-### Week 5.1 - 09/26
-#### Substitute - Mang away
+### Week 5.1 - 2/21
 #### Plan for today: 
 
 - Discussion
@@ -1446,7 +1444,7 @@ For more information and ideas
 - Reference page for p5.Image for other methods
 - Examples -> image
 
-### Week 5.2 - 09/28
+### Week 5.2 - 2/23
 
 #### Plan for today: 
 
@@ -1818,7 +1816,7 @@ next one when we click the mouse?
 
 ## Week 6
 
-### Week 6.1 - 10/03
+### Week 6.1 - 2/28
 #### Plan for today: 
 
 - Discussion of reading 
@@ -1905,7 +1903,7 @@ Posenet
   - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
   - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
-### Week 6.2 - 10/05
+### Week 6.2 - 3/2
 #### Plan for today: 
 
 - Announcement - midterm will be due Oct 12 (last class)
@@ -1994,7 +1992,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 [Back to top](#weekly-schedule)
 
 ## Week 7
-### Week 7.1 - 10/10
+### Week 7.1 - 3/7
 #### Plan for today: 
 
 - Announcements
@@ -2007,7 +2005,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 - Project status
 - Debugging
 
-### Week 7.2 - 10/12
+### Week 7.2 - 3/9
 #### Plan for today: 
 
 - Midterm projects: Share in a group
