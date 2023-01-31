@@ -481,6 +481,12 @@ function draw() {
 }
 ````
 
+##### Additional resources
+Refer to these for additional information
+- [Programming with p5.js for Beginners (Coding Train Videos)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
+- [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
+
 ### Week 2.2 - 2/2
 
 Overview:
