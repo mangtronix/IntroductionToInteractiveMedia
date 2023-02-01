@@ -945,7 +945,6 @@ Additional p5js resources:
 - [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa)
 
 ##### Discuss reading
-- Led by Aadil, Aayat
 
 ##### Look at some homework
 
