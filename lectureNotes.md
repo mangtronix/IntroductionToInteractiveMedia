@@ -712,6 +712,14 @@ function draw() {
 }
 ````
 
+### Readings / Class Discussion
+- Readings are listed on the [main page](https://intro.nyuadim.com/)
+- Discussion leaders are listed on the [Weekly Schedule Spreadsheet](
+
+### Debugging
+- [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
+- [Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
+
 #### Week 2.2 Additional Resources
 - [Programming with p5.js for Beginners (Coding Train Videos)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
