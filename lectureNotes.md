@@ -1838,14 +1838,10 @@ next one when we click the mouse?
   - [Leading online database to remove 600,000 images after art project reveals its racist bias](https://www.theartnewspaper.com/2019/09/23/leading-online-database-to-remove-600000-images-after-art-project-reveals-its-racist-bias)
 - Homework feedback
   - Post a midterm project update!
-- Midterm is due on Wednesday Oct 12 before class
-  - We'll have in class presentations of the projects
 - Computer Vision
 	- Frame Differencing
 
 - Posenet (time permitting)
-- Class Wednesday (Oct 5) will be online
-- Class Monday (Oct 12) Midterm Presentations will be in person!
 
 #### Homework feedback
 
@@ -1921,7 +1917,6 @@ Posenet
 ### Week 6.2 - 3/2
 #### Plan for today: 
 
-- Announcement - midterm will be due Oct 12 (last class)
 - Review frame differencing
 - Random items
 
