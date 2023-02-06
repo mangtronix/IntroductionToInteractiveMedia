@@ -738,6 +738,8 @@ function draw() {
 
 ##### Discuss reading
 
+##### Look at homework
+
 ##### Functions
 
 Any questions about what we've covered already?
