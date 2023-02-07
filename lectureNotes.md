@@ -764,7 +764,7 @@ at the indicated **Y** coordinate
 1. Using these two functions, write a program in `setup()`
 that draws a grid of lines at regular intervals on the canvas
 
-#### Callback Functions
+#### Callback Functions / Event Handlers
 
 `mouseClicked()` [example](https://p5js.org/reference/#/p5/mouseClicked) in
 the reference section
@@ -772,6 +772,8 @@ the reference section
 **Notes**
 - You never have to call **callback functions**. The p5.js system calls them
 	for you when that event happens
+	
+See [Program flow](https://p5js.org/learn/program-flow.html) for more examples of callback functions and event handlers.
 
 
 https://editor.p5js.org/mangtronix/sketches/7zooOaxnq
