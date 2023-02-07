@@ -866,7 +866,6 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 ### Week 3.2 - 2/9
 
 #### Topics today
-- Finish walking through the "paint" program from Monday
 - Arrays
 - Object Oriented Programming 
 - Transformations
