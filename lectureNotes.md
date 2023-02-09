@@ -869,7 +869,9 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 
 #### Topics today
 - Arrays
-- Object Oriented Programming 
+- Object Oriented Programming
+  - See examples in [Week 4](#week4)
+  - [Class Syntax](https://javascript.info/class)
 - Transformations
 
 #### Arrays
