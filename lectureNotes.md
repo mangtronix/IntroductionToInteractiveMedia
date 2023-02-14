@@ -740,6 +740,10 @@ function draw() {
 
 ##### Look at homework
 
+##### Artwork examples
+- [Vera Molnar](https://magazine.artland.com/vera-molnar/)
+- [Manfred Mohr](http://www.emohr.com/)
+
 ##### Functions
 
 Any questions about what we've covered already?
@@ -948,6 +952,14 @@ slightly different perspective.
 
 - Discuss reading
 - Look at homework
+
+- Artwork examples
+  - Scott Snibbe
+    - [Boundary Functions (2001)](https://www.snibbe.com/art/boundaryfunctions)
+      - Uses [planar subdivision function in OpenCV](https://docs.opencv.org/3.4/df/d5b/group__imgproc__subdiv2d.html)
+      - [Voronoi Diagram (Wikipedia)](https://en.wikipedia.org/wiki/Voronoi_diagram)
+    - [Deep Walls (2002)](https://www.snibbe.com/art/deepwalls)
+
 - Class examples
   - [Week 4 - Choosing Students (p5editor)](https://editor.p5js.org/mangtronix/sketches/DMnZyF6Xc)
   - [Week 4 - Fish class (p5editor)](https://editor.p5js.org/mangtronix/sketches/E-0n-8gIN)
