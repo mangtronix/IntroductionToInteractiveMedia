@@ -1059,6 +1059,9 @@ Format
 	(Excel, OpenOffice Calc, Google Sheets) can export any table in CSV format
 - Other formats are JSON and XML. We won't spend any time on them, but there
 	are p5.js libraries for these.
+	
+##### Simple CSV example
+- [Week 4 - Simple CSV examples (p5 editor)](https://editor.p5js.org/mangtronix/sketches/yCb7BOnKf)
 
 ##### Worked example: Getting and working with a CSV file
 
