@@ -954,6 +954,7 @@ slightly different perspective.
 - Look at homework
 
 - Artwork examples
+  - [Text Rain - Camille Utterback](http://camilleutterback.com/projects/text-rain/)
   - Scott Snibbe
     - [Boundary Functions (2001)](https://www.snibbe.com/art/boundaryfunctions)
       - Uses [planar subdivision function in OpenCV](https://docs.opencv.org/3.4/df/d5b/group__imgproc__subdiv2d.html)
