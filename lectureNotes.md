@@ -922,6 +922,8 @@ function setup() {
   - [JS Loop For (w3schools)](https://www.w3schools.com/js/js_loop_for.asp)
   - [JS Loop For Of (w3schools)](https://www.w3schools.com/js/js_loop_forof.asp)
 
+- See [Week 3.2 - Arrays (p5editor)](https://editor.p5js.org/mangtronix/sketches/RgFNsZcxI) for examples on how to insert and remove items
+
 #### Object Oriented Programming (OOP)
 
 - [JavaScript Classes (w3schools)](https://www.w3schools.com/js/js_classes.asp)
@@ -1940,6 +1942,12 @@ Posenet
 ### Week 6.2 - 3/2
 #### Plan for today: 
 
+- Announcement
+  - Pick up Arduino kit from the Bookstore ([Sparkfun Inventor's Kit for Arduino Uno](https://www.sparkfun.com/products/15631))
+  - Note: the kit includes an old school USB cable - if you need a USB-C adapter you should get it yourself
+  - **Required for first class after the break**
+
+- Work session
 - Review frame differencing
 - Random items
 
