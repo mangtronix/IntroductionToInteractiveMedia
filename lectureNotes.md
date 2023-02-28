@@ -2029,11 +2029,6 @@ Coding](https://happycoding.io/tutorials/p5js/)
 #### Plan for today: 
 
 - Announcements
-  - IM End of Semester Show will be Wednesday December 14
-    - Each student must attend and show a project from at least one class
-  - Pick up your Arduino kit from the bookstore 
-  - Has everyone completed tool training?
-  - Midterm is due next class (Wednesday Oct 12)
   - Bring your Arduino kit to next class
 - Project status
 - Debugging
