@@ -2038,6 +2038,13 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 - Project status
 - Debugging
+  - [A Brief Introduction to Debugging (Vimeo, ITP)](https://vimeo.com/channels/debugging)
+  - [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
+  - [p5js Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
+- [p5js Interactivity](https://p5js.org/learn/interactivity.html)
+  - Mouse and keyboard examples
+  - Basic inside/outside tests 
+- Work session
 
 ### Week 7.2 - 3/9
 #### Plan for today: 
