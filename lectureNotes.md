@@ -2005,6 +2005,7 @@ Things to notice:
 Look at other array methods in the reference page:
 - `append`
 - `pop` 
+- [Week 6 - Removing array elements (p5editor)](https://editor.p5js.org/mangtronix/sketches/0i8RVCZDD)
 
 
 ##### Blocking vs. non-blocking functions
