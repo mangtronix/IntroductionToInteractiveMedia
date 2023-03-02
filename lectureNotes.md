@@ -2036,8 +2036,6 @@ Coding](https://happycoding.io/tutorials/p5js/)
 ### Week 7.1 - 3/7
 #### Plan for today: 
 
-- Announcements
-  - Bring your Arduino kit to next class
 - Project status
 - Debugging
 
