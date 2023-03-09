@@ -29,8 +29,6 @@
 
 ### Week 8.2 - 3/23 - Introduction to Arduino
 
-**Bring** your Arduino kit to class, **including any adapter you need to connect to USB**.
-
 **Install** the Arduino 2.0 IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
 
 #####  Mid-semester feedback
@@ -42,6 +40,7 @@
 - What do you wish we'd talk about, or learn, that we haven't?
 
 ##### Introduction to Arduino
+- Distribute Arduino kits
 
 - [What is an Arduino? (Sparkfun)](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)
 - [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
