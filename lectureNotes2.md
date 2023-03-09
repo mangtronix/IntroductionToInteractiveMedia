@@ -1191,3 +1191,7 @@ without using `delay()`:
 - Course review
 - Course evaluation
 
+
+### IM End of Semester Show
+- May 11, 6-8pm in the Arts Center
+- All IM students show at least one project
