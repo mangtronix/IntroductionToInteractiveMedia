@@ -2051,9 +2051,6 @@ Coding](https://happycoding.io/tutorials/p5js/)
 #### Plan for today: 
 
 - Midterm projects: Share in a group
-- Mid-semester feedback
-- Introduction to Arduino
-
 
 ## FALL BREAK / FALL BREAK / FALL BREAK
 
