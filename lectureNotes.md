@@ -2052,6 +2052,10 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 - Midterm projects: Share in a group
 
+- Homework:
+  - Check [main page](https://intro.nyuadim.com/)
+  - Bring any adapter you need from USB-A to your computer for the first class after the break
+
 ## FALL BREAK / FALL BREAK / FALL BREAK
 
 <!-- $$$ move to after break
