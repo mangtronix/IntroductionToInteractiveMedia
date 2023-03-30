@@ -233,11 +233,11 @@ void loop() {
   int switchPosition = digitalRead(A2);
 
   if (switchPosition == HIGH) {
-    digitalWrite(8, HIGH);   // turn the LED on (HIGH is the voltage level)
-    digitalWrite(13, LOW);
+    digitalWrite(8, LOW);   
+    digitalWrite(13, HIGH); // turn the LED on (HIGH is the voltage level)
   } else  {
-    digitalWrite(8, LOW);    // turn the LED off by making the voltage LOW
-    digitalWrite(13, HIGH);
+    digitalWrite(8, HIGH);    
+    digitalWrite(13, LOW); // turn the LED off by making the voltage LOW
   }
 }
 ````
