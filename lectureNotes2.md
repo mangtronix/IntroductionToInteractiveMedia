@@ -222,6 +222,12 @@ Adding a switch
 ![](media/ArduinoLEDMomentarySwitch_bb.png)
 
 ````
+// Code for one switch and LEDs
+// Wiring:
+// - switch on Pin A2
+// - LED on Pin 8
+// - LED on Pin 13
+
 void setup() {
   pinMode(8, OUTPUT);
   pinMode(13, OUTPUT);
