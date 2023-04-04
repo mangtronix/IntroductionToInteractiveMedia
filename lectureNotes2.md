@@ -478,24 +478,6 @@ void loop() {
 	 sensor to an analog output device
 1. Use a potentiometer to select from 4 different behaviors of a circuit
 
-[Back to top](#weekly-schedule)
-
-### Week 10.2 - 4/6  - Schematics
-#### Plan for today: 
-
-- Announcements
-  - Documentation grading
-  - Assignments now require a schematic - can be hand-drawn or use a tool like [Fritzing](https://fritzing.org/) (~$8 download, simple) or [KiCad](https://www.kicad.org/) (open source, complex)
-- Discussion
-- Look at homework
-
-#### Discussion
-
-Tom Igoe's blog post on Physical Computing and Interactive Art
-
-#### Look at homework
-- Creative projects using simple digital and analog inputs and outputs
-
 
 #### Schematics
 
@@ -510,8 +492,8 @@ Here is an example:
 - [Fritzing](https://fritzing.org/) (~$8 download, simple)
 - [KiCad](https://www.kicad.org/) (open source, complex)
 
-## Week 11
-### Week 11.1 - 4/11 - Sound / servo
+### Week 10.2 - 4/6 - Sound / Servo / Circuit
+
 #### Plan for today: 
 - Sound
 - Servo motor
@@ -816,7 +798,12 @@ void loop() {
 ````
 [Back to top](#weekly-schedule)
 
-### Week 11.2 - 4/13
+
+
+## Week 11
+
+### Week 11.1 - 4/11 
+
 #### Plan for today: 
 - Announcement
 - Discussion
@@ -852,8 +839,9 @@ the best picture you can take of your breadboard circuit to GitHub
 
 What techniques have you learned to help you find problems?
 
-## Week 12
-### Week 12.1 - 4/18 - Serial communication
+
+### Week 11.2 - 4/13 - Serial communication
+
 #### Plan for today: 
 - Serial Communication
 
