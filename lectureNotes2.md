@@ -404,7 +404,6 @@ Which ones are resistive?
 
 #### Misc
 - Hand drawn schematics in your homework are fine!
-f
 
 - Hand drawn switches can use the simple symbol
 - Resources are available to help you with homework (me, Jack), but only
