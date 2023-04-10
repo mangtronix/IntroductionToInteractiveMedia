@@ -847,18 +847,16 @@ What techniques have you learned to help you find problems?
 #### Serial Communication
 
 Communicating between p5.js and Arduino
+<!--
 - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
-  - Bidirectional communication example
-    - [Week 11.2 Bidirectional serial](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
-    - [Arduino code](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-    - [webserial library (copy to Sketch files)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5.web-serial.js)
-- [More tutorials (serial output, bidirectional communication)](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
+-->
+- Bidirectional communication example
+	- [Week 11.2 Bidirectional serial](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
+	- [Arduino code](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
+	- [p5.web-serial library (copy to Sketch files)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5.web-serial.js)
 
-Communication example by Aaron Sherwood
--	[This code](https://editor.p5js.org/aaronsherwood/sketches/q2Pl77SWl)
-	connects to the serial port through the web browser and sends and receives messages to a connected Arduino
 - Before you incorporate this in your project, first test this as it is and
 	make sure you understand it
 - Briefly, what this code does:
@@ -884,6 +882,8 @@ Communication example by Aaron Sherwood
 	- Once you are reliable sending information back and forth you can start
 		adding the rest of your program
 
+- [More tutorials (serial output, bidirectional communication)](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
+	- Note: these use a different serial library, don't mix and match code between the ITP WebSerial code and Aaron's web-serial
 
 
 <!-- Older examples using serial server
