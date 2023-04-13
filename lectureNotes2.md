@@ -855,7 +855,7 @@ Communicating between p5.js and Arduino
 - Bidirectional communication example
 	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
 	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-	- [p5.web-serial library (copy to Sketch files)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5.web-serial.js)
+	- [p5.web-serial library (copy to Sketch files)](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js)
 	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
 
 - Before you incorporate this in your project, first test this as it is and
