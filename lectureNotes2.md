@@ -921,18 +921,17 @@ In-class exercise (break class into groups of 2-3 students)
 	every time the ball bounces one led lights up and then turns off, and you
 	can control the wind from one analog sensor 
 
-### Week 12.2 - 4/20 - NO CLASS - Eid Eid Eid
+## Week 12
+### Week 12.1 - 4/18
 
-[Back to top](#weekly-schedule)
-
-## Week 13
-### Week 13.1 - 4/25 - Look at final proposals
 #### Plan for today: 
 - Discussion
-- Problems with homework
-- Look at final proposals
+- Motors
+- Soldering
+- Fabrication and Construction Techniques
 
-Discussion of *Design Meets Disability*
+
+#### Discussion of *Design Meets Disability*
 
 1. Considering only modern day technology like your phones, can you identify
 	 any "features" that are implemented to help people with certain
@@ -945,13 +944,7 @@ Discussion of *Design Meets Disability*
 	 towards such designs? E.g. eyewear vs hearing aids?
 1. In the case of glasses, the author mentions “what others see is more
 	 important than what you see yourself” - do you guys agree?
-	
-### Week 13.2 - 4/27 - Motors, soldering, fabrication
-#### Plan for today: 
-- Motors
-- Soldering
-- Fabrication and Construction Techniques
-- Time permitting
+
 
 #### Motors
 
@@ -1136,16 +1129,21 @@ void loop() {
 - Stranded vs. solid core wire
 - Strain relief
 
-#### NeoPixels
+#### NeoPixels (Time permitting)
 - Individually addressable RGB LEDs
 - [NeoPixel Guide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections)
 - [simple_neopixel.ino (GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/simple_neopixel/simple_neopixel.ino)
 
 [Back to top](#weekly-schedule)
 
-## Week 14
-### Week 14.1 - 5/2
+### Week 12.2 - 4/20 - NO CLASS - Eid Eid Eid
+
+[Back to top](#weekly-schedule)
+
+## Week 13
+### Week 13.1 - 4/25 - Look at final proposals
 #### Plan for today: 
+- Look at final proposals
 - Blink without `delay()`
 - Soldering
 - How to use a Digital Multimeter (DMM) 
@@ -1199,22 +1197,31 @@ without using `delay()`:
 - How to connect to Arduino pins or the solderless breadboard
 
 
-### Week 13.2 - 5/4 - Work session
+### Week 13.2 - 4/27 - Work session
+- Work on final projects
+- Laser cutting (time permitting)
+
+## Week 14
+### Week 14.1 - 5/2 - Work session
 - Work on final projects
 
-[Back to top](#weekly-schedule)
+### Week 14.2 - 5/4 - Work session
+- Work on final projects
 
 ## Week 15
 ### Week 15.1 - 5/9 - Final project presentations
 #### Plan for today: 
 - Final project presentations
-
-### Week 15.2 - 5/11
-#### Plan for today: 
 - Course review
 - Course evaluation
 
-
-### IM End of Semester Show
-- May 11, 6-8pm in the Arts Center
+### Week 15.2 - 5 / 11 IM End of Semester Show
+- Thursday May 11, 5-7pm in the Arts Center
 - All IM students show at least one project
+- Timeline
+  - May 1
+
+
+[Back to top](#weekly-schedule) 
+
+
