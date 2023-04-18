@@ -1123,6 +1123,9 @@ void loop() {
 [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
 - Tutorial for using motor driver board to control yellow geared motor
 
+[Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
+- Set your Arduino free to roam!
+
 #### Fabrication and Construction Techniques
 
 - Panel mount vs. PCB mount
