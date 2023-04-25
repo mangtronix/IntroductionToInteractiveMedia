@@ -19,9 +19,10 @@
 - [Week 9](#week-9) - Analog and digital I/O
 - [Week 10](#week-10) - Sound, movement, circuit schematics
 - [Week 11](#week-11) - Connecting Arduino to p5.js
-- [Week 12](#week-12) - Motors, soldering, fabricating
-- [Week 13](#week-13) - Circuit debugging
-- [Week 14](#week-14) - Final project
+- [Week 12](#week-12) - Motors
+- [Week 13](#week-13) - Circuit debugging, Soldering, Fabricating
+- [Week 14](#week-14) - Final project work session
+- [Week 15](#week-15) - Final project due, Course review
 - [IM Show](#im-show) - IM End of Semester Show
 
 ## Week 8
