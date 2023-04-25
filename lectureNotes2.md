@@ -1126,16 +1126,6 @@ void loop() {
 [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
 - Set your Arduino free to roam!
 
-#### Fabrication and Construction Techniques
-
-- Panel mount vs. PCB mount
-- Stranded vs. solid core wire
-- Strain relief
-
-#### NeoPixels (Time permitting)
-- Individually addressable RGB LEDs
-- [NeoPixel Guide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections)
-- [simple_neopixel.ino (GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/simple_neopixel/simple_neopixel.ino)
 
 [Back to top](#weekly-schedule)
 
@@ -1181,10 +1171,6 @@ Play a melody and blink an LED
 without using `delay()`:
 [toneMelodyAndBlinkWithoutDelay](https://github.com/michaelshiloh/toneMelodyAndBlinkWithoutDelay)
 
-#### Soldering
-- [Soldering
-	resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)
-
 #### How to use a Digital Multimeter (DMM) 
 
 - The three most useful measurements
@@ -1200,9 +1186,22 @@ without using `delay()`:
 - How to connect to Arduino pins or the solderless breadboard
 
 
-### Week 13.2 - 4/27 - Work session
-- Work on final projects
-- Laser cutting (time permitting)
+### Week 13.2 - 4/27 - Soldering / Fabrication
+#### Soldering
+- [Soldering
+	resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)
+	
+#### Fabrication and Construction Techniques
+
+- Panel mount vs. PCB mount
+- Stranded vs. solid core wire
+- Strain relief
+
+#### NeoPixels (Time permitting)
+- Individually addressable RGB LEDs
+- [NeoPixel Guide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections)
+- [simple_neopixel.ino (GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/simple_neopixel/simple_neopixel.ino)
+
 
 ## Week 14
 ### Week 14.1 - 5/2 - Work session
@@ -1219,10 +1218,9 @@ without using `delay()`:
 - Course evaluation
 
 ### Week 15.2 - 5 / 11 IM End of Semester Show
+- No class in lab - take part in IM End of Semester Show
 - Thursday May 11, 5-7pm in the Arts Center
 - All IM students show at least one project
-- Timeline
-  - May 1
 
 
 [Back to top](#weekly-schedule) 
