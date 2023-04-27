@@ -1209,11 +1209,11 @@ without using `delay()`:
 - Bring your project to class
 - Work on final projects
 - Ask any questions now!
-- Start user testing - ask someone to try your project
+- Your project should be working for next class
 
 ### Week 14.2 - 5/4 - User-testing / Work Session
 - Bring your project to class
-- Finish user testing (see main page for description / documentation requirement)
+- Conduct user testing (see main page for description / documentation requirement)
 - Work on final projects
 
 ## Week 15
