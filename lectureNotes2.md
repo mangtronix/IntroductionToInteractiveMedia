@@ -1206,11 +1206,13 @@ without using `delay()`:
 
 ## Week 14
 ### Week 14.1 - 5/2 - Work session
+- Bring your project to class
 - Work on final projects
+- Ask any questions now!
 
-### Week 14.2 - 5/4 - Work session / User-testing
+### Week 14.2 - 5/4 - User-testing / Work Session
+- Conduct user testing (see main page for description / documentation requirement)
 - Work on final projects
-- Conduct additional user testing (see main page for documentation requirement)
 
 ## Week 15
 ### Week 15.1 - 5/9 - Final project presentations
