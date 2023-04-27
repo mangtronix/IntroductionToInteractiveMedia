@@ -1208,8 +1208,9 @@ without using `delay()`:
 ### Week 14.1 - 5/2 - Work session
 - Work on final projects
 
-### Week 14.2 - 5/4 - Work session
+### Week 14.2 - 5/4 - Work session / User-testing
 - Work on final projects
+- Conduct additional user testing (see main page for documentation requirement)
 
 ## Week 15
 ### Week 15.1 - 5/9 - Final project presentations
