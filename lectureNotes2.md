@@ -1215,6 +1215,10 @@ without using `delay()`:
 - Bring your project to class
 - Conduct user testing (see main page for description / documentation requirement)
 - Work on final projects
+- Running sketch fullscreen
+  - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
+  - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
+    - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
 
 ## Week 15
 ### Week 15.1 - 5/9 - Final project presentations
