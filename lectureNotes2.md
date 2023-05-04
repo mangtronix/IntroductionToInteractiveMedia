@@ -1206,14 +1206,16 @@ without using `delay()`:
 
 ## Week 14
 ### Week 14.1 - 5/2 - Work session
-- IM Show
-- [Signup with project / name](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday
 - Bring your project to class
 - Work on final projects
 - Ask any questions now!
 - Your project should be working for next class
 
 ### Week 14.2 - 5/4 - User-testing / Work Session
+- Announcements
+  - IM Show
+  - Fill in [IM show projects / names](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday
+
 - Bring your project to class
 - Conduct user testing (see main page for description / documentation requirement)
 - Work on final projects
@@ -1229,12 +1231,15 @@ without using `delay()`:
 - Course review
 - Course evaluation
 
+### Wednesday 5 /10 - IM Show setup
+- Meet in Arts Center lobby at 3pm
+- Set up your project and check that it's working
+- Can leave e.g. Arudino, take laptops and bring them back on Thursay at 4pm before the show
+
 ### Week 15.2 - 5 / 11 IM End of Semester Show
 - No class in lab - take part in IM End of Semester Show
-- Setup is Wednesday May 10, 3-5pm in the Arts Center lobby
-  - Bring your project and set it up, test to make sure working
-  - Can leave e.g. Arduino, take laptop and bring back on Thursday at 4pm
-- Thursay May 11 4pm - get project working, must be working by 4:30pm before show starts
+- Thursay May 11 4pm - come to Arts Center lobby, get project working
+  - Must be working by 4:30pm before show starts to be shown in the show
 - Show Thursday May 11, 5-7pm in the Arts Center
   - Projects on display 5-7pm
   - Group photo at 7pm!
