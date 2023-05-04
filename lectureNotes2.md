@@ -1231,7 +1231,7 @@ without using `delay()`:
 - Course review
 - Course evaluation
 
-### Wednesday 5 /10 - IM Show setup
+### Wednesday 5 / 10 - IM Show setup - Arts Center Lobby 3-4:30pm
 - Meet in Arts Center lobby at 3pm
 - Set up your project and check that it's working
 - Can leave e.g. Arudino, take laptops and bring them back on Thursay at 4pm before the show
