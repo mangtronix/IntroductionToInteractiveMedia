@@ -1231,7 +1231,14 @@ without using `delay()`:
 
 ### Week 15.2 - 5 / 11 IM End of Semester Show
 - No class in lab - take part in IM End of Semester Show
-- Thursday May 11, 5-7pm in the Arts Center
+- Setup is Wednesday May 10, 3-5pm in the Arts Center lobby
+  - Bring your project and set it up, test to make sure working
+  - Can leave e.g. Arduino, take laptop and bring back on Thursday at 4pm
+- Thursay May 11 4pm - get project working, must be working by 4:30pm before show starts
+- Show Thursday May 11, 5-7pm in the Arts Center
+  - Projects on display 5-7pm
+  - Group photo at 7pm!
+  - Clean / return equipment starting after photo
 - All IM students show at least one project
 
 
