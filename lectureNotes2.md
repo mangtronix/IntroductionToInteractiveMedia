@@ -1206,6 +1206,8 @@ without using `delay()`:
 
 ## Week 14
 ### Week 14.1 - 5/2 - Work session
+- IM Show
+- [Signup with project / name](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday
 - Bring your project to class
 - Work on final projects
 - Ask any questions now!
