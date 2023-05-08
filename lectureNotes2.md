@@ -1226,10 +1226,11 @@ without using `delay()`:
 
 ## Week 15
 ### Week 15.1 - 5/9 - Final project presentations
-#### Plan for today: 
+#### Plan for today:
+- IM Show gameplan
+- Course feedback
+  - Please fill out [Intro to IM Course Feedback Questionnaire](https://capture.dropbox.com/qcgZqYmCUsZ4OEAp)
 - Final project presentations
-- Course review
-- Course evaluation
 
 ### Wednesday 5 / 10 - IM Show setup - Arts Center Lobby 3-4:30pm
 - Meet in Arts Center lobby at 3pm
