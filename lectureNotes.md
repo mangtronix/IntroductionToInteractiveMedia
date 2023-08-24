@@ -38,6 +38,8 @@
   - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
   - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
+- Andrew Schneider class visit
+  - Behind the scenes tour Tuesday Sept 5 1-2pm rsvp to bea.laszlo at nyu.edu
 
 #### What’s the class about?
 
