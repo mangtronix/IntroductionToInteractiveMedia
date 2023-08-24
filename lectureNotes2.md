@@ -28,6 +28,10 @@
 ## Week 8
 ### Week 8.1 - 3/21 - NO CLASS - Fall Break Fall Break Fall Break
 
+Announcements:
+- Legislative day (Wednesday) class on Saturday October 28
+- No class on Wednesday Nov 29 (Legislative Friday)
+
 ### Week 8.2 - 3/23 - Introduction to Arduino
 
 **Install** the Arduino 2.0 IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
