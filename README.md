@@ -14,10 +14,10 @@ Course website: [https://github.com/mangtronix/IntroductionToInteractiveMedia](h
 Instructor: Michael Ang (Mang) michael.ang@nyu.edu    
 Office hours: By appointment  
 Meeting times:    
-- 3:35-6:15PM Monday
-- 5:00-6:15PM Wednesday
+- 5:00-6:15PM Monday
+- 3:35-6:15PM Wednesday
 
-Session: Fall 2022       
+Session: Fall 2023
 
 [Discord](https://discord.com/channels/714727038078025851/716332110268465172)   
 
@@ -32,5 +32,5 @@ found here.
 
 Student GitHub [repositories](studentRepositories.md)
 
-The current session is Fall 2022.
+The current session is Fall 2023.
 Previous sessions can be explored [here](previousSessions/previousSessions.md).
