@@ -26,7 +26,7 @@ found here.
 
 [Lecture notes](lectureNotes.md)
 
-[Weekly Schedule](weeklySchedule.md) Includes homework and projects assignments
+[Weekly Schedule](https://intro.nyuadim.com/) Includes homework and projects assignments
 
 Student GitHub [repositories](studentRepositories.md)
 
