@@ -7,9 +7,10 @@
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Weekly Schedule
-- [Week 1](#week-1) - Introductions / GitHub, p5.js
-- [Week 2](#week-2) - Variables, animation, conditionals
-- [Week 3](#week-3) - Functions, arrays, object oriented programming (OOP)
+- [Week 0](#week-0) - Class visit, Introductions
+- [Week 1](#week-1) - p5.js, Variables, animation, conditionals
+- [Week 2](#week-2) - Functions, 
+- [Week 3](#week-3) - arrays, object oriented programming (OOP)
 - [Week 4](#week-4) - Working with text
 - [Week 5](#week-5) - Working with pixels, sound
 - [Week 6](#week-6) - Computer Vision
@@ -25,12 +26,16 @@
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show
 
 
-## Week 1
+## Week 0
 
-### Week 1.1 - 1/24
+### Week 0.1 - 8/28
+No class
+
+### Week 0.2 - 8/30
 
 #### Administration
-
+- Andrew Schneider class visit
+  - Behind the scenes tour Tuesday Sept 5 1-2pm rsvp to bea.laszlo at nyu.edu
 - Introductions
 - Syllabus etc.
 - Reading discussions
@@ -38,8 +43,6 @@
   - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
   - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
-- Andrew Schneider class visit
-  - Behind the scenes tour Tuesday Sept 5 1-2pm rsvp to bea.laszlo at nyu.edu
 
 #### What’s the class about?
 
@@ -182,12 +185,14 @@ harp</a></li>
 
 #### Homework
 - Join the Discord server (optional, recommended)
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/306565/units/8991352)
 - Log into the class Wordpress using your user account. If you have problems let Mang know
-  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
+  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/306565/units/8991353)
 - Create an account on [p5js.org](https://p5js.org/)
 
-### Week 1.2 - 1/26
+## Week 1
+
+### Week 1.1 - 9/4
 
 #### Let's get started
 - What is p5.js?
@@ -327,12 +332,7 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 
 [Back to top](#weekly-schedule)
 
-## Week 2
-
-### Week 2.1 - 1/31
-
-#### Homework
-Look at self portraits
+### Week 1.2 - 9/6
 
 #### Questions
 Did any questions come up since we last met?
@@ -489,7 +489,9 @@ Refer to these for additional information
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
 - [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 
-### Week 2.2 - 2/2
+## Week 2
+
+### Week 2.1 - 9/11
 
 Overview:
 - Readings
@@ -734,9 +736,7 @@ function draw() {
 
 [Back to top](#weekly-schedule)
 
-## Week 3
-
-### Week 3.1 - 2/7
+### Week 2.2 - 9/13
 
 ##### Discuss reading
 
@@ -871,7 +871,9 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-### Week 3.2 - 2/9
+## Week 3
+
+### Week 3.1 - 9/18
 
 #### Topics today
 - Arrays
@@ -949,8 +951,7 @@ slightly different perspective.
 
 [Back to top](#weekly-schedule)
 
-## Week 4
-### Week 4.1 - 2/14
+### Week 3.2 - 9/20
 
 #### Plan for today
 
@@ -1236,8 +1237,9 @@ Things to notice:
 JSON and XML are other format for organizing data in a file. 
 They are more complex than CSV, and again p5.js provides functions.
 
+## Week 4
 
-### Week 4.2 - 2/16
+### Week 4.1 - 9/25
 
 ##### Generative Text
 Pull words from a CSV file 
@@ -1374,9 +1376,7 @@ show generative word from circles sketch
 
 [Back to top](#weekly-schedule)
 
-## Week 5
-
-### Week 5.1 - 2/21
+### Week 4.2 - 9/27
 #### Plan for today: 
 
 - Discussion
@@ -1484,7 +1484,9 @@ For more information and ideas
 - Reference page for p5.Image for other methods
 - Examples -> image
 
-### Week 5.2 - 2/23
+## Week 5
+
+### Week 5.1 - 10/2
 
 #### Plan for today: 
 
@@ -1854,9 +1856,10 @@ next one when we click the mouse?
 
 [Back to top](#weekly-schedule)
 
+
 ## Week 6
 
-### Week 6.1 - 2/28
+### Week 6.1 - 10/9
 #### Plan for today: 
 
 - Tool training checkin
@@ -1941,17 +1944,18 @@ Posenet
   - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
   - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
-### Week 6.2 - 3/2
+### Week 6.2 - 10/9
 #### Plan for today: 
-
-- Announcement
-  - Pick up Arduino kit from the Bookstore ([Sparkfun Inventor's Kit for Arduino Uno](https://www.sparkfun.com/products/15631))
-  - Note: the kit includes an old school USB cable - if you need a USB-C adapter you should get it yourself
-  - **Required for first class after the break**
-
-- Work session
 - Review frame differencing
-- Random items
+- Project status
+- Debugging
+  - [A Brief Introduction to Debugging (Vimeo, ITP)](https://vimeo.com/channels/debugging)
+  - [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
+  - [p5js Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
+- [p5js Interactivity](https://p5js.org/learn/interactivity.html)
+  - Mouse and keyboard examples
+- Work session
+
 
 #### Review frame differencing
 - If you wanted to display white (instead of the color of the difference)
@@ -2033,25 +2037,14 @@ Look at other array methods in the reference page:
 A nice set of p5.js tutorials by [Happy
 Coding](https://happycoding.io/tutorials/p5js/)
 
+
+
+
 [Back to top](#weekly-schedule)
 
 ## Week 7
-### Week 7.1 - 3/7
+### Week 7.1 - 10/16
 #### Plan for today: 
-
-- Project status
-- Debugging
-  - [A Brief Introduction to Debugging (Vimeo, ITP)](https://vimeo.com/channels/debugging)
-  - [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
-  - [p5js Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
-- [p5js Interactivity](https://p5js.org/learn/interactivity.html)
-  - Mouse and keyboard examples
-  - Basic inside/outside tests 
-- Work session
-
-### Week 7.2 - 3/9
-#### Plan for today: 
-
 - Midterm projects: Share in a group
 
 - Homework:
