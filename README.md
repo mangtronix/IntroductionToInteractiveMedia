@@ -1,6 +1,4 @@
 # Mang's section of Intro to IM #
-- Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
-- Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
 **New York University Abu Dhabi**  
 **Interactive Media Program**  
