@@ -1955,6 +1955,10 @@ Posenet
 - [p5js Interactivity](https://p5js.org/learn/interactivity.html)
   - Mouse and keyboard examples
 - Work session
+- Distribute Arduino kits
+  - You need to provide your own hub / dongle to connect to your computer
+    - Test it - Not all hubs work
+  - Homework for Saturday 11/29 (Legislative Wednesday) is to get your Arduino LED blinking
 
 
 #### Review frame differencing

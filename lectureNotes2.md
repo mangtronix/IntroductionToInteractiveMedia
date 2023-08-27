@@ -26,16 +26,21 @@
 - [Week 14](#week-14) - Final project due, course review
 - [IM Show](#im-show) - IM End of Semester Show
 
-## Week 8
-### Week 8.1 - 3/21 - NO CLASS - Fall Break Fall Break Fall Break
-
-Announcements:
-- Legislative day (Wednesday) class on Saturday October 28
-- No class on Wednesday Nov 29 (Legislative Friday)
-
-### Week 8.2 - 3/23 - Introduction to Arduino
+## Week 7.9
+### Week 7.9 - 10/28 SATURDAY - Legislative Wednesday
+- No class in lab, complete assignment asynchronously
 
 **Install** the Arduino 2.0 IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
+
+**Watch** [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
+
+**Run** the blink sketch
+
+
+## Week 8
+
+### Week 8.1 - 10/30 - Introduction to Arduino
+
 
 #####  Mid-semester feedback
 
@@ -46,10 +51,9 @@ Announcements:
 - What do you wish we'd talk about, or learn, that we haven't?
 
 ##### Introduction to Arduino
-- Distribute Arduino kits
-
 - [What is an Arduino? (Sparkfun)](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)
 - [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
+  - More in-depth [Arduino MASTERCLASS | Full Programming Workshop in 90 Minutes (YouTube)](https://www.youtube.com/watch?v=BLrHTHUjPuw)
 - Our class kit
   - [Sparkfun Inventor's Kit for Arduino Uno](https://www.sparkfun.com/products/15631)
 
@@ -62,8 +66,7 @@ Announcements:
   -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
   -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
 
-## Week 9
-### Week 9.1 - 3/28
+### Week 8.2 - 11/1
 #### Plan for today: 
 
 - Electricity
@@ -195,7 +198,9 @@ Make sure everything is working
 
 [Back to top](#weekly-schedule)
 
-### Week 9.2 - 3/30 - Arduino Digital / Analog IO
+## Week 9
+
+### Week 9.1 - 11/6 - Arduino Digital / Analog IO
 #### Plan for today: 
 
 - Review basic Arduino and Digital Output
@@ -310,8 +315,7 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
-## Week 10
-### Week 10.1 - 4/4 - Arduino Programming Syntax
+### Week 9.2 - 11/8 - Arduino Programming Syntax
 #### Plan for today: 
 - Discuss reading
 - Analog Input
@@ -484,6 +488,19 @@ void loop() {
 1. Use a potentiometer to select from 4 different behaviors of a circuit
 
 
+## Week 10
+
+### Week 10.1 - 11/13 - Schematics, Circuit conventions
+
+#### Plan for today: 
+- Schematic conventions
+- Sound
+- Servo motor
+- PWM
+- Data Types
+- Circuit theory
+- Examples
+
 #### Schematics
 
 - [How to Read a Schematic (Sparkfun)](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all)
@@ -497,16 +514,79 @@ Here is an example:
 - [Fritzing](https://fritzing.org/) (~$8 download, simple)
 - [KiCad](https://www.kicad.org/) (open source, complex)
 
-### Week 10.2 - 4/6 - Sound / Servo / Circuit
+#### Conventions: Schematics and Wire Colours
 
-#### Plan for today: 
-- Sound
-- Servo motor
-- PWM
-- Data Types
-- Schematic conventions
-- Circuit theory
-- Examples
+- When drawing schematics
+
+	- All **sensors** on the **left**
+	- All **inputs** on the **left** side of the Arduino 
+	- All **actuators** on the **right**
+	- All **outputs** on the **right** side of the Arduino 
+	- There are exceptions e.g.
+		- If using CAD you can't control where the pins are on Arduino
+		- Some devices (e.g. the ultrasonic distance measuring sensor) that have
+			both inputs and outputs
+
+- When wiring your circuits
+
+	- All **5V** connections should use **red** wire, 
+	and don't use red for anything else
+	- All **GND** connections should use **black** wire,
+	and don't use black for anything else
+		- If you run out of black you may either
+			- Color some white cables black with a Sharpie
+			- Dedicate green as an additional black, and then
+			don't use green for anything else either
+	- All other connections can use any other colors
+	- If you use the buses on the sides of the breadboard
+		- Red bus for 5V only
+		- Black or Blue bus for GND only
+
+
+#### Circuits
+
+Some theory that might help you think about why circuits are they way they
+are
+- Important concepts:
+	- Voltage 
+		- Voltage is a relative quantity so it's always measured or identified
+			relative to some other point (usually a common reference point such as
+			"ground")
+		- Can be thought of the "pressure" applied to the electrons
+		- Analogous to holding a brick at a certain height above the floor. Relative
+			to the floor, the brick has a certain amount of potential energy
+		- Voltage exists whether or not there is a circuit
+	- Resistance 
+		- The resistance the electrons face as they try to get through
+		components. 
+		- Analogous to a traffic jam on a road
+		- Conductors (wires) have zero resistance (for our purposes)
+		- All components have some sort of "resistance"
+		- Resistance is a property of a component and therefore
+		exists whether or not there is a circuit
+	- Current  
+		- The rate of flow of electrons through a circuit (electrons/second)
+		- Somewhat analogous to litres/hour or cars/hour
+		- **Current only exists when there is a circuit**
+- If you measure the voltage between any two points, the voltage will not
+	change as you move to different places on the **wire**. 
+		However if you cross
+		a component the voltage might be different on the other side of the
+		component
+- If you measure current through components connected in 
+	series the current will not change. This is because **all** the electrons
+	that go through the first component have to go through the rest. No
+	electrons can leave the path, and no new ones can enter.
+		However if there are any branches some electrons might go on the
+		branches and thus the current will drop.
+- Review
+- Voltage does **not** change in a conductor
+	- That is why we can connect things to the same node in any order
+- Voltage **does** change when you go across a component
+	- That is why it is **important** to make connections to the correct side of a
+		component!
+
+### Week 10.2 - 11/15 - Sound, servos
 
 #### Sound
 
@@ -580,76 +660,6 @@ variable:
 - `char` - a character
 - `boolean` - only either `true` or `false`
 
-#### Conventions: Schematics and Wire Colours
-
-- When drawing schematics
-
-	- All **sensors** on the **left**
-	- All **inputs** on the **left** side of the Arduino 
-	- All **actuators** on the **right**
-	- All **outputs** on the **right** side of the Arduino 
-	- There are exceptions e.g.
-		- If using CAD you can't control where the pins are on Arduino
-		- Some devices (e.g. the ultrasonic distance measuring sensor) that have
-			both inputs and outputs
-
-- When wiring your circuits
-
-	- All **5V** connections should use **red** wire, 
-	and don't use red for anything else
-	- All **GND** connections should use **black** wire,
-	and don't use black for anything else
-		- If you run out of black you may either
-			- Color some white cables black with a Sharpie
-			- Dedicate green as an additional black, and then
-			don't use green for anything else either
-	- All other connections can use any other colors
-	- If you use the buses on the sides of the breadboard
-		- Red bus for 5V only
-		- Black or Blue bus for GND only
-
-#### Circuits
-
-Some theory that might help you think about why circuits are they way they
-are
-- Important concepts:
-	- Voltage 
-		- Voltage is a relative quantity so it's always measured or identified
-			relative to some other point (usually a common reference point such as
-			"ground")
-		- Can be thought of the "pressure" applied to the electrons
-		- Analogous to holding a brick at a certain height above the floor. Relative
-			to the floor, the brick has a certain amount of potential energy
-		- Voltage exists whether or not there is a circuit
-	- Resistance 
-		- The resistance the electrons face as they try to get through
-		components. 
-		- Analogous to a traffic jam on a road
-		- Conductors (wires) have zero resistance (for our purposes)
-		- All components have some sort of "resistance"
-		- Resistance is a property of a component and therefore
-		exists whether or not there is a circuit
-	- Current  
-		- The rate of flow of electrons through a circuit (electrons/second)
-		- Somewhat analogous to litres/hour or cars/hour
-		- **Current only exists when there is a circuit**
-- If you measure the voltage between any two points, the voltage will not
-	change as you move to different places on the **wire**. 
-		However if you cross
-		a component the voltage might be different on the other side of the
-		component
-- If you measure current through components connected in 
-	series the current will not change. This is because **all** the electrons
-	that go through the first component have to go through the rest. No
-	electrons can leave the path, and no new ones can enter.
-		However if there are any branches some electrons might go on the
-		branches and thus the current will drop.
-- Review
-- Voltage does **not** change in a conductor
-	- That is why we can connect things to the same node in any order
-- Voltage **does** change when you go across a component
-	- That is why it is **important** to make connections to the correct side of a
-		component!
 
 #### In-class exercises
 
@@ -804,33 +814,14 @@ void loop() {
 [Back to top](#weekly-schedule)
 
 
-
 ## Week 11
 
-### Week 11.1 - 4/11 
-
+### Week 11.1 - 11/20 - Serial Communication
 #### Plan for today: 
-- Announcement
-- Discussion
 - Look at homework (musical instruments)
+- Debugging
+- Serial Communication
 
-#### Discussion
-- What did the writer mean by Vision?
-- Do you agree with the writer when he says future tech neglects the
-	importance of hands?
-- What are your views on if future technology should actually make use of
-	hands, for the feel of it, for the sense of touch?
-- What are some examples of how fingers manipulate things?
-- Do you agree with the writer about how we will actually be going back and
-	not modernizing or not?
-- What do you think is a good way of designing the interaction for the future
-	rather than extrapolating yesterday's technology?
-- Is intuitive interface deeply rooted with our physiology of doing things or
-	does it evolve with practice?
-- Does experiential perspective helps in creating visionary designs or does it
-	fades your vision?
-
-#### Time permitting
 
 ##### Debugging
 
@@ -844,11 +835,6 @@ the best picture you can take of your breadboard circuit to GitHub
 
 What techniques have you learned to help you find problems?
 
-
-### Week 11.2 - 4/13 - Serial communication
-
-#### Plan for today: 
-- Serial Communication
 
 #### Serial Communication
 
@@ -917,7 +903,11 @@ Examples
  -->
  
 
-In-class exercise (break class into groups of 2-3 students)
+### Week 11.2 - 11/22 - Serial communication
+#### Plan for today
+- Serial communication continued
+  
+#### In-class exercise (break class into groups of 2-3 students)
 
 - make something that uses only one sensor  on arduino and makes the ellipse
 	in p5 move on the horizontal axis, in the middle of the screen, and nothing
@@ -927,8 +917,26 @@ In-class exercise (break class into groups of 2-3 students)
 	every time the ball bounces one led lights up and then turns off, and you
 	can control the wind from one analog sensor 
 
+
+#### Discussion
+- What did the writer mean by Vision?
+- Do you agree with the writer when he says future tech neglects the
+	importance of hands?
+- What are your views on if future technology should actually make use of
+	hands, for the feel of it, for the sense of touch?
+- What are some examples of how fingers manipulate things?
+- Do you agree with the writer about how we will actually be going back and
+	not modernizing or not?
+- What do you think is a good way of designing the interaction for the future
+	rather than extrapolating yesterday's technology?
+- Is intuitive interface deeply rooted with our physiology of doing things or
+	does it evolve with practice?
+- Does experiential perspective helps in creating visionary designs or does it
+	fades your vision?
+
+
 ## Week 12
-### Week 12.1 - 4/18
+### Week 12.1 - 11/27 - Motors, soldering, fabrication
 
 #### Plan for today: 
 - Discussion
@@ -1135,12 +1143,12 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - 4/20 - NO CLASS - Eid Eid Eid
+### Week 12.2 - 11/29 - NO CLASS - Legislative Friday
 
 [Back to top](#weekly-schedule)
 
 ## Week 13
-### Week 13.1 - 4/25 - Look at final proposals
+### Week 13.1 - 12/4 - Look at final proposals
 #### Plan for today: 
 - Look at final proposals
 - Blink without `delay()`
@@ -1192,48 +1200,29 @@ without using `delay()`:
 - How to connect to Arduino pins or the solderless breadboard
 
 
-### Week 13.2 - 4/27 - Soldering / Fabrication
-#### Soldering
-- [Soldering
-	resources](https://github.com/michaelshiloh/resourcesForClasses#soldering)
-	
-#### Fabrication and Construction Techniques
-
-- Panel mount vs. PCB mount
-- Stranded vs. solid core wire
-- Strain relief
-
-#### NeoPixels (Time permitting)
-- Individually addressable RGB LEDs
-- [NeoPixel Guide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/basic-connections)
-- [simple_neopixel.ino (GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/simple_neopixel/simple_neopixel.ino)
-
-
-## Week 14
-### Week 14.1 - 5/2 - Work session
-- Bring your project to class
-- Work on final projects
-- Ask any questions now!
-- Your project should be working for next class
-
-### Week 14.2 - 5/4 - User-testing / Work Session
-- Announcements
-  - IM Show
-  - Fill in [IM show projects / names](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday
-
-- Bring your project to class
+### Week 13.2 - 12/6 - Final project work session
+- Work session
+- Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
-- Work on final projects
 - Running sketch fullscreen
   - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
 
-### Week 15.1 - 5/9 - Final project presentations
+
+## Week 14
+### Week 14.1 - 12/11 - Final project Work session
+- Course feedback
+  - Please fill out Intro to IM Course Feedback Questionnaire]
+- Work on final projects
+- Ask any questions now!
+- Your project must be working for next class presentations
+<!--  - Fill in [IM show projects / names](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday -->
+
+### Week 14.2 - 12/13 - Final project presentations
+
 #### Plan for today:
 - IM Show gameplan
-- Course feedback
-  - Please fill out [Intro to IM Course Feedback Questionnaire](https://capture.dropbox.com/qcgZqYmCUsZ4OEAp)
 - Final project presentations
 
 ## IM Show
