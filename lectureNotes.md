@@ -35,7 +35,9 @@ No class
 
 #### Administration
 - Andrew Schneider class visit
-  - Behind the scenes tour Tuesday Sept 5 1-2pm rsvp to bea.laszlo at nyu.edu
+  - [N O W I S W H E N W E A R E (the stars)](https://nyuad.nyu.edu/en/events/2023/august/nowiswhenweare-andrew-schneider.html) in the Black Box
+  - Behind the scenes tour for Intro to IM students Tuesday Sept 5 1-2pm
+    - RSVP to bea.laszlo at nyu.edu
 - Introductions
 - Syllabus etc.
 - Reading discussions
