@@ -7,22 +7,23 @@
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Weekly Schedule
-- [Week 1](lectureNotes.md#week-1) - Introductions / GitHub, p5.js
-- [Week 2](lectureNotes.md#week-2) - Variables, animation, conditionals
-- [Week 3](lectureNotes.md#week-3) - Functions, arrays, object oriented programming (OOP)
+- [Week 0](lectureNotes.md#week-0) - Class visit, Introductions
+- [Week 1](lectureNotes.md#week-1) - p5.js, Variables, animation, conditionals
+- [Week 2](lectureNotes.md#week-2) - Functions, 
+- [Week 3](lectureNotes.md#week-3) - arrays, object oriented programming (OOP)
 - [Week 4](lectureNotes.md#week-4) - Working with text
 - [Week 5](lectureNotes.md#week-5) - Working with pixels, sound
 - [Week 6](lectureNotes.md#week-6) - Computer Vision
 - [Week 7](lectureNotes.md#week-7) - Midterm presentations
 - FALL BREAK
+- [Week 7.9]() - Saturday 10/28 - Legislative Thursday
 - [Week 8](#week-8) - Introduction to Arduino, electricity
 - [Week 9](#week-9) - Analog and digital I/O
 - [Week 10](#week-10) - Sound, movement, circuit schematics
 - [Week 11](#week-11) - Connecting Arduino to p5.js
-- [Week 12](#week-12) - Motors
+- [Week 12](#week-12) - Motors, No class 11/29 (Legislative Friday)
 - [Week 13](#week-13) - Circuit debugging, Soldering, Fabricating
-- [Week 14](#week-14) - Final project work session
-- [Week 15](#week-15) - Final project due, Course review
+- [Week 14](#week-14) - Final project due, course review
 - [IM Show](#im-show) - IM End of Semester Show
 
 ## Week 8
@@ -1228,7 +1229,6 @@ without using `delay()`:
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
 
-## Week 15
 ### Week 15.1 - 5/9 - Final project presentations
 #### Plan for today:
 - IM Show gameplan
@@ -1236,20 +1236,23 @@ without using `delay()`:
   - Please fill out [Intro to IM Course Feedback Questionnaire](https://capture.dropbox.com/qcgZqYmCUsZ4OEAp)
 - Final project presentations
 
-### Wednesday 5 / 10 - IM Show setup - Arts Center Lobby 3-4:30pm
-- Meet in Arts Center lobby at 3pm
-- Set up your project and check that it's working
-- Can leave e.g. Arudino, take laptops and bring them back on Thursay at 4pm before the show
-
-### Week 15.2 - 5 / 11 IM End of Semester Show
-- No class in lab - take part in IM End of Semester Show
-- Thursay May 11 4pm - come to Arts Center lobby, get project working
-  - Must be working by 4:30pm before show starts to be shown in the show
-- Show Thursday May 11, 5-7pm in the Arts Center
-  - Projects on display 5-7pm
-  - Group photo at 7pm!
-  - Clean / return equipment starting after photo
+## IM Show
 - All IM students show at least one project
+
+### Date/time TBD - IM Show setup - Arts Center Lobby
+- Meet in Arts Center lobby at TBD
+- Set up your project and check that it's working
+- Can leave e.g. Arduino, should take laptops / valuables and bring them back before the show
+
+### Date/time TBD IM End of Semester Show
+- Time TBD - come to Arts Center lobby, get project working
+  - Must be working an hour before show starts to be shown in the show
+- Show in the Arts Center
+  - Projects on display (Time TBD)
+  - Group photo at end of show!
+  - Clean up and return equipment after photo
+    - Equipment from IM Lab must be taken to lab and checked back in
+  - Please help returning tables, etc as directed
 
 
 [Back to top](#weekly-schedule) 
