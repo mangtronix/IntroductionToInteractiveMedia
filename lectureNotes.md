@@ -45,6 +45,8 @@ No class
   - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
   - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
+- Show in Project Space opens Thursday!
+  - [Your Message Could Not Be Delivered](https://www.nyuad-artgallery.org/en_US/arts-center-project-space/your-message-could-not-be-delivered/)
 
 #### What’s the class about?
 
