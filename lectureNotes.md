@@ -512,8 +512,6 @@ Monday's class. For each reading two students will be assigned to lead an in-cla
 
 [Week 2 - Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups
 
-[List of discussion leaders (Google Sheet)](https://docs.google.com/spreadsheets/d/17D0OmMMfGEs0hR8dcBImTF0n7Mua1aAklDBKq9baHQo/edit?usp=sharing)
-
 [List of readings (Weekly Schedule)](https://intro.nyuadim.com/)
 
 
