@@ -720,7 +720,6 @@ function draw() {
 
 ### Readings / Class Discussion
 - Readings are listed on the [main page](https://intro.nyuadim.com/)
-- Discussion leaders are listed on the [Weekly Schedule Spreadsheet](
 
 ### Debugging
 - [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
