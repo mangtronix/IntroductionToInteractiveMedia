@@ -739,10 +739,6 @@ function draw() {
 
 ### Week 2.2 - 9/13
 
-##### Discuss reading
-
-##### Look at homework
-
 ##### Artwork examples
 - [Vera Molnar](https://magazine.artland.com/vera-molnar/)
 - [Manfred Mohr](http://www.emohr.com/)
