@@ -506,7 +506,7 @@ Overview:
 
 ##### Readings
 Each week there will be assigned reading. You need to read / watch the material before the start of
-Monday's class. For each reading two students will be assigned to lead an in-class discussion.
+Monday's class and post a response. We will discuss the readings in groups in class.
 
 [Explanation of in-class discussion (Syllabus)](https://intro.nyuadim.com/syllabus/#studentled)
 
