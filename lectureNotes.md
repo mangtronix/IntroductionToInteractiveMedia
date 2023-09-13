@@ -9,7 +9,7 @@
 ## Weekly Schedule
 - [Week 0](#week-0) - Class visit, Introductions
 - [Week 1](#week-1) - p5.js, Variables, animation, conditionals
-- [Week 2](#week-2) - Functions, 
+- [Week 2](#week-2) - Functions 
 - [Week 3](#week-3) - arrays, object oriented programming (OOP)
 - [Week 4](#week-4) - Working with text
 - [Week 5](#week-5) - Working with pixels, sound
