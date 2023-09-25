@@ -1239,6 +1239,11 @@ They are more complex than CSV, and again p5.js provides functions.
 ## Week 4
 
 ### Week 4.1 - 9/25
+#### Plan for today: 
+
+- Discussion
+- Homework feedback to all
+- Look at some homework
 
 ##### Generative Text
 Pull words from a CSV file 
@@ -1376,11 +1381,7 @@ show generative word from circles sketch
 [Back to top](#weekly-schedule)
 
 ### Week 4.2 - 9/27
-#### Plan for today: 
-
-- Discussion
-- Homework feedback to all
-- Look at some homework
+#### Plan for today
 - Working with images!
 - The `pixels` array (time permitting)
 - Sound (time permitting)
