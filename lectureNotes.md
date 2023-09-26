@@ -1046,6 +1046,7 @@ What is data visualization? Here are some examples:
 - [Ben Fry](http://benfry.com/allstreets/)
 - [Aaron Koblin](http://www.aaronkoblin.com/project/flight-patterns)
 - [Jer Thorp](https://www.jerthorp.com/portfolio) e.g. Cascade
+- [earth:: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/)
 
 ###### Finding data
 
