@@ -1061,7 +1061,7 @@ What is data visualization? Here are some examples:
 
 ###### Finding data
 
-Note: your data source must be available via an https (SSL-encrypted) URL in order for it to be loaded from a sketch hosted on an https server (like https://p5editor.p5js.org).  Sites starting with http:// will not work.
+Note: your data source must be available via an https (SSL-encrypted) URL in order for it to be loaded dynamically from a sketch hosted on an https server (like https://p5editor.p5js.org).  Sites starting with http:// will not work. For static data you can download the .csv file to your computer and then add it to your sketch files.
 
 [Week 4 JSON http vs https (p5editor)](https://editor.p5js.org/mangtronix/sketches/uO7btEsNN)
 
