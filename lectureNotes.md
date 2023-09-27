@@ -1365,6 +1365,7 @@ goldfish,orange,motors,white,turn,workbench
 books,multicolored,lamposts,azure,swim,island
 computers,black,mice,pink,squeak,home
 ````
+
 - Running sketch fullscreen
   - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
