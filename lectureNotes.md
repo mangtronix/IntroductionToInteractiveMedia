@@ -1365,25 +1365,11 @@ goldfish,orange,motors,white,turn,workbench
 books,multicolored,lamposts,azure,swim,island
 computers,black,mice,pink,squeak,home
 ````
-
-(Time permitting)
-#### More Data Visualization and generative text:
-
-
-show text on screen
-have students make a scroller in pairs
-show how to get by char
-make scroller again by char
-add randomness/perlin noise
-have them look at circle letters, come up with questions and explanations in
-pairs
-have students work through example on their own and use data
-show split lines and table
-then have them work with cupcake data https://trends.google.com/
-show generative basic example
-have them work in pairs to make something
-share what they made
-show generative word from circles sketch
+- Running sketch fullscreen
+  - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
+  - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
+    - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
+   
 
 [Back to top](#weekly-schedule)
 
