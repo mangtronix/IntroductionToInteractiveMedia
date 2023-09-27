@@ -1061,6 +1061,8 @@ What is data visualization? Here are some examples:
 
 ###### Finding data
 
+Note: your data source must be available via an https (SSL-encrypted) URL in order for it to be loaded from a sketch hosted on an https server (like https://p5editor.p5js.org).
+
 Sources
 
 - https://www.springboard.com/blog/free-public-data-sets-data-science-project/
