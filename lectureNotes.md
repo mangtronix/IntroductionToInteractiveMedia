@@ -1481,7 +1481,9 @@ For more information and ideas
 
 ### Week 5.1 - 10/2
 
-#### Plan for today: 
+#### Plan for this week: 
+- Reading discussion
+- Look at homework
 
 - Pixels array
 - Sprite sheets
