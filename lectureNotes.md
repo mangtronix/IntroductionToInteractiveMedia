@@ -1856,8 +1856,6 @@ next one when we click the mouse?
 ### Week 6.1 - 10/9
 #### Plan for today: 
 
-- Tool training checkin
-
 - Discussion of reading 
   - [Leading online database to remove 600,000 images after art project reveals its racist bias](https://www.theartnewspaper.com/2019/09/23/leading-online-database-to-remove-600000-images-after-art-project-reveals-its-racist-bias)
 - Homework feedback
