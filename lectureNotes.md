@@ -1871,6 +1871,9 @@ next one when we click the mouse?
 - Posenet (time permitting)
   - Check examples / demos - [ml5js Posenet reference](https://learn.ml5js.org/#/reference/posenet)
 
+- Text input
+  - [Text input example (p5editor)](https://p5js.org/examples/dom-input-and-button.html)
+
 #### Homework feedback
 
 <!--
