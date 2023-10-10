@@ -1947,6 +1947,10 @@ Posenet
 
 ### Week 6.2 - 10/9
 #### Plan for today: 
+- Distribute Arduino kits
+  - You need to provide your own hub / dongle to connect to your computer
+    - Test it - Not all hubs work
+  - Homework for Saturday 11/29 (Legislative Wednesday) is to get your Arduino LED blinking
 - Review frame differencing
 - Project status
 - Debugging
@@ -1956,11 +1960,6 @@ Posenet
 - [p5js Interactivity](https://p5js.org/learn/interactivity.html)
   - Mouse and keyboard examples
 - Work session
-- Distribute Arduino kits
-  - You need to provide your own hub / dongle to connect to your computer
-    - Test it - Not all hubs work
-  - Homework for Saturday 11/29 (Legislative Wednesday) is to get your Arduino LED blinking
-
 
 #### Review frame differencing
 - If you wanted to display white (instead of the color of the difference)
