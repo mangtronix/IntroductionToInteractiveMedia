@@ -1950,7 +1950,7 @@ Posenet
 - Distribute Arduino kits
   - You need to provide your own hub / dongle to connect to your computer
     - Test it - Not all hubs work
-  - Homework for Saturday 11/29 (Legislative Wednesday) is to get your Arduino LED blinking
+  - Homework for [Saturday 11/29 (Legislative Wednesday)](lectureNotes2.md#week-79) is to get your Arduino LED blinking
 - Review frame differencing
 - Project status
 - Debugging
