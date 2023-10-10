@@ -16,6 +16,7 @@
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
 - FALL BREAK
+- [Week 7.9](lectureNotes2.md#week-79) - Saturday 10/28 - Legislative Wednesday
 - [Week 8](lectureNotes2.md#week-8) - Introduction to Arduino, electricity
 - [Week 9](lectureNotes2.md#week-9) - Analog and digital I/O
 - [Week 10](lectureNotes2.md#week-10) - Sound, movement, circuit schematics
