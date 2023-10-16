@@ -30,7 +30,7 @@
 ### Week 7.9 - 10/28 SATURDAY - Legislative Wednesday
 - No class in lab, complete assignment asynchronously
 
-**Install** the Arduino 2.0 IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
+**Install** the Arduino 2.x IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
 
 **Watch** [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
 
@@ -58,8 +58,8 @@
   - [Sparkfun Inventor's Kit for Arduino Uno](https://www.sparkfun.com/products/15631)
 
 - Arduino IDE (Integrated Development Environment)
-  - Download [Arduino 2.0 IDE](https://www.arduino.cc/en/software)
-  - [Arduino 2.0 IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+  - Download [Arduino 2.x IDE](https://www.arduino.cc/en/software)
+  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
   
 - Making an LED blink
   -  Arduino IDE -> File -> Examples 01.Basics -> Blink
