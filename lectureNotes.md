@@ -1371,6 +1371,7 @@ computers,black,mice,pink,squeak,home
   - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
+  - Note: most browsers require user interaction (e.g. click) before JS can play sound	
    
 
 [Back to top](#weekly-schedule)
