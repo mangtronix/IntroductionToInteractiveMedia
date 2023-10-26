@@ -41,6 +41,9 @@
 
 ### Week 8.1 - 10/30 - Introduction to Arduino
 
+##### Mid-term feedback
+- Sound not playing on initial sketch load
+  - Most browsers require user interaction (e.g. click) before playing sound
 
 #####  Mid-semester feedback
 
