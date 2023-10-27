@@ -36,6 +36,17 @@
 
 **Run** the blink sketch
 
+- Making an LED blink
+  -  Arduino IDE -> File -> Examples 01.Basics -> Blink
+  -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
+  -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
+
+Make sure everything is working
+
+- Upload the Blink example
+- Change the parameter in delay()
+- Upload again and verify that the LED blinks at the new rate
+
 
 ## Week 8
 
