@@ -1242,7 +1242,7 @@ without using `delay()`:
 ## IM Show
 - All IM students show at least one project
 
-### Date/time TBD - IM Show setup - Arts Center Lobby
+### Friday Dec 15 3-6pm - IM Show setup - Arts Center Lobby
 - Meet in Arts Center lobby at TBD
 - Set up your project and check that it's working
 - Can leave e.g. Arduino, should take laptops / valuables and bring them back before the show
