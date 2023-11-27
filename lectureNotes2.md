@@ -1260,8 +1260,6 @@ Friday December 15, 3-6pm
   - 5-5:45pm Performances
   - 5:45pm Closing ceremony - group picture
   - 6pm - Cleanup, return equipment to EC, help move tables
-- Deadline Monday Dec 18 end of day
-  - Add installation pictures / video to project webpage
 - Have a great summer!
 
 
