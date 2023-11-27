@@ -1238,24 +1238,31 @@ without using `delay()`:
 #### Plan for today:
 - IM Show gameplan
 - Final project presentations
-
+  
 ## IM Show
-- All IM students show at least one project
 
-### Friday Dec 15 3-6pm - IM Show setup - Arts Center Lobby
-- Meet in Arts Center lobby at TBD
-- Set up your project and check that it's working
-- Can leave e.g. Arduino, should take laptops / valuables and bring them back before the show
+Friday December 15, 3-6pm
 
-### Date/time TBD IM End of Semester Show
-- Time TBD - come to Arts Center lobby, get project working
-  - Must be working an hour before show starts to be shown in the show
-- Show in the Arts Center
-  - Projects on display (Time TBD)
-  - Group photo at end of show!
-  - Clean up and return equipment after photo
-    - Equipment from IM Lab must be taken to lab and checked back in
-  - Please help returning tables, etc as directed
+- **Exhibit** your project in the IM End of Semester Show
+- **Take** photos / video of your installation in the show
+- **Deinstall** your work at end of show
+- **Update** your blog post with the documentation of your installation (due end of day Monday, Dec 18)
+
+
+### Timeline
+- Wed Dec 13 - Space will be setup for us (tables, power installed)
+- Thursday Dec 14 - Class setup - Last day of class - Time TBD
+  - Set up and test equipment, resolve any problems
+- Friday Dec 15 - IM End of Semester Show - 3-6pm
+  - 12-2:30pm - Prayer time
+  - 2:30pm - Get installation running
+  - 3-5pm Installations open for viewing
+  - 5-5:45pm Performances
+  - 5:45pm Closing ceremony - group picture
+  - 6pm - Cleanup, return equipment to EC, help move tables
+- Deadline Monday Dec 18 end of day
+  - Add installation pictures / video to project webpage
+- Have a great summer!
 
 
 [Back to top](#weekly-schedule) 
