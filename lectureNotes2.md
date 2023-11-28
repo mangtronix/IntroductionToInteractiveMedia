@@ -1162,9 +1162,22 @@ void loop() {
 [Back to top](#weekly-schedule)
 
 ## Week 13
-### Week 13.1 - 12/4 - Look at final proposals
-#### Plan for today: 
-- Look at final proposals
+### Week 13.1 - 12/4 - NO CLASS - Holiday!
+#### Plan for today:
+- Go to the beach?
+
+### Week 13.2 - 12/6 - Debugging, look at final projects, work session
+- Look at final projects
+- Any projects with special requirements?
+  - Book equipment now (last chance to book is Monday Dec 11)
+- Work session
+- Document / post your progress
+- Conduct user testing (see main page for description / documentation requirement)
+- Running sketch fullscreen
+  - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
+  - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
+    - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
+
 - Blink without `delay()`
 - Soldering
 - How to use a Digital Multimeter (DMM) 
@@ -1213,21 +1226,11 @@ without using `delay()`:
 		- Checking motors
 - How to connect to Arduino pins or the solderless breadboard
 
-
-### Week 13.2 - 12/6 - Final project work session
-- Work session
-- Document / post your progress
-- Conduct user testing (see main page for description / documentation requirement)
-- Running sketch fullscreen
-  - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
-  - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
-    - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
-
+### Legislative MONDAY - Sunday 12/10 - TBD
+- TBD
 
 ## Week 14
-### Week 14.1 - 12/11 - Final project Work session
-- Course feedback
-  - Please fill out Intro to IM Course Feedback Questionnaire]
+### Week 14.1 - 12/11 - Final project work / debugging session
 - Work on final projects
 - Ask any questions now!
 - Your project must be working for next class presentations
@@ -1237,9 +1240,15 @@ without using `delay()`:
 
 #### Plan for today:
 - IM Show gameplan
+- Course feedback
+  - Please fill out Intro to IM Course Feedback Questionnaire]
 - Final project presentations
   
 ## IM Show
+
+Thursday December 14
+- Setup in lobby (time TBD)
+  - Get project setup / tested so it's ready for Show Friday 
 
 Friday December 15, 3-6pm
 
