@@ -889,9 +889,10 @@ Communicating between p5.js and Arduino
 	- Once you are reliable sending information back and forth you can start
 		adding the rest of your program
 
-- [More tutorials (serial output, bidirectional communication)](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
-	- Note: these use a different serial library, don't mix and match code between the ITP WebSerial code and Aaron's web-serial
-- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
+- More tutorials
+	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
+	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
+	- Note: these use a different serial library, don't mix and match code between the ITP WebSerial code and Aaron's web-serial. You need to start with one example and continue to use the same software library
 
 
 <!-- Older examples using serial server
