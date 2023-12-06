@@ -1167,7 +1167,10 @@ void loop() {
 ### Week 13.1 - 12/4 - NO CLASS - Holiday!
 
 ### Week 13.2 - 12/6 - Debugging, look at final projects, work session
-- Look at final projects
+- Look at final project plans
+  - Example final projects
+    - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
+    - [Friendship lamp](https://intro.nyuadim.com/author/ftt4473/)
 - Any projects with special requirements?
   - Book equipment now (last chance to book is Monday Dec 11)
 - Questions about serial connections?
