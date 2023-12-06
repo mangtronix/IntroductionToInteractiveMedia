@@ -1187,8 +1187,10 @@ void loop() {
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
 
 - Blink without `delay()`
-- Soldering
 - How to use a Digital Multimeter (DMM) 
+- Soldering
+  - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
+  - Soldering demo - button to solid core wires
 - Work on projects
 
 
