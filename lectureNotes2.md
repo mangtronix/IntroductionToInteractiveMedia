@@ -1165,13 +1165,12 @@ void loop() {
 
 ## Week 13
 ### Week 13.1 - 12/4 - NO CLASS - Holiday!
-#### Plan for today:
-- Go to the beach?
 
 ### Week 13.2 - 12/6 - Debugging, look at final projects, work session
 - Look at final projects
 - Any projects with special requirements?
   - Book equipment now (last chance to book is Monday Dec 11)
+- Questions about serial connections?
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
@@ -1233,13 +1232,13 @@ without using `delay()`:
 - How to connect to Arduino pins or the solderless breadboard
 
 ### Legislative MONDAY - Sunday 12/10 - TBD
-- TBD
+- TBD - 5-6:15pm debugging session?
 
 ## Week 14
 ### Week 14.1 - 12/11 - Final project work / debugging session
 - Work on final projects
 - Ask any questions now!
-- Your project must be working for next class presentations
+- Your project must be working at start of next class for presentations
 <!--  - Fill in [IM show projects / names](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday -->
 
 ### Week 14.2 - 12/13 - Final project presentations
@@ -1259,14 +1258,11 @@ Thursday December 14
 Friday December 15, 3-6pm
 
 - **Exhibit** your project in the IM End of Semester Show
-- **Take** photos / video of your installation in the show
 - **Deinstall** your work at end of show
-- **Update** your blog post with the documentation of your installation (due end of day Monday, Dec 18)
 
 
 ### Timeline
-- Wed Dec 13 - Space will be setup for us (tables, power installed)
-- Thursday Dec 14 - Class setup - Last day of class - Time TBD
+- Thursday Dec 14 - Class setup - Time TBD
   - Set up and test equipment, resolve any problems
 - Friday Dec 15 - IM End of Semester Show - 3-6pm
   - 12-2:30pm - Prayer time
