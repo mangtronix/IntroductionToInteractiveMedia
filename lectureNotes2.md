@@ -1255,11 +1255,6 @@ without using `delay()`:
 - Final project presentations
   
 ## IM Show
-
-Thursday December 14
-- Setup in lobby (time TBD)
-  - Get project setup / tested so it's ready for Show Friday 
-
 Friday December 15, 3-6pm
 
 - **Exhibit** your project in the IM End of Semester Show
