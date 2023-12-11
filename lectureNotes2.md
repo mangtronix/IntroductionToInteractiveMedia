@@ -1241,6 +1241,7 @@ without using `delay()`:
 
 ## Week 14
 ### Week 14.1 - 12/11 - Final project work / debugging session
+- IM Show gameplan
 - Work on final projects
 - Ask any questions now!
 - Your project must be working at start of next class for presentations
@@ -1249,7 +1250,6 @@ without using `delay()`:
 ### Week 14.2 - 12/13 - Final project presentations
 
 #### Plan for today:
-- IM Show gameplan
 - Course feedback
   - Please fill out Intro to IM Course Feedback Questionnaire]
 - Final project presentations
@@ -1267,13 +1267,13 @@ Friday December 15, 3-6pm
 
 
 ### Timeline
-- Thursday Dec 14 - Class setup - Time TBD
+- Thursday Dec 14 - Class setup - 5-7pm in the Arts Center Lobby
   - Set up and test equipment, resolve any problems
 - Friday Dec 15 - IM End of Semester Show - 3-6pm
   - 12-2:30pm - Prayer time
   - 2:30pm - Get installation running
   - 3-5pm Installations open for viewing
-  - 5-5:45pm Performances
+  - 5-5:45pm Performances in the Black Box
   - 5:45pm Closing ceremony - group picture
   - 6pm - Cleanup, return equipment to EC, help move tables
 - Have a great summer!
