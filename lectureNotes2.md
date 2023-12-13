@@ -1262,8 +1262,9 @@ Friday December 15, 3-6pm
 
 
 ### Timeline
-- Thursday Dec 14 - Class setup - 5-7pm in the Arts Center Lobby
+- Thursday Dec 14 - Class setup - 4-6pm in the Arts Center Lobby
   - Set up and test equipment, resolve any problems
+  - Batool,  not at 4pm
 - Friday Dec 15 - IM End of Semester Show - 3-6pm
   - 12-2:30pm - Prayer time
   - 2:30pm - Get installation running
