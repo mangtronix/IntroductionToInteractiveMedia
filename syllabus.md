@@ -1,6 +1,4 @@
 # Mang's section of Intro to IM #
-- Shortcut to [today's assignment](weeklySchedule.md/#todays-assignment)    
-- Shortcut to [today's lecture](lectureNotes.md/#todays-lecture)    
 
 **New York University Abu Dhabi**  
 **Interactive Media Program**  
@@ -17,7 +15,7 @@ Meeting times:
 - 3:35-6:15PM Monday
 - 5:00-6:15PM Wednesday
 
-Session: Fall 2022       
+Session: Fall 2024   
 
 
 **This is subject to change**
