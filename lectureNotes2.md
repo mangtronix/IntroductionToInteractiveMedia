@@ -7,50 +7,29 @@
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Weekly Schedule
-- [Week 0](lectureNotes.md#week-0) - Class visit, Introductions
-- [Week 1](lectureNotes.md#week-1) - p5.js, Variables, animation, conditionals
-- [Week 2](lectureNotes.md#week-2) - Functions, 
-- [Week 3](lectureNotes.md#week-3) - arrays, object oriented programming (OOP)
-- [Week 4](lectureNotes.md#week-4) - Working with text
-- [Week 5](lectureNotes.md#week-5) - Working with pixels, sound
+- [Week 1](lectureNotes.md#week-1) - Introductions, p5.js
+- [Week 2](lectureNotes.md#week-2) - Variables, Animation, Conditionals
+- [Week 3](lectureNotes.md#week-3) - Functions, Arrays, Object-Oriented Programming (OOP)
+- [Week 4](lectureNotes.md#week-4) - Tool training (TBC), Working with text
+- [Week 5](lectureNotes.md#week-5) - Working with Pixels, Sound
 - [Week 6](lectureNotes.md#week-6) - Computer Vision
 - [Week 7](lectureNotes.md#week-7) - Midterm presentations
 - FALL BREAK
-- [Week 7.9](#week-79) - Saturday 10/28 - Legislative Wednesday
 - [Week 8](#week-8) - Introduction to Arduino, electricity
 - [Week 9](#week-9) - Analog and digital I/O
 - [Week 10](#week-10) - Sound, movement, circuit schematics
-- [Week 11](#week-11) - Connecting Arduino to p5.js
-- [Week 12](#week-12) - Motors, No class 11/29 (Legislative Friday)
-- [Week 13](#week-13) - Circuit debugging, Soldering, Fabricating
-- [Week 14](#week-14) - Final project due, course review
+- [Week 11](#week-11) - Serial Communication, Connecting Arduino to p5.js
+- [Week 12](#week-12) - Motors, Soldering, Fabrication
+- [Week 13](#week-13) - Circuit debugging
+- [Week 14](#week-14) - National Day, Final project work session
+- [Week 15](#week-15) - Final project presentations, show setup
 - [IM Show](#im-show) - IM End of Semester Show
-
-## Week 7.9
-### Week 7.9 - 10/28 SATURDAY - Legislative Wednesday
-- No class in lab, complete assignment asynchronously
-
-**Install** the Arduino 2.x IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
-
-**Watch** [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
-
-**Run** the blink sketch
-
-- Making an LED blink
-  -  Arduino IDE -> File -> Examples 01.Basics -> Blink
-  -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
-  -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
-
-Make sure everything is working
-
-- Upload the Blink example
-- Change the parameter in delay()
-- Upload again and verify that the LED blinks at the new rate
-
 
 ## Week 8
 
 ### Week 8.1 - 10/30 - Introduction to Arduino
+
+**Install** the Arduino 2.x IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
 
 ##### Mid-term feedback
 - Sound not playing on initial sketch load
