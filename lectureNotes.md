@@ -7,27 +7,28 @@
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Weekly Schedule
-- [Week 0](#week-0) - Class visit, Introductions
-- [Week 1](#week-1) - p5.js, Variables, animation, conditionals
-- [Week 2](#week-2) - Functions 
-- [Week 3](#week-3) - arrays, object oriented programming (OOP)
-- [Week 4](#week-4) - Working with text
-- [Week 5](#week-5) - Working with pixels, sound
+- [Week 1](#week-1) - Introductions, p5.js
+- [Week 2](#week-2) - Variables, Animation, Conditionals
+- [Week 3](#week-3) - Functions, Arrays, Object-Oriented Programming (OOP)
+- [Week 4](#week-4) - Tool training (TBC), Working with text
+- [Week 5](#week-5) - Working with Pixels, Sound
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
 - FALL BREAK
-- [Week 7.9](lectureNotes2.md#week-79) - Saturday 10/28 - Legislative Wednesday
 - [Week 8](lectureNotes2.md#week-8) - Introduction to Arduino, electricity
 - [Week 9](lectureNotes2.md#week-9) - Analog and digital I/O
 - [Week 10](lectureNotes2.md#week-10) - Sound, movement, circuit schematics
-- [Week 11](lectureNotes2.md#week-11) - Connecting Arduino to p5.js
-- [Week 12](lectureNotes2.md#week-12) - Motors, soldering, fabricating
+- [Week 11](lectureNotes2.md#week-11) - Serial Communication, Connecting Arduino to p5.js
+- [Week 12](lectureNotes2.md#week-12) - Motors, Soldering, Fabrication
 - [Week 13](lectureNotes2.md#week-13) - Circuit debugging
-- [Week 14](lectureNotes2.md#week-14) - Final project
+- [Week 14](lectureNotes2.md#week-14) - National Day, Final project work session
+- [Week 15](lectureNotes2.md#week-15) - Final project presentations, show setup
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show
 
 
 ## Week 1
+
+### Week 1.1 - 8/26
 
 #### Class starts!
 - Introductions
@@ -185,7 +186,7 @@ harp</a></li>
 - Create an account on [p5js.org](https://p5js.org/)
 
 
-### Week 1.1 - 9/4
+### Week 1.2 - 8/28
 
 #### Let's get started
 - What is p5.js?
@@ -325,7 +326,9 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 
 [Back to top](#weekly-schedule)
 
-### Week 1.2 - 9/6
+## Week 2
+
+### Week 2.1 - 9/2
 
 #### Questions
 Did any questions come up since we last met?
@@ -482,9 +485,7 @@ Refer to these for additional information
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
 - [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 
-## Week 2
-
-### Week 2.1 - 9/11
+### Week 2.2 - 9/4
 
 Overview:
 - Readings
@@ -726,7 +727,9 @@ function draw() {
 
 [Back to top](#weekly-schedule)
 
-### Week 2.2 - 9/13
+## Week 3
+
+### Week 3.1 - 9/9
 
 ##### Artwork examples
 - [Vera Molnar](https://magazine.artland.com/vera-molnar/)
@@ -857,9 +860,7 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-## Week 3
-
-### Week 3.1 - 9/18
+### Week 3.2 - 9/11
 
 #### Topics today
 - Reading discussion
@@ -939,12 +940,17 @@ slightly different perspective.
 
 [Back to top](#weekly-schedule)
 
-### Week 3.2 - 9/20
+## Week 4
+
+## Week 4.1 - 9/16
+##### Tool Training
+- You must complete the tool training with the Lab Instructors to have access to the lab tools
+- If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
+
+
+### Week 4.2 - 9/18
 
 #### Plan for today
-
-- Discuss reading
-- Look at homework
 
 - Artwork examples
   - [Text Rain - Camille Utterback](http://camilleutterback.com/projects/text-rain/)
@@ -963,20 +969,6 @@ Additional p5js resources:
 - [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa)
 
-##### Discuss reading
-
-##### Look at some homework
-
-## Week 4
-
-### Week 4.1 - 9/25
-#### Plan for today: 
-
-- Discussion
-- Homework feedback to all
-- Look at some homework
-
-### Week 4.2 - 9/27
 
 #### Working with text
 
@@ -1364,6 +1356,10 @@ computers,black,mice,pink,squeak,home
 
 [Back to top](#weekly-schedule)
 
+## Week 5
+
+### Week 5.1 - 9/23
+
 #### Plan for today
 - Working with images!
 - The `pixels` array (time permitting)
@@ -1467,9 +1463,7 @@ For more information and ideas
 - Reference page for p5.Image for other methods
 - Examples -> image
 
-## Week 5
-
-### Week 5.1 - 10/2
+### Week 5.2 - 9/25
 
 #### Plan for this week: 
 - Reading discussion
@@ -1843,14 +1837,8 @@ next one when we click the mouse?
 
 ## Week 6
 
-### Week 6.1 - 10/9
+### Week 6.1 - 6/30
 #### Plan for today: 
-- Announcements
-  - Computer vision on Wednesday
-  - Midterm presentations on Monday
-  - First class after break (Saturday) will be assigned asynchronous video tutorials
-- Discussion of reading 
-  - [Leading online database to remove 600,000 images after art project reveals its racist bias](https://www.theartnewspaper.com/2019/09/23/leading-online-database-to-remove-600000-images-after-art-project-reveals-its-racist-bias)
 - Midterm project idea feedback
   - General questions?
   - Quick individual feedback
@@ -1937,12 +1925,12 @@ Posenet
   - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
   - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
-### Week 6.2 - 10/9
+### Week 6.2 - 10/2
 #### Plan for today: 
 - Distribute Arduino kits
   - You need to provide your own hub / dongle to connect to your computer
     - Test it - Not all hubs work
-  - Homework for [Saturday 11/29 (Legislative Wednesday)](lectureNotes2.md#week-79) is to get your Arduino LED blinking
+  - Homework is to get your Arduino LED blinking
 - Review frame differencing
 - Project status
 - Debugging
@@ -2039,9 +2027,12 @@ Coding](https://happycoding.io/tutorials/p5js/)
 [Back to top](#weekly-schedule)
 
 ## Week 7
-### Week 7.1 - 10/16
+### Week 7.1 - 10/7
+- Project status, debugging
+
+### Week 7.2 - 10/9
 #### Plan for today: 
-- Midterm projects: Share in a group
+- Midterm project presentations
 
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
