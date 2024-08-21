@@ -27,18 +27,9 @@
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show
 
 
-## Week 0
+## Week 1
 
-### Week 0.1 - 8/28
-No class
-
-### Week 0.2 - 8/30
-
-#### Administration
-- Andrew Schneider class visit
-  - [N O W I S W H E N W E A R E (the stars)](https://nyuad.nyu.edu/en/events/2023/august/nowiswhenweare-andrew-schneider.html) in the Black Box
-  - Behind the scenes tour for Intro to IM students Tuesday Sept 5 1-2pm
-    - RSVP to bea.laszlo at nyu.edu
+#### Class starts!
 - Introductions
 - Syllabus etc.
 - Reading discussions
@@ -46,8 +37,6 @@ No class
   - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
   - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
-- Show in Project Space opens Thursday!
-  - [Your Message Could Not Be Delivered](https://www.nyuad-artgallery.org/en_US/arts-center-project-space/your-message-could-not-be-delivered/)
 
 #### What’s the class about?
 
@@ -149,7 +138,7 @@ That you are flexible. That you are open.
 That you can laugh at yourself. That you are kind.
 
 
-#### Example
+#### Examples
 <ul>
  	<li>Carlos Guedes' wonderful <a href="https://vimeo.com/235763130">Phobos</a>, Orquestra Robótica Disfuncional (1 min)</li>
 	<li>Mang's <a href="https://www.michaelang.com/project/city-refl3ctor">City Refl3ctor</li>
@@ -195,7 +184,6 @@ harp</a></li>
   - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/306565/units/8991353)
 - Create an account on [p5js.org](https://p5js.org/)
 
-## Week 1
 
 ### Week 1.1 - 9/4
 
