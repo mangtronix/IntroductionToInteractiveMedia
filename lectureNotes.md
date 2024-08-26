@@ -35,9 +35,9 @@
 - Syllabus etc.
 - Reading discussions
 - Join the Discord server
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229514)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/376918/units/10441805)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
-  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/265667/units/8229515)
+  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/376918/units/10441806)
 
 #### What’s the class about?
 
