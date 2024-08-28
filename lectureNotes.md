@@ -191,7 +191,7 @@ harp</a></li>
 #### Let's get started
 - What is p5.js?
   - [https://p5js.org/](https://p5js.org/)
-  - [Getting started with p5.js](https://archive.p5js.org/get-started/)
+  - [Getting started with p5.js](https://p5js.org/tutorials/get-started/)
   - [Learn p5.js](https://archive.p5js.org/learn/)
     - [Color](https://archive.p5js.org/learn/color.html)
     - [Co-ordinate system and shapes](https://archive.p5js.org/learn/coordinate-system-and-shapes.html)
