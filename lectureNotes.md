@@ -191,14 +191,14 @@ harp</a></li>
 #### Let's get started
 - What is p5.js?
   - [https://p5js.org/](https://p5js.org/)
-  - [Getting started with p5.js](https://p5js.org/get-started/)
-  - [Learn p5.js](https://p5js.org/learn/)
-    - [Color](https://p5js.org/learn/color.html)
-    - [Co-ordinate system and shapes](https://p5js.org/learn/coordinate-system-and-shapes.html)
-    - [Curves](https://p5js.org/learn/curves.html)
-    - [Interactivity](https://p5js.org/learn/interactivity.html)
-    - [Program Flow](https://p5js.org/learn/program-flow.html)
-    - [Debugging](https://p5js.org/learn/debugging.html)
+  - [Getting started with p5.js](https://archive.p5js.org/get-started/)
+  - [Learn p5.js](https://archive.p5js.org/learn/)
+    - [Color](https://archive.p5js.org/learn/color.html)
+    - [Co-ordinate system and shapes](https://archive.p5js.org/learn/coordinate-system-and-shapes.html)
+    - [Curves](https://archive.p5js.org/learn/curves.html)
+    - [Interactivity](https://archive.p5js.org/learn/interactivity.html)
+    - [Program Flow](https://archive.p5js.org/learn/program-flow.html)
+    - [Debugging](https://archive.p5js.org/learn/debugging.html)
 <!--  - [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa) -->
   - [Programming with p5.js videos (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
     - [p5.js Web Editor (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
