@@ -362,8 +362,8 @@ How can we find out what a variable's value is?
 ##### Animation
 
 p5.js Links
-- [Setup and Draw](https://p5js.org/examples/structure-setup-and-draw.html)
-- [Width and Height](https://p5js.org/examples/structure-width-and-height.html)
+- [Setup and Draw](https://archive.p5js.org/examples/structure-setup-and-draw.html)
+- [Width and Height](https://archive.p5js.org/examples/structure-width-and-height.html)
 
 
 Use the `draw()` function to draw something different in each frame. This can
