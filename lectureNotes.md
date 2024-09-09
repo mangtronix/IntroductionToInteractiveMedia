@@ -712,7 +712,7 @@ function draw() {
 - Readings are listed on the [main page](https://intro.nyuadim.com/)
 
 ### Debugging
-- [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
+- [p5js Field Guide to Debugging](https://archive.p5js.org/learn/debugging.html)
 - [Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
 
 #### Week 2.2 Additional Resources
@@ -766,7 +766,7 @@ the reference section
 - You never have to call **callback functions**. The p5.js system calls them
 	for you when that event happens
 	
-See [Program flow](https://p5js.org/learn/program-flow.html) for more examples of callback functions and event handlers.
+See [Program flow](https://archive.p5js.org/learn/program-flow.html) for more examples of callback functions and event handlers.
 
 
 https://editor.p5js.org/mangtronix/sketches/7zooOaxnq
@@ -1931,9 +1931,9 @@ Posenet
 - Project status
 - Debugging
   - [A Brief Introduction to Debugging (Vimeo, ITP)](https://vimeo.com/channels/debugging)
-  - [p5js Field Guide to Debugging](https://p5js.org/learn/debugging.html)
+  - [p5js Field Guide to Debugging](https://archive.p5js.org/learn/debugging.html)
   - [p5js Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
-- [p5js Interactivity](https://p5js.org/learn/interactivity.html)
+- [p5js Interactivity](https://archive.p5js.org/learn/interactivity.html)
   - Mouse and keyboard examples
 - Work session
 
