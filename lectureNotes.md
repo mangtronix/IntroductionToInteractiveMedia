@@ -751,12 +751,10 @@ In class exercise:
 1. Write a function that will take a single parameter
 and draw a vertical line from the top of the canvas to the bottom
 at the X coordinate indicated by the parameter
-	1. In the `setup()` function test your function 
-	at a couple of different locations
 1. Write another function that will draw a **horizontal** line
 at the indicated **Y** coordinate
 	1. Test as before
-1. Using these two functions, write a program in `setup()`
+1. Using these two functions, write a program 
 that draws a grid of lines at regular intervals on the canvas
 
 #### Callback Functions / Event Handlers
