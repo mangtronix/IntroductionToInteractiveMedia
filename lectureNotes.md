@@ -863,8 +863,6 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 ### Week 3.2 - 9/11
 
 #### Topics today
-- Reading discussion
-- Look at homework
 - Arrays
 - Object Oriented Programming
   - See examples in [Week 4](#week4)
