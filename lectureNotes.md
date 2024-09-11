@@ -869,7 +869,6 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
    	 	- Notes are constrained to a pleasing musical scale initially chosen by the artist	
 - Arrays
 - Object Oriented Programming
-  - See examples in [Week 4](#week4)
   - [Class Syntax](https://javascript.info/class)
 - Transformations
 
