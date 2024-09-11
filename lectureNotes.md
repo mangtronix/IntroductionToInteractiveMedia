@@ -861,6 +861,12 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 ### Week 3.2 - 9/11
 
 #### Topics today
+- Work example
+	-	[Bloom by Brian Eno and Peter Chilvers](https://www.generativemusic.com/bloom.html)
+ 		-	[Bloom on App Store](https://apps.apple.com/us/app/bloom/id292792586)
+   	-	App which allows user to create relaxing music / visuals within a generative system
+   		-	User taps to create a looping note that fades away over time
+   	 	- Notes are constrained to a pleasing musical scale initially chosen by the artist	
 - Arrays
 - Object Oriented Programming
   - See examples in [Week 4](#week4)
