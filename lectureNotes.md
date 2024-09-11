@@ -869,7 +869,6 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
    	 	- Notes are constrained to a pleasing musical scale initially chosen by the artist	
 - Arrays
 - Object Oriented Programming
-  - [Class Syntax](https://javascript.info/class)
 - Transformations
 
 #### Arrays
@@ -922,6 +921,7 @@ function setup() {
 
 - [JavaScript Classes (w3schools)](https://www.w3schools.com/js/js_classes.asp)
 - [Classes (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Class Syntax](https://javascript.info/class) (advanced)
 
 Walk through these examples:
 - [Ball Class Example 1 (p5editor)](https://editor.p5js.org/mangtronix/sketches/VsFd39EN2)
