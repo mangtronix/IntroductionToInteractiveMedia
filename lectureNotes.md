@@ -929,7 +929,7 @@ Walk through these examples:
 - [Ball Class Example 3 (p5editor)](https://editor.p5js.org/mangtronix/sketches/zef9Vc-s7)
 - [Ball Class Example 4 (p5editor)](https://editor.p5js.org/mangtronix/sketches/M_G7Qs6Jf)
 - [Car Class Example (p5editor)](https://editor.p5js.org/mangtronix/sketches/ShJMnrrkW)
-- [Flocking example (p5js)](https://p5js.org/examples/simulate-flocking.html) (note: uses older '.prototype' way of emulating classes)
+- [Flocking example (p5js)](https://p5js.org/examples/classes-and-objects-flocking/) (note: uses older '.prototype' way of emulating classes)
 
 #### Transformations
 
