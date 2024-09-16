@@ -10,7 +10,7 @@
 - [Week 1](#week-1) - Introductions, p5.js
 - [Week 2](#week-2) - Variables, Animation, Conditionals
 - [Week 3](#week-3) - Functions, Arrays, Object-Oriented Programming (OOP)
-- [Week 4](#week-4) - Tool training (TBC), Working with text
+- [Week 4](#week-4) - Tool training, Working with text
 - [Week 5](#week-5) - Working with Pixels, Sound
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
@@ -944,6 +944,10 @@ slightly different perspective.
 ## Week 4
 
 ## Week 4.1 - 9/16
+- Announcements
+    - Do you want to host an IM workshop? Contact Instructor Stefania
+![IM Workshop](https://intro.nyuadim.com/wp-content/uploads/2024/09/im_workshop.png?raw=true) 
+
 ##### Tool Training
 - You must complete the tool training with the Lab Instructors to have access to the lab tools
 - If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
