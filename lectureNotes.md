@@ -1366,6 +1366,9 @@ computers,black,mice,pink,squeak,home
 ### Week 5.1 - 9/23
 
 #### Plan for today
+- Reading discussion
+- Look at homework
+
 - Working with images!
 - The `pixels` array (time permitting)
 - Sound (time permitting)
@@ -1471,8 +1474,6 @@ For more information and ideas
 ### Week 5.2 - 9/25
 
 #### Plan for this week: 
-- Reading discussion
-- Look at homework
 
 - Pixels array
 - Sprite sheets
