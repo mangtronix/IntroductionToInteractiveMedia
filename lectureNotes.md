@@ -1367,6 +1367,8 @@ computers,black,mice,pink,squeak,home
 
 #### Plan for today
 - Reading discussion
+	- [It's not you. Bad doors are everywhere.
+(Vox / YouTube)](https://www.youtube.com/watch?v=yY96hTb8WgI) 
 - Look at homework
 
 - Working with images!
