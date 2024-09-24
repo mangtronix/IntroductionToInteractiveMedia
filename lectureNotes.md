@@ -1438,7 +1438,7 @@ The `p5.Image` class
 ````
 let catImg;
 function preload() {
-  photo = loadImage("https://placekitten.com/400/400");
+  photo = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
 }
 function setup() {
   createCanvas(400, 400);
@@ -1457,7 +1457,7 @@ this image at this location and scale to this size
 ````
 let catImg;
 function preload() {
-  catImg = loadImage("https://placekitten.com/400/400");
+  catImg = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
 }
 function setup() {
   createCanvas(400, 400);
