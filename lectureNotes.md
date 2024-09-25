@@ -1834,11 +1834,12 @@ The other way to make sounds is to create them mathematically
 	- File -> Examples -> Sound
 		- [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
 		- [Frequency Modulation](https://editor.p5js.org/p5/sketches/Sound:_FreqModulation)
+  		- [FFT Spectrum](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum)
 
 
 ##### Working in groups (time permitting):
 If we had multiple sound files, how would we play the
-next one when we click the mouse?
+next one when we click the mouse? What graphical effects can you synchronize to the sound?
 
 [Back to top](#weekly-schedule)
 
