@@ -1855,8 +1855,12 @@ next one when we click the mouse? What graphical effects can you synchronize to 
 - Computer Vision
 	- Frame Differencing
 
-- Posenet (time permitting)
-  - Check examples / demos - [ml5js Posenet reference](https://learn.ml5js.org/#/reference/posenet)
+- Body pose / Posenet (time permitting)
+  - [Body pose (ml5.js)](https://docs.ml5js.org/#/reference/bodypose)
+  - [Face mesh (ml5.js)](https://docs.ml5js.org/#/reference/facemesh)
+  - [Hand pose (ml5.js)](https://docs.ml5js.org/#/reference/handpose)
+  <!-- - Check examples / demos - [ml5js Posenet reference](https://learn.ml5js.org/#/reference/posenet) -->
+  - Example sketch using older Posenet [Pose Estimation with PoseNet (Coding Traing / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
   - Also see [Handsfree.js](https://handsfreejs.netlify.app/#installing) for gesture recognition
     - possible to record your own gestures based on finger positions
 
