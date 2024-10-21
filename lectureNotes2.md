@@ -183,6 +183,11 @@ Parallel: Both components experience the same voltage difference
 
 ![](media/electricityExplained.jpg)
 
+Dr. Megavolt
+- [Man vs. Electricity: Meet Dr. Megavolt (Wired / YouTube](https://www.youtube.com/watch?v=Fyko81WAvvQ)
+- [Tesla Coil (The Slo Mo Guys / YouTube)](https://www.youtube.com/watch?v=Lqwj5bACKbU&t=138s)
+
+
 #### Arduino finally!
 
 Make sure everything is working
