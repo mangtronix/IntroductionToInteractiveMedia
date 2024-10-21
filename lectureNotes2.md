@@ -29,6 +29,8 @@
 
 ### Week 8.1 - 10/30 - Introduction to Arduino
 
+**Bring** your Arduino kit to class
+
 **Install** the Arduino 2.x IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
 
 ##### Mid-term feedback
