@@ -205,6 +205,8 @@ Make sure everything is working
 
 ### Week 9.1 - 11/6 - Arduino Digital / Analog IO
 #### Plan for today: 
+- Review homework
+- Reading discussion
 
 - Review basic Arduino and Digital Output
 - Digital Input
