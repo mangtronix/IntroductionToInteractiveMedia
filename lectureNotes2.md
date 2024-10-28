@@ -207,6 +207,7 @@ Make sure everything is working
 #### Plan for today: 
 - Review homework
 - Reading discussion
+	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
 
 - Review basic Arduino and Digital Output
 - Digital Input
