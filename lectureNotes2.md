@@ -499,6 +499,9 @@ void loop() {
 ### Week 10.1 - 11/13 - Schematics, Circuit conventions
 
 #### Plan for today: 
+- Look at homework
+- Reading discussion
+
 - Schematic conventions
 - Sound
 - Servo motor
