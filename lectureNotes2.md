@@ -520,7 +520,8 @@ Here is an example:
 
 ![](media/handDrawnSchematicExample.jpg)
 
-- [Fritzing](https://fritzing.org/) (~$8 download, simple)
+- [Tinkercad](https://www.tinkercad.com/circuits) (free)
+- [Fritzing](https://fritzing.org/) (~$8 download, simple, has many Arduino-related parts)
 - [KiCad](https://www.kicad.org/) (open source, complex)
 
 #### Conventions: Schematics and Wire Colours
