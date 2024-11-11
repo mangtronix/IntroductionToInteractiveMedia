@@ -826,8 +826,11 @@ void loop() {
 
 ## Week 11
 
-### Week 11.1 - 11/20 - Serial Communication
+### Week 11.1 - 11/11 - Serial Communication
 #### Plan for today: 
+- Announcements
+	- Deadline for submitting last week's work extended until Wednesday (due to Internet flakiness)
+
 - Look at homework (musical instruments)
 - Debugging
 - Serial Communication
@@ -915,7 +918,7 @@ Examples
  -->
  
 
-### Week 11.2 - 11/22 - Serial communication
+### Week 11.2 - 11/13 - Serial communication
 #### Plan for today
 - Serial communication continued
   
@@ -948,7 +951,7 @@ Examples
 
 
 ## Week 12
-### Week 12.1 - 11/27 - Motors, soldering, fabrication
+### Week 12.1 - 11/18 - Motors, soldering, fabrication
 
 #### Plan for today: 
 - Discussion
@@ -1155,12 +1158,12 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - 11/29 - NO CLASS - Legislative Friday
+### Week 12.2 - 11/20 - TBD
 
 [Back to top](#weekly-schedule)
 
 ## Week 13
-### Week 13.1 - 12/4 - NO CLASS - Holiday!
+### Week 13.1 - 11/25
 
 ### Week 13.2 - 12/6 - Debugging, look at final projects, work session
 - Look at final project plans
@@ -1251,23 +1254,24 @@ without using `delay()`:
 - Final project presentations
   
 ## IM Show
-Friday December 15, 3-6pm
+Tuesday December 10, 5-8pm
 
 - **Exhibit** your project in the IM End of Semester Show
 - **Deinstall** your work at end of show
 
-
 ### Timeline
-- Thursday Dec 14 - Class setup - 4-6pm in the Arts Center Lobby
-  - Set up and test equipment, resolve any problems
-  - Batool,  not at 4pm
-- Friday Dec 15 - IM End of Semester Show - 3-6pm
-  - 12-2:30pm - Prayer time
-  - 2:30pm - Get installation running
-  - 3-5pm Installations open for viewing
-  - 5-5:45pm Performances in the Black Box
-  - 5:45pm Closing ceremony - group picture
-  - 6pm - Cleanup, return equipment to EC, help move tables
+- Monday Dec 9 - Last class
+  - Set up our projects in Arts Center Lobby
+  - Show your final project in the lobby
+- Tuesday Dec 10 - IM End of Semester Show - 5-8pm in the Arts Center Lobby and Black Box
+  - All IM students must show at least one project (from across their classes)
+  - Your project must be up and running at 4:30pm
+  - Installations open 5-7pm
+  - Performances in Black Box 7-8pm
+  - Cleanup 8pm
+    - Equipment checked out from IM Lab must be returned and checked in (barcode scanned)
+    - Clear your space
+    - Help move tables, etc
 - Have a great summer!
 
 
