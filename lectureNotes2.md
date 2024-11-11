@@ -63,7 +63,7 @@
 
 ### Week 8.2 - 11/1
 #### Plan for today: 
-- Announcments
+- Announcements
   - Midterm grading in progress
   - Confirm MUJO attendance
 
@@ -612,7 +612,7 @@ page](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
 
 **Notes**
 - "Use of the `tone()` function will interfere with PWM output on pins 3 and 11"
-	- The word "intefere" is rather vague. 
+	- The word "interfere" is rather vague. 
 	I think they mean that it 
 	prevents `analogWrite()` from working on pins 3 and 11
 - The `tone()` function is *non-blocking*
@@ -649,7 +649,7 @@ page](https://www.arduino.cc/en/Reference/Servo)
 	 your Arduino. In fact it does this every time it resets, which also happens
 	 when you upload a new program. Since this LED is connected directly to pin
 	 13, it means that whatever you have attached to pin 13 will be activated 3
-	 times briefly whenver the Arduino resets. So, if you make a big robot, 
+	 times briefly whenever the Arduino resets. So, if you make a big robot, 
 	 you probably should not use pin 13 for the motor
 1. Pins 0 and 1 are used for communication with your laptop, and this has two
 	 effects:
