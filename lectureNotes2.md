@@ -860,6 +860,7 @@ Communicating between p5.js and Arduino
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
 -->
 - Bidirectional communication example
+	- This example exchanges information between p5 and Arduino using the serial connection
 	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
 	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
 	- [p5.web-serial library (copy to Sketch files)](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js)
@@ -867,6 +868,11 @@ Communicating between p5.js and Arduino
 
 - Before you incorporate this in your project, first test this as it is and
 	make sure you understand it
+- The example uses the [p5.web-serial.js](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js) library
+  - For new sketches ou need to upload this file to your Sketch files and load it from your index.html file, see below
+![](media/media/webserialSketchFiles.png)
+
+
 - Briefly, what this code does:
 	- Arduino waits for a message from p5.  
 	- Arduino expects two values separated by a comma. It uses these two values
