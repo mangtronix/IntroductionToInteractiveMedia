@@ -870,7 +870,7 @@ Communicating between p5.js and Arduino
 	make sure you understand it
 - The example uses the [p5.web-serial.js](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js) library
   - For new sketches ou need to upload this file to your Sketch files and load it from your index.html file, see below
-![](media/media/webserialSketchFiles.png)
+![](media/webserialSketchFiles.png)
 
 
 - Briefly, what this code does:
