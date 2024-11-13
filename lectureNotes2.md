@@ -926,7 +926,7 @@ Examples
   
 #### In-class exercise (break class into groups of 2-3 students)
 
-- make something that uses only one sensor  on arduino and makes the ellipse
+- make something that uses only one sensor  on arduino and makes an ellipse (or other shape)
 	in p5 move on the horizontal axis, in the middle of the screen, and nothing
 	on arduino is controlled by p5 
 - make something that controls the LED brightness from p5 
