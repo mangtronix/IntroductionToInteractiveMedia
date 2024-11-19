@@ -1162,7 +1162,8 @@ void loop() {
 
 ### Week 12.2 - 11/20 - Motors continued, fabrication
 - Plan for today
-	- Class schedule
+	- Review class schedule through end of semester
+ 	- Schematic tips 
  	- Motors, continued
   	- Introduction to fabrication  
 
@@ -1175,6 +1176,17 @@ void loop() {
   	- Book equipment in Connect2 now
   	- Book laser cutter now
   	- Book 3D printers how
+ 
+- Schematic tips
+	- Positive power symbols always point up, ground always points down
+ 	- Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
+ 	- Pin labels should be placed inside the IC symbol next to the pin
+   	- Have signals flowing from left to right where possible: inputs on the left and outputs on the right
+   	- Indicate the value of components like resistors (resistance value), if the color of an LED or button is important indicate it on the schematic
+  	- Voltage dividers: resistors should be vertically aligned
+  	- Consistently orient symbols (either horizontal OR vertical)
+ 	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
+ 		- Good overview of the basics of drawing connections and different component symbols 
 
 - More about our motor driver
 	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
