@@ -23,7 +23,7 @@
 - [Week 13](#week-13) - Soldering, Circuit debugging
 - [Week 14](#week-14) - NO CLASS National Day, Final project work session
 - [Week 15](#week-15) - Final project presentations, show setup - Monday Dec 9
-- [IM Show (12/10)](#im-show) - IM End of Semester Show - Tuesday Dec 10
+- [IM Show](#im-show) - IM End of Semester Show - Tuesday Dec 10
 
 ## Week 8
 
