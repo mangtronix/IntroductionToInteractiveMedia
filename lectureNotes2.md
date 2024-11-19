@@ -1157,16 +1157,33 @@ void loop() {
 }
 ````
 
-[Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
-- Tutorial for using motor driver board to control yellow geared motor
-
-[Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
-- Set your Arduino free to roam!
 
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - 11/20 - 
+### Week 12.2 - 11/20 - Motors continued, fabrication
+- Plan for today
+	- Class schedule
+ 	- Motors, continued
+  	- Introduction to fabrication  
+
+- Schedule until the end of semester
+	- Final project is due Monday Dec 9
+ 	- Final project presentations will happen at our space in the Arts Center Lobby
+  	- Your project must be working for the final class and for the show
+	- [IM End of Semester Show](#im-show)
+  	- Any projects with special requirements?
+  	- Book equipment in Connect2 now
+  	- Book laser cutter now
+  	- Book 3D printers how
+
+- More about our motor driver
+	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
+	- Tutorial for using motor driver board to control yellow geared motor
+
+	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
+	- Set your Arduino free to roam!
+
 
 [Back to top](#weekly-schedule)
 
@@ -1178,8 +1195,6 @@ void loop() {
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
     - [Friendship lamp](https://intro.nyuadim.com/author/ftt4473/)
-- Any projects with special requirements?
-  - Book equipment now (last chance to book is Monday Dec 11)
 - Questions about serial connections?
 - Work session
 - Document / post your progress
