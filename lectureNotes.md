@@ -21,7 +21,7 @@
 - [Week 11](lectureNotes2.md#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](lectureNotes2.md#week-12) - Motors, Soldering, Fabrication
 - [Week 13](lectureNotes2.md#week-13) - Circuit debugging
-- [Week 14](lectureNotes2.md#week-14) - National Day, Final project work session
+- [Week 14](lectureNotes2.md#week-14) - No Class - National Day, Final project work session
 - [Week 15](lectureNotes2.md#week-15) - Final project presentations, show setup - Monday Dec 9
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - Tuesday Dec 10
 
