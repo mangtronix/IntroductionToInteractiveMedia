@@ -1288,12 +1288,15 @@ without using `delay()`:
 - Work on final projects
 - Ask any questions now!
 - Your project must be working at start of next class for presentations
-
-
-#### Plan for today:
 - Course feedback
   - Please fill out Intro to IM Course Feedback Questionnaire]
+ 
+
+## Week 15
+### Week 15 - 12 / 9 - Final project presentations
 - Final project presentations
+- Setup projects in Arts Center Lobby
+- Show your work
   
 ## IM Show
 Tuesday December 10, 5-8pm
