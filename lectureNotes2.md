@@ -959,12 +959,11 @@ Examples
 
 
 ## Week 12
-### Week 12.1 - 11/18 - Motors, soldering, fabrication
+### Week 12.1 - 11/18 - Motors, fabrication
 
 #### Plan for today: 
 - Discussion
 - Motors
-- Soldering
 - Fabrication and Construction Techniques
 
 
@@ -1184,24 +1183,38 @@ void loop() {
 	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
 	- Set your Arduino free to roam!
 
+- Fabrication and Construction techniques
+  - [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
+  - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
+
 
 [Back to top](#weekly-schedule)
 
 ## Week 13
-### Week 13.1 - 11/25
+### Week 13.1 - 11/25 - Multimeters, Soldering, Debugging
+- How to use a Digital Multimeter (DMM)
+  - The Multimeter is the most common tool used for debugging hardware circuits
+  - Primary measurements are continuity, resistance, voltage, and current
+  - Using the multimeter you can check what's happening electrically in your circuit
+  - [Multimeters (Adafruit)](https://learn.adafruit.com/multimeters/overview)
+  - [Collin's Lab: Multimeters (Adafruit / YouTube)](https://youtu.be/rPGoMbVSUu8?si=CSgYd_BgMaoW7Tq8)
+
+- Soldering
+  - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
+  - Soldering demo - button to solid core wires
+
 
 ### Week 13.2 - 11/27 - Debugging, look at final projects, work session
+<!--
 - Look at final project plans
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
     - [Friendship lamp](https://intro.nyuadim.com/author/ftt4473/)
-- Questions about serial connections?
+-->
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
 
-- [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
-  - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
 - Running sketch fullscreen
   - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
@@ -1209,10 +1222,6 @@ void loop() {
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
 
 - Blink without `delay()`
-- How to use a Digital Multimeter (DMM) 
-- Soldering
-  - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
-  - Soldering demo - button to solid core wires
 - Work on projects
 
 
