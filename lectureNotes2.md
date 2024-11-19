@@ -21,7 +21,7 @@
 - [Week 11](#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](#week-12) - Motors, Soldering, Fabrication
 - [Week 13](#week-13) - Circuit debugging
-- [Week 14](#week-14) - National Day, Final project work session
+- [Week 14](#week-14) - NO CLASS National Day, Final project work session
 - [Week 15](#week-15) - Final project presentations, show setup
 - [IM Show](#im-show) - IM End of Semester Show
 
@@ -1166,14 +1166,14 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - 11/20 - TBD
+### Week 12.2 - 11/20 - 
 
 [Back to top](#weekly-schedule)
 
 ## Week 13
 ### Week 13.1 - 11/25
 
-### Week 13.2 - 12/6 - Debugging, look at final projects, work session
+### Week 13.2 - 11/27 - Debugging, look at final projects, work session
 - Look at final project plans
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
@@ -1243,18 +1243,16 @@ without using `delay()`:
 		- Checking motors
 - How to connect to Arduino pins or the solderless breadboard
 
-### Legislative MONDAY - Sunday 12/10 - TBD
-- TBD - 5-6:15pm debugging session?
-
 ## Week 14
-### Week 14.1 - 12/11 - Final project work / debugging session
+### Week 14.1 - 12/4 - No class - National Day Holiday
+<img src="https://intro.nyuadim.com/wp-content/uploads/2024/11/JTP2A45MMOHEKYLPRUCWCLKVMU.jpg" width=600 />
+
+### Week 14.2 - 12/6 - Final project work / debugging session
 - IM Show gameplan
 - Work on final projects
 - Ask any questions now!
 - Your project must be working at start of next class for presentations
-<!--  - Fill in [IM show projects / names](https://docs.google.com/spreadsheets/d/1aXrKcITRLWjKAo3YQc2PuvnMzbxo5FgvFTl6tXbXpTs/edit?usp=sharing) - printing labels this Friday -->
 
-### Week 14.2 - 12/13 - Final project presentations
 
 #### Plan for today:
 - Course feedback
