@@ -1160,7 +1160,7 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - 11/20 - Motors continued, fabrication
+### Week 12.2 - 11/20 - Motors continued, Schematics, Multimeters
 - Plan for today
 	- Review class schedule through end of semester
  	- Schematic tips 
@@ -1177,6 +1177,13 @@ void loop() {
   	- Book laser cutter now
   	- Book 3D printers how
  
+- More about our motor driver
+	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
+	- Tutorial for using motor driver board to control yellow geared motor
+
+	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
+	- Set your Arduino free to roam!
+ 
 - Schematic tips
 	- Positive power symbols always point up, ground always points down
  	- Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
@@ -1186,56 +1193,40 @@ void loop() {
   	- Voltage dividers: resistors should be vertically aligned
   	- Consistently orient symbols (either horizontal OR vertical)
  	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
- 		- Good overview of the basics of drawing connections and different component symbols 
+ 		- Good overview of the basics of drawing connections and different component symbols
 
-- More about our motor driver
-	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
-	- Tutorial for using motor driver board to control yellow geared motor
+#### How to use a Digital Multimeter (DMM)
+- The Multimeter is the most common tool used for debugging hardware circuits
+- Primary measurements are continuity, resistance, voltage, and current
+- Using the multimeter you can check what's happening electrically in your circuit
+- [Multimeters (Adafruit)](https://learn.adafruit.com/multimeters/overview)
+- [Collin's Lab: Multimeters (Adafruit / YouTube)](https://youtu.be/rPGoMbVSUu8?si=CSgYd_BgMaoW7Tq8)
 
-	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
-	- Set your Arduino free to roam!
-
-- Fabrication and Construction techniques
-  - [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
-  - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
-
+- The three most useful measurements
+	- Continuity
+		- Checking connections
+		- Checking switches
+	- Voltage
+		- Checking sensor circuits
+		- Checking Arduino digital outputs
+	- Resistance
+		- Checking resistive sensors
+		- Checking motors
+- How to connect to Arduino pins or the solderless breadboard
 
 [Back to top](#weekly-schedule)
 
 ## Week 13
-### Week 13.1 - 11/25 - Multimeters, Soldering, Debugging
-- How to use a Digital Multimeter (DMM)
-  - The Multimeter is the most common tool used for debugging hardware circuits
-  - Primary measurements are continuity, resistance, voltage, and current
-  - Using the multimeter you can check what's happening electrically in your circuit
-  - [Multimeters (Adafruit)](https://learn.adafruit.com/multimeters/overview)
-  - [Collin's Lab: Multimeters (Adafruit / YouTube)](https://youtu.be/rPGoMbVSUu8?si=CSgYd_BgMaoW7Tq8)
-
-- Soldering
-  - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
-  - Soldering demo - button to solid core wires
-
-
-### Week 13.2 - 11/27 - Debugging, look at final projects, work session
-<!--
+### Week 13.1 - 11/25 - Look at final project plans, Blink without delay, Soldering and fabrication
 - Look at final project plans
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
     - [Friendship lamp](https://intro.nyuadim.com/author/ftt4473/)
--->
-- Work session
-- Document / post your progress
-- Conduct user testing (see main page for description / documentation requirement)
 
-
-- Running sketch fullscreen
+- Running sketch fullscreen (reminder)
   - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
-
-- Blink without `delay()`
-- Work on projects
-
 
 ##### Blink Without `delay()`
 
@@ -1265,19 +1256,21 @@ Play a melody and blink an LED
 without using `delay()`:
 [toneMelodyAndBlinkWithoutDelay](https://github.com/michaelshiloh/toneMelodyAndBlinkWithoutDelay)
 
-#### How to use a Digital Multimeter (DMM) 
 
-- The three most useful measurements
-	- Continuity
-		- Checking connections
-		- Checking switches
-	- Voltage
-		- Checking sensor circuits
-		- Checking Arduino digital outputs
-	- Resistance
-		- Checking resistive sensors
-		- Checking motors
-- How to connect to Arduino pins or the solderless breadboard
+- Soldering
+  - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
+  - Soldering demo - button to solid core wires
+
+- Fabrication and Construction techniques
+  - [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
+  - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
+
+### Week 13.2 - 11/27 - Look at final projects, work session
+- Work session
+- Document / post your progress
+- Conduct user testing (see main page for description / documentation requirement)
+
+
 
 ## Week 14
 ### Week 14.1 - 12/4 - No class - National Day Holiday
