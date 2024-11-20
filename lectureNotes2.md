@@ -1163,9 +1163,9 @@ void loop() {
 ### Week 12.2 - 11/20 - Motors continued, Schematics, Multimeters
 - Plan for today
 	- Review class schedule through end of semester
- 	- Schematic tips 
  	- Motors, continued
-  	- Introduction to fabrication  
+ 	- Schematic tips 
+  	- Multimeters and circuit debugging 
 
 - Schedule until the end of semester
 	- Final project is due Monday Dec 9
@@ -1194,6 +1194,18 @@ void loop() {
   	- Consistently orient symbols (either horizontal OR vertical)
  	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
  		- Good overview of the basics of drawing connections and different component symbols
+- Tools for making schematics
+	- Draw by hand
+ 		- Good practice, very useful for communicating quickly
+   	- [Fritzing](https://fritzing.org/)
+   		- Theoretically open source (paid download)
+   	 	- Has many Arduino parts included
+   	- [Tinkercad Circuits](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
+   		- Web-based
+   	 	- Includes simulator - but beware that reality can be different!
+  	- [KiCad](https://www.kicad.org/)
+  		- Open source and free
+  	 	- Professional level tool
 
 #### How to use a Digital Multimeter (DMM)
 - The Multimeter is the most common tool used for debugging hardware circuits
@@ -1214,11 +1226,27 @@ void loop() {
 		- Checking motors
 - How to connect to Arduino pins or the solderless breadboard
 
+- In class exercise:
+	- Connect the motor driver circuit above
+ 	- Change the code to make the first motor run at full speed forward
+  	- Is your system not working? How can you use the multimeter to debug it?
+  	- Verify that when you make the motor run full speed forward that AI1 is high and AI2 is low
+  	- Change the code to reverse the direction and check the voltages of the inputs of the motor driver
+- Exercise 2 (time permitting)
+	- Connect the speed control potentiometer in example 2 [Code - Week 12 - Motor Driver - 2 channel (DMA GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week%2012%20-%20Motor%20Driver%202%20channel/Week%2012%20-%20Motor%20Driver%202%20channel.ino)
+ 	- Move the potentiometer and see the change of voltage at the input pin
+
+- Recap
+	- IM Show is coming up!
+ 	- DC Motors
+  	- Schematics
+  	- Multimeters and debugging	
+
 [Back to top](#weekly-schedule)
 
 ## Week 13
 ### Week 13.1 - 11/25 - Look at final project plans, Blink without delay, Soldering and fabrication
-- Look at final project plans
+- Look at final project progress
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
     - [Friendship lamp](https://intro.nyuadim.com/author/ftt4473/)
