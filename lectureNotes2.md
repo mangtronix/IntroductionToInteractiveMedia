@@ -1227,14 +1227,23 @@ void loop() {
 - How to connect to Arduino pins or the solderless breadboard
 
 - In class exercise:
-	- Connect the motor driver circuit above
+	- Measure the 5V coming out of the 5V pin on your Arduino
+ 		- Where are places you can connect to ground?
+   	- Measure the continuity between the pins of a switch as you push / release the switch
+   	- Measure the resistance of a resistor
+        - Measure the resistance of your photoresistor under different lighting conditions
+   	 	- When does the resistance increase / decrease?
+   	- Connect the potentiometer as a voltage divider with the outside pins connected to 5V and ground
+   	 	- Measure the voltage at the middle terminal as you sweep the pot 
+   	- Measure the resistance between the pins of your potentiometer
+   		- How does the resistance change (or not) with different combinations of pins and movement of the pot?
+
+ - In class exercise 2 (time permitting):
+ 	- Connect the motor driver circuit above
  	- Change the code to make the first motor run at full speed forward
   	- Is your system not working? How can you use the multimeter to debug it?
   	- Verify that when you make the motor run full speed forward that AI1 is high and AI2 is low
   	- Change the code to reverse the direction and check the voltages of the inputs of the motor driver
-- Exercise 2 (time permitting)
-	- Connect the speed control potentiometer in example 2 [Code - Week 12 - Motor Driver - 2 channel (DMA GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week%2012%20-%20Motor%20Driver%202%20channel/Week%2012%20-%20Motor%20Driver%202%20channel.ino)
- 	- Move the potentiometer and see the change of voltage at the input pin
 
 - Recap
 	- IM Show is coming up!
