@@ -1282,7 +1282,7 @@ For example, how would you
 - Do anything while responding to sensors immediately
 
 
-[Tutorial](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay)
+[BlinkWithoutDelay Tutorial (Arduino.cc)](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay)
 
 So much for blinking. What if we want to move a servo motor at the same time?
 
