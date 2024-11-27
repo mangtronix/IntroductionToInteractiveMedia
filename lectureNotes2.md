@@ -1314,6 +1314,7 @@ without using `delay()`:
 <img src="https://intro.nyuadim.com/wp-content/uploads/2024/11/JTP2A45MMOHEKYLPRUCWCLKVMU.jpg" width=600 />
 
 ### Week 14.2 - 12/6 - Final project work / debugging session
+- User testing blog post due
 - IM Show gameplan
 - Work on final projects
 - Ask any questions now!
