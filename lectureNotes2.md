@@ -1320,8 +1320,7 @@ without using `delay()`:
 - Ask any questions now!
 - Your project must be working at start of next class for presentations
 - Course feedback
-  - Please fill out Intro to IM Course Feedback Questionnaire]
- 
+  - Please fill out Intro to [IM Course Feedback Questionnaire](https://go.blueja.io/tjsN5dp0IEaHLqf8NboBhw) 
 
 ## Week 15
 ### Week 15 - 12 / 9 - Final project presentations
