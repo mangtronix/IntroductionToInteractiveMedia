@@ -1310,37 +1310,45 @@ without using `delay()`:
 
 
 ## Week 14
-### Week 14.1 - 12/4 - No class - National Day Holiday
+### Week 14.1 - 12/2 - No class - National Day Holiday
 <img src="https://intro.nyuadim.com/wp-content/uploads/2024/11/JTP2A45MMOHEKYLPRUCWCLKVMU.jpg" width=600 />
 
-### Week 14.2 - 12/6 - Final project work / debugging session
+### Week 14.2 - 12/4 - Final project work / debugging session
 - User testing blog post due
 - IM Show gameplan
 - Work on final projects
 - Ask any questions now!
 - Your project must be working at start of next class for presentations
 - Course feedback
-  - Please fill out Intro to [IM Course Feedback Questionnaire](https://go.blueja.io/tjsN5dp0IEaHLqf8NboBhw) 
+  - Please fill out Intro to [IM Course Feedback Questionnaire](https://go.blueja.io/tjsN5dp0IEaHLqf8NboBhw)
+
+#### Homework
+- **Finish** your final project
+- **Post** your final project documentation to your blog
+- **Bring** your project to the Arts Center Lobby for the start of next class (Monday 3:35pm)
+  - Your project will be evaluated in the lobby
 
 ## Week 15
 ### Week 15 - 12 / 9 - Final project presentations
+- **Setup projects in Arts Center Lobby**
+  - Bring your project to the lobby at the start of class!
+  - Projects will be presented / evaluated starting at 5pm 
+- Final project documentation post due
 - Final project presentations
-- Setup projects in Arts Center Lobby
-- Show your work
   
 ## IM Show
 Tuesday December 10, 5-8pm
-
+- **Have your project running** by 4:30pm
 - **Exhibit** your project in the IM End of Semester Show
 - **Deinstall** your work at end of show
 
 ### Timeline
 - Monday Dec 9 - Last class
-  - Set up our projects in Arts Center Lobby
-  - Show your final project in the lobby
+  - Set up our projects in Arts Center Lobby - 3:35pm - 5pm
+  - Show your final project in the lobby - 5pm-6:15pm
 - Tuesday Dec 10 - IM End of Semester Show - 5-8pm in the Arts Center Lobby and Black Box
   - All IM students must show at least one project (from across their classes)
-  - Your project must be up and running at 4:30pm
+  - **Your project must be up and running at 4:30pm**
   - Installations open 5-7pm
   - Performances in Black Box 7-8pm
   - Cleanup 8pm
