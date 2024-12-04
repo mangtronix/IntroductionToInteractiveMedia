@@ -1314,19 +1314,20 @@ without using `delay()`:
 <img src="https://intro.nyuadim.com/wp-content/uploads/2024/11/JTP2A45MMOHEKYLPRUCWCLKVMU.jpg" width=600 />
 
 ### Week 14.2 - 12/4 - Final project work / debugging session
-- User testing blog post due
+- User testing blog post due (there was a typo that said due 12/6, so 12/6 submitting by 12/6 is ok)
 - IM Show gameplan
 - Work on final projects
 - Ask any questions now!
-- Your project must be working at start of next class for presentations
+- **You need to set up your project in the Arts Center Lobby next class**
+- Your project needs to be set up and working in the Lobby for the final presentations
 - Course feedback
   - Please fill out Intro to [IM Course Feedback Questionnaire](https://go.blueja.io/tjsN5dp0IEaHLqf8NboBhw)
 
 #### Homework
 - **Finish** your final project
 - **Post** your final project documentation to your blog
-- **Bring** your project to the Arts Center Lobby for the start of next class (Monday 3:35pm)
-  - Your project will be evaluated in the lobby
+- **Set up** your project to the Arts Center Lobby at the start of next class (Monday 3:35pm)\
+  - Meet directly in the Lobby
 
 ## Week 15
 ### Week 15 - 12 / 9 - Final project presentations
@@ -1334,7 +1335,7 @@ without using `delay()`:
   - Bring your project to the lobby at the start of class!
   - Projects will be presented / evaluated starting at 5pm 
 - Final project documentation post due
-- Final project presentations
+- Final project presentations in the lobby
   
 ## IM Show
 Tuesday December 10, 5-8pm
