@@ -12,10 +12,10 @@ Course website: [https://github.com/mangtronix/IntroductionToInteractiveMedia](h
 Instructor: Michael Ang (Mang) michael.ang@nyu.edu    
 Office hours: By appointment  
 Meeting times:    
-- 3:35-6:15PM Monday
-- 5:00-6:15PM Wednesday
+- 2:10-3:25PM Tuesday
+- 2:10-4:50PM Thursday
 
-Session: Fall 2024
+Session: Spring 2025
 
 [Discord](https://discord.com/channels/714727038078025851/716332110268465172)   
 
@@ -28,7 +28,5 @@ found here.
 
 [Weekly Schedule](https://intro.nyuadim.com/) Includes homework and projects assignments
 
-Student GitHub [repositories](studentRepositories.md)
-
-The current session is Fall 2024.
+The current session is Spring 2025.
 Previous sessions can be explored [here](previousSessions/previousSessions.md).
