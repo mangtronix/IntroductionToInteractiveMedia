@@ -1,3 +1,5 @@
+# DATES TO BE UPDATED for Spring 2025
+
 # Mang's Intro to IM - Week 8-14 Lecture Notes #
 
 [Week 1-7 lecture notes](lectureNotes.md)
