@@ -16,16 +16,16 @@
 - [Week 5](#week-5) - Working with Pixels, Sound
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
-- FALL BREAK
+- 7-WEEK FINALS BREAK
 - [Week 8](lectureNotes2.md#week-8) - Introduction to Arduino, electricity
 - [Week 9](lectureNotes2.md#week-9) - Analog and digital I/O
+- SPRING BREAK
 - [Week 10](lectureNotes2.md#week-10) - Sound, movement, circuit schematics
 - [Week 11](lectureNotes2.md#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](lectureNotes2.md#week-12) - Motors, Soldering, Fabrication
 - [Week 13](lectureNotes2.md#week-13) - Circuit debugging
-- [Week 14](lectureNotes2.md#week-14) - No Class - National Day, Final project work session
-- [Week 15](lectureNotes2.md#week-15) - Final project presentations, show setup - Monday Dec 9
-- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - Tuesday Dec 10
+- [Week 14](lectureNotes2.md#week-14) - Final project presentations, show setup
+- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - Date TBD
 
 
 ## Week 1
