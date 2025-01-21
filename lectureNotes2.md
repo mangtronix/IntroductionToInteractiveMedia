@@ -1,6 +1,6 @@
-# DATES TO BE UPDATED for Spring 2025
-
 # Mang's Intro to IM - Week 8-14 Lecture Notes #
+
+[Class Dates / Overview](https://docs.google.com/spreadsheets/d/1v9EqYgoUXqTkozkICUszM_Tmsacm4ePBe10r_Ult5pQ/edit?usp=sharing)
 
 [Week 1-7 lecture notes](lectureNotes.md)
 
@@ -16,20 +16,20 @@
 - [Week 5](lectureNotes.md#week-5) - Working with Pixels, Sound
 - [Week 6](lectureNotes.md#week-6) - Computer Vision
 - [Week 7](lectureNotes.md#week-7) - Midterm presentations
-- FALL BREAK
+- 7-WEEK FINALS BREAK
 - [Week 8](#week-8) - Introduction to Arduino, electricity
 - [Week 9](#week-9) - Analog and digital I/O
+- SPRING BREAK
 - [Week 10](#week-10) - Sound, movement, circuit schematics
 - [Week 11](#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](#week-12) - Motors, Fabrication
 - [Week 13](#week-13) - Soldering, Circuit debugging
-- [Week 14](#week-14) - NO CLASS National Day, Final project work session
-- [Week 15](#week-15) - Final project presentations, show setup - Monday Dec 9
-- [IM Show](#im-show) - IM End of Semester Show - Tuesday Dec 10
+- [Week 14](#week-14) - Final project presentations, show setup
+- [IM Show](#im-show) - IM End of Semester Show
 
 ## Week 8
 
-### Week 8.1 - 10/30 - Introduction to Arduino
+### Week 8.1 - Introduction to Arduino
 
 **Bring** your Arduino kit to class
 
@@ -63,7 +63,7 @@
   -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
   -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
 
-### Week 8.2 - 11/1
+### Week 8.2
 #### Plan for today: 
 - Announcments
   - Midterm grading in progress
@@ -205,7 +205,7 @@ Make sure everything is working
 
 ## Week 9
 
-### Week 9.1 - 11/6 - Arduino Digital / Analog IO
+### Week 9.1 - Arduino Digital / Analog IO
 #### Plan for today: 
 - Review homework
 - Reading discussion
@@ -323,7 +323,7 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
-### Week 9.2 - 11/8 - Arduino Programming Syntax
+### Week 9.2 - Arduino Programming Syntax
 #### Plan for today: 
 - Discuss reading
 - Analog Input
@@ -498,7 +498,7 @@ void loop() {
 
 ## Week 10
 
-### Week 10.1 - 11/13 - Schematics, Circuit conventions
+### Week 10.1 - Schematics, Circuit conventions
 
 #### Plan for today: 
 - Look at homework
@@ -598,7 +598,7 @@ are
 	- That is why it is **important** to make connections to the correct side of a
 		component!
 
-### Week 10.2 - 11/15 - Sound, servos
+### Week 10.2 - Sound, servos
 
 #### Sound
 
@@ -828,7 +828,7 @@ void loop() {
 
 ## Week 11
 
-### Week 11.1 - 11/11 - Serial Communication
+### Week 11.1 - Serial Communication
 #### Plan for today: 
 - Announcements
   - Deadline for submitting last week's work extended until Wednesday (due to Internet flakiness)
@@ -961,7 +961,7 @@ Examples
 
 
 ## Week 12
-### Week 12.1 - 11/18 - Motors, fabrication
+### Week 12.1 - Motors, fabrication
 
 #### Plan for today: 
 - Discussion
@@ -1162,7 +1162,7 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - 11/20 - Motors continued, Schematics, Multimeters
+### Week 12.2 - Motors continued, Schematics, Multimeters
 - Plan for today
 	- Review class schedule through end of semester
  	- Motors, continued
@@ -1256,7 +1256,7 @@ void loop() {
 [Back to top](#weekly-schedule)
 
 ## Week 13
-### Week 13.1 - 11/25 - Look at final project plans, Blink without delay, Soldering and fabrication
+### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
 - Look at final project progress
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
@@ -1304,47 +1304,38 @@ without using `delay()`:
   - [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
   - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
-### Week 13.2 - 11/27 - Look at final projects, work session
+### Week 13.2 - Look at final projects, work session
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
-
+- Work on final projects
+- Ask any questions now!
 
 
 ## Week 14
-### Week 14.1 - 12/2 - No class - National Day Holiday
-<img src="https://intro.nyuadim.com/wp-content/uploads/2024/11/JTP2A45MMOHEKYLPRUCWCLKVMU.jpg" width=600 />
-
-### Week 14.2 - 12/4 - Final project work / debugging session
-- User testing blog post due (there was a typo that said due 12/6, so 12/6 submitting by 12/6 is ok)
-- IM Show gameplan
-- Work on final projects
-- Ask any questions now!
-- **You need to set up your project in the Arts Center Lobby next class**
-- Your project needs to be set up and working in the Lobby for the final presentations
+### Week 14.1 - Final project work session
+- Work session
 - Course feedback
-  - Please fill out Intro to [IM Course Feedback Questionnaire](https://go.blueja.io/tjsN5dp0IEaHLqf8NboBhw)
 
 #### Homework
 - **Finish** your final project
 - **Post** your final project documentation to your blog
-- **Set up** your project to the Arts Center Lobby at the start of next class (Monday 3:35pm)\
-  - Meet directly in the Lobby
 
-## Week 15
-### Week 15 - 12 / 9 - Final project presentations
+### Week 14.2 - Final project presentations
+- Final project presentations
+- IM Show setup
+  
+## IM Show - TBD
 - **Setup projects in Arts Center Lobby**
   - Bring your project to the lobby at the start of class!
   - Projects will be presented / evaluated starting at 5pm 
-- Final project documentation post due
-- Final project presentations in the lobby
-  
-## IM Show
+
 Tuesday December 10, 5-8pm
 - **Have your project running** by 4:30pm
 - **Exhibit** your project in the IM End of Semester Show
 - **Deinstall** your work at end of show
 
+<!--
 ### Timeline
 - Monday Dec 9 - Last class
   - Set up our projects in Arts Center Lobby - 3:35pm - 5pm
@@ -1359,6 +1350,7 @@ Tuesday December 10, 5-8pm
     - Clear your space
     - Help move tables, etc
 - Have a great summer!
+-->
 
 
 [Back to top](#weekly-schedule) 
