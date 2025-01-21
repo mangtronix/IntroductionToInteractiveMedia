@@ -1,6 +1,6 @@
-# DATES TO BE UPDATED for Spring 2025
-
 # Mang's Intro to IM - Week 1-7 Lecture Notes #
+
+[Weekly Schedule Dates / Overview](https://docs.google.com/spreadsheets/d/1v9EqYgoUXqTkozkICUszM_Tmsacm4ePBe10r_Ult5pQ/edit?usp=sharing)
 
 [Week 1-7 lecture notes](lectureNotes.md)
 
@@ -30,7 +30,7 @@
 
 ## Week 1
 
-### Week 1.1 - 8/26
+### Week 1.1
 
 #### Class starts!
 - Introductions
@@ -188,7 +188,7 @@ harp</a></li>
 - Create an account on [p5js.org](https://p5js.org/)
 
 
-### Week 1.2 - 8/28
+### Week 1.2
 
 #### Let's get started
 - What is p5.js?
@@ -330,7 +330,7 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 
 ## Week 2
 
-### Week 2.1 - 9/2
+### Week 2.1
 
 #### Questions
 Did any questions come up since we last met?
@@ -487,7 +487,7 @@ Refer to these for additional information
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
 - [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 
-### Week 2.2 - 9/4
+### Week 2.2
 
 Overview:
 - Readings
@@ -731,7 +731,7 @@ function draw() {
 
 ## Week 3
 
-### Week 3.1 - 9/9
+### Week 3.1
 
 ##### Artwork examples
 - [Vera Molnar](https://magazine.artland.com/vera-molnar/)
@@ -860,7 +860,7 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-### Week 3.2 - 9/11
+### Week 3.2
 
 #### Topics today
 - Work example
@@ -945,17 +945,14 @@ slightly different perspective.
 
 ## Week 4
 
-## Week 4.1 - 9/16
-- Announcements
-    - Do you want to host an IM workshop? Contact Instructor Stefania
-![IM Workshop](https://intro.nyuadim.com/wp-content/uploads/2024/09/im_workshop.png?raw=true) 
+## Week 4.1
 
 ##### Tool Training
 - You must complete the tool training with the Lab Instructors to have access to the lab tools
 - If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
 
 
-### Week 4.2 - 9/18
+### Week 4.2
 
 #### Plan for today
 
@@ -1365,7 +1362,7 @@ computers,black,mice,pink,squeak,home
 
 ## Week 5
 
-### Week 5.1 - 9/23
+### Week 5.1
 
 #### Plan for today
 - Reading discussion
@@ -1475,7 +1472,7 @@ For more information and ideas
 - Reference page for p5.Image for other methods
 - Examples -> image
 
-### Week 5.2 - 9/25
+### Week 5.2
 
 #### Plan for this week: 
 
@@ -1848,7 +1845,7 @@ next one when we click the mouse? What graphical effects can you synchronize to 
 
 ## Week 6
 
-### Week 6.1 - 6/30
+### Week 6.1
 #### Plan for today: 
 - Midterm project idea feedback
   - General questions?
@@ -1940,7 +1937,7 @@ Posenet
   - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
   - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
-### Week 6.2 - 10/2
+### Week 6.2
 #### Plan for today: 
 - Distribute Arduino kits
   - You need to provide your own hub / dongle to connect to your computer
@@ -2042,7 +2039,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 [Back to top](#weekly-schedule)
 
 ## Week 7
-### Week 7.1 - 10/7
+### Week 7.1
 - GitHub tutorial
 - Project status, debugging
 
@@ -2072,15 +2069,13 @@ Name your repository "introduction to interactive Media".
 - [Git and GitHub for Poets (Coding Train / YouTube)](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=1)
 
 
-### Week 7.2 - 10/9
+### Week 7.2
 #### Plan for today: 
 - Midterm project presentations
 
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
   - Bring any adapter you need from USB-A to your computer for the first class after the break
-
-## FALL BREAK / FALL BREAK / FALL BREAK
 
 <!-- $$$ move to after break
 ##### GitHub
