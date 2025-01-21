@@ -1,6 +1,6 @@
 # Mang's Intro to IM - Week 1-7 Lecture Notes #
 
-[Weekly Schedule Dates / Overview](https://docs.google.com/spreadsheets/d/1v9EqYgoUXqTkozkICUszM_Tmsacm4ePBe10r_Ult5pQ/edit?usp=sharing)
+[Class Dates / Overview](https://docs.google.com/spreadsheets/d/1v9EqYgoUXqTkozkICUszM_Tmsacm4ePBe10r_Ult5pQ/edit?usp=sharing)
 
 [Week 1-7 lecture notes](lectureNotes.md)
 
