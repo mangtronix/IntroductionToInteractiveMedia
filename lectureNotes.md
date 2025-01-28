@@ -332,8 +332,8 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 
 ### Week 2.1
 
-#### Questions
-Did any questions come up since we last met?
+#### Review Self-Portrait
+- Did any questions come up since we last met?
 
 - Uploading files to web editor
   - Click triangle next to "Sketch Files" and click "Upload file"
