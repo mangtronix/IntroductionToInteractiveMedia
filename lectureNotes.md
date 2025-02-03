@@ -947,13 +947,6 @@ slightly different perspective.
 
 ## Week 4.1
 
-##### Tool Training
-- You must complete the tool training with the Lab Instructors to have access to the lab tools
-- If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
-
-
-### Week 4.2
-
 #### Plan for today
 
 - Artwork examples
@@ -1356,7 +1349,13 @@ computers,black,mice,pink,squeak,home
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
   - Note: most browsers require user interaction (e.g. click) before JS can play sound	
-   
+
+### Week 4.2
+
+##### Tool Training
+- You must complete the tool training with the Lab Instructors to have access to the lab tools
+- If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
+
 
 [Back to top](#weekly-schedule)
 
