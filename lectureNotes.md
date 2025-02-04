@@ -860,6 +860,10 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
+#### Homework
+
+* Go to [https://www.nyuadim.com/](https://www.nyuadim.com/) [Resources](https://www.nyuadim.com/resources/) page and sign the [IM Program Policies](https://docs.google.com/forms/d/e/1FAIpQLSfCx-YtOJYsbzMRJEVwXrCxGyCoN2VpmJYbAhEhydcT_tIzmA/viewform)
+
 ### Week 3.2
 
 #### Topics today
