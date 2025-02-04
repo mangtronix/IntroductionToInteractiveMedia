@@ -732,6 +732,8 @@ function draw() {
 ## Week 3
 
 ### Week 3.1
+- Review homework
+- In-class discussion
 
 ##### Artwork examples
 - [Vera Molnar](https://magazine.artland.com/vera-molnar/)
