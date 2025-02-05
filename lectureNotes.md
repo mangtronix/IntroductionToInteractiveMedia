@@ -867,6 +867,15 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 * Go to [https://www.nyuadim.com/](https://www.nyuadim.com/) [Resources](https://www.nyuadim.com/resources/) page and sign the [IM Program Policies](https://docs.google.com/forms/d/e/1FAIpQLSfCx-YtOJYsbzMRJEVwXrCxGyCoN2VpmJYbAhEhydcT_tIzmA/viewform)
 
 ### Week 3.2
+Additional learning resources
+- [Happy Coding p5.js tutorials](https://happycoding.io/tutorials/p5js/)
+	- Similar to our course material in an interactive web page format
+	- Read and then try it out!
+- [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [Shiffbot](https://shiffbot.withgoogle.com/)
+	- AI chatbot browser plugin for Chrome
+ 	- Trained to give help rather than give you the answer
+  	- May need VPN to access 
 
 #### Topics today
 - Work example
