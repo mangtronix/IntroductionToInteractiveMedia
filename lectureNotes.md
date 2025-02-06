@@ -941,9 +941,10 @@ function setup() {
 - [Class Syntax](https://javascript.info/class) (advanced)
 
 Walk through these examples:
-- [Ball Class Example 1 (p5editor)](https://editor.p5js.org/mangtronix/sketches/VsFd39EN2)
-- [Ball Class Example 2 (p5editor)](https://editor.p5js.org/mangtronix/sketches/-7sWqG_Bu)
-- [Ball Class Example 3 (p5editor)](https://editor.p5js.org/mangtronix/sketches/zef9Vc-s7)
+- [Ball Class Example 1 - using global variables (p5editor)](https://editor.p5js.org/mangtronix/sketches/VsFd39EN2)
+- [Ball Class Example 2 - using a class (p5editor)](https://editor.p5js.org/mangtronix/sketches/-7sWqG_Bu)
+- [Ball Class Example 3 - multiple instances using a class (p5editor)](https://editor.p5js.org/mangtronix/sketches/zef9Vc-s7)
+- [Ball Class Example 4 - keeping track of objects using array (p5editor)](https://editor.p5js.org/mangtronix/sketches/5mO9RcqPd)
 - [Ball Class Example 4 (p5editor)](https://editor.p5js.org/mangtronix/sketches/M_G7Qs6Jf)
 - [Car Class Example (p5editor)](https://editor.p5js.org/mangtronix/sketches/ShJMnrrkW)
 - [Flocking example (p5js)](https://p5js.org/examples/classes-and-objects-flocking/) (note: uses older '.prototype' way of emulating classes)
