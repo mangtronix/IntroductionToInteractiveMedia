@@ -2017,6 +2017,21 @@ Things to notice:
 - Why is the variable `offset` global? (Remember our discussion of variable
 	scope)
 
+Perlin noise example 2
+```
+function setup() {
+  createCanvas(400, 400);
+
+  for (let yPos = 0; yPos < height; yPos = yPos + 40) {
+    for (let xPos = 0; xPos < width; xPos = xPos + 40) {
+      offset = offset + 0.1;
+      square(xPos + noise(offset) * 20, yPos + noise(offset) * 20, 40);
+    }
+  }
+}
+let offset = 0.0;
+```
+
 ##### Other things you can do with arrays
 
 Look at other array methods in the reference page:
