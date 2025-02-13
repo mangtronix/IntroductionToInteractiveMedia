@@ -1375,6 +1375,7 @@ computers,black,mice,pink,squeak,home
 ##### Tool Training
 - You must complete the tool training with the Lab Instructors to have access to the lab tools
 - If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
+- Check in with Mang if you arrive late to have your attendance marked
 
 
 [Back to top](#weekly-schedule)
