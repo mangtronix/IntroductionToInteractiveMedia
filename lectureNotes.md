@@ -1385,6 +1385,8 @@ computers,black,mice,pink,squeak,home
 ### Week 5.1
 
 #### Plan for today
+- Sign [Tool Training Completion Form](https://forms.gle/iBc9ABtt9NNZ3F8AA)
+
 - Reading discussion
 	- [It's not you. Bad doors are everywhere.
 (Vox / YouTube)](https://www.youtube.com/watch?v=yY96hTb8WgI) 
