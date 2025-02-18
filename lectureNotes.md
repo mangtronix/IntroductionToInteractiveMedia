@@ -1385,7 +1385,7 @@ computers,black,mice,pink,squeak,home
 ### Week 5.1
 
 #### Plan for today
-Announcments
+Announcements
 - 2D animation workshop next Monday at 5:30 PM in the Edit Lab
 <img width="426" alt="Screenshot 2025-02-18 at 2 09 35 PM" src="https://github.com/user-attachments/assets/5d32eb6e-52a0-44cb-8df2-414137608b36" />
   
