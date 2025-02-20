@@ -1714,13 +1714,19 @@ How would we use them?
 
 [Week 5 - Walk animation](https://editor.p5js.org/mangtronix/sketches/33cCGQMvQ)
 ````
+// Week 5 - Walk animation
+//
+// Input:
+// arrow keys - make character walk in that direction
+
 let spritesheet;
 let sprites = [];
 let direction = 1; // 0 up
 let step = 0;
 let x;
 let y;
-let speed = 3;
+let walkSpeed = 3;
+let background_color = 'teal';
 
 function preload() {
   spritesheet = loadImage("walking.png");
@@ -1748,7 +1754,8 @@ function setup() {
 
   imageMode(CENTER);
 
-	// Display first sprite
+  background(background_color);
+  // Display first sprite
   image(sprites[direction][step], x, y);
 }
 
@@ -1762,35 +1769,36 @@ function keyPressed() {
 
   if (keyCode === DOWN_ARROW) {
     direction = 0;
-    y += speed;
+    y += walkSpeed;
   }
 
   if (keyCode === LEFT_ARROW) {
     direction = 1;
-    x -= speed;
+    x -= walkSpeed;
   }
 
   if (keyCode === RIGHT_ARROW) {
     direction = 2;
-    x += speed;
+    x += walkSpeed;
   }
 
   if (keyCode === UP_ARROW) {
     direction = 3;
-    y -= speed;
+    y -= walkSpeed;
   }
 
 	// Every so often 
 	// advance to the next sprite
-  if (frameCount % speed == 0) {
+  if (frameCount % walkSpeed == 0) {
     step = (step + 1) % 12;
   }
 
-	// Finally draw paint the sprite
-  background(255);
+  // Finally draw the sprite
+  // The transparent areas in the png are not
+  // drawn over the background
+  background(background_color);
   image(sprites[direction][step], x, y);
 }
-
 ````
 
 You can probably find many sprite sheets by googling "sprite sheet" +
