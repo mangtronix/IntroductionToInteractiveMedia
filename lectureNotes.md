@@ -2088,6 +2088,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 ## Week 7
 ### Week 7.1
+- Work session
 - GitHub tutorial
 - Project status, debugging
 
