@@ -1973,10 +1973,6 @@ Posenet
 
 ### Week 6.2
 #### Plan for today: 
-- Distribute Arduino kits
-  - You need to provide your own hub / dongle to connect to your computer
-    - Test it - Not all hubs work
-  - Homework is to get your Arduino LED blinking
 - Review frame differencing
 - Project status
 - Debugging
@@ -2121,6 +2117,11 @@ Name your repository "introduction to interactive Media".
 ### Week 7.2
 #### Plan for today: 
 - Midterm project presentations
+
+- Distribute Arduino kits
+  - You need to provide your own hub / dongle to connect to your computer
+    - Test it - Not all hubs work
+  - Homework is to get your Arduino LED blinking
 
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
