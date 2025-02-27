@@ -1802,8 +1802,7 @@ function keyPressed() {
 ````
 
 You can probably find many sprite sheets by googling "sprite sheet" +
-whatever you want.
-
+whatever you want.  For example many old games used sprite sheets for their animations. You can create your own spritesheet using tools like [Piskel](https://www.piskelapp.com/p/create/sprite)
 
 #### Sound!
 
