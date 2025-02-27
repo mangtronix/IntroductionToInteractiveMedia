@@ -1170,7 +1170,7 @@ void loop() {
   	- Multimeters and circuit debugging 
 
 - Schedule until the end of semester
-	- Final project is due Monday Dec 9
+	- Final project is due Thursday May 8
  	- Final project presentations will happen at our space in the Arts Center Lobby
   	- Your project must be working for the final class and for the show
 	- [IM End of Semester Show](#im-show)
