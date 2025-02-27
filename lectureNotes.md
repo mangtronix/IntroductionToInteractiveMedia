@@ -1897,7 +1897,11 @@ next one when we click the mouse? What graphical effects can you synchronize to 
   - Also see [Handsfree.js](https://handsfreejs.netlify.app/#installing) for gesture recognition
     - possible to record your own gestures based on finger positions
 
+- Playing video
+  - [Video on Canvas](https://p5js.org/examples/imported-media-video-canvas/)
+
 - Text input
+  - [createInput (p5js)](https://p5js.org/reference/p5/createInput/)
   - [Text input example (p5editor)](https://p5js.org/examples/dom-input-and-button.html)
 
 #### Homework feedback
