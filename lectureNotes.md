@@ -2123,13 +2123,17 @@ Name your repository "introduction to interactive Media".
 - Midterm project presentations
 
 - Distribute Arduino kits
+  - Write your name on your kit - you can leave it on our Intro to IM shelf
   - You need to provide your own hub / dongle to connect to your computer
     - Test it - Not all hubs work
-  - Homework is to get your Arduino LED blinking
 
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
-  - Bring any adapter you need from USB-A to your computer for the first class after the break
+  - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
+  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+  - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink
+  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
+
 
 <!-- $$$ move to after break
 ##### GitHub
