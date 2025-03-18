@@ -65,9 +65,6 @@
 
 ### Week 8.2
 #### Plan for today: 
-- Announcments
-  - Midterm grading in progress
-  - Confirm MUJO attendance
 
 - Electricity
 - Schematics
