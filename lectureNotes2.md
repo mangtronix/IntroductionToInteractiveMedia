@@ -515,6 +515,8 @@ void loop() {
 - Hand-drawn
   - Best way to get started! Think about your circuit, then draw it
 
+## Michael Start Here
+
 Here is an example:
 
 ![](media/handDrawnSchematicExample.jpg)
