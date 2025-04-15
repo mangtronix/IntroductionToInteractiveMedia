@@ -830,8 +830,7 @@ void loop() {
 ### Week 11.1 - Serial Communication
 #### Plan for today: 
 - Announcements
-  - Deadline for submitting last week's work extended until Wednesday (due to Internet flakiness)
-  - [IM Show](#im-show) is Tuesday Dec 10, 5-8pm 
+  - [IM Show](#im-show) is Thursday May 8, 5-8pm 
 
 - Reading discussion
 - Look at homework (musical instruments)
@@ -1324,12 +1323,12 @@ without using `delay()`:
 - Final project presentations
 - IM Show setup
   
-## IM Show - TBD
-- **Setup projects in Arts Center Lobby**
-  - Bring your project to the lobby at the start of class!
-  - Projects will be presented / evaluated starting at 5pm 
+## IM Show
+- **Setup projects in Arts Center Lobby during last class**
+  - Bring your project to the lobby at the start of class - 2:10pm
+  - Projects will be presented / evaluated at 2:30pm sharp!
 
-Tuesday December 10, 5-8pm
+Thursday May 8, 5-8pm
 - **Have your project running** by 4:30pm
 - **Exhibit** your project in the IM End of Semester Show
 - **Deinstall** your work at end of show
