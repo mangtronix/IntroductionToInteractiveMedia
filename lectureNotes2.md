@@ -854,7 +854,7 @@ What techniques have you learned to help you find problems?
 #### Serial Communication
 
 Communicating between p5.js and Arduino
-  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)\
+  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
   	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks. 
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
