@@ -854,7 +854,6 @@ What techniques have you learned to help you find problems?
 #### Serial Communication
 
 Communicating between p5.js and Arduino
-- [p5.webserial library (GitHub)](https://github.com/gohai/p5.webserial)
 <!--
 - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj)
@@ -862,16 +861,18 @@ Communicating between p5.js and Arduino
 -->
 - Bidirectional communication example
 	- This example exchanges information between p5 and Arduino using the serial connection
-	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
+	- [p5.webserial library (GitHub)](https://github.com/gohai/p5.webserial)
+	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/a96iTkEvR)
 	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-	- [p5.web-serial library (copy to Sketch files)](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js)
 	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
 
 - Before you incorporate this in your project, first test this as it is and
 	make sure you understand it
-- The example uses the [p5.web-serial.js](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js) library
-  - For new sketches ou need to upload this file to your Sketch files and load it from your index.html file, see below
-![](media/webserialSketchFiles.png)
+- The example uses the [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
+- For new sketches ou need to load the library in your sketch index.html file by adding this line:
+	```<script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>```
+
+<img width="1148" alt="p5 webserial script tag" src="https://github.com/user-attachments/assets/82b42bc9-8907-4cf4-8b68-a891e45b6e3f" />
 
 
 - Briefly, what this code does:
@@ -900,7 +901,7 @@ Communicating between p5.js and Arduino
 - More tutorials
 	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
-	- Note: these use a different serial library, don't mix and match code between the ITP WebSerial code and Aaron's web-serial. You need to start with one example and continue to use the same software library
+	- Note: these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
 
 
 <!-- Older examples using serial server
