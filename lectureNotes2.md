@@ -854,7 +854,8 @@ What techniques have you learned to help you find problems?
 #### Serial Communication
 
 Communicating between p5.js and Arduino
-- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
+  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)\
+  	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks. 
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
 
@@ -898,6 +899,7 @@ Communicating between p5.js and Arduino
 		adding the rest of your program
 
 - More tutorials
+	- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
 	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
 	- Note: these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
