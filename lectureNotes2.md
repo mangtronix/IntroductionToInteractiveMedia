@@ -965,24 +965,10 @@ Examples
 ### Week 12.1 - Motors, fabrication
 
 #### Plan for today: 
-- Discussion
+- No reading discussion - reading is due Thursday
+- Review project proposals
 - Motors
 - Fabrication and Construction Techniques
-
-
-#### Discussion of *Design Meets Disability*
-
-1. Considering only modern day technology like your phones, can you identify
-	 any "features" that are implemented to help people with certain
-	 disabilities
-1. Why did glasses become a matter of fashion and prostatic limbs are still
-	 conservative in design, when both of them are disability aids?
-1. How can we make sure that this narrative navigates towards more inclusive
-	 and keep the 'design in design' for disabilities?
-1. How can the language we use to address disability-wear affect our approach
-	 towards such designs? E.g. eyewear vs hearing aids?
-1. In the case of glasses, the author mentions “what others see is more
-	 important than what you see yourself” - do you guys agree?
 
 
 #### Motors
@@ -1165,10 +1151,26 @@ void loop() {
 
 ### Week 12.2 - Motors continued, Schematics, Multimeters
 - Plan for today
+	- Reading discussion 
 	- Review class schedule through end of semester
  	- Motors, continued
  	- Schematic tips 
   	- Multimeters and circuit debugging 
+
+#### Discussion of *Design Meets Disability*
+
+1. Considering only modern day technology like your phones, can you identify
+	 any "features" that are implemented to help people with certain
+	 disabilities
+1. Why did glasses become a matter of fashion and prostatic limbs are still
+	 conservative in design, when both of them are disability aids?
+1. How can we make sure that this narrative navigates towards more inclusive
+	 and keep the 'design in design' for disabilities?
+1. How can the language we use to address disability-wear affect our approach
+	 towards such designs? E.g. eyewear vs hearing aids?
+1. In the case of glasses, the author mentions “what others see is more
+	 important than what you see yourself” - do you guys agree?
+
 
 - Schedule until the end of semester
 	- Final project is due Thursday May 8
