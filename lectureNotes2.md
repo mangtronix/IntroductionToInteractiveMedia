@@ -970,6 +970,42 @@ Examples
 - Motors
 - Fabrication and Construction Techniques
 
+Inspiration
+- [Mechanical Techno Demonstration (Graham Dunning / YouTube)](https://youtu.be/wl1ZrEza7uY?si=tPjuOxoioo-I20gb)
+
+#### Fabrication and construction
+- Laser cutting 
+    - [Laser Cutting Basics](https://www.instructables.com/Laser-Cutting-Basics/)
+    - [IM Lab Laser Cutting presentation (Google Slides)](https://docs.google.com/presentation/d/1l6x9M0nAiH3uMHQKQtethxi2cAhx7vBo1srYkkMT4bA/edit?usp=sharing)
+
+- 2D Design for Laser Cutting
+    - [Inkscape](https://inkscape.org/)
+    - [Inkscape 11 minute tutorial (YouTube)](https://youtu.be/-_KJZPOYBeA)
+    - [Inkscape basic tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
+    - [Inkscape Tutorials (YouTube)](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&index=1)
+    - [Inkscape design for laser cutting (YouTube)](https://youtu.be/IzaiISOzXHo)
+    - [Inkscape Tutorial: Prepare your files for laser cutting](https://www.sculpteo.com/en/prepare-your-file-laser-cutting/prepare-your-model-laser-cutting-inkscape/)
+    - [Convert Text To A Path In Inkscape](https://logosbynick.com/convert-text-to-a-path-in-inkscape/)
+ 
+- Laser cutter booking
+    - [IM Lab Resources](https://www.nyuadim.com/resources/) -> Machines
+ 
+- 3D printing
+    - [https://www.instructables.com/3D-Printing-Basics/](https://www.instructables.com/3D-Printing-Basics/)
+    - 3D design
+        - [Tinkercad](https://www.tinkercad.com/dashboard)
+            - Free
+            - [Tinkercad tutorials](https://www.tinkercad.com/learn)
+        - [Autodesk Fusion](https://www.tinkercad.com/dashboard)
+            - Personal and educational licenses available
+    - Community models
+        - User uploaded models
+        - Quality varies
+        - Good for test prints and inspiration
+        - [Printables](https://www.printables.com/)
+        - [Thingiverse](https://www.thingiverse.com/)
+        - [Cults 3D](https://cults3d.com/)
+
 
 #### Motors
 
