@@ -1362,8 +1362,11 @@ without using `delay()`:
 - Course feedback
 
 #### Homework
+- **Post** your user testing - Due before class Tuesday
+	- see [main page](https://intro.nyuadim.com/) for details 	
 - **Finish** your final project
-- **Post** your final project documentation to your blog
+- **Post** your final project documentation to your blog - Due midnight Wednesday
+	- see [main page](https://intro.nyuadim.com/) for details 
 - **Your project must be finished with the documentation posted by midnight Wednesday**
 
 ### Week 14.2 - Final project presentations
