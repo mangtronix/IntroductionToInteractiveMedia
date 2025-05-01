@@ -1344,11 +1344,15 @@ without using `delay()`:
   - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
 ### Week 13.2 - Look at final projects, work session
+- Soldering
+- Class links
+	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
 - Work on final projects
 - Ask any questions now!
+
 
 
 ## Week 14
