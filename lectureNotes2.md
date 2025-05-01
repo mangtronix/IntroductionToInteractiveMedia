@@ -1347,6 +1347,7 @@ without using `delay()`:
 - Soldering
 - Class links
 	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
+ 	- [NeoPixel soldering guide (Adafruit)](https://learn.adafruit.com/make-it-glow-how-to-solder-neopixels-a-beginners-guide/overview) 
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
