@@ -1354,16 +1354,17 @@ without using `delay()`:
 - Work on final projects
 - Ask any questions now!
 
+## Homework
+- **Post** your user testing - Due before class Tuesday
+	- see [main page](https://intro.nyuadim.com/) for details 	
 
 
 ## Week 14
 ### Week 14.1 - Final project work session
-- Work session
 - Course feedback
+- Work session
 
 #### Homework
-- **Post** your user testing - Due before class Tuesday
-	- see [main page](https://intro.nyuadim.com/) for details 	
 - **Finish** your final project
 - **Post** your final project documentation to your blog - Due midnight Wednesday
 	- see [main page](https://intro.nyuadim.com/) for details 
