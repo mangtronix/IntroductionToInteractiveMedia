@@ -1359,6 +1359,7 @@ without using `delay()`:
 #### Homework
 - **Finish** your final project
 - **Post** your final project documentation to your blog
+- **Your project must be finished with the documentation posted by midnight Wednesday**
 
 ### Week 14.2 - Final project presentations
 - Final project presentations
@@ -1366,13 +1367,14 @@ without using `delay()`:
   
 ## IM Show
 - **Setup projects in Arts Center Lobby during last class**
-  - Bring your project to the lobby at the start of class - 2:10pm
-  - Projects will be presented / evaluated at 2:30pm sharp!
+  - Bring your project to the lobby at the start of class - Thursdday 2:10pm
+  - Projects will be presented / evaluated at Thursday 2:30pm sharp!
 
 Thursday May 8, 5-8pm
 - **Have your project running** by 4:30pm
 - **Exhibit** your project in the IM End of Semester Show
-- **Deinstall** your work at end of show
+- **Clean up** your work at end of show
+- **Return** any checked out equipment immediately to IM Lab
 
 <!--
 ### Timeline
