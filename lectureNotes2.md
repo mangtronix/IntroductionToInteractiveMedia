@@ -1361,6 +1361,9 @@ without using `delay()`:
 
 ## Week 14
 ### Week 14.1 - Final project work session
+- Announcement
+	- Keep lab clean
+	- Turn off soldering irons  
 - Course feedback
 - Work session
 
