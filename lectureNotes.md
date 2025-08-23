@@ -25,7 +25,7 @@
 - [Week 12](lectureNotes2.md#week-12) - Motors, Soldering, Fabrication
 - [Week 13](lectureNotes2.md#week-13) - Circuit debugging
 - [Week 14](lectureNotes2.md#week-14) - Final project presentations, show setup
-- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - Date TBD
+- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show
 
 
 ## Week 1
