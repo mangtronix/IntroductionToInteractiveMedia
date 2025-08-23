@@ -25,7 +25,7 @@
 - [Week 12](#week-12) - Motors, Fabrication
 - [Week 13](#week-13) - Soldering, Circuit debugging
 - [Week 14](#week-14) - Final project presentations, show setup
-- [IM Show](#im-show) - IM End of Semester Show
+- [IM Show](#im-show) - IM End of Semester Show - Tuesday Dec 9
 
 ## Week 8
 
@@ -1382,7 +1382,7 @@ without using `delay()`:
   
 ## IM Show 5-8pm
 
-Thursday May 8, 5-8pm
+Tuesday Dec 9, 5-8pm (TBC)
 - **Exhibit** your project in the IM End of Semester Show
 - **Keep** your table area looking professional and clear of bags, etc.
 - **Clean up** your work at end of show
