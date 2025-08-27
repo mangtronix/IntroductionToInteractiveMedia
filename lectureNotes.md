@@ -189,6 +189,8 @@ harp</a></li>
 
 
 ### Week 1.2
+Announcements
+- Can everyone access their Wordpress account?
 
 #### Let's get started
 - What is p5.js?
