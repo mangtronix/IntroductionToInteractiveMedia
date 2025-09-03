@@ -734,6 +734,7 @@ function draw() {
 ## Week 3
 
 ### Week 3.1
+- Aya Riad is filling in
 - Review homework
 - In-class discussion
 
