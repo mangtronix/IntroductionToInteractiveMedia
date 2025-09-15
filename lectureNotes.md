@@ -969,6 +969,7 @@ slightly different perspective.
 #### Announcements
 - Artist visit Wednesday - Find Your Eyes
 	- [Ross Flight](https://www.rossflight.com/)
+ 	- [Find Your Eyes performance Fri / Sat](https://publicprograms.nyuad.nyu.edu/en/the-arts-center/events/2025/september/find-your-eyes-benji-reid.html#tab-3-video)
  	- Get ready to ask questions 
 	- Book your free tickets to the performance (Fri / Sat in Arts Center) now
 
