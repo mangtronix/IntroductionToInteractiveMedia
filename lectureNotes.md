@@ -966,6 +966,12 @@ slightly different perspective.
 
 ## Week 4.1
 
+#### Announcements
+- Artist visit Wednesday - Find Your Eyes
+	- [Ross Flight](https://www.rossflight.com/)
+ 	- Get ready to ask questions 
+	- Book your free tickets to the performance (Fri / Sat in Arts Center) now
+
 #### Plan for today
 
 - Artwork examples
