@@ -1974,7 +1974,7 @@ Some video examples:
 Posenet
   - Skeleton extraction from image using machine learning
   - [ml5.js - Friendly Machine Learning for the Web](https://learn.ml5js.org/#/)
-  - [ml5js Posenet](https://learn.ml5js.org/#/reference/posenet)
+  - [ml5js Body Pose](https://docs.ml5js.org/#/reference/bodypose)
   - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
   - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
