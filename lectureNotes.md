@@ -1463,6 +1463,7 @@ The `p5.Image` class
 - Just another class, i.e. it has
 	- Data (the pixels, width, height, etc.)
 	- Functionality `(image()`, `get()`, etc.)
+ - [p5.Image reference](https://p5js.org/reference/p5/p5.Image/)
 
 ````
 let catImg;
@@ -1499,7 +1500,7 @@ function setup() {
 ````
 
 For more information and ideas
-- Reference page for p5.Image for other methods
+- Reference page for [p5.Image](https://p5js.org/reference/p5/p5.Image/) for other methods
 - Examples -> image
 
 ### Week 5.2
