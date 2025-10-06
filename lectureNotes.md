@@ -12,7 +12,7 @@
 - [Week 1](#week-1) - Introductions, p5.js
 - [Week 2](#week-2) - Variables, Animation, Conditionals
 - [Week 3](#week-3) - Functions, Arrays, Object-Oriented Programming (OOP)
-- [Week 4](#week-4) - Tool training, Working with text
+- [Week 4](#week-4) - Working with text, Artist Visit (Ross Flight)
 - [Week 5](#week-5) - Working with Pixels, Sound
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
