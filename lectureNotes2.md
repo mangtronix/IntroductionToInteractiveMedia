@@ -325,7 +325,8 @@ How is that possible?
 - Discuss reading
 - Analog Input
 - Analog Output
-
+- GitHub (time permitting)
+- 
 #### Arduino Programming Syntax
 Programming in Arduino uses C/C++ with a very small number of modifications.
 
@@ -491,6 +492,35 @@ void loop() {
 	 Arduino literature) to select a different range for mapping an analog
 	 sensor to an analog output device
 1. Use a potentiometer to select from 4 different behaviors of a circuit
+
+- Project status, debugging
+- Work session
+- GitHub tutorial
+
+##### GitHub
+- What is [GitHub](https://github.com/)?
+- Difference between an account and a repository
+- Follow along with me and create an account
+- Instructions for this are
+[here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+
+Please use your name for your account name so that I can more easily recognize
+it.  If you don't want to use your name for privacy reasons, please choose an
+alias that I can recognize as you.
+
+Name your repository "introduction to interactive Media". 
+
+- Edit your README.md file
+	- What is README.md?
+	- What is .md?
+- Simple Markdown 
+	- **Bold**
+	- Paragraphs must be separated by a blank line
+	- Inserting images: ![](media/eye-calipers.jpg)
+	- Always remember to commit your changes!
+	- More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+
+- [Git and GitHub for Poets (Coding Train / YouTube)](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=1)
 
 
 ## Week 10
