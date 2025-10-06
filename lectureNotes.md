@@ -966,13 +966,6 @@ slightly different perspective.
 
 ## Week 4.1
 
-#### Announcements
-- Artist visit Wednesday - Find Your Eyes
-	- [Ross Flight](https://www.rossflight.com/)
- 	- [Find Your Eyes performance Fri / Sat](https://publicprograms.nyuad.nyu.edu/en/the-arts-center/events/2025/september/find-your-eyes-benji-reid.html#tab-3-video)
- 	- Get ready to ask questions 
-	- Book your free tickets to the performance (Fri / Sat in Arts Center) now
-
 #### Plan for today
 
 - Artwork examples
@@ -1381,12 +1374,19 @@ computers,black,mice,pink,squeak,home
   - Note: most browsers require user interaction (e.g. click) before JS can play sound	
 
 ### Week 4.2
+- Artist visit - Ross Flight - Find Your Eyes
+	- [Ross Flight](https://www.rossflight.com/)
+ 	- [Find Your Eyes performance Fri / Sat](https://publicprograms.nyuad.nyu.edu/en/the-arts-center/events/2025/september/find-your-eyes-benji-reid.html#tab-3-video)
+ 	- Get ready to ask questions 
+	- Book your free tickets to the performance (Fri / Sat in Arts Center) now
 
+
+<!--
 ##### Tool Training
 - You must complete the tool training with the Lab Instructors to have access to the lab tools
 - If you do not successfully complete the tool training during class time you must make arrangements to complete it with the Lab Instructors
 - Check in with Mang if you arrive late to have your attendance marked
-
+-->
 
 [Back to top](#weekly-schedule)
 
