@@ -29,7 +29,19 @@
 
 ## Week 8
 
-### Week 8.1 - Introduction to Arduino
+### Week 8.1 - Tool training
+Mandatory tool and safety training
+- You must complete the training in order to use the tools in the IM Lab and maintain your access
+
+### Week 8.2
+#### Plan for today: 
+- Introduction to Arduino
+- Electricity
+- Schematics (time permitting)
+- Switches
+- Series and Parallel
+
+Introduction to Arduino
 
 **Bring** your Arduino kit to class
 
@@ -62,15 +74,6 @@
   -  Arduino IDE -> File -> Examples 01.Basics -> Blink
   -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
   -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
-
-### Week 8.2
-#### Plan for today: 
-
-- Electricity
-- Schematics
-- Switches
-- Series and Parallel
-- Arduino
 
 #### Electricity 
 
@@ -150,6 +153,21 @@ Let's use a real switch
 	- What was the previous "switch"?
 	- Schematic symbol of toggle switch
 
+[Back to top](#weekly-schedule)
+
+## Week 9
+
+### Week 9.1 - Digital / Analog IO
+#### Plan for today: 
+- Review homework
+- Reading discussion
+	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
+
+- Series and Parallel
+- Arduino and Digital Output
+- Digital Input
+- Analog Input (time permitting)
+
 #### Series and Parallel
 
 - What if we put two LEDs or switches in?
@@ -197,20 +215,6 @@ Make sure everything is working
 - Upload the Blink example
 - Change the parameter in delay()
 - Upload again and verify that the LED blinks at the new rate
-
-[Back to top](#weekly-schedule)
-
-## Week 9
-
-### Week 9.1 - Arduino Digital / Analog IO
-#### Plan for today: 
-- Review homework
-- Reading discussion
-	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
-
-- Review basic Arduino and Digital Output
-- Digital Input
-- Analog Input (time permitting)
 
 #### Review basic Arduino and Digital Output
 
