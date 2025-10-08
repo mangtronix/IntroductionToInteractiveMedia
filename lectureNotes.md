@@ -2112,7 +2112,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
   - Check [main page](https://intro.nyuadim.com/)
   - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
   - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
-  - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink
+  - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
   - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
 
 
