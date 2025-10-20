@@ -32,7 +32,7 @@
 ### Week 8.1 - Tool training
 Mandatory tool and safety training
 - You must complete tool training in order to use the tools in the IM Lab and maintain your lab access
-- You must complete the Scene Shop induction with Tony Bragg and sign the liability form in order to do **any** work in the Scene Shop
+- You must complete the Scene Shop induction with Tony Bragg and sign the liability form before doing **any** work in the Scene Shop
 
 Contacts / Resources
 - IM Lab
