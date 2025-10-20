@@ -40,6 +40,7 @@ Contacts / Resources
  	- [Hours, equipment / machine booking](https://www.nyuadim.com/resources/)
 - Scene Shop
 	- Manager: Tony Bragg <anb6202@nyu.edu>
+ 	- Hours: Generally 9-5, only while Tony or another instructor / specialist is present 
 
 ### Week 8.2
 #### Plan for today: 
