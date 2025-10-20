@@ -31,7 +31,15 @@
 
 ### Week 8.1 - Tool training
 Mandatory tool and safety training
-- You must complete the training in order to use the tools in the IM Lab and maintain your access
+- You must complete tool training in order to use the tools in the IM Lab and maintain your lab access
+- You must complete the Scene Shop induction with Tony Bragg in order to do **any** work in the Scene Shop
+
+Contacts / Resources
+- IM Lab
+	- Manager: Dustin Foster <dustinfoster@nyu.edu>
+ 	- [Hours, equipment / machine booking](https://www.nyuadim.com/resources/)
+- Scene Shop
+	- Manager: Tony Bragg <anb6202@nyu.edu>
 
 ### Week 8.2
 #### Plan for today: 
