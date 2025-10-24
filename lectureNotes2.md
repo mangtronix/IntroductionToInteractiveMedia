@@ -97,6 +97,8 @@ Here is how to build the circuit
 
 ![](media/ArduinoPoweringLED_bb.png)
 
+- [LED circuit simulation (Falstad)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEAmA7NVbnIBwBYFkBmMIogThxAUmutoQFMBaMMAKADcVMQ8daWFDiq1aeBlCkwE7AO49kwqniJLco9mABsS1epF81IIvhQgAJowBmAQwCuAGwAuzR4wvhpUWBwBORkqmeIF8AlJkkPKh-IK8sVDsAPbm2iHiYJAQSDCQOeZB7KYmIABiELSR4PC0rCAASowAzgCWTc5JfuxAA)
+
 
 **Theory**
 
