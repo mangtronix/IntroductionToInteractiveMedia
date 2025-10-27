@@ -97,7 +97,7 @@ Here is how to build the circuit
 
 ![](media/ArduinoPoweringLED_bb.png)
 
-- [LED circuit simulation (Falstad)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEAmA7NVbnIBwBYFkBmMIogThxAUmutoQFMBaMMAKADcVMQ8daWFDiq1aeBlCkwE7AO49kwqniJLco9mABsS1epF81IIvhQgAJowBmAQwCuAGwAuzR4wvhpUWBwBORkqmeIF8AlJkkPKh-IK8sVDsAPbm2iHiYJAQSDCQOeZB7KYmIABiELSR4PC0rCAASowAzgCWTc5JfuxAA)
+- [LED circuit simulation (CircuitJS)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEAmA7NVbnIBwBYFkBmMIogThxAUmutoQFMBaMMAKADcVMQ8daWFDiq1aeBlCkwE7AO49kwqniJLco9mABsS1epF81IIvhQgAJowBmAQwCuAGwAuzR4wvhpUWBwBORkqmeIF8AlJkkPKh-IK8sVDsAPbm2iHiYJAQSDCQOeZB7KYmIABiELSR4PC0rCAASowAzgCWTc5JfuxAA)
 
 
 **Theory**
@@ -201,7 +201,7 @@ Parallel: Both components experience the same voltage difference
 - No matter how many components you have in a circuit, and how they are
 	connected, they will obey these principles.
 
-- [Series and Parallel circuit simulation (Falstad)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKACUKU8RMVPuUKACxRRQ2qKowELAOb8Q42l0VDuUlmAwiEK3gux4REMPCmxISAAoB7AC50AdnYCWNgLZ0HAJxYB5CiERbGxCEBwwkLCNDmIwPmw0EDi+fSlFCXTpFm9k+JBEqhSCo1FTOBy8hNLioUIRKnLIOSrFetahYmiof1bDEVJq43B2cHiqKLGktLFMyWgZAA8QPEIkYT5iEJ4hJBFhEABlOm8XOgBnFmXTAh5sYjHCVKE+fZErAENvD4AbH7ofpVTBgErpkCDVOpkBVcsxCNxsGC4dwglCmiwAO5TCahbEFMHNLHMJKIvjI-F8Ql40ng0GUlrEqiovGdbpU4GvNQsrnssDwyHc9RXRSrHiQcgYLo8UyKHYgWwOZxuTw+AA65wAbjYfnYPrI6OqACYuDUuQ0nFg2AogdpMyDEbhIGAQRosIA)
+- [Series and Parallel circuit simulation (CircuitJS)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKACUKU8RMVPuUKACxRRQ2qKowELAOb8Q42l0VDuUlmAwiEK3gux4REMPCmxISAAoB7AC50AdnYCWNgLZ0HAJxYB5CiERbGxCEBwwkLCNDmIwPmw0EDi+fSlFCXTpFm9k+JBEqhSCo1FTOBy8hNLioUIRKnLIOSrFetahYmiof1bDEVJq43B2cHiqKLGktLFMyWgZAA8QPEIkYT5iEJ4hJBFhEABlOm8XOgBnFmXTAh5sYjHCVKE+fZErAENvD4AbH7ofpVTBgErpkCDVOpkBVcsxCNxsGC4dwglCmiwAO5TCahbEFMHNLHMJKIvjI-F8Ql40ng0GUlrEqiovGdbpU4GvNQsrnssDwyHc9RXRSrHiQcgYLo8UyKHYgWwOZxuTw+AA65wAbjYfnYPrI6OqACYuDUuQ0nFg2AogdpMyDEbhIGAQRosIA)
 
 #### Ohm's law
 - I=V/R
