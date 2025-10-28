@@ -330,6 +330,10 @@ Add another switch on a different pin
 ![](media/ArduinoTwoSwitches_schem.png)
 ![](media/ArduinoTwoSwitches_bb.png)
 
+
+[An intuitive approach for understanding electricity (YouTube)](https://www.youtube.com/watch?v=X_crwFuPht4)
+- uses water as an analogy to explain electricity flow
+
 #### In-class exercise
 
 Now write a program that will blink different patterns depending on which
