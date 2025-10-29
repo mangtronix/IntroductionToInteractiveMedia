@@ -219,7 +219,8 @@ Parallel: Both components experience the same voltage difference
 Dr. Megavolt
 - [Man vs. Electricity: Meet Dr. Megavolt (Wired / YouTube)](https://www.youtube.com/watch?v=Fyko81WAvvQ)
 - [Tesla Coil (The Slo Mo Guys / YouTube)](https://www.youtube.com/watch?v=Lqwj5bACKbU&t=138s)
-
+- [An intuitive approach for understanding electricity](https://www.youtube.com/watch?v=X_crwFuPht4)
+  - Demonstrates electrical principles using water as an analogy
 
 #### Arduino finally!
 
