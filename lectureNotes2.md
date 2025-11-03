@@ -553,7 +553,11 @@ Name your repository "introduction to interactive Media".
 - Lab Policies with IM Lab Manager Dustin Foster
 - Look at homework
 - Reading discussion
-- Consumables tour
+- IM Lab tour
+  - Consumables
+  - Fabrication area
+  - 3D printers
+  - Laser cutter
 
 - Schematic conventions
 - Sound
