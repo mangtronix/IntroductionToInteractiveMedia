@@ -550,8 +550,10 @@ Name your repository "introduction to interactive Media".
 ### Week 10.1 - Schematics, Circuit conventions
 
 #### Plan for today: 
+- Lab Policies with IM Lab Manager Dustin Foster
 - Look at homework
 - Reading discussion
+- Consumables tour
 
 - Schematic conventions
 - Sound
