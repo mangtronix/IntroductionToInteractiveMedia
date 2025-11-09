@@ -888,7 +888,8 @@ void loop() {
 ### Week 11.1 - Serial Communication
 #### Plan for today: 
 - Announcements
-  - [IM Show](#im-show) is Thursday May 8, 5-8pm 
+  - [IM Show](#im-show) is Thursday May 8, 5-8pm
+  - Each IM student must show at least one project
 
 - Reading discussion
 - Look at homework (musical instruments)
@@ -910,6 +911,21 @@ What techniques have you learned to help you find problems?
 
 
 #### Serial Communication
+
+Remember how we used `print()` in p5.js to help us find problems in our 
+program? You can do that in Arduino to but the function has a slightly
+different name: `Serial.println()`
+- Must be initialized `Serial.begin()`
+- Can not concatenate strings with the `+` function
+	- Instead, you need multiple calls to `Serial.print()` e.g.:
+
+````
+Serial.print("First value = ");
+Serial.print(firstValue);
+Serial.print(" Second value = ");
+Serial.print(secondValue);
+Serial.println();
+````
 
 Communicating between p5.js and Arduino
   - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
@@ -960,7 +976,7 @@ Communicating between p5.js and Arduino
 	- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
 	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
-	- Note: these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
+	- **Note:** these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
 
 
 <!-- Older examples using serial server
