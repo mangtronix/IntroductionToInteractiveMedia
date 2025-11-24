@@ -1447,11 +1447,11 @@ without using `delay()`:
 
 #### Homework
 - **Finish** your final project
-- **Post** your final project documentation to your blog - Due before class Monday
+- **Post** your final project documentation to your blog - Due midnight Sunday, Dec 7
   - MUST BE FINISHED BEFORE CLASS NOT ACCEPTED LATE
 	- see [main page](https://intro.nyuadim.com/) for details 
-- **Your project must be finished with the documentation posted by midnight Wednesday**
-- Thursday is for **showing** your project, not further development - don't risk your project not working on Thursday at the last minute
+- **Your project must be finished with the documentation posted by midnight Sunday, Dec 7**
+- Monday is for **showing** your project, not further development - don't risk your project not working on Monday at the last minute
 
 ## Week 15
 
