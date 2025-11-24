@@ -1457,9 +1457,8 @@ without using `delay()`:
 
 ### Week 15.1 - Final project presentations - Monday Dec 8
 - **Come directly to the Arts Center Lobby with everything you need for running your project**
-- 2:10pm - 2:40pm setup projects in lobby
-- 3:00pm - start project presentations in the lobby - no slides necessary - just show your project :)
-- 4:30pm - stop presentations, short break before show starts
+- 3:35-4:35pm setup projects in lobby
+- 4:35pm - start project presentations in the lobby - no slides necessary - just show your project :)
 
 ### Week 15.2 - IM Show - Tuesday Dec 9
 ## IM Show 5-8pm
