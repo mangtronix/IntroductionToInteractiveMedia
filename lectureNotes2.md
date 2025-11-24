@@ -1373,7 +1373,23 @@ void loop() {
 - Announcements
 	- IM Show
 	- Keep lab clean
-	- Turn off soldering irons  
+	- Turn off soldering irons
+
+ - Requested topics
+   - [Equipment Booking](https://www.nyuadim.com/resources/)
+   	 - E.g. sensors, speakers
+     - Laser cutter
+     	- Book under "Machines"
+        - Make a vector .svg file using a program like Adobe Illustrator 
+      	- Bring an .svg file to the appointment for the lab assistant to cut
+     - 3D printers - under "Machines"
+        - Book under "Machines"
+        - Find an existing .stl model on site like Printables or Thingiverse
+        - Design an object in Tinkercad, export as .stl
+        - Come to Lab for appointment with .stl file and Prusaslicer
+        - Have Lab Assistant review and then start print
+	- INPUT_PULLUP
+ 		- pinMode(pin, INPUT_PULLUP) sets a pin for input *and* enables an internal pullup resistor (so external resistor needed) 
 
 - Look at final project progress
   - Example final projects
