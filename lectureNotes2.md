@@ -1463,7 +1463,8 @@ without using `delay()`:
 ### Week 15.2 - IM Show - Tuesday Dec 9
 ## IM Show 5-8pm
 
-Tuesday Dec 9, 5-8pm (TBC)
+Tuesday Dec 9, 5-8pm
+- **Get** your project up and running by 4:30pm
 - **Exhibit** your project in the IM End of Semester Show
 - **Keep** your table area looking professional and clear of bags, etc.
 - **Clean up** your work at end of show
