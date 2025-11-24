@@ -1370,6 +1370,11 @@ void loop() {
 
 ## Week 13
 ### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
+- Announcements
+	- IM Show
+	- Keep lab clean
+	- Turn off soldering irons  
+
 - Look at final project progress
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
@@ -1429,31 +1434,34 @@ without using `delay()`:
 - Ask any questions now!
 
 ## Homework
-- **Post** your user testing - Due before class Tuesday
+- **Post** your user testing - Due before class Wednesday
 	- see [main page](https://intro.nyuadim.com/) for details 	
 
 
 ## Week 14
-### Week 14.1 - Final project work session
-- Announcement
-	- Keep lab clean
-	- Turn off soldering irons  
+### Week 14.1 - NO CLASS - National Day holiday
+
+### Week 14.2 - Course review
 - Course feedback
 - Work session
 
 #### Homework
 - **Finish** your final project
-- **Post** your final project documentation to your blog - Due midnight Wednesday
+- **Post** your final project documentation to your blog - Due before class Monday
+  - MUST BE FINISHED BEFORE CLASS NOT ACCEPTED LATE
 	- see [main page](https://intro.nyuadim.com/) for details 
 - **Your project must be finished with the documentation posted by midnight Wednesday**
 - Thursday is for **showing** your project, not further development - don't risk your project not working on Thursday at the last minute
 
-### Week 14.2 - Final project presentations
+## Week 15
+
+### Week 15.1 - Final project presentations - Monday Dec 8
 - **Come directly to the Arts Center Lobby with everything you need for running your project**
 - 2:10pm - 2:40pm setup projects in lobby
 - 3:00pm - start project presentations in the lobby - no slides necessary - just show your project :)
 - 4:30pm - stop presentations, short break before show starts
-  
+
+### Week 15.2 - IM Show - Tuesday Dec 9
 ## IM Show 5-8pm
 
 Tuesday Dec 9, 5-8pm (TBC)
