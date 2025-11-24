@@ -1389,7 +1389,7 @@ void loop() {
         - Come to Lab for appointment with .stl file and Prusaslicer
         - Have Lab Assistant review and then start print
 	- INPUT_PULLUP
- 		- pinMode(pin, INPUT_PULLUP) sets a pin for input *and* enables an internal pullup resistor (so external resistor needed) 
+ 		- pinMode(pin, INPUT_PULLUP) sets a pin for input *and* enables an internal pullup resistor (so external no resistor needed) 
 
 - Look at final project progress
   - Example final projects
