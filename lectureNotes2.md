@@ -1459,7 +1459,9 @@ without using `delay()`:
 ### Week 14.1 - NO CLASS - National Day holiday
 
 ### Week 14.2 - Course review
+- Course review
 - Course feedback
+	- Fill out [Course Feedback](https://go.blueja.io/26LwKSl6q0Srg0FwKTftKg)
 - Work session
 
 #### Homework
