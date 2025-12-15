@@ -379,7 +379,7 @@ specify the type of each of our variables and understand how much memory they ta
 
 #### Analog Input
 
-Build this circuit. Try to follow the schematic and not the breadboard view:
+Build this circuit using an LDR / photoresistor. Try to follow the schematic and not the breadboard view:
 
 ![](media/ArduinoPhotoresistor_schem.png)
 ![](media/ArduinoPhotoresistor_bb.png)
