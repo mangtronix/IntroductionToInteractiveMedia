@@ -9,53 +9,53 @@
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Weekly Schedule
-- [Week 1](#week-1) - Introductions, Introduction to Arduino, electricity
-- [Week 2](#week-2) - Analog and digital I/O
-- [Week 3](#week-3) - Sound, movement, circuit schematics, Tool training
-- [Week 4](#week-4) - Serial Communication, Connecting Arduino to p5.js
-- [Week 5](#week-5) - Motors, Soldering, Fabrication
-- [Week 6](#week-6) - Circuit debugging
-- [Week 7](#week-7) - Midterm project presentations
+- [Week 1](#week-1) - Introductions, p5.js
+- [Week 2](#week-2) - Variables, Animation, Conditionals
+- [Week 3](#week-3) - Functions, Arrays, Object-Oriented Programming (OOP)
+- [Week 4](#week-4) - Working with text
+- [Week 5](#week-5) - Working with Pixels, Sound
+- [Week 6](#week-6) - Computer Vision
+- [Week 7](#week-7) - Midterm presentations
+- 7-WEEK FINALS BREAK
+- [Week 8](lectureNotes2.md#week-8) - Introduction to Arduino, electricity
+- [Week 9](lectureNotes2.md#week-9) - Analog and digital I/O
 - SPRING BREAK
-- [Week 8](lectureNotes2.md#week-8) - p5.js
-- [Week 9](lectureNotes2.md#week-9) - Variables, Animation, Conditionals
-- [Week 10](lectureNotes2.md#week-10) - Functions, Arrays, Object-Oriented Programming (OOP)
-- [Week 11](lectureNotes2.md#week-11) - Working with text
-- [Week 12](lectureNotes2.md#week-12) - Working with Pixels, Sound
-- [Week 13](lectureNotes2.md#week-13) - Computer Vision
-- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - May 8
+- [Week 10](lectureNotes2.md#week-10) - Sound, movement, circuit schematics
+- [Week 11](lectureNotes2.md#week-11) - Serial Communication, Connecting Arduino to p5.js
+- [Week 12](lectureNotes2.md#week-12) - Motors, Soldering, Fabrication
+- [Week 13](lectureNotes2.md#week-13) - Circuit debugging
+- [Week 14](lectureNotes2.md#week-14) - Final project presentations, show setup
+- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show
 
 
 ## Week 1
 
 ### Week 1.1
-#### Plan for Today
-- Introduction
 
 #### Class starts!
 - Introductions
 - Syllabus etc.
 - Reading discussions
 - Join the Discord server
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859705)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/495529/units/12103320)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
-  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859706)
+  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/495529/units/12103321)
 
 #### What’s the class about?
 
 <ul>
-	<li>
+ 	<li>
 Digital computation beyond computers (sometimes called "physical computing") considering humanistic needs in design and usability</li>
-	<li>
+ 	<li>
 Computers traditionally lacked knowledge of outside world beyond a keyboard, mouse</li>
 <li>Look critically at products and designs</li>
-	<li>
+ 	<li>
 As artists and designers, we can explore new paradigms of interaction with machines and each other</li>
-	<li>
+ 	<li>
 Relatively easily and inexpensively explore creative computation through open source software and hardware</li>
-	<li>
+ 	<li>
 No background needed, strong DIY attitude</li>
-	<li>
+ 	<li>
 Low barrier to entry, high ceiling</li>
 </ul>
 
@@ -143,11 +143,11 @@ That you can laugh at yourself. That you are kind.
 
 #### Examples
 <ul>
-	<li>Carlos Guedes' wonderful <a href="https://vimeo.com/235763130">Phobos</a>, Orquestra Robótica Disfuncional (1 min)</li>
+ 	<li>Carlos Guedes' wonderful <a href="https://vimeo.com/235763130">Phobos</a>, Orquestra Robótica Disfuncional (1 min)</li>
 	<li>Mang's <a href="https://www.michaelang.com/project/city-refl3ctor">City Refl3ctor</li>
-	<li>Sudhu Tewari's <a href="https://www.youtube.com/watch?v=MjNB3nKPMb8" >Yasmin Electro Mechanical Sequencer</a></li>
-	<li>List of <a href="http://eat.cca.edu/" >inspirational movies</a> collected by <a href="http://www.ultrafuzz.net/" >Barney Haynes</a> (also <a href="https://vimeo.com/barneyhaynes" >here</a>) and shown at his interface classes.</li>
-	<li>List collected by <a href="https://github.com/zamfi">J.D. Zamfirescu</a>
+ 	<li>Sudhu Tewari's <a href="https://www.youtube.com/watch?v=MjNB3nKPMb8" >Yasmin Electro Mechanical Sequencer</a></li>
+ 	<li>List of <a href="http://eat.cca.edu/" >inspirational movies</a> collected by <a href="http://www.ultrafuzz.net/" >Barney Haynes</a> (also <a href="https://vimeo.com/barneyhaynes" >here</a>) and shown at his interface classes.</li>
+ 	<li>List collected by <a href="https://github.com/zamfi">J.D. Zamfirescu</a>
 <li><a href="http://www.youtube.com/watch?v=zkpH1BjD6Wc" >Tree-climbing robot</a></li>
 <li><a href="http://www.youtube.com/watch?v=tOsNXg2vAd4#t=120" >Insect robot</a></li>
 <li><a href="http://www.youtube.com/watch?v=YblSltHDbIU" >Treadbot</a></li>
@@ -167,499 +167,51 @@ harp</a></li>
 <li><a href="http://www.youtube.com/watch?v=NAbiAzYhTOQ" >Makerbot Replicator</a></li>
 <li><a href="https://www.youtube.com/watch?v=0DNkbZvVYvc"
 >Roomba</a></li></li>
-	<li><a href="https://www.youtube.com/watch?v=1G0MzlfMPuM" >Golan Levin: Art that looks back at you</a></li>
-	<li><a href="https://www.youtube.com/watch?v=PV_w38ldZaE" >Drawdio</a></li>
-	<li>Claire Neel's <a href="https://youtu.be/lYERKTf5YtI" >reactive eye</a></li>
-	<li>Professor Aaron Sherwood's <a href="http://aaron-sherwood.com/works/firewall/">Reactive Wall</a></li>
-	<li><a href="http://melissafelderman.com/digitalgraffitiwall/index.html">Digital Graffiti Wall</a></li>
-	<li><a href="http://www.willjfield.com/itp-2/explorer-space-simulator/">Space Simulator</a></li>
-	<li><a href="https://vimeo.com/114414122">Wind based jug organ</a></li>
-	<li><a href="http://andysigler.com/projects/dipinator/">The Dipinator</a></li>
-	<li><a href="https://www.gabebc.com/jitterbox">Jitterbox</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=1G0MzlfMPuM" >Golan Levin: Art that looks back at you</a></li>
+ 	<li><a href="https://www.youtube.com/watch?v=PV_w38ldZaE" >Drawdio</a></li>
+ 	<li>Claire Neel's <a href="https://youtu.be/lYERKTf5YtI" >reactive eye</a></li>
+ 	<li>Professor Aaron Sherwood's <a href="http://aaron-sherwood.com/works/firewall/">Reactive Wall</a></li>
+ 	<li><a href="http://melissafelderman.com/digitalgraffitiwall/index.html">Digital Graffiti Wall</a></li>
+ 	<li><a href="http://www.willjfield.com/itp-2/explorer-space-simulator/">Space Simulator</a></li>
+ 	<li><a href="https://vimeo.com/114414122">Wind based jug organ</a></li>
+ 	<li><a href="http://andysigler.com/projects/dipinator/">The Dipinator</a></li>
+ 	<li><a href="https://www.gabebc.com/jitterbox">Jitterbox</a></li>
 </ul>
 </li>
 </ul>
 
-- Distribute Arduino kits
-  - Write your name on your kit - you can leave it on our Intro to IM shelf
-  - You need to provide your own hub / dongle to connect to your computer
-	- Test it - Not all hubs work
-	- Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
-
-
 #### Homework
-  - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
-  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
-  - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
-  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
+- Join the Discord server (optional, recommended)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859705)
+- Log into the class Wordpress using your user account. If you have problems let Mang know
+  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859706)
+- Create an account on [p5js.org](https://p5js.org/)
 
 
 ### Week 1.2
-#### Plan for today: 
-- Introduction to Arduino
-- Electricity
-- Schematics (time permitting)
-- Switches
-- Series and Parallel
-
-Introduction to Arduino
-
-**Bring** your Arduino kit to class
-
-**Install** the Arduino 2.x IDE before class ([download](https://www.arduino.cc/en/software), [installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)).
-
-
-##### Introduction to Arduino
-- [What is an Arduino? (Sparkfun)](https://learn.sparkfun.com/tutorials/what-is-an-arduino/all)
-- [What is Arduino and can I use it for my project? (YouTube)](https://www.youtube.com/watch?v=CSx6k-zXlLE)
-  - More in-depth [Arduino MASTERCLASS | Full Programming Workshop in 90 Minutes (YouTube)](https://www.youtube.com/watch?v=BLrHTHUjPuw)
-- Our class kit
-  - [Sparkfun Inventor's Kit for Arduino Uno](https://www.sparkfun.com/products/15631)
-
-- Arduino IDE (Integrated Development Environment)
-  - Download [Arduino 2.x IDE](https://www.arduino.cc/en/software)
-  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
-  
-- Making an LED blink
-  -  Arduino IDE -> File -> Examples 01.Basics -> Blink
-  -  [LED (Wikipedia)](https://en.wikipedia.org/wiki/Light-emitting_diode)
-  -  [Making the Arduino Blinking LED Project (Arduino Intro)](https://arduinointro.com/projects/making-the-arduino-blinking-led-project-a-complete-tutorial)
-
-#### Electricity 
-
-**Simple circuit using Arduino, LED, and Resistor**
-
-The most confusing part of this lecture will be the solderless breadboard:
-![](media/breadboard.jpg)
-Image courtesy of
-[SparkFun](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)
-
-Here is how to build the circuit
-
-![](media/ArduinoPoweringLED_bb.png)
-
-- [LED circuit simulation (CircuitJS)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWEAmA7NVbnIBwBYFkBmMIogThxAUmutoQFMBaMMAKADcVMQ8daWFDiq1aeBlCkwE7AO49kwqniJLco9mABsS1epF81IIvhQgAJowBmAQwCuAGwAuzR4wvhpUWBwBORkqmeIF8AlJkkPKh-IK8sVDsAPbm2iHiYJAQSDCQOeZB7KYmIABiELSR4PC0rCAASowAzgCWTc5JfuxAA)
-
-
-**Theory**
-
-Electricity is mysterious
-
-- We can predict what it will do quite accurately, but don't really understand
-  it what is it
-- Flow of electrons
-- Electrons want to move from place of higher potential energy to place of lower potential energy
-  - Like a rock or water falling from a height
-  - Unlike a rock or water, electricity can only travel in a conductor
-- AC vs. DC - very briefly, will discuss more as it comes up
-- (Advanced)[The Big Misconception About Electricity](https://youtu.be/bHIhgxav9LY)
-
-What makes a circuit?
-
-- Something to provide that difference in potential 
-that will cause the electrons to want to move. 
-  - Typically a battery, charger, or USB port
-  - The technical term is "power supply"
-  - In our case your laptop via the Arduino
-    - What is the Arduino doing in this case?
-- Conductors to allow the electronics to move
-- Components or other things that usually convert this electrical energy 
-to some other form of energy (e.g. light, sound, heat, movement)
-- Optionally, switches or other sensors to control the flow of energy
-  - In our circuit the resistor is controlling the brightness of the LED so that it doesn't burn out
-
-#### Schematics
-
-Here is the schematic of what you've built
-
-![](media/ArduinoPoweringLED_schem.png)
-
-- Important part of something, 
-  without getting distracted by details (e.g. subway maps)
-- What's important in an electrical schematic?
-  - Where is the power coming from?
-  - What other components are there in the circuit?
-  - How are they connected?
-
-**Schematics are an important way to show a circuit. You will be required to
-understand and use them**
-
-#### Switches
-
-- What if we want to turn it the LED on and off?
-  - Pull out a wire
-  - That's a switch, but a pretty inconvenient one
-  - Schematic symbol of switch
-  - How does it work?
-    - Breaks the flow of electrons by breaking the continuous path
-    - Doesn't electricity (the electrons) just flow out the end of the wire?
-  - The switch can go on either side. How is this possible?
-
-Let's use a real switch
-
-![](media/ArduinoPoweringLEDWithSwitch_schem.png)
-![](media/ArduinoPoweringLEDWithSwitch_bb.png)
-
-- How is this switch different from the earlier switch?
-  - Schematic symbol of momentary switch
-  - What was the previous "switch"?
-  - Schematic symbol of toggle switch
-
-[Back to top](#weekly-schedule)
-
-## Week 2
-
-### Week 2.1 - Digital / Analog IO
-#### Plan for today: 
-- Review homework
-- Reading discussion
-  - [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
-
-- Series and Parallel
-- Arduino and Digital Output
-- Digital Input
-- Analog Input (time permitting)
-
-#### Series and Parallel
-
-- What if we put two LEDs or switches in?
-- Two different ways: 
-
-Series: All the current (electrons) must go through both components, one after
-the other. 
-![](media/ArduinoPowering2LEDSeries_schem.png)
-![](media/ArduinoPowering2LEDSeries_bb.png)
-
-Parallel: Both components experience the same voltage difference
-![](media/ArduinoPowering2LEDparallel_schem.png)
-![](media/ArduinoPowering2LEDparallel_bb.png)
-
-- Any components can be connected in series or parallel; not just LEDs or
-  switches
-- Components might be in series, or parallel, or neither
-- Components in series have the same **current** flowing through them
-- Components in parallel have the same **voltage** across them
-- No matter how many components you have in a circuit, and how they are
-  connected, they will obey these principles.
-
-- [Series and Parallel circuit simulation (CircuitJS)](https://www.falstad.com/circuit/circuitjs.html?ctz=CQAgjCAMB0l3BWcMBMcUHYMGZIA4UA2ATmIxAUgoqoQFMBaMMAKACUKU8RMVPuUKACxRRQ2qKowELAOb8Q42l0VDuUlmAwiEK3gux4REMPCmxISAAoB7AC50AdnYCWNgLZ0HAJxYB5CmI+bGxCEEIEMJCwk3YQYjBgtHjEngw+KUUJTOkWbxSkqgTgo1FTODyCkEMRYsVCESpyyDkqoQa24jCNALqa+KDq0tiOZmTo8ESqfUzxahzoGQAPEDwIniE+YhCNpBFhEABlOm8XOgBnFhXTAh5sYknCPmE+fZErAENvD4AbH7ofpVTOlqrpkCChGoyvAgWBCNxsGDmPDVOpkBUAO6TcahbFUREZFhYsb4pFwhFglrEqagvjA4KU1ok1F4xRdSRE8GvKHMyHqTnI7h81nClorNRhNDkDDslCmRQbEC2BzONyeHwAHXOADcbD87B9ZHQtQATFzalwmk6chCQ6q4hCDCYtGzVcKNLLEbhIGAQJosIA)
-
-#### Ohm's law
-- I=V/R
-- The math only works for linear components 
-  - But the principle is the same for non-linear components 
-  - **is a very important concept**:
-    - For a given resistance, 
-      the higher the pressure (voltage), 
-        the higher the current
-    - For a given voltage, the higher the "resistance", 
-      the lower the current
-
-![](media/electricityExplained.jpg)
-
-Dr. Megavolt
-- [Man vs. Electricity: Meet Dr. Megavolt (Wired / YouTube)](https://www.youtube.com/watch?v=Fyko81WAvvQ)
-- [Tesla Coil (The Slo Mo Guys / YouTube)](https://www.youtube.com/watch?v=Lqwj5bACKbU&t=138s)
-- [An intuitive approach for understanding electricity](https://www.youtube.com/watch?v=X_crwFuPht4)
-  - Demonstrates electrical principles using water as an analogy
-
-#### Arduino finally!
-
-Make sure everything is working
-
-- Upload the Blink example
-- Change the parameter in delay()
-- Upload again and verify that the LED blinks at the new rate
-
-#### Review basic Arduino and Digital Output
-
-Upload File -> Examples -> Basic -> Blink example
-
-What is going on?
-
-- Code
-- Circuit
-- I/O pins
-  - 20 pins
-  - Arduino provides LED on pin 13
-  - LED_BUILTIN = 13 
-
-Let's extend this circuit to the breadboard:
-
-![](media/ArduinoControllingLED_schem.png)
-![](media/ArduinoControllingLED_bb.png)
-
-#### Digital Input
-
-Adding a switch
-
-![](media/ArduinoLEDMomentarySwitch_schem.png)
-![](media/ArduinoLEDMomentarySwitch_bb.png)
-
-````
-// Code for one switch and LEDs
-// Wiring:
-// - switch on Pin A2
-// - LED on Pin 8
-// - LED on Pin 13
-
-void setup() {
-  pinMode(8, OUTPUT);
-  pinMode(13, OUTPUT);
-  pinMode(A2, INPUT);
-}
-
-void loop() {
-
-  int switchPosition = digitalRead(A2);
-
-  if (switchPosition == HIGH) {
-    digitalWrite(8, LOW);   
-    digitalWrite(13, HIGH); // turn the LED on (HIGH is the voltage level)
-  } else  {
-    digitalWrite(8, HIGH);    
-    digitalWrite(13, LOW); // turn the LED off by making the voltage LOW
-  }
-}
-````
-
-An example:
-
-````
-
-const int pushButton = A2;
-const int redLEDPin = A0;
-const int greenLEDPin = 8;
-
-void setup() {
-  pinMode(redLEDPin, OUTPUT);
-  pinMode(greenLEDPin, OUTPUT);
-}
-
-void loop() {
-
-  int buttonState = digitalRead(pushButton);
-
-  if (buttonState == HIGH) {
-    digitalWrite(redLEDPin, HIGH);
-    digitalWrite(greenLEDPin, HIGH);
-    delay(500);
-    digitalWrite(greenLEDPin, LOW);
-    delay(300);
-    digitalWrite(redLEDPin, LOW);
-    digitalWrite(greenLEDPin, HIGH);
-    delay(700);
-  }
-  allOff();
-  delay(1000);
-}
-
-void allOff() {
-  digitalWrite(redLEDPin, LOW);
-  digitalWrite(greenLEDPin, LOW);
-}
-````
-
-Other things you can do:
-
-Add another LED on a different pin
-
-![](media/ArduinoTwoLEDs_schem.png)
-![](media/ArduinoTwoLEDs_bb.png)
-
-Add another switch on a different pin
-
-![](media/ArduinoTwoSwitches_schem.png)
-![](media/ArduinoTwoSwitches_bb.png)
-
-
-[An intuitive approach for understanding electricity (YouTube)](https://www.youtube.com/watch?v=X_crwFuPht4)
-- uses water as an analogy to explain electricity flow
-
-#### In-class exercise
-
-Now write a program that will blink different patterns depending on which
-switch is pressed. 
-Using two switches you can select between four patterns.
-How is that possible?
-
-### Week 2.2 - Arduino Programming Syntax
-#### Plan for today: 
-- Discuss reading
-- Analog Input
-- Analog Output
-- GitHub (time permitting)
-- 
-#### Arduino Programming Syntax
-Programming in Arduino uses C/C++ with a very small number of modifications.
-
-p5js uses JavaScript which has a syntax that's based on C. The way JavaScript
-programs run is very different than programs written in C but the syntax of
-the language (e.g. how `for` loops are declared) is very similar.
-
-One of the main differences for simple Arduino programs is how variables are
-declared. We need to declare the *type* of the variable, for example on the Arduino Uno a `byte`
-can store a value from 0-255, an `int` can be used for values -32,768 to 32,767 and a `float` can
-be used for values like -2.1 and 20332.22.
-
-Storing a `float` in memory requires 32 bits (4 bytes). With the limited memory on
-the Arduino Uno (2k bytes of RAM) it's important for us as programmers to
-specify the type of each of our variables and understand how much memory they take up.
-
-- [Arduino Syntax Cheat Sheet](https://github.com/liffiton/Arduino-Cheat-Sheet)
-- [Arduino Memory](https://www.arduino.cc/en/Tutorial/Foundations/Memory)
-
-
->Notice that there's not much SRAM available in the Uno. It's easy to use it all up by having lots of strings in your program. For example, a declaration like:
->
->char message[] = "I support the Cape Wind project.";
->
->puts 33 bytes into SRAM (each character takes a byte, plus the '\0' terminator). This might not seem like a lot, but it doesn't take long to get >to 2048, especially if you have a large amount of text to send to a display, or a large lookup table, for example.
-
-
-#### Analog Input
-
-Build this circuit using an LDR / photoresistor. Try to follow the schematic and not the breadboard view:
-
-![](media/ArduinoPhotoresistor_schem.png)
-![](media/ArduinoPhotoresistor_bb.png)
-
-```
-/*
-  AnalogReadSerial
-
-  Reads an analog input on pin 0, prints the result to the Serial Monitor.
-  Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
-  Attach the center pin of a potentiometer to pin A2, and the outside pins to +5V and ground.
-
-  This example code is in the public domain.
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
-*/
-
-// the setup routine runs once when you press reset:
-void setup() {
-  // initialize serial communication at 9600 bits per second:
-  Serial.begin(9600);
-}
-
-// the loop routine runs over and over again forever:
-void loop() {
-  // read the input on analog pin
-  int sensorValue = analogRead(A2);
-  // print out the value you read:
-  Serial.println(sensorValue);
-  delay(1);  // delay in between reads for stability
-}
-```
-
-- Analogue Inputs, `analogRead()`, and (some) sensors go together
-  - This only works on the six analog input pins (A0-A5)
-  - Digital sensors, like a switch, have only one of two values 
-  and so are more suited to a digital input
-- Remember that the so-called analog input pins can do digital input and
-  output as well
-- Since you have so few analog input pins, when you decide which pins to use
-  for which device, reserve the analog input pins for analog input devices
-  as much as possible
-
-Do you see a similarity between this circuit and 
-something we learned earlier?
-
-Some analogue sensors are resistive, some are not. 
-Resistive sensors all use the same
-pattern: a voltage divider.
-Note the similarity to the circuit we used for a switch - 
-the switch circuit is also effectively a voltage divider, one that has only
-two values instead of an infinite range of values
-
-What other sensors do we have in the kit?
-
-Which ones are resistive?
-
-#### Potentiometer
-
-[Here](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-1b-potentiometer)
-
-#### Misc
-- Hand drawn schematics in your homework are fine!
-
-- Hand drawn switches can use the simple symbol
-- Resources are available to help you with homework (me, Jack), but only
-  if you start your homework early enough. If you wait until the last minute
-  and then don't have time to get help, that is unexcusable.
-- Use constants for pin numbers
-
-#### Analog Output
-
-- Analog Outputs, `analogWrite()`, PWM and (some) actuators go together
-  - `analogWrite()` only works on the six PWM pins (3, 5, 6, 9, 10, and 11).
-  - LEDs, motors, and some other actuators respond properly to PWM
-  - Other actuators, like a solenoid, do not respond well to PWM and really
-    should be considered digital actuators
-  - Since you have so few analog outputs, when you decide which pins to use
-    for which device, reserve the analog output pins for analog output devices
-    as much as possible
-
-- Not true analog voltage. PWM = Pulse Width Modulation
-- Works for LEDs and motors
-
-#### Functions that you know from p5.js which are useful here:
-- `map()`
-- `constrain()`
-- `if()`
-
-Remember how we used `print()` in p5.js to help us find problems in our 
-program? You can do that in Arduino to but the function has a slightly
-different name: `Serial.println()`
-- Must be initialized `Serial.begin()`
-- Can not concatenate strings with the `+` function
-  - Instead, you need multiple calls to `Serial.print()` e.g.:
-
-````
-Serial.print("First value = ");
-Serial.print(firstValue);
-Serial.print(" Second value = ");
-Serial.print(secondValue);
-Serial.println();
-````
-
-Here is the program we developed at the end of class:
-
-````
-const int LED_PIN = 3;           // the PWM pin the LED is attached to
-const int POT_PIN = A2;
-int brightness = 0;    // how bright the LED is
-
-// the setup routine runs once when you press reset:
-void setup() {
-  // declare pin 9 to be an output:
-  pinMode(LED_PIN, OUTPUT);
-  Serial.begin(9600);
-}
-
-// the loop routine runs over and over again forever:
-void loop() {
-  int pot_value = analogRead(POT_PIN); // 0-1023
-  brightness = map(pot_value, 0, 1023, 255, 0);
-  Serial.println(brightness);
-  analogWrite(LED_PIN, brightness); // 0-255
-}
-````
-
-#### In-class exercise
-
-1. Use one of the analogue sensors to select which of two LEDs lights up
-1. Use one of the analogue sensor to control how fast two LEDs alternate
-1. Use a momentary switch (often called a *pushbutton* or a *button* in the
-   Arduino literature) to select a different range for mapping an analog
-   sensor to an analog output device
-1. Use a potentiometer to select from 4 different behaviors of a circuit
-
-- Project status, debugging
-- Work session
-- GitHub tutorial
-
+Announcements
+- Check access to your Wordpress account, email me if not working
+
+#### Let's get started
+- What is p5.js?
+  - [https://p5js.org/](https://p5js.org/)
+  - [Getting started with p5.js](https://p5js.org/tutorials/get-started/)
+  - [Learn p5.js](https://archive.p5js.org/learn/)
+    - [Color](https://archive.p5js.org/learn/color.html)
+    - [Co-ordinate system and shapes](https://archive.p5js.org/learn/coordinate-system-and-shapes.html)
+    - [Curves](https://archive.p5js.org/learn/curves.html)
+    - [Interactivity](https://archive.p5js.org/learn/interactivity.html)
+    - [Program Flow](https://archive.p5js.org/learn/program-flow.html)
+    - [Debugging](https://archive.p5js.org/learn/debugging.html)
+<!--  - [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa) -->
+  - [Programming with p5.js videos (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+    - [p5.js Web Editor (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+    - [Shapes and Drawing (Coding Train)](https://www.youtube.com/watch?v=c3TeLi6Ns1E&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5)
+    - [Color (Coding Train)](https://www.youtube.com/watch?v=riiJTF5-N7c&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=6)
+
+
+
+<!-- $$$ move to after break
 ##### GitHub
 - What is [GitHub](https://github.com/)?
 - Difference between an account and a repository
@@ -674,957 +226,1916 @@ alias that I can recognize as you.
 Name your repository "introduction to interactive Media". 
 
 - Edit your README.md file
-  - What is README.md?
-  - What is .md?
+	- What is README.md?
+	- What is .md?
 - Simple Markdown 
-  - **Bold**
-  - Paragraphs must be separated by a blank line
-  - Inserting images: ![](media/eye-calipers.jpg)
-  - Always remember to commit your changes!
-  - More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+	- **Bold**
+	- Paragraphs must be separated by a blank line
+	- Inserting images: ![](media/eye-calipers.jpg)
+	- Always remember to commit your changes!
+	- More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+-->
 
-- [Git and GitHub for Poets (Coding Train / YouTube)](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=1)
+##### Simple shapes in p5.js
 
+Open [p5.js editor](https://editor.p5js.org/)
+
+- `ellipse()`
+- `rect()`
+- `createCanvas()`
+- `triangle(x1, y1, x2, y2, x3, y3)`
+- `line()`
+- `point()`
+
+What does this all mean?
+- Functions
+- Arguments or parameters
+
+Controlling color, fill, and stroke
+
+- `stroke()`
+- `noStroke()`
+- `fill()`
+- `arc(100, 100, 100, 100, 0, 180)`
+- `arc(100, 100, 100, 100, 0, radians(180), CHORD)`
+
+Here is the program we developed in class:
+
+````
+function setup() {
+  createCanvas(600,600); 
+  background(25, 130, 80); 
+  
+  // draw a circle and a rectangle with the default colors
+  circle (width/2, height/2, 50);
+  rect(10, 10, 80, 20);
+  
+  // change the stroke and fill
+  fill(180,0,0);
+  stroke(0,0,180);
+  // circle(80, 80, 80); this circle is commented out so it won't be drawn
+  ellipse(200, 280, 50, 80);
+  
+  // change the stroke color but keep the same fill
+  stroke(180,0,0);
+  line( 0,0, 300, 100);
+  
+  let foo = radians(90);
+  print(foo);                  //!!!!!!!!!!!!!!!!!!!!!!!! THIS IS VERY USEFUL!!!!!!!
+  
+  arc(50, 55, // center of the ellipse
+      50, 50, // width and height
+      0, radians(180)); // start and stop angle
+  
+  triangle( 100, 100, 10, 200, 100, 300);
+  print(width/2, height/2);
+}
+
+let x = 0;
+function draw() {
+	// Where am I?
+  print(mouseX, mouseY);
+  
+	// I can do animation!
+  circle(x, 500, 40);
+  x=x+1;
+}
+
+````
+**Notes**
+- Built-in variables
+	- `width`, `height`, `mouseX`, `mouseY`
+	- many others; we will discover more as we go along
+
+**Create an account on p5js.org so you can save your sketches!**
+Sketches will be submitted by making a blog post and submitting through Brightspace (in future weeks)
+	
+##### Sharing your sketch
+- [How to embed your P5js sketch directly into a blog post](https://intro.nyuadim.com/2022/01/06/how-to-embed-a-p5js-sketch-in-your-blog-post/)
+- Code snippets in blog post
+
+<!-- $$$ move to after break
+##### Saving a sketch to GitHub
+
+- Navigate to desired folder
+- Click on "Add file" 
+- Select "Create new file"
+- Type in optional new folder(s) followed by slashes `/` followed by a file
+	name
+- Copy your code from the p5.js editor and paste it into GitHub
+- Scroll down to the bottom
+- Optionally change the commit comment
+- Click on "Commit new file"
+-->
+
+[Back to top](#weekly-schedule)
+
+## Week 2
+
+### Week 2.1
+
+#### Review Self-Portrait
+- Did any questions come up since we last met?
+
+- Uploading files to web editor
+  - Click triangle next to "Sketch Files" and click "Upload file"
+  - [p5.js Web Editor: Uploading Media Files (Coding Train)](https://www.youtube.com/watch?v=rO6M5hj0V-o)
+  - [Load image example sketch (p5js Editor)](https://editor.p5js.org/mangtronix/sketches/xw78_aQeb)
+
+##### Variables
+
+p5.js Links
+- [Variables](https://archive.p5js.org/examples/data-variables.html)
+- [True and False](https://archive.p5js.org/examples/data-true-and-false.html)
+- [Variable Scope](https://archive.p5js.org/examples/data-variable-scope.html)
+- [Array](https://archive.p5js.org/examples/arrays-array.html)
+- [Mouse Functions](https://archive.p5js.org/examples/input-mouse-functions.html)
+  - Example of storing a value in a variable
+
+- Javascript is not a typed language: you don't need to declare
+	a variable's type
+- [Week 2 - Variables (p5js editor)](https://editor.p5js.org/mangtronix/sketches/X3tNw_gGC)
+- `let myNumber = 4.5;`
+- `let myString = "the quick brown fox";`
+- `let myArray = ["the", "quick", "brown", "fox"];`
+- `let myRandomNumber = random(255);`
+- `let myRandomNumber = round(random(255));`
+How can we find out what a variable's value is?
+`print()` 
+
+##### Animation
+
+p5.js Links
+- [Setup and Draw](https://archive.p5js.org/examples/structure-setup-and-draw.html)
+- [Width and Height](https://archive.p5js.org/examples/structure-width-and-height.html)
+
+
+Use the `draw()` function to draw something different in each frame. This can
+be the location of a shape but you can manipulate anything such as color also:
+
+The  `draw()` function is called once per frame. Think of it as drawing a new
+page on a ["flip book"](https://en.wikipedia.org/wiki/Flip_book)
+
+[Week 2 - Drawing (p5js editor)](https://editor.p5js.org/mangtronix/sketches/YkprSBTwX)
+````
+let foo = 0;
+
+function setup() {
+  createCanvas(300, 300);
+}
+
+function draw() {
+  ellipse(foo, 50, 40, 40);
+  foo = foo + 1;
+}
+````
+
+By default, the previous frame is not erased. Sometimes this is useful.
+Use the `background()` function to "paint" over any previous drawings. 
+
+````
+function setup() {
+  createCanvas(500, 500);
+}
+
+let triangleTopLeftX = 0;
+let redValue = 255;
+
+function draw() {
+  // erase previous drawings
+  background(10, 255, 255);
+
+  // Move the triangle
+  triangleTopLeftX = triangleTopLeftX + 1;
+
+	// If the triangle reaches the right edge, move to the left edge
+  if (triangleTopLeftX >= width) {
+    triangleTopLeftX = 0;
+  }
+
+  // Change the value of red
+  redValue = redValue - 1;
+
+	//If red reaches a certian level, reset it
+  if (redValue === 55) {
+		redValue = 255;
+	}
+
+  // Select the fill for the triangle
+  fill(redValue, redValue - 100, redValue - 100);
+
+  // Draw the triangle
+  triangle(
+    triangleTopLeftX,
+    20, // top left corner
+    triangleTopLeftX + 100,
+    30, // top right corner
+    triangleTopLeftX + 50,
+    200
+  ); // bottom corner
+  
+  // Select the fill for the circle
+  fill(10,20, 240);
+
+  // Draw the circle
+  circle(mouseX, mouseY, 30);
+  print("mouse coordinates = " + mouseX + ", " + mouseY);
+}
+
+````
+
+##### Notes:
+
+- Local vs. Global variables
+- Built-in variables
+
+````
+// Example usage of a global variable
+
+let count; // this is now a global variable
+
+function setup() {
+  circle(50, 50, 30);
+  count = 7; // the variable is initialized here
+}
+
+function draw() {
+  count = count + 1; // not algebra!
+  // The result of the right hand side calculation
+  // replaces whatever value was stored in the variable
+  // on the left side of the '=' sign
+  // end result: the variable "count" is incremented by 1
+
+  print (count);
+}
+````
+
+##### What is `frameRate()`?
+
+````
+function setup() {
+  frameRate(10);       // frameRate() is a function
+  print(frameRate()); // it takes awhile for the frame rate to change
+}
+
+function draw() {
+  print(frameRate());
+}
+````
+
+##### Additional resources
+Refer to these for additional information
+- [Programming with p5.js for Beginners (Coding Train Videos)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
+- [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
+
+### Week 2.2
+
+Overview:
+- Readings
+- Review
+- Loops
+- Functions
+- Homework assignment + reading
+
+##### Readings
+Each week there will be assigned reading. You need to read / watch the material before the start of
+Monday's class and post a response. We will discuss the readings in groups in class.
+
+[Explanation of in-class discussion (Syllabus)](https://intro.nyuadim.com/syllabus/#studentled)
+
+[Week 2 - Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups
+
+[List of readings (Weekly Schedule)](https://intro.nyuadim.com/)
+
+
+##### Review
+
+- conditionals 
+
+````
+function setup() {
+  createCanvas(300, 300);
+}
+
+function draw() {
+  if (mouseIsPressed === true) {
+    background(color(0, 0, 255));
+  } else {
+    background(color(200, 0, 0));
+  }
+}
+````
+
+**Notes**:
+1. `mouseIsPressed` is another built-in variable. There are many others.
+1. `mouseIsPressed` is a new type of data, namely a `boolean`, 
+	which means it has
+	 only one of two values, `true` or `false`
+1. Note that `{` and `}` indicate the blocks
+1. The `else` part of an `if()` statement is optional (what happens if we
+	 remove it?)
+
+In class exercise:
+- Using the cursor to draw
+- Now use a mouse press to clear the screen
+- Clear the screen if the mouse is pressed inside a certain circle
+- Combine these to create a primitive painting program
+
+##### Loops
+`while()` is like `if()` but it keeps on doing it as long as condition is true
+
+````
+function setup() {
+  createCanvas(300, 300);
+
+  let foo = 50; // create and initialize a variable
+
+  while (foo < width) { // keep going as long as the condition is true
+    ellipse(foo, 50, 40, 40);
+		// modify the variable so something different happens next time
+    foo = foo + 50; 
+  }
+}
+````
+
+1. You should get in the habit of giving meaningful names to your variables.
+	1. What is a better name for the variable foo?
+1. What would happen if you replace the `while()` with `if()`?
+
+There is another way to make a loop using the keyword `for()`. The `for()`
+loop structure combines the initialization step and the incrementation step
+into the `for()` loop construction:
+
+````
+function setup() {
+  createCanvas(300, 300);
+
+  // initialization, condition, and incrementation all in one line
+  for (let foo = 50; foo < width; foo = foo + 50)  {
+    ellipse(foo, 50, 40, 40);
+  }
+}
+````
+
+Which should you use? Whichever is easier for you to understand. Remember that
+**most of the time spent programming is fixing problems**, and **whatever you
+understand best will probably have fewer problems**.
+
+Both `for()` loops and `while()` loops can be nested, meaning a loop inside a
+loop:
+
+````
+
+function setup() {
+  createCanvas(700, 700);
+  background(230);
+  fill(0);
+
+  let yPos = 0;
+  let xPos = 0;
+
+  for (yPos = 30; yPos < height; yPos=yPos + 40) {
+    for (xPos = 20; xPos<width; xPos=xPos + 40) {
+      circle(xPos,yPos, 5);
+    }
+  }
+}
+
+````
+
+#### Functions
+
+Every time you use one of the built-in 'commands', you are really using (or
+more properly 'calling') a built-in function. Functions are a very important
+building block of programming, and in addition to using built-in functions,
+you can also create your own. In fact, you've already been doing that, when
+you created the `setup()` and `draw()` functions. In the case of
+`setup()` and `draw()` you have to use those names, but when you create other
+functions you can make up your own names. Just like variables names, good 
+function names make your programs easier to understand.
+
+Why create your own functions?
+
+- Reuse (if it's something you might do again)
+- Clarity (remember your three important audiences: yourself, others learning
+	from you, me when I grade your work)
+- Easier to debug (what is debugging?)
+	- One of the most powerful ways to approach
+	a bug is to reproduce it with simplest possible example. 
+	This is much easier when the thing that's causing
+	the problem is already a function.
+- Modularity
+- Flexibility (with good choice of parameters)
+
+Let's modify the example from last class to use a function. First let's draw a
+house instead of a circle to make it a little more interesting:
+
+````
+function setup() {
+  createCanvas(300, 300);
+
+  // initialization, condition, and incrementation all in one line
+  for (let foo = 50; foo < width; foo = foo + 50)  {
+    rect(foo, 50, 40, 40);
+    line(foo, 50, foo+20, 30);
+    line(foo+20, 30, foo+40, 50);
+  }
+}
+````
+
+Now let's make a function called `drawOneHouse()`. If we want to
+draw a house at different locations, we need a way to tell
+the function `drawOneHouse()` where to put the house. Functions accommodate
+this by allowing us to pass information into the function by putting 
+that information in the parenthesis. In the function, we store this
+information in temporary variables that we can use in the function:
+
+````
+function setup() {
+  createCanvas(300, 300);
+
+  for (let foo = 50; foo < width; foo = foo + 50) {
+    drawOneHouseAt(foo);
+  }
+}
+
+function drawOneHouseAt( x) {
+  rect(x, 50, 40, 40);
+  line(x, 50, x+20, 30);
+  line(x+20, 30, x+40, 50);
+}
+````
+
+**Notes**
+1. I've said this before and I'll keep saying: 
+	**Choose descriptive names for your variables and functions!** 
+	`foo` is a bad name, `xPos` is a good name,
+	 `houseXPos` is a better name.
+1. The value of `foo` (50, 100, 150 ...) is the information passed to the
+	 function so that the function can do it's work. The proper name for this
+	 information is an **argument**
+1. The variable `x` is a temporary variable that **only exists in the function**.
+	 This variable is used to store the argument that was passed into the
+	 function so that the function can do its work. Once the function is
+	 finished, this variable is no longer needed and is destroyed. 
+	 A variable used in this way is called a **parameter**
+1. Functions may take zero, one, or multiple arguments. When you write 
+	a function, you decide how many arguments you need. For example, we might
+	have included the house size or roof height or house y location. (Of course
+	when you use functions that someone else wrote 
+	you must use the proper number of parameters.)
+1. Functions can return information as well, for example the `random()`
+	 function. Functions can either return one piece of information, or none.
+	We will see later how to do this. 
+
+#### Variable Scope (again)
+
+https://editor.p5js.org/mangtronix/sketches/DaceAEVzA
+````
+let foo;  // this is a global variable, visible in all functions
+
+function setup() {
+  foo = 7;
+}
+
+function draw() {
+
+  print(foo);
+
+  let bar; // this is a local variable, visible only inside of draw()
+
+  for (let i = 0; i < width/2; i++) { 
+    // i is a local variable visible only inside this for() loop
+    ellipse(i, height/2, 10,15);
+  }
+}
+````
+
+### Readings / Class Discussion
+- Readings are listed on the [main page](https://intro.nyuadim.com/)
+
+### Debugging
+- [p5js Field Guide to Debugging](https://archive.p5js.org/learn/debugging.html)
+- [Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
+
+#### Week 2.2 Additional Resources
+- [Programming with p5.js for Beginners (Coding Train Videos)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
+- [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
+- [p5.js rotate (p5js reference)](https://p5js.org/reference/#/p5/rotate)
+- [p5js transformations (Gene Kogan)](https://genekogan.com/code/p5js-transformations/)
+  - Running examples of transformations
+- [9.1: Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial (Dan Shiffman YouTube)](https://www.youtube.com/watch?v=o9sgjuh-CBM)
+- [Intro to IM Sketch Collection (p5 web editor)](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
+
+[Back to top](#weekly-schedule)
 
 ## Week 3
 
-### Week 3.1 - Schematics, Circuit conventions
+### Week 3.1
+- Review homework
+- In-class discussion
 
-#### Plan for today: 
-- Lab Policies with IM Lab Manager Dustin Foster
-- Look at homework
-- Reading discussion
-- IM Lab tour
-  - Consumables
-  - Fabrication area
-  - 3D printers
-  - Laser cutter
+##### Artwork examples
+- [Vera Molnar](https://magazine.artland.com/vera-molnar/)
+- [Manfred Mohr](http://www.emohr.com/)
 
-- Schematic conventions
-- Sound
-- Servo motor
-- PWM
-- Data Types
-- Circuit theory
-- Examples
+##### Functions
 
-#### Schematics
+Any questions about what we've covered already?
 
-- [How to Read a Schematic (Sparkfun)](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all)
-- Hand-drawn
-  - Best way to get started! Think about your circuit, then draw it
+Functions that return a value: See the [reference page for
+`return`](https://p5js.org/reference/#/p5/return)
 
-## Michael Start Here
+**Notes**
+- Functions can take any number of arguments (or none), but can return at most
+one
 
-Here is an example:
+In class exercise:
 
-![](media/handDrawnSchematicExample.jpg)
+1. Write a function that will take a single parameter
+and draw a vertical line from the top of the canvas to the bottom
+at the X coordinate indicated by the parameter
+1. Write another function that will draw a **horizontal** line
+at the indicated **Y** coordinate
+	1. Test as before
+1. Using these two functions, write a program 
+that draws a grid of lines at regular intervals on the canvas
 
-- [Tinkercad](https://www.tinkercad.com/circuits) (free)
-- [Fritzing](https://fritzing.org/) (~$8 download, simple, has many Arduino-related parts)
-- [KiCad](https://www.kicad.org/) (open source, complex)
+#### Callback Functions / Event Handlers
 
-#### Conventions: Schematics and Wire Colours
+`mouseClicked()` [example](https://p5js.org/reference/#/p5/mouseClicked) in
+the reference section
 
-- When drawing schematics
-
-  - All **sensors** on the **left**
-  - All **inputs** on the **left** side of the Arduino 
-  - All **actuators** on the **right**
-  - All **outputs** on the **right** side of the Arduino 
-  - There are exceptions e.g.
-    - If using CAD you can't control where the pins are on Arduino
-    - Some devices (e.g. the ultrasonic distance measuring sensor) that have
-      both inputs and outputs
-
-- When wiring your circuits
-
-  - All **5V** connections should use **red** wire, 
-  and don't use red for anything else
-  - All **GND** connections should use **black** wire,
-  and don't use black for anything else
-    - If you run out of black you may either
-      - Color some white cables black with a Sharpie
-      - Dedicate green as an additional black, and then
-      don't use green for anything else either
-  - All other connections can use any other colors
-  - If you use the buses on the sides of the breadboard
-    - Red bus for 5V only
-    - Black or Blue bus for GND only
+**Notes**
+- You never have to call **callback functions**. The p5.js system calls them
+	for you when that event happens
+	
+See [Program flow](https://archive.p5js.org/learn/program-flow.html) for more examples of callback functions and event handlers.
 
 
-#### Circuits
+https://editor.p5js.org/mangtronix/sketches/7zooOaxnq
+````
+const redLocationX = 40;
+const redLocationY = 40;
 
-Some theory that might help you think about why circuits are they way they
-are
-- Important concepts:
-  - Voltage 
-    - Voltage is a relative quantity so it's always measured or identified
-      relative to some other point (usually a common reference point such as
-      "ground")
-    - Can be thought of the "pressure" applied to the electrons
-    - Analogous to holding a brick at a certain height above the floor. Relative
-      to the floor, the brick has a certain amount of potential energy
-    - Voltage exists whether or not there is a circuit
-  - Resistance 
-    - The resistance the electrons face as they try to get through
-    components. 
-    - Analogous to a traffic jam on a road
-    - Conductors (wires) have zero resistance (for our purposes)
-    - All components have some sort of "resistance"
-    - Resistance is a property of a component and therefore
-    exists whether or not there is a circuit
-  - Current  
-    - The rate of flow of electrons through a circuit (electrons/second)
-    - Somewhat analogous to litres/hour or cars/hour
-    - **Current only exists when there is a circuit**
-- If you measure the voltage between any two points, the voltage will not
-  change as you move to different places on the **wire**. 
-    However if you cross
-    a component the voltage might be different on the other side of the
-    component
-- If you measure current through components connected in 
-  series the current will not change. This is because **all** the electrons
-  that go through the first component have to go through the rest. No
-  electrons can leave the path, and no new ones can enter.
-    However if there are any branches some electrons might go on the
-    branches and thus the current will drop.
-- Review
-- Voltage does **not** change in a conductor
-  - That is why we can connect things to the same node in any order
-- Voltage **does** change when you go across a component
-  - That is why it is **important** to make connections to the correct side of a
-    component!
+const blueLocationX = 80;
+const blueLocationY = 40;
 
-### Week 3.2 - Tool training
+const menuSizeX = 120
+const menuSizeY = 80;
 
-#### Meet directly in Scene Shop - don't be late!
+const circleDiameter = 40;
+const backgroundColor = 240;
 
+function setup() {
+  createCanvas(400,400);
+
+  //prepare background
+  background(backgroundColor);
+
+  // Put a box around the menu. We won't be allowed to draw here
+  rect(0,0, menuSizeX, menuSizeY);
+
+  // draw red circle
+  fill (255,0,0);
+  circle(redLocationX, redLocationY, circleDiameter);
+
+  // now blue
+  fill (0, 0, 255);
+  circle(blueLocationX, blueLocationY, circleDiameter);
+
+  // initialize fill to green
+  fill (0, 255, 0);
+
+  // turn off stroke
+  noStroke();
+
+  // faster refresh rate makes line more solid
+  frameRate(200);
+}
+
+function draw() {
+
+  if (mouseIsPressed &&
+      !mouseIsWithinRect(0, 0, menuSizeX, menuSizeY)) {
+    circle(mouseX, mouseY, 15);
+  }
+}
+
+function mouseClicked() {
+
+   // Have we chosen red?
+  if (mouseIsWithinCircle(redLocationX, redLocationY, circleDiameter/2)) {
+    console.log("you chose red!");
+    fill (255,0,0);
+  }
+
+  // Have we chosen blue?
+  if (mouseIsWithinCircle(blueLocationX, blueLocationY, circleDiameter/2)) {
+    console.log("you chose blue!");
+    fill (0, 0, 255);
+  }
+
+}
+
+function mouseIsWithinCircle( x, y, radius) {
+  if (dist(mouseX, mouseY, x, y) < radius) {
+    return true;
+  }
+  return false;
+}
+
+function mouseIsWithinRect( x, y, sizeX, sizeY) {
+  if (mouseX > x &&
+      mouseX < x + sizeX &&
+      mouseY > y &&
+      mouseY < y + sizeY) {
+    return true;
+  }
+  return false;
+}
+
+````
+
+**Notes**
+- Operator precedence is [very
+	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
+	force the order you want.
+
+  #### Arrays
+
+Very simply, arrays let you store multiple things under one variable name, and
+let you identify which thing you want by using an `index`
+
+- [JavaScript Array Reference (w3schools)](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+- [Week 3.2 - Arrays (p5editor)](https://editor.p5js.org/mangtronix/sketches/RgFNsZcxI)
+
+````
+function setup() {
+  const numberOfValues = 10;
+
+  let values = []
+
+  let n = 0;
+  while (n < numberOfValues ) {
+    values.push( n * n );
+    n = n + 1;
+  }
+
+  for (let i = 0; i < values.length; i++) {
+    print(values[i]);
+  }
+}
+````
+
+**Things to notice**
+
+- Similar to the way functions are signified by `()`, 
+	arrays are signified by `[]`
+- Arrays can be of any data type, but can't be mixed types
+- New keyword: `const` 
+- Why not just use ten "normal" variables?
+- Arrays and loops (either `for()` or `while()`) almost always show up
+  together. If you have an array, you almost always want a loop.
+- Note that the `while()` loop used to put the numbers into the array
+	is exactly the same as the `for()` loop used to print the array. I could
+	have used either in both places. I did this to show you that they are
+	interchangeable.
+	
+- Some ways to iterate over an array
+  - [JS Loop For (w3schools)](https://www.w3schools.com/js/js_loop_for.asp)
+  - [JS Loop For Of (w3schools)](https://www.w3schools.com/js/js_loop_forof.asp)
+
+- See [Week 3.2 - Arrays (p5editor)](https://editor.p5js.org/mangtronix/sketches/RgFNsZcxI) for examples on how to insert and remove items
+
+#### Object Oriented Programming (OOP)
+
+- [JavaScript Classes (w3schools)](https://www.w3schools.com/js/js_classes.asp)
+- [Classes (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+- [Class Syntax](https://javascript.info/class) (advanced)
+
+Walk through these examples:
+- [Ball Class Example 1 - using global variables (p5editor)](https://editor.p5js.org/mangtronix/sketches/VsFd39EN2)
+- [Ball Class Example 2 - using a class (p5editor)](https://editor.p5js.org/mangtronix/sketches/-7sWqG_Bu)
+- [Ball Class Example 3 - multiple instances using a class (p5editor)](https://editor.p5js.org/mangtronix/sketches/zef9Vc-s7)
+- [Ball Class Example 4 - keeping track of objects using array (p5editor)](https://editor.p5js.org/mangtronix/sketches/5mO9RcqPd)
+- [Ball Class Example 5 - basic interactivity (p5editor)](https://editor.p5js.org/mangtronix/sketches/M_G7Qs6Jf)
+- [Car Class Example (p5editor)](https://editor.p5js.org/mangtronix/sketches/ShJMnrrkW)
+- [Flocking example (p5js)](https://p5js.org/examples/classes-and-objects-flocking/) (note: uses older '.prototype' way of emulating classes)
+
+#### Transformations
+
+Walk through
+[this](https://creative-coding.decontextualize.com/transformations-and-functions/)
+tutorial. You might also find
+[this](https://genekogan.com/code/p5js-transformations/) useful for a
+slightly different perspective.
+
+Additional learning resources
+- [Happy Coding p5.js tutorials](https://happycoding.io/tutorials/p5js/)
+	- Similar to our course material in an interactive web page format
+	- Read and then try it out!
+- [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [Shiffbot](https://shiffbot.withgoogle.com/)
+	- AI chatbot browser plugin for Chrome
+ 	- Trained to give help rather than give you the answer
+  	- May need VPN to access 
+
+
+#### Homework
+
+Complete your Week 3 homework for Tuesday's class
+
+### Week 3.2
+
+#### Topics today
 Mandatory tool and safety training
 - You must complete tool training in order to use the tools in the IM Lab and maintain your lab access
 - You must complete the Scene Shop induction with Tony Bragg and sign the liability form before doing **any** work in the Scene Shop
 
 Contacts / Resources
 - IM Lab
-  - Manager: Dustin Foster <dustinfoster@nyu.edu>
-  - [Hours, equipment / machine booking](https://www.nyuadim.com/resources/)
+	- Manager: Dustin Foster <dustinfoster@nyu.edu>
+ 	- [Hours, equipment / machine booking](https://www.nyuadim.com/resources/)
 - Scene Shop
-  - Manager: Tony Bragg <anb6202@nyu.edu>
-  - Hours: Generally 9-5, only while Tony or another instructor / specialist is present. Contact Tony for use of specific tools (e.g. bandsaw, sanding machines) 
+	- Manager: Tony Bragg <anb6202@nyu.edu>
+ 	- Hours: Generally 9-5, only while Tony or another instructor / specialist is present. Contact Tony for use of specific tools (e.g. bandsaw, sanding machines) 
 
-
-Sound, servos
-
-#### Sound
-
-**`tone()`**
-
-- [Schematic](https://www.arduino.cc/en/Tutorial/ToneMelody)
-- Before you try that code, just try 
-`tone(spkrPin, 440);`
-and
-`tone(spkrPin, 440, 1000);`
-- [Reference
-page](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
-
-**Notes**
-- "Use of the `tone()` function will interfere with PWM output on pins 3 and 11"
-  - The word "intefere" is rather vague. 
-  I think they mean that it 
-  prevents `analogWrite()` from working on pins 3 and 11
-- The `tone()` function is *non-blocking*
-- Arduino supports tabs just like in p5.js
-- Arduino has arrays just like in p5.js
-- What is resistor for? 
-  - [What is a resistor?](https://www.atlearner.com/2020/02/what-is-resistor.html)
-  - LED needs a resistor to limit current so it doesn't burn out
-  - LDR needs a resistor to form a voltage divider
-  - Piezo buzzer neither burns out nor needs a voltage divider
-  - So why a resistor?
-
-#### Servo motor
-
-- [Schematic](https://www.arduino.cc/en/Tutorial/Knob)
-- [Reference
-page](https://www.arduino.cc/en/Reference/Servo)
-
-
-**Notes**
-- Use of the servo library disables `analogWrite()` (PWM) on pins 9 and 10
-- The `Servo.write()` function is *non-blocking*
-
-#### More about PWM
-- How do you suppose `analogWrite()` makes an LED dimmer?
-- [PWM](https://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/)
-- What do `analogWrite()`, `tone()` and `Servo` have in common?
-- What is sound?
-- How does a servo motor
-  [work](https://lastminuteengineers.com/servo-motor-arduino-tutorial/)?
-
-**Notes**
-1. You may have noticed that the built-in LED blinks 3 times when you turn on
-   your Arduino. In fact it does this every time it resets, which also happens
-   when you upload a new program. Since this LED is connected directly to pin
-   13, it means that whatever you have attached to pin 13 will be activated 3
-   times briefly whenver the Arduino resets. So, if you make a big robot, 
-   you probably should not use pin 13 for the motor
-1. Pins 0 and 1 are used for communication with your laptop, and this has two
-   effects:
-  1. Connecting anything to pins 0 or 1 might interfere with laptop
-     communication (which includes uploading!)
-  2. Anything connected to pins 0 or 1 might be activated during
-     communication!
-1. For these reasons it is best to avoid pins 0, 1, and 13. If you run out of
-   pins and need to use them there are ways around this.
-
-#### Data Types
-
-Unlike in p5.js, you must declare what type of data you want to store in a
-variable:
-
-- `int` - whole numbers only
-- `float` - a number with a fractional part ('floating point number')
-- `char` - a character
-- `boolean` - only either `true` or `false`
-
-
-#### In-class exercises
-
-
-1. Build a circuit with a switch (pushbutton) and a servo motor, and when you
-   press the switch go to one position, when you don't press the switch go to
-   another
-
-2. Add a piezo buzzer so that when the switch is pressed it plays a tone for
-   half a second, then a tone for another half a second as long as the switch
-   is pressed
-
-3. Modify the code so that it plays the two tones only once when the switch is
-   pressed
-
-4. Add an LED and make the LED change brightness according to which tone is
-   playing
-
-5. Add a potentiometer which controls how fast the servo motor moves from one
-   position to the next
-
-#### Examples
-
-Some examples using the piezo speaker, servo motor, and a potentiometer:
-
-````
-// Moving the servo motor first to one position and then to another,
-// and then stopping:
-
-const int servoPin = 7;
-
-#include <Servo.h>
-Servo myservo;
-
-void setup() {
-  myservo.attach(servoPin);
-  myservo.write(10);
-  delay(1000);
-  myservo.write(130);
-}
-
-void loop() { 
-}
-````
-
-````
-// Moving the servo motor first to one position and then to another,
-// continuously:
-
-const int servoPin = 7;
-
-#include <Servo.h>
-Servo myservo;
-
-void setup() {
-  myservo.attach(servoPin);
-}
-
-void loop() {
-  myservo.write(10);
-  delay(1000);
-  myservo.write(130);
-  delay(1000);
-}
-````
-
-````
-// Minimal example of the tone() function
-// Make a tone, never stop
-
-const int spkrPin = 7;
-
-void setup() {
-  tone(spkrPin, 440); // starts a tone on pin 7 at frequency 440
-}
-
-void loop() {
- // Arduino always needs a loop, even if it's empty
-}
-````
-
-Is the `tone()` function blocking? 
-
-````
-// If tone() is a blocking function, the LED will be off while the tone sounds
-// If the LED comes on as soon as the tone starts, tone() is non-blocking
-const int spkrPin = 7;
-
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-
-  digitalWrite(LED_BUILTIN, LOW);
-  tone(spkrPin, 440, 1500); // starts a tone and then automatically stops it after 1500 milliseconds
-  digitalWrite(LED_BUILTIN, HIGH);
-}
-
-void loop() {
-}
-````
-
-````
-// Using a potentiometer to control the position of a servo motor
-
-#include <Servo.h>
-
-Servo myservo;  // create servo object to control a servo
-
-int potpin = A0;  // analog pin used to connect the potentiometer
-
-void setup() {
-  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
-}
-
-void loop() {
-  int val = analogRead(potpin); // reads the value of the potentiometer (value between 0 and 1023)
-  val = map(val, 0, 1023, 0, 180); // scale it for use with the servo (value between 0 and 180)
-  myservo.write(val);   // sets the servo position according to the scaled value
-  delay(15);            // waits for the servo to get there
-}
-````
-
-````
-  // Use a potentiometer to control the position of a servo motor
-  // and the pitch of a tone
-
-  #include <Servo.h>
-  Servo myservo;
-
-  void setup() {
-    // initialize serial communication at 9600 bits per second:
-    Serial.begin(9600);
-    myservo.attach(7);
-  }
-
-  void loop() {
-    // read the input on analog pin 0:
-    int sensorValue = analogRead(A2);
-    // print out the value you read:
-    Serial.println(sensorValue);
-
-    // servo motor stuff
-    int servoPosition = map(sensorValue, 0, 1023, 0, 180);
-    myservo.write(servoPosition);
-
-    // piezo buzzer stuff
-  int pitch = map(sensorValue, 0, 1023, 200, 4000);
-  tone(8, pitch);
-
-  delay(1);        // delay in between reads for stability
-}
-````
 [Back to top](#weekly-schedule)
-
 
 ## Week 4
 
-### Week 4.1 - Serial Communication
-#### Plan for today: 
-- Announcements
-  - [IM Show](#im-show) is Thursday May 8, 5-8pm
-  - Each IM student must show at least one project
+## Week 4.1
 
-- Reading discussion
-- Look at homework (musical instruments)
-- Debugging
-- Serial Communication
-
-
-##### Debugging
-
-If you want my help solving a problem in your assignment, do the following:
-1. Figure out the simplest circuit and program that demonstrates your problem
-1. Upload your schematic, code, and 
-the best picture you can take of your breadboard circuit to GitHub 
-1. Write a message on Discord, describing carefully
-  1. What you think should happen
-  1. What you observe happens
-
-What techniques have you learned to help you find problems?
-
-
-#### Serial Communication
-
-Remember how we used `print()` in p5.js to help us find problems in our 
-program? You can do that in Arduino to but the function has a slightly
-different name: `Serial.println()`
-- Must be initialized `Serial.begin()`
-- Can not concatenate strings with the `+` function
-  - Instead, you need multiple calls to `Serial.print()` e.g.:
-
-````
-Serial.print("First value = ");
-Serial.print(firstValue);
-Serial.print(" Second value = ");
-Serial.print(secondValue);
-Serial.println();
-````
-
-Communicating between p5.js and Arduino
-  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-    - Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks. 
-  - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
-  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
-
-- Bidirectional communication example
-  - This example exchanges information between p5 and Arduino using the serial connection
-  - [p5.webserial library (GitHub)](https://github.com/gohai/p5.webserial)
-  - [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/a96iTkEvR)
-  - [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-  - [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
-
-- Before you incorporate this in your project, first test this as it is and
-  make sure you understand it
-- The example uses the [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-- For new sketches ou need to load the library in your sketch index.html file by adding this line:
-  ```<script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>```
-
-<img width="1148" alt="p5 webserial script tag" src="https://github.com/user-attachments/assets/82b42bc9-8907-4cf4-8b68-a891e45b6e3f" />
-
-
-- Briefly, what this code does:
-  - Arduino waits for a message from p5.  
-  - Arduino expects two values separated by a comma. It uses these two values
-    to control two LEDs.  
-  - Arduino then reads two sensors and sends the values back to p5, separated
-    by a comma.
-  - p5 reads these two values from Arduino. One value controls the text color,
-    the other controls the text transparency
-  - p5 sends two values back to Arduino indicating if the mouse was clicked,
-    and if so, which half of the screen it was in.
-
-- Once it's working, duplicate the code and then start adapting it to your
-  needs:
-  - Duplicate Aaron's project so that you get the other files as well
-  - Increase or decrease the amount of data that is exchanged. You may need
-    more, or you may need less. 
-  - Modify the data that is exchanged. You may need a digital sensor on the
-    Arduino instead of an analog sensor. Similarly, on the p5 side, you may
-    need something different from a mouse click or changing the text color and
-    transparency.
-  - Once you are reliable sending information back and forth you can start
-    adding the rest of your program
-
-- More tutorials
-  - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
-  - [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
-  - [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
-  - **Note:** these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
-
-
-<!-- Older examples using serial server
-
-MacOS or Windows
-- Follow Jack's excellent tutorial
-[here](https://docs.google.com/document/d/1l7pgSkb9SqoOFyo6xVZTlW-ORQJ_iHNUrOBGdARW4j4/edit)
-  - When you download `p5.serialcontrol`, download Beta 1.1
-
-On linux
-1. Install a serial server 
-  1. sudo npm install -g p5.serialserver --unsafe-perm --build-from-source
-1. Invoke it
-  1. p5serial
-
-Examples
-- A minimal [example](https://editor.p5js.org/michaelshiloh/sketches/h2RQaOmYP) 
-  - Clicking the mouse turns on an LED
-  - Closing a switch on Arduino sends a signal to p5.js
-- Aaron's [example](https://editor.p5js.org/aaronsherwood/sketches/v8OM9VbGe)
-  - Two sensors on Arduino control the position of a circle on p5.js
-  - Clicking the mouse on different parts of the canvas controls two LEDs
-    on Arduino
- -->
- 
-
-### Week 4.2 - Serial communication
 #### Plan for today
-- Serial communication continued
+
+- Artwork examples
+  - [Text Rain - Camille Utterback](http://camilleutterback.com/projects/text-rain/)
+  - Scott Snibbe
+    - [Boundary Functions (2001)](https://www.snibbe.com/art/boundaryfunctions)
+      - Uses [planar subdivision function in OpenCV](https://docs.opencv.org/3.4/df/d5b/group__imgproc__subdiv2d.html)
+      - [Voronoi Diagram (Wikipedia)](https://en.wikipedia.org/wiki/Voronoi_diagram)
+    - [Deep Walls (2002)](https://www.snibbe.com/art/deepwalls)
+
+- Class examples
+
+<!--
+  - [Week 4 - Choosing Students (p5editor)](https://editor.p5js.org/mangtronix/sketches/DMnZyF6Xc)
+-->
+  - [Week 2 - Random Shuffle Groups](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL)
+  - [Week 4 - Fish class (p5editor)](https://editor.p5js.org/mangtronix/sketches/E-0n-8gIN)
+  - [Week 4 - Ball class with text (p5editor)](https://editor.p5js.org/mangtronix/sketches/0Vgh2i2lh)
+
+Additional p5js resources:
+- [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
+- [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa)
+
+
+#### Working with text
+
+- How put text on the canvas
+  - [p5js Typography reference](https://p5js.org/reference/#group-Typography) 
+- Data Visualization 
+- Generative Text
+
+##### Text on the canvas
+
+###### The most basic usage
+
+[Week 4 - Basic Text](https://editor.p5js.org/mangtronix/sketches/Gsvk37_QK)
+````
+function setup() {
+  createCanvas(400, 400);
+
+  text("My Important Message", width / 2, height / 2);
+}
+````
+
+###### Different Fonts and Position
+
+[Week 4 - Basic Text](https://editor.p5js.org/mangtronix/sketches/Gsvk37_QK)
+
+````
+function setup() {
+  createCanvas(400, 400);
+	textFont("Courier New", 25);
+
+	text("My Important Message", width / 2, height / 2);
+}
+````
+
+Fonts that seem to be available are 'Courier New' (monospace),
+and 'Helvetica' (non-monospace)
+
+You can also load your own fonts but that requires uploading them to the p5.js
+server
+
+Help->Reference->LoadFont
+[Typography (p5 reference)](https://p5js.org/reference/#group-Typography)
+
+**Important**: Note that p5.js is asynchronous, 
+meaning that `setup()` will continue even if the `loadFont()` hasn't finished.
+There are two ways to force your program to wait for the font to load:
+
+1. Use `preLoad()`
+1. Specify an optional callback function in `loadFont()`
+
+###### Selecting one of many fonts
+
+Note that loading a font takes time, so if you expect to use multiple
+fonts it's best to preload all of them, and then switch between
+them using [`textFont()`](https://p5js.org/reference/#/p5/textFont)
+
+###### Other things to do with text
+
+There are of course many other things you can do with text. You can look at 
+Help->Reference->Typography and File->Examples->Typography for ideas and
+examples.
+
+##### Data Visualization
+
+What is data visualization? Here are some examples:
+
+- [Ben Fry](http://benfry.com/allstreets/)
+- [Aaron Koblin](http://www.aaronkoblin.com/project/flight-patterns)
+- [earth:: a global map of wind, weather, and ocean conditions](https://earth.nullschool.net/)
+<!-- 404 - [Jer Thorp](https://www.jerthorp.com/portfolio) e.g. Cascade -->
+
+###### Finding data
+
+Note: your data source must be available via an https (SSL-encrypted) URL in order for it to be loaded dynamically from a sketch hosted on an https server (like https://p5editor.p5js.org).  Sites starting with http:// will not work. For static data you can download the .csv file to your computer and then add it to your sketch files.
+
+[Week 4 JSON http vs https (p5editor)](https://editor.p5js.org/mangtronix/sketches/uO7btEsNN)
+
+Sources
+
+- https://www.springboard.com/blog/free-public-data-sets-data-science-project/
+- https://www.ndbc.noaa.gov/rt_data_access.shtml
+- https://www.kaggle.com/datasets
+- Professor' Mathura's [list of data
+	sources](https://github.com/MathuraMG/ConnectionsLabSpring22/blob/master/Week_3_JSON_Fetch/README.md#list-of-data-sources)
+ 	
+Format
+
+- The most common format is CSV. You can create your own CSV file from a 
+	spreadsheet because most programs
+	(Excel, OpenOffice Calc, Google Sheets) can export any table in CSV format
+- Other formats are JSON and XML. We won't spend any time on them, but there
+	are p5.js libraries for these.
+	
+##### Simple CSV example
+- [Week 4 - Simple CSV examples (p5 editor)](https://editor.p5js.org/mangtronix/sketches/yCb7BOnKf)
+
+##### Worked example: Getting and working with a CSV file
+
+- A [database](https://eerscmap.usgs.gov/uswtdb/) of energy generated by wind turbines
+- Click "Get Data"
+- Scroll down a bit to "Tabular Data: CSV format" and click on "CSV
+format". 
+	- This will download a `.zip` file.
+- Unzip the file. 
+	- This will create `uswtdb_v4_1_20210721.csv`
+- This is a plain text file; you can view it with a text editor
+	- You will see that the first line is the heading of each column
+	- Some of the fields are numerical (e.g. case_id)
+	- Some of the fields are text (e.g. t_state, t_county)
+	- Some of the fields are missing (e.g. faa_ors, faa_asn)
+- Now you can load this file into an array of `Strings` and then process each
+	line one at a time, pulling out individual fields:
+
+[Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U)
+````
+/*
+ * example to process a CSV file containing data
+ * about wind turbines in the USA
+ * Source: https://eerscmap.usgs.gov/uswtdb/
+ */
+
+// An array of strings to hold the entire file
+let strings = [];
+
+// For scaling, we want to know the minimum and maximum latitude and longitude
+let minLat;
+let maxLat;
+let minLong;
+let maxLong;
+
+function preload() {
+  // The text from the file is loaded into an array.
+  strings = loadStrings("uswtdb_v4_3_20220114.csv");
+}
+
+function setup() {
+  createCanvas(500, 400);
+  background(235);
+
+  // Did we succeed to load anything?
+  if (strings == null) {
+    print("failed to load the file, stopping here");
+
+    // this is an endless loop; it's a common way
+    // to prevent a program from continuing when
+    // something is so wrong that there is no sense
+    // in continuing
+    while (true) {}
+  }
+
+  print(
+    "strings loaded from file successfully, read " + strings.length + " lines"
+  );
+
+  // Find the minimum and maximum latitude
+  // and longitude
+  findMinMaxLatLong();
+}
+
+function findMinMaxLatLong() {
+  let singleRow = [];
+
+  // loop over each row in the file
+  for (let csvRowNumber = 1; csvRowNumber < strings.length; csvRowNumber++) {
+    // get a single row and split that row
+    // into individual words
+    singleRow = split(strings[csvRowNumber], ",");
+
+    // We know that the last two fields are the
+    // latitude and longitude and so they are
+    // numerical:
+    let longitude = float(singleRow[25]);
+    let latitude = float(singleRow[26]);
+
+    // The file may be missing a field, in which case
+    // the converstion to a float might have failed
+    if (isNaN(longitude) || isNaN(latitude)) {
+      print("conversion to float failed; skipping row " + csvRowNumber);
+    } else {
+      if (csvRowNumber == 1) {
+        minLat = latitude - 10;
+        maxLat = latitude + 10;
+        minLong = longitude - 10;
+        maxLong = longitude + 10;
+      }
+
+      if (latitude < minLat) minLat = latitude;
+      if (latitude > maxLat) maxLat = latitude;
+      if (longitude < minLong) minLong = longitude;
+      if (longitude > maxLong) maxLong = longitude;
+    }
+  } // end of for() loop
+
+  print("Latitude (min, max) = (" + minLat + "," + maxLat + ") ");
+  print("Longitude (min, max) = (" + minLong + "," + maxLong + ")");
+} // end of findMinMaxLatLong
+
+let csvRowNumber = 1;
+// Skip the first line, since we know it's a header
+
+function draw() {
+  let singleRow = [];
+
+  // get a single row and split that row into
+  // individual words
+  singleRow = split(strings[csvRowNumber], ",");
+
+  // This really slows things
+  // down so use only when debugging
+  //println("Row " +
+  // csvRowNumber +
+  //   " contains " +
+  //   singleRow.length +
+  //   " fields" );
+
+  // We know that the last two fields are the
+  // latitude and longitude and so they are
+  // numerical:
+  let longitude = float(singleRow[25]);
+  let latitude = float(singleRow[26]);
+
+  // use only when debugging
+  // println("Latitude " +
+  // latitude +
+  //   " longitude " +
+  //   longitude );
+
+  // Check for non-numerical strings.
+  if (isNaN(longitude) || isNaN(latitude)) {
+    print("conversion to float failed; skipping row " + csvRowNumber);
+  } else {
+    // scale that to fit on our canvas
+    //println(csvRowNumber);
+    let ypos = map(latitude, minLat, maxLat, 0, height);
+    let xpos = map(longitude, minLong, maxLong, 0, width);
+
+    // Put a mark there
+    point(xpos, ypos);
+  } // end of valid data
+
+  csvRowNumber++;
+  if (csvRowNumber >= strings.length) {
+    println("finished");
+    noLoop();
+  }
+}
+
+````
+
+
+Things to notice:
+1. The `split()` function does half the magic
+1. The `int()` or `float()` function does much of the rest
+1. data files might have errors in them and you need to defend your program
+	 against them
+1. `loop()` and `noLoop()` can be used anytime you want to start or stop the
+	 `draw()` function from repeating
+
+
+##### JSON and XML: Other file formats
+
+JSON and XML are other format for organizing data in a file. 
+They are more complex than CSV, and again p5.js provides functions.
+
+##### Generative Text
+Pull words from a CSV file 
+and by using `random()` in a clever way,
+write poems or slogans or whatever. 
+
+[Week 4 - Fill in the blank](https://editor.p5js.org/mangtronix/sketches/3q3Nir5AA)
+Here is a terribly lame example:
+
+````
+/*
+Generate poetry from a file of words
+ the file has words in this format:
+
+ roses,red,violets,blue,dream,disneyland
+
+ we will refer to them as:
+
+ item1,color1,item2,color2,verb,location
+
+ and construct a poem:
+
+ item1 are color1, item2 are color2
+ when I verb I verb to location
+ */
+
+// Let's put the index of the word into numbers:
+let ITEM1 = 0;
+let COLOR1 = 1;
+let ITEM2 = 2;
+let COLOR2 = 3;
+let VERB = 4;
+let LOCATION = 5;
+// final means that I will not change these variables
+// It is conventional to use all caps for variable names that will not change
+
+
+let strings = [];
+
+function setup() {
+
+  // The text from the file is loaded into an array.
+  strings = loadStrings("words.csv");
+
+  // How many lines did we get?
+ // println("strings array contains this many lines: " + strings.length);
+}
+
+let csvRowNumber = 0;
+
+function draw() {
+  let singleRow = [];
+
+  // First line: "item1 are color1, item2 are color2"
+
+  // Pick a random number, round that number DOWN to a whole number,
+  // and split that row into individual words
+  singleRow = split(strings[int (random(strings.length))], ',');
+  // get item1
+  let item1 = singleRow[ITEM1];
+
+  // Now keep doing this for each word
+  singleRow = split(strings[int (random(strings.length))], ',');
+  // get color1
+  let color1 = singleRow[COLOR1];
+
+  // Now the second half of the first line: "violets are blue"
+  singleRow = split(strings[int (random(strings.length))], ',');
+  let item2 = singleRow[ITEM2];
+  singleRow = split(strings[int (random(strings.length))], ',');
+  // get color2
+  let color2 =  singleRow[COLOR2];
+
+  // that's the end of the first line of the poem
+  print(item1 + " are " + color1 + ", " + item2 + " are " + color2);
+
+  // Now the second line: when I verb I verb of location
+  message = "When I " ;
+  singleRow = split(strings[int (random(strings.length))], ',');
+  message += singleRow[VERB];
   
-#### In-class exercise (break class into groups of 2-3 students)
+  message += ", I ";
+  singleRow = split(strings[int (random(strings.length))], ',');
+  message += singleRow[VERB];
+  
+  message += " to the ";
+  singleRow = split(strings[int (random(strings.length))], ',');
+  message += singleRow[LOCATION];
+  print(message);
 
-- make something that uses only one sensor  on arduino and makes an ellipse (or other shape)
-  in p5 move on the horizontal axis, in the middle of the screen, and nothing
-  on arduino is controlled by p5 
-- make something that controls the LED brightness from p5 
-- take the [gravity wind example](https://editor.p5js.org/aaronsherwood/sketches/I7iQrNCul) and make it so
-  every time the ball bounces one led lights up and then turns off, and you
-  can control the wind from one analog sensor 
+  // that's the end of the second line of the poem so start a new line
+  // and also put an extra blank line
+  print('\n');
+  print('\n');
 
-
-#### Discussion
-- What did the writer mean by Vision?
-- Do you agree with the writer when he says future tech neglects the
-  importance of hands?
-- What are your views on if future technology should actually make use of
-  hands, for the feel of it, for the sense of touch?
-- What are some examples of how fingers manipulate things?
-- Do you agree with the writer about how we will actually be going back and
-  not modernizing or not?
-- What do you think is a good way of designing the interaction for the future
-  rather than extrapolating yesterday's technology?
-- Is intuitive interface deeply rooted with our physiology of doing things or
-  does it evolve with practice?
-- Does experiential perspective helps in creating visionary designs or does it
-  fades your vision?
-
-
-## Week 5
-### Week 5.1 - Motors, fabrication
-
-#### Plan for today: 
-- No reading discussion - reading is due Thursday
-- Review project proposals
-- Motors
-- Fabrication and Construction Techniques
-
-Inspiration
-- [Mechanical Techno Demonstration (Graham Dunning / YouTube)](https://youtu.be/wl1ZrEza7uY?si=tPjuOxoioo-I20gb)
-
-#### Fabrication and construction
-- Laser cutting 
-    - [Laser Cutting Basics](https://www.instructables.com/Laser-Cutting-Basics/)
-    - [IM Lab Laser Cutting presentation (Google Slides)](https://docs.google.com/presentation/d/1l6x9M0nAiH3uMHQKQtethxi2cAhx7vBo1srYkkMT4bA/edit?usp=sharing)
-
-- 2D Design for Laser Cutting
-    - [Inkscape](https://inkscape.org/)
-    - [Inkscape 11 minute tutorial (YouTube)](https://youtu.be/-_KJZPOYBeA)
-    - [Inkscape basic tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
-    - [Inkscape Tutorials (YouTube)](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&index=1)
-    - [Inkscape design for laser cutting (YouTube)](https://youtu.be/IzaiISOzXHo)
-    - [Inkscape Tutorial: Prepare your files for laser cutting](https://www.sculpteo.com/en/prepare-your-file-laser-cutting/prepare-your-model-laser-cutting-inkscape/)
-    - [Convert Text To A Path In Inkscape](https://logosbynick.com/convert-text-to-a-path-in-inkscape/)
- 
-- Laser cutter booking
-    - [IM Lab Resources](https://www.nyuadim.com/resources/) -> Machines
- 
-- 3D printing
-    - [https://www.instructables.com/3D-Printing-Basics/](https://www.instructables.com/3D-Printing-Basics/)
-    - 3D design
-        - [Tinkercad](https://www.tinkercad.com/dashboard)
-            - Free
-            - [Tinkercad tutorials](https://www.tinkercad.com/learn)
-        - [Autodesk Fusion](https://www.tinkercad.com/dashboard)
-            - Personal and educational licenses available
-    - Community models
-        - User uploaded models
-        - Quality varies
-        - Good for test prints and inspiration
-        - [Printables](https://www.printables.com/)
-        - [Thingiverse](https://www.thingiverse.com/)
-        - [Cults 3D](https://cults3d.com/)
-
-
-#### Motors
-
-An LED can make light, what makes motion?
-
-  => **Electromagnetism**
-
-Electrical devices that rely on the principle of electromagnetism:
-
-- Electromagnets
-- Loudspeakers and headphones
-- Solenoid
-- Relays
-- All kind of motors
-  - AC motors
-  - DC motors
-  - Brushless DC motors
-  - Stepper motors
-  - Servo motors (which actually consist of a DC motor + servo circuitry)
-
-##### In-class exercise
-
-- Take the DC motor and connect it directly to 5V and GND
-- Now reverse the wires
-
-Can we connect the motor to an Arduino output just like we did with the piezo
-buzzer?
-- How would we reverse it?
-- Another problem: Arduino current limitations
-
-##### Arduino current limitations
-
-- What is current? It is the rate of flow of electrons through a conductor.
-  - You don't get to control the current. 
-  - The voltage depends on the current and the resistance (Ohm's law: I=V/R)
-  - You can provide a voltage (with Arduino, the voltage is always 5V)
-  - Each device has it's own "resistance"
-
-Small LEDs use relatively <strong>low</strong> current (~20-30mA).
-- [What is the resistance of a typical LED?](https://www.quora.com/What-is-the-resistance-of-a-typical-red-LED)
-
-Motors have relatively <strong>low</strong> "resistance", 
-and so consume <strong>high</strong> current
-
-- Current flowing through any resistance causes heat (P = I^2/R)
-- Everything has resistance
-
-**Therefore, where electricity is flowing there will be heat**
-
-**Heat causes damage**
-
-(We've not had to worry about that up to now because everything we've done
-uses very little current)
-
-Arduino can not protect itself from damaged caused by overheating. 
-It does not <strong>limit</strong> current, 
-it is <strong>damaged</strong> by too much current
-
-The amount of heat a component can withstand before it is damaged 
-is governed, to a large extent, by its size
-
-The transistors that make up Arduino are tiny 
-
-![](https://cdn.sparkfun.com/assets/7/a/6/9/c/51c0d009ce395feb33000000.jpg)
-
-(Image courtesy of SparkFun)
-
-The reason for using the separate Motor Driver is simple:
-
-**It has much bigger transistors**
-
-(It also makes it easier to control both direction and speed, 
-but you could do that with the Arduino alone, 
-it  would just be more complicated)
-
-In addition to the bigger transistors, the Motor Driver
-includes an H-bridge which allows us to control rotation direction
-
-Circuit Schematic
-
-![](media/arduinoSparkFunMotorDriver_schem.jpg)
-
-How did I choose which pins to use?
-- Never use pins 0 and 1 (dedicated for USB communication)
-- Avoid pin 13 if possible (it flashes 3 times on reset)
-- Directional control pins (ain1, ain2, bin1, bin2) only require
-  digital signals so avoid pins with extra functionality 
-  (analog input, SPI, PWM)
-- Inclusion of the servo library 
-  disables `analogWrite()` on pins 9 and 10
-  (I'm not using the servo library now but perhaps I'll add it later)
-- Use of the `tone()` function 
-  disables `analogWrite()` on pins 3 and 11
-  (I'm not using the `tone()` function now but perhaps I'll add it later)
-- This leaves PWM pins 5 and 6 for the speed controls (pwma and pwmb)
-- Might as well choose nearby digital pins
-
-[Code - Week 12 - Simple motor driver (DMA GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week%2012%20-%20Simple%20Motor%20Driver/Week%2012%20-%20Simple%20Motor%20Driver.ino)
-
-
-````
-
-const int ain1Pin = 3;
-const int ain2Pin = 4;
-const int pwmAPin = 5;
-
-const int bin1Pin = 8;
-const int bin2Pin = 7;
-const int pwmBPin = 6;
-
-
-void setup() {
-  pinMode(ain1Pin, OUTPUT);
-  pinMode(ain2Pin, OUTPUT);
-  pinMode(pwmAPin, OUTPUT); // not needed really
+  noLoop(); // Wait for a mouse click then do it again
 }
 
-void loop() {
-  // turn in one direction, full speed
-  Serial.println("full speed");
-  analogWrite(pwmAPin, 255);
-  digitalWrite(ain1Pin, HIGH);
-  digitalWrite(ain2Pin, LOW);
-  // stay here for a second
-  delay(1000);
-
-  // slow down
-  Serial.println("slowing down");
-  int speed = 255;
-  while (speed--) {
-    analogWrite(pwmAPin, speed);
-    delay(20);
-  }
-}
-
-````
-
-Here is the code that Noah developed to control the motor speed and
-direction using a potentiometer:
-
-[Code - Week 12 - Motor Driver - 2 channel (DMA GitHub)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week%2012%20-%20Motor%20Driver%202%20channel/Week%2012%20-%20Motor%20Driver%202%20channel.ino)
-
-````
-const int ain1Pin = 3;
-const int ain2Pin = 4;
-const int pwmAPin = 5;
-
-const int bin1Pin = 8;
-const int bin2Pin = 7;
-const int pwmBPin = 6;
-
-const int potPin = A5;
-
-
-void setup() {
-  pinMode(ain1Pin, OUTPUT);
-  pinMode(ain2Pin, OUTPUT);
-  pinMode(pwmAPin, OUTPUT); // not needed really
-}
-
-void loop() {
-  int potVal = analogRead(potPin);
-  delay(20);
-  if (potVal > 1023 / 2) { //counterclockwise
-    digitalWrite(ain1Pin, HIGH);
-    digitalWrite(ain2Pin, LOW);
-    analogWrite(pwmAPin, potVal / 4);
-  } else { //clockwise
-    digitalWrite(ain1Pin, LOW);
-    digitalWrite(ain2Pin, HIGH);
-    analogWrite(pwmAPin, 255 - potVal / 4);
-  }
+// If you click the mouse, allow the draw() function to resume
+function mouseClicked() {
+  loop();
 }
 ````
 
+and this is an example of the words you can feed it. 
+put these contents into a file called `words.csv`:
 
+````
+roses,red,violets,blue,dream,disneyland
+robots,silver,pencils,grey,run,supermarket
+goldfish,orange,motors,white,turn,workbench
+books,multicolored,lamposts,azure,swim,island
+computers,black,mice,pink,squeak,home
+````
 
-[Back to top](#weekly-schedule)
-
-### Week 5.2 - Motors continued, Schematics, Multimeters
-- Plan for today
-  - Reading discussion 
-  - Review class schedule through end of semester
-  - Motors, continued
-  - Schematic tips 
-    - Multimeters and circuit debugging 
-
-#### Discussion of *Design Meets Disability*
-
-1. Considering only modern day technology like your phones, can you identify
-   any "features" that are implemented to help people with certain
-   disabilities
-1. Why did glasses become a matter of fashion and prostatic limbs are still
-   conservative in design, when both of them are disability aids?
-1. How can we make sure that this narrative navigates towards more inclusive
-   and keep the 'design in design' for disabilities?
-1. How can the language we use to address disability-wear affect our approach
-   towards such designs? E.g. eyewear vs hearing aids?
-1. In the case of glasses, the author mentions “what others see is more
-   important than what you see yourself” - do you guys agree?
-
-
-- Schedule until the end of semester
-  - Final project is due Thursday May 8
-  - Final project presentations will happen at our space in the Arts Center Lobby
-    - Your project must be working for the final class and for the show
-  - [IM End of Semester Show](#im-show)
-    - Any projects with special requirements?
-    - Book equipment in Connect2 now
-    - Book laser cutter now
-    - Book 3D printers how
- 
-- More about our motor driver
-  - [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
-  - Tutorial for using motor driver board to control yellow geared motor
-
-  - [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
-  - Set your Arduino free to roam!
- 
-- Schematic tips
-  - Positive power symbols always point up, ground always points down
-  - Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
-  - Pin labels should be placed inside the IC symbol next to the pin
-    - Have signals flowing from left to right where possible: inputs on the left and outputs on the right
-    - Indicate the value of components like resistors (resistance value), if the color of an LED or button is important indicate it on the schematic
-    - Voltage dividers: resistors should be vertically aligned
-    - Consistently orient symbols (either horizontal OR vertical)
-  - [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
-    - Good overview of the basics of drawing connections and different component symbols
-- Tools for making schematics
-  - Draw by hand
-    - Good practice, very useful for communicating quickly
-    - [Fritzing](https://fritzing.org/)
-      - Theoretically open source (paid download)
-      - Has many Arduino parts included
-    - [Tinkercad Circuits](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
-      - Web-based
-      - Includes simulator - but beware that reality can be different!
-    - [KiCad](https://www.kicad.org/)
-      - Open source and free
-      - Professional level tool
-
-#### How to use a Digital Multimeter (DMM)
-- The Multimeter is the most common tool used for debugging hardware circuits
-- Primary measurements are continuity, resistance, voltage, and current
-- Using the multimeter you can check what's happening electrically in your circuit
-- [Multimeters (Adafruit)](https://learn.adafruit.com/multimeters/overview)
-- [Collin's Lab: Multimeters (Adafruit / YouTube)](https://youtu.be/rPGoMbVSUu8?si=CSgYd_BgMaoW7Tq8)
-
-- The three most useful measurements
-  - Continuity
-    - Checking connections
-    - Checking switches
-  - Voltage
-    - Checking sensor circuits
-    - Checking Arduino digital outputs
-  - Resistance
-    - Checking resistive sensors
-    - Checking motors
-- How to connect to Arduino pins or the solderless breadboard
-
-- In class exercise:
-  - Measure the 5V coming out of the 5V pin on your Arduino
-    - Where are places you can connect to ground?
-    - Measure the continuity between the pins of a switch as you push / release the switch
-    - Measure the resistance of a resistor
-        - Measure the resistance of your photoresistor under different lighting conditions
-      - When does the resistance increase / decrease?
-    - Connect the potentiometer as a voltage divider with the outside pins connected to 5V and ground
-      - Measure the voltage at the middle terminal as you sweep the pot 
-    - Measure the resistance between the pins of your potentiometer
-      - How does the resistance change (or not) with different combinations of pins and movement of the pot?
-
- - In class exercise 2 (time permitting):
-  - Connect the motor driver circuit above
-  - Change the code to make the first motor run at full speed forward
-    - Is your system not working? How can you use the multimeter to debug it?
-    - Verify that when you make the motor run full speed forward that AI1 is high and AI2 is low
-    - Change the code to reverse the direction and check the voltages of the inputs of the motor driver
-
-- Recap
-  - IM Show is coming up!
-  - DC Motors
-    - Schematics
-    - Multimeters and debugging	
-
-[Back to top](#weekly-schedule)
-
-## Week 6
-### Week 6.1 - Look at final project plans, Blink without delay, Soldering and fabrication
-- Announcements
-  - IM Show
-  - Keep lab clean
-  - Turn off soldering irons
-
- - Requested topics
-   - [Equipment Booking](https://www.nyuadim.com/resources/)
-     - E.g. sensors, speakers
-     - Laser cutter
-      - Book under "Machines"
-        - Make a vector .svg file using a program like Adobe Illustrator 
-        - Bring an .svg file to the appointment for the lab assistant to cut
-     - 3D printers - under "Machines"
-        - Book under "Machines"
-        - Find an existing .stl model on site like Printables or Thingiverse
-        - Design an object in Tinkercad, export as .stl
-        - Come to Lab for appointment with .stl file and Prusaslicer
-        - Have Lab Assistant review and then start print
-  - INPUT_PULLUP
-    - pinMode(pin, INPUT_PULLUP) sets a pin for input *and* enables an internal pullup resistor (so external no resistor needed) 
-
-- Look at final project progress
-  - Example final projects
-    - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
-    - [Friendship lamp](https://intro.nyuadim.com/author/ftt4473/)
-
-- Running sketch fullscreen (reminder)
+- Running sketch fullscreen
   - [p5js fullscreen()](https://p5js.org/reference/#/p5/fullscreen) 
   - [Responsive fullscreen (p5js sketch)](https://editor.p5js.org/mangtronix/sketches/t4G0erH1B)
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
+  - Note: most browsers require user interaction (e.g. click) before JS can play sound	
 
-##### Blink Without `delay()`
+### Week 4.2
 
-Why do we need this? 
-- To get rid of `delay()`
+[Back to top](#weekly-schedule)
 
-What problem does `delay()` cause? 
-- **`delay()` is a blocking function. 
-Whenever your program encounters `delay()`, 
-your program stops until the delay is finished**
+## Week 5
 
-For example, how would you
-- Blink LEDs at different rates
-- Blink an LED while playing a tune
-- Play a tune while moving a servo motor
-- Do anything while responding to sensors immediately
+### Week 5.1
+
+#### Plan for today
+- Reading discussion
+	- [It's not you. Bad doors are everywhere.
+(Vox / YouTube)](https://www.youtube.com/watch?v=yY96hTb8WgI) 
+- Look at homework
+
+- Working with images!
+- The `pixels` array (time permitting)
+- Sound (time permitting)
+- Introducing midterm (time permitting)
+
+#### Homework feedback to all:
+
+- Better comments. I should be able to read your code and comments and
+	completely understand your program.
+	- Your code should explain what is really happening. 
+		`things = 2; // increase the number of things` is wrong. It is setting
+		the number of things to 2, not increasing the number of things.
+- Better formatting:
+	- Remove unnecessary spaces
+	- Break long lines (both code and comments) into short lines. A line
+		should fit in the p5.js editor window.
+- Remove unnecessary functions, or explain why they are there
+- Remove unnecessary variables, or explain why they are there
+- Instead of naming functions thing1, thing2, thing3, give them
+	meaningful names like happyFace, sadFace, and surprisedFace
+- Any time you have more than 2 or 3 objects they should probably be in an
+	array. If there is a reason not to have them in an array you need to
+	explain why in the comments.
+- Read the assignment carefully and make sure you provide everything that 
+is requested
+- If `draw()` is empty explain why
+- Don't include your entire program in the README.md. You may include short
+	pieces to augment your description.
+- Explain the arguments to functions, or better yet, use names that are so 
+	clear that no comments are needed. `constructor(wid,hgt,rnd,clr)` I could
+	guess that `wid` is width and `hgt` is height, but why not use the full
+	word? You are all fast typists. Better yet, if you are drawing e.g. a
+	car, name the variables `carWidth` and `carHeight`. `clr` and `rnd` I
+	could not figure out except by seeing how they were used, but I shouldn't
+	have to do that.
+- A function that only calls another function e.g.
+	is almost certainly pointless.
+	if there is a reason, it should be explained.
+````
+foo() {
+	this.bar()
+}
+````
+- If code is commented out, explain why
+- If the video clip is in your GitHub repo, embed it in the README.md
+	- If the video clip is on Vimeo or YouTube, put a link in your README.md
+- Tidy your code before putting it on GitHub
+- Use the correct suffix for your variables, classes, and functions. If a
+	class defines a single car, don't call it `cars`. If individual cars are
+	then gathered in an array of multiple cars, don't call it `arrayCar`.
+- Try to avoid hardcoded or magic numbers. 
+	Use built-in variables (`width/2` instead
+	of `const CENTER = 200`) whenever possible. If you must use numbers
+	explain why.
+- Start your homework early so that there is time to meet with me if you
+	need help. I'm willing to meet on the weekend but not late Monday night.
+
+#### Working with images!
+
+The `p5.Image` class
+- Just another class, i.e. it has
+	- Data (the pixels, width, height, etc.)
+	- Functionality `(image()`, `get()`, etc.)
+ - [p5.Image reference](https://p5js.org/reference/p5/p5.Image/)
+
+````
+let catImg;
+function preload() {
+  photo = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
+}
+function setup() {
+  createCanvas(400, 400);
+  background(255);
+  image(photo, 0, 0); // this actually displays the image
+}
+````
+
+- `image(photo, positionX, positionY, width, height)` - display 
+this image at this location and scale to this size
+- `photo.resize(w,h)` - scale to this size. If one of the arguments is zero,
+	then scale to the remaining argument and retain the original aspect ratio.
+- `photo.get(x,y,w,h)` - Returns a new p5.Image containing a portion of the image
+- `photo.get(x,y)` - Returns the color of the pixel at this location
+
+````
+let catImg;
+function preload() {
+  catImg = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
+}
+function setup() {
+  createCanvas(400, 400);
+  background(255);
+  image(catImg, 0, 0);
+
+  let newImg = catImg.get( 50,60, 100,50);
+  image (newImg, 250, 200);
+}
+````
+
+For more information and ideas
+- Reference page for [p5.Image](https://p5js.org/reference/p5/p5.Image/) for other methods
+- Examples -> image
+
+### Week 5.2
+
+#### Plan for this week: 
+
+- Pixels array
+- Sprite sheets
+- Sound
+- Introduce midterm project
+  - Each student makes their own project
+- Additional tutorials
+  - [Happy Coding p5js tutorials](https://happycoding.io/tutorials/p5js/) 
+
+#### The `pixels` array: Treating the canvas as an image
+
+You can access individual pixels 
+from the canvas (and whatever is on the canvas)
+using the special built-in array called `pixels`. 
+Before using this array you must load everything from the canvas 
+into the `pixels` array using the `loadPixels()` function, 
+and after making any changes you must call `updatePixels()` 
+to write from the `pixels` array back to the canvas
+if you want to make the changes visible
+
+[Week 5 - updatePixels](https://editor.p5js.org/mangtronix/sketches/MrA1DHw6t)
+````
+function setup() {
+  let pink = color(255, 102, 204);
+  loadPixels();
+  let d = pixelDensity();
+  let halfImage = 4 * (width * d) * ((height / 2) * d);
+  for (let i = 0; i < halfImage; i += 4) {
+    pixels[i] = red(pink);
+    pixels[i + 1] = green(pink);
+    pixels[i + 2] = blue(pink);
+    pixels[i + 3] = alpha(pink);
+  }
+  updatePixels();
+}
+````
+
+- The pixels array is one-dimensional, 
+meaning if you want to go to a different row on the canvas 
+you need to offset by that many widths
+- Each pixel occupies 4 positions in the array
+- Thus the equation for accessing a given pixel is
+   (x + y * width) * 4
+- Remember to set `pixelDensity(1);` in case you have a high 
+resolution display
 
 
-[BlinkWithoutDelay Tutorial (Arduino.cc)](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay)
+````
+function setup() {
+  pixelDensity(1);
 
-So much for blinking. What if we want to move a servo motor at the same time?
+	// blue background 
+	// makes it easier to see the pink
+  background(0, 102, 204);
 
-Adafruit [Multitasking Tutorial Part
-I](https://learn.adafruit.com/multi-tasking-the-arduino-part-1?view=all)
+  loadPixels();
 
-Play a melody and blink an LED 
-without using `delay()`:
-[toneMelodyAndBlinkWithoutDelay](https://github.com/michaelshiloh/toneMelodyAndBlinkWithoutDelay)
+	// Here is the equation 
+	// for the start (red value) 
+	// of a pixel 
+	// at a particular coordinate (x,y)
+  // (x + y*width) * 4
+
+  // Change most of the fiftieth row to pink
+  // instead of the whole line, 
+	// only do from x = 10 to x = 90
+  for (let i = (10 + 50 * width) * 4;
+       i < (90 + 50 * width) * 4;
+       i += 4) {
+
+		// pink
+    pixels[i + 0] = 255;
+    pixels[i + 1] = 102;
+    pixels[i + 2] = 204;
+    pixels[i + 3] = 100;
+  }
+
+	// this puts the array back on the screen
+  updatePixels();
+}
+````
+
+It's important to remember that a pixel is just four numbers
+so you can manipulate pixels mathematically 
+e.g. make it fade:
+
+````
+function setup() {
+  pixelDensity(1);
+  background(0, 102, 204);
+}
+
+let redValue = 0; 
+
+function draw() {
+
+  loadPixels();
+  
+  for (let i = 0; i < width * height * 4 ; i+=4) {
+    pixels[i] = redValue;
+  } 
+  updatePixels();
+
+  redValue = (redValue + 1 ) %255
+  print(redValue);
+  
+  updatePixels();
+
+}
+````
+
+Just for fun, here is the last example from the video where Dan
+created a random (only in the green channel) background:
+
+````
+function setup() {
+  createCanvas(256,256);
+  pixelDensity(1);
+}
+
+function draw() {
+  loadPixels();
+  for (var y = 0; y < height; y++) {
+    for (var x = 0; x < width; x++) {
+      var index = (x + y * width) * 4;
+
+      pixels[index + 0] = x;
+      // red value changes horizontally
+
+      pixels[index + 1] = random(255);
+      // green value random
+
+      pixels[index + 2] = y;
+      // blue value changes vertically
+
+      pixels[index + 3] = 255;
+      // no transparency
+    }
+  }
+  updatePixels();
+}
+````
+
+Look at the reference page for the pixels array
+
+A fun examples from Professor Sherwood:
+
+![](media/circularImages.png)
+
+````
+let tiles = [];
+let tileSize = 100;
+
+function preload() {
+  img = loadImage("aiweiwei.jpeg");
+}
+
+function setup() {
+  createCanvas(400, 400);
+  let numTiles = img.height / tileSize;
+  while (numTiles > 0) {
+    tiles.push(
+      img.get(
+        int(random(img.width - tileSize)),
+        int(random(img.height - tileSize)),
+        tileSize,
+        tileSize
+      )
+    );
+    numTiles--;
+  }
+  imageMode(CENTER);
+}
+
+function draw() {
+  push();
+  translate(width / 2, height / 2);
+
+  let numSegments = 10;
+  let eachAngle = TWO_PI / numSegments;
+  let whichImage = int(random(tiles.length));
+
+  for (let i = 0; i < numSegments; i++) {
+    let x = cos(eachAngle * i) * tileSize + 1;
+    let y = sin(eachAngle * i) * tileSize + 1;
+    push();
+    translate(x, y);
+    rotate(eachAngle * i);
+    image(tiles[whichImage], 0, 0);
+    pop();
+  }
+
+  pop();
+  noLoop();
+}
+
+function keyPressed() {
+  loop();
+}
+````
+
+Can we use a sequence of images for animation?
+
+![](media/walking.png)
 
 
-- Soldering
-  - [Adafruit Guide to Excellent Soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering)
-  - Soldering demo - button to solid core wires
+Download this to your laptop: 
+https://github.com/michaelshiloh/IntroductionToInteractiveMedia/blob/master/media/walking.png
 
-- Fabrication and Construction techniques
-  - [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
-  - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
+How would we use them?
 
-### Week 6.2 - Look at final projects, work session
-- Soldering
-- Class links
-  - [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
-  - [NeoPixel soldering guide (Adafruit)](https://learn.adafruit.com/make-it-glow-how-to-solder-neopixels-a-beginners-guide/overview) 
+[Week 5 - Walk animation](https://editor.p5js.org/mangtronix/sketches/33cCGQMvQ)
+````
+// Week 5 - Walk animation
+//
+// Input:
+// arrow keys - make character walk in that direction
+
+let spritesheet;
+let sprites = [];
+let direction = 1; // 0 up
+let step = 0;
+let x;
+let y;
+let walkSpeed = 3;
+let background_color = 'teal';
+
+function preload() {
+  spritesheet = loadImage("walking.png");
+}
+
+function setup() {
+  // fullscreen(true);
+  createCanvas(500, 450);
+
+  // 12 images across, 4 down, in the spritesheet
+
+  let w = int(spritesheet.width / 12);
+  let h = int(spritesheet.height / 4);
+
+  for (let y = 0; y < 4; y++) {
+    sprites[y] = [];
+    for (let x = 0; x < 12; x++) {
+      sprites[y][x] =
+        spritesheet.get(x * w, y * h, w, h);
+    } // iterate over rows
+  } // iterate over columns
+
+  x = width / 2;
+  y = height / 2;
+
+  imageMode(CENTER);
+
+  background(background_color);
+  // Display first sprite
+  image(sprites[direction][step], x, y);
+}
+
+// nothing to do here because all the action
+// happens in the keyPressed() callback
+function draw() {}
+
+function keyPressed() {
+  // look at sprite sheet to determine 
+  // which direction is which row
+
+  if (keyCode === DOWN_ARROW) {
+    direction = 0;
+    y += walkSpeed;
+  }
+
+  if (keyCode === LEFT_ARROW) {
+    direction = 1;
+    x -= walkSpeed;
+  }
+
+  if (keyCode === RIGHT_ARROW) {
+    direction = 2;
+    x += walkSpeed;
+  }
+
+  if (keyCode === UP_ARROW) {
+    direction = 3;
+    y -= walkSpeed;
+  }
+
+	// Every so often 
+	// advance to the next sprite
+  if (frameCount % walkSpeed == 0) {
+    step = (step + 1) % 12;
+  }
+
+  // Finally draw the sprite
+  // The transparent areas in the png are not
+  // drawn over the background
+  background(background_color);
+  image(sprites[direction][step], x, y);
+}
+````
+
+You can probably find many sprite sheets by googling "sprite sheet" +
+whatever you want.  For example many old games used sprite sheets for their animations. You can create your own spritesheet using tools like [Piskel](https://www.piskelapp.com/p/create/sprite)
+
+#### Sound!
+
+- Work example
+	-	[Bloom by Brian Eno and Peter Chilvers](https://www.generativemusic.com/bloom.html)
+ 		-	[Bloom on App Store](https://apps.apple.com/us/app/bloom/id292792586)
+   	-	App which allows user to create relaxing music / visuals within a generative system
+   		-	User taps to create a looping note that fades away over time
+   	 	- Notes are constrained to a pleasing musical scale initially chosen by the artist	
+
+Upload this to your p5 editor: 
+https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/media/doorbell.mp3
+
+Very basic example:
+
+[Week 5 - Sound](https://editor.p5js.org/mangtronix/sketches/JA0W5jhOJ)
+````
+/*
+Must upload doorbell.mp3
+Must include sound library in index.html
+*/
+
+function preload() {
+  song = loadSound('doorbell.mp3');
+}
+
+function setup() {
+  background(234);
+  song.play();
+}
+
+function draw() {
+  if (song.isPlaying()) {
+    print("song is playing")
+  } else {
+    print("song is not playing")
+    noLoop
+  }
+}
+
+function mouseClicked() {
+  if (song.isPlaying()) {
+    song.stop();
+  } else {
+    song.play();
+  }
+}
+````
+
+As always, it's useful to explore the examples and the reference page
+
+- Sound examples
+	- File -> Examples -> Sound
+		- [Load and Play Sound](https://editor.p5js.org/p5/sketches/Sound:_Load_and_Play_Sound)
+		- [Sound Effect](https://editor.p5js.org/p5/sketches/Sound:_Sound_Effect)
+		- [Record Save](https://editor.p5js.org/p5/sketches/Sound:_Record_Save)
+		- [Live Input](https://editor.p5js.org/p5/sketches/Sound:_Live_Input)
+
+**Remember**
+Sound requires a separate library which must be included and to record sound it has to be enabled in the
+security preferences.
+
+##### Sound Synthesis
+
+The other way to make sounds is to create them mathematically
+
+- Sound examples
+	- File -> Examples -> Sound
+		- [Note Envelope](https://editor.p5js.org/p5/sketches/Sound:_Note_Envelope)
+		- [Frequency Modulation](https://editor.p5js.org/p5/sketches/Sound:_FreqModulation)
+  		- [FFT Spectrum](https://editor.p5js.org/p5/sketches/Sound:_FFT_Spectrum)
+
+
+##### Working in groups (time permitting):
+If we had multiple sound files, how would we play the
+next one when we click the mouse? What graphical effects can you synchronize to the sound?
+
+[Back to top](#weekly-schedule)
+
+
+## Week 6
+
+### Week 6.1
+#### Plan for today: 
+- Midterm project idea feedback
+  - General questions?
+  - Quick individual feedback
+- Example of [Draggable class - click drag example (p5editor)](https://editor.p5js.org/codingtrain/sketches/U0R5B6Z88)
+- Computer Vision
+	- Frame Differencing
+
+- Body pose / Posenet (time permitting)
+  - [Body pose (ml5.js)](https://docs.ml5js.org/#/reference/bodypose)
+  - [Face mesh (ml5.js)](https://docs.ml5js.org/#/reference/facemesh)
+  - [Hand pose (ml5.js)](https://docs.ml5js.org/#/reference/handpose)
+  <!-- - Check examples / demos - [ml5js Posenet reference](https://learn.ml5js.org/#/reference/posenet) -->
+  - Example sketch using older Posenet [Pose Estimation with PoseNet (Coding Traing / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
+  - Also see [Handsfree.js](https://handsfreejs.netlify.app/#installing) for gesture recognition
+    - possible to record your own gestures based on finger positions
+
+- Playing video
+  - [Video on Canvas](https://p5js.org/examples/imported-media-video-canvas/)
+
+- Text input
+  - [createInput (p5js)](https://p5js.org/reference/p5/createInput/)
+  - [Text input example (p5editor)](https://p5js.org/examples/dom-input-and-button.html)
+
+#### Homework feedback
+
+<!--
+- I love the diversity in data sets that you found! So much more creative than
+	the example I showed in class.
+- In general, your descriptions and comments are weak. Most of you need
+	better descriptions and almost all of you need better comments.
+	- `k = 0; x = 0; y = 0;` What is `k`? I assume `x` and `y` are coordinates,
+		but of what? Why are they set to zero? Is that important? If not, why is
+		it there?
+	- Your comments must explain what your code does: A comment that says "loop
+		over all elements in the array" is accurate but doesn't give the reader
+		any new information. You must explain why you are looping over all
+		elements. Put a comment (preferably more than one line) at the beginning
+		of every function, loop, or distinct block of code explaining a) what it
+		does and b) how it does it
+	- Make sure your comments agree with the code! A comments that says "the
+		last two fields" but then refers to fields 1 and 2 (when I can see that
+		there are at least 5 is clearly wrong. Did you just copy that blindly from
+		my example?
+- Shoutouts 
+	- [Ryan](https://github.com/ryanrichardsmith/IntroductionToInteractiveMedia/blob/main/Feb22/playlist.js) for excellent comments
+		- Also
+			[Pranav](https://github.com/sripranav9/IntroductionToInteractiveMedia/blob/main/February22/dataVisualization.js)
+	- [Dhabia](https://github.com/noorajabir/IntroToIM/tree/main/Feb%2022) for excellent presentation
+	- [Shaikha](https://github.com/ShaikhaAlN/IntroToIM/tree/main/Feb22) for whimsical project
+-->
+
+#### Working with a camera: Computer Vision!
+
+Basic sketch showing how to get input from camera:
+
+[Week 6 - Capture](https://editor.p5js.org/mangtronix/sketches/srrGqhU3f)
+````
+let capture;
+
+function setup() {
+  createCanvas(200, 200);
+  capture = createCapture(VIDEO);
+  capture.hide();
+}
+
+function draw() {
+  image(capture, // what image to display
+        0, 0,    // where to place the image on the canvas
+        width,   // width to display
+
+        // the height is more complicated:
+        // we want the capture height to be
+        // the width multiplied by the aspect ratio
+        width * capture.height / capture.width);
+}
+````
+
+Reference page for
+[createCapture](https://p5js.org/reference/#/p5/createCapture)
+
+Some video examples:
+- [Simple frame differencing](https://editor.p5js.org/michaelshiloh/sketches/ZqXC5-6M0), similar to the method in Golan Levin's article
+- A more complex
+	[example](https://editor.p5js.org/aaronsherwood/sketches/uxNAkReWT) by Prof.
+	Aaron that uses frame differencing to detect which vertical slice of the
+	camera image has the most motion, and trigger a corresponding sound clip
+
+Posenet
+  - Skeleton extraction from image using machine learning
+  - [ml5.js - Friendly Machine Learning for the Web](https://learn.ml5js.org/#/)
+  - [ml5js Body Pose](https://docs.ml5js.org/#/reference/bodypose)
+  - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
+  - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
+
+### Week 6.2
+#### Plan for today: 
+- Review frame differencing
+- Project status
+- Debugging
+  - [A Brief Introduction to Debugging (Vimeo, ITP)](https://vimeo.com/channels/debugging)
+  - [p5js Field Guide to Debugging](https://archive.p5js.org/learn/debugging.html)
+  - [p5js Debugging (Happy Coding)](https://happycoding.io/tutorials/p5js/debugging)
+- [p5js Interactivity](https://archive.p5js.org/learn/interactivity.html)
+  - Mouse and keyboard examples
 - Work session
-- Document / post your progress
-- Conduct user testing (see main page for description / documentation requirement)
-- Work on final projects
-- Ask any questions now!
 
-## Homework
-- **Post** your user testing - Due before class Wednesday
-  - see [main page](https://intro.nyuadim.com/) for details 	
+#### Review frame differencing
+- If you wanted to display white (instead of the color of the difference)
+	wherever motion above a certain threshold is detected, how would you do this?
+- Video Mirror (flipping the x)
+	- https://editor.p5js.org/aaronsherwood/sketches/cK59ueQ6a
+- In class exercise: Can you trigger sounds according to where there is
+	motion?  You might want to borrow ideas from
+	[here](https://editor.p5js.org/aaronsherwood/sketches/uxNAkReWT)
 
+#### Random items
+
+##### Grids
+- An [example](https://editor.p5js.org/itp42/sketches/dBeLZC8mm) by Prof.
+	Mathura showing how to create and move in a grid
+
+##### Perlin Noise
+
+[Week 6 - Random line](https://editor.p5js.org/mangtronix/sketches/nWUFIeBEL)
+````
+function draw() {
+  background(204);
+  let n = random(0, width);
+  line(n, 0, n, height);
+}
+````
+
+What if we wanted the line to move in a more organic, lifelike
+fashion? Organic things (e.g. butterflies, leaves blowing in the wind, clouds) 
+don't jump instantly from one place to another,
+they tend to move close to where they were last time
+
+
+[Week 6 - Perlin noise line](https://editor.p5js.org/mangtronix/sketches/FrQDtMNmd)
+````
+let offset = 0.0;
+
+function draw() {
+  background(204);
+  offset = offset + .01;
+  let n = noise(offset) * width;
+  line(n, 0, n, height);
+}
+````
+
+Things to notice:
+
+- Why is the variable `offset` global? (Remember our discussion of variable
+	scope)
+
+Perlin noise example 2
+```
+function setup() {
+  createCanvas(400, 400);
+
+  for (let yPos = 0; yPos < height; yPos = yPos + 40) {
+    for (let xPos = 0; xPos < width; xPos = xPos + 40) {
+      offset = offset + 0.1;
+      square(xPos + noise(offset) * 20, yPos + noise(offset) * 20, 40);
+    }
+  }
+}
+let offset = 0.0;
+```
+
+##### Other things you can do with arrays
+
+Look at other array methods in the reference page:
+- `append`
+- `pop` 
+- [Week 6 - Removing array elements (p5editor)](https://editor.p5js.org/mangtronix/sketches/0i8RVCZDD)
+
+
+##### Blocking vs. non-blocking functions
+
+- What are blocking and non-blocking functions?
+- How do you know when a non-blocking function is done?
+- Soundfile reference page
+
+##### Game techniques
+- [Week 6 - Game State](https://editor.p5js.org/mangtronix/sketches/lwALEq10U)
+  - Sketch that transitions between start, playing, and end states
+- [Week 6 - Time in game](https://editor.p5js.org/mangtronix/sketches/TS0cjoC86)
+  - Writing a millisInGame() that returns milliseconds since game (re)started
+- [Week 6 - continuous scrolling background image](https://editor.p5js.org/mangtronix/sketches/xZQRSxmgl)
+  - Scrolling background image
+
+##### Other resources
+
+[Creative Coding lecture notes](https://creative-coding.decontextualize.com/)
+
+[Coding Train](https://thecodingtrain.com/Tutorials/) tutorials (by Dan Shiffman)
+
+A nice set of p5.js tutorials by [Happy
+Coding](https://happycoding.io/tutorials/p5js/)
+
+
+
+
+[Back to top](#weekly-schedule)
 
 ## Week 7
-### Week 7.1 - Midterm work session
-- Work on your midterm project
-- Ask any questions now!
+### Week 7.1
+- Distribute Arduino kits
+  - Write your name on your kit - you can leave it on our Intro to IM shelf
+  - You need to provide your own hub / dongle to connect to your computer
+    - Test it - Not all hubs work
+    - Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
 
-#### Homework
-- **Finish** your midterm project
-- **Post** your midterm project documentation to your blog
-  - see [main page](https://intro.nyuadim.com/) for details 
-- **Be ready** to set up and show your project in class
+- Project status, debugging
+- Work session
 
-### Week 7.2 - Midterm presentations
-- Show your projects in class
+### Week 7.2
+#### Plan for today: 
+- Midterm project presentations
 
+
+
+- Homework:
+  - Check [main page](https://intro.nyuadim.com/)
+  - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
+  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+  - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
+  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
+
+
+<!-- $$$ move to after break
+##### GitHub
+- What is [GitHub](https://github.com/)?
+- Difference between an account and a repository
+- Follow along with me and create an account
+- Instructions for this are
+[here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+
+Please use your name for your account name so that I can more easily recognize
+it.  If you don't want to use your name for privacy reasons, please choose an
+alias that I can recognize as you.
+
+Name your repository "introduction to interactive Media". 
+
+- Edit your README.md file
+	- What is README.md?
+	- What is .md?
+- Simple Markdown 
+	- **Bold**
+	- Paragraphs must be separated by a blank line
+	- Inserting images: ![](media/eye-calipers.jpg)
+	- Always remember to commit your changes!
+	- More [here](https://github.com/michaelshiloh/resourcesForClasses#github-resources).
+-->
 
 [Week 8-14 lecture notes](lectureNotes2.md)
