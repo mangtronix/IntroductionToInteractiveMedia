@@ -16,10 +16,9 @@
 - [Week 5](#week-5) - Working with Pixels, Sound
 - [Week 6](#week-6) - Computer Vision
 - [Week 7](#week-7) - Midterm presentations
-- 7-WEEK FINALS BREAK
+- SPRING BREAK
 - [Week 8](lectureNotes2.md#week-8) - Introduction to Arduino, electricity
 - [Week 9](lectureNotes2.md#week-9) - Analog and digital I/O
-- SPRING BREAK
 - [Week 10](lectureNotes2.md#week-10) - Sound, movement, circuit schematics
 - [Week 11](lectureNotes2.md#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](lectureNotes2.md#week-12) - Motors, Soldering, Fabrication
