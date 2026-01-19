@@ -26,9 +26,10 @@
 - [Week 14](lectureNotes2.md#week-14) - Final project presentations, show setup
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - May 8
 
-## Week 8
+## Week 1
 
-### Week 8.1 - Tool training
+### Week 1.1 - Tool training
+$$$ TODO move to correct week
 Mandatory tool and safety training
 - You must complete tool training in order to use the tools in the IM Lab and maintain your lab access
 - You must complete the Scene Shop induction with Tony Bragg and sign the liability form before doing **any** work in the Scene Shop
@@ -41,7 +42,7 @@ Contacts / Resources
 	- Manager: Tony Bragg <anb6202@nyu.edu>
  	- Hours: Generally 9-5, only while Tony or another instructor / specialist is present. Contact Tony for use of specific tools (e.g. bandsaw, sanding machines) 
 
-### Week 8.2
+### Week 1.2
 #### Plan for today: 
 - Introduction to Arduino
 - Electricity
@@ -165,9 +166,9 @@ Let's use a real switch
 
 [Back to top](#weekly-schedule)
 
-## Week 9
+## Week 2
 
-### Week 9.1 - Digital / Analog IO
+### Week 2.1 - Digital / Analog IO
 #### Plan for today: 
 - Review homework
 - Reading discussion
@@ -341,7 +342,7 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
-### Week 9.2 - Arduino Programming Syntax
+### Week 2.2 - Arduino Programming Syntax
 #### Plan for today: 
 - Discuss reading
 - Analog Input
@@ -544,9 +545,9 @@ Name your repository "introduction to interactive Media".
 - [Git and GitHub for Poets (Coding Train / YouTube)](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=1)
 
 
-## Week 10
+## Week 3
 
-### Week 10.1 - Schematics, Circuit conventions
+### Week 3.1 - Schematics, Circuit conventions
 
 #### Plan for today: 
 - Lab Policies with IM Lab Manager Dustin Foster
@@ -654,7 +655,7 @@ are
 	- That is why it is **important** to make connections to the correct side of a
 		component!
 
-### Week 10.2 - Sound, servos
+### Week 3.2 - Sound, servos
 
 #### Sound
 
@@ -882,9 +883,9 @@ void loop() {
 [Back to top](#weekly-schedule)
 
 
-## Week 11
+## Week 4
 
-### Week 11.1 - Serial Communication
+### Week 4.1 - Serial Communication
 #### Plan for today: 
 - Announcements
   - [IM Show](#im-show) is Thursday May 8, 5-8pm
@@ -1002,7 +1003,7 @@ Examples
  -->
  
 
-### Week 11.2 - 11/13 - Serial communication
+### Week 4.2 - Serial communication
 #### Plan for today
 - Serial communication continued
   
@@ -1034,8 +1035,8 @@ Examples
 	fades your vision?
 
 
-## Week 12
-### Week 12.1 - Motors, fabrication
+## Week 5
+### Week 5.1 - Motors, fabrication
 
 #### Plan for today: 
 - No reading discussion - reading is due Thursday
@@ -1258,7 +1259,7 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - Motors continued, Schematics, Multimeters
+### Week 5.2 - Motors continued, Schematics, Multimeters
 - Plan for today
 	- Reading discussion 
 	- Review class schedule through end of semester
@@ -1367,8 +1368,8 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-## Week 13
-### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
+## Week 6
+### Week 6.1 - Look at final project plans, Blink without delay, Soldering and fabrication
 - Announcements
 	- IM Show
 	- Keep lab clean
@@ -1437,7 +1438,7 @@ without using `delay()`:
   - [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
   - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
-### Week 13.2 - Look at final projects, work session
+### Week 6.2 - Look at final projects, work session
 - Soldering
 - Class links
 	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
@@ -1453,10 +1454,10 @@ without using `delay()`:
 	- see [main page](https://intro.nyuadim.com/) for details 	
 
 
-## Week 14
-### Week 14.1 - NO CLASS - National Day holiday
+## Week 7
+### Week 7.1 - NO CLASS - National Day holiday
 
-### Week 14.2 - Course review
+### Week 7.2 - Course review
 - Course review
 - Course feedback
 	- Fill out [Course Feedback](https://go.blueja.io/26LwKSl6q0Srg0FwKTftKg)

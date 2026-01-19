@@ -23,13 +23,12 @@
 - [Week 11](lectureNotes2.md#week-11) - Working with text, Artist Visit (Ross Flight)
 - [Week 12](lectureNotes2.md#week-12) - Working with Pixels, Sound
 - [Week 13](lectureNotes2.md#week-13) - Computer Vision
-- [Week 14](lectureNotes2.md#week-14) - Final project presentations, show setup
 - [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - May 8
 
 
-## Week 1
+## Week 8
 
-### Week 1.1
+### Week 8.1
 
 #### Class starts!
 - Introductions
@@ -187,7 +186,7 @@ harp</a></li>
 - Create an account on [p5js.org](https://p5js.org/)
 
 
-### Week 1.2
+### Week 8.2
 Announcements
 - Can everyone access their Wordpress account?
 
@@ -329,9 +328,9 @@ Sketches will be submitted by making a blog post and submitting through Brightsp
 
 [Back to top](#weekly-schedule)
 
-## Week 2
+## Week 9
 
-### Week 2.1
+### Week 9.1
 
 #### Review Self-Portrait
 - Did any questions come up since we last met?
@@ -488,7 +487,7 @@ Refer to these for additional information
 - [JavaScript Programming Tutorial (w3schools)](https://www.w3schools.com/js/default.asp)
 - [JavaScript Loops Explained](https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/)
 
-### Week 2.2
+### Week 9.2
 
 Overview:
 - Readings
@@ -730,9 +729,9 @@ function draw() {
 
 [Back to top](#weekly-schedule)
 
-## Week 3
+## Week 10
 
-### Week 3.1
+### Week 10.1
 - Aya Riad is filling in
 - Review homework
 - In-class discussion
@@ -868,7 +867,7 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 
 * Go to [https://www.nyuadim.com/](https://www.nyuadim.com/) [Resources](https://www.nyuadim.com/resources/) page and sign the [IM Program Policies](https://docs.google.com/forms/d/e/1FAIpQLSfCx-YtOJYsbzMRJEVwXrCxGyCoN2VpmJYbAhEhydcT_tIzmA/viewform)
 
-### Week 3.2
+### Week 10.2
 Additional learning resources
 - [Happy Coding p5.js tutorials](https://happycoding.io/tutorials/p5js/)
 	- Similar to our course material in an interactive web page format
@@ -961,9 +960,9 @@ slightly different perspective.
 
 [Back to top](#weekly-schedule)
 
-## Week 4
+## Week 11
 
-## Week 4.1
+### Week 11.1
 
 #### Plan for today
 
@@ -1372,7 +1371,7 @@ computers,black,mice,pink,squeak,home
     - Press 'f' to go fullscreen - sketch automatically resizes to full screen size
   - Note: most browsers require user interaction (e.g. click) before JS can play sound	
 
-### Week 4.2
+### Week 11.2
 - Artist visit - Ross Flight - Find Your Eyes
 	- [Ross Flight](https://www.rossflight.com/)
  	- [Find Your Eyes performance Fri / Sat](https://publicprograms.nyuad.nyu.edu/en/the-arts-center/events/2025/september/find-your-eyes-benji-reid.html#tab-3-video)
@@ -1389,9 +1388,9 @@ computers,black,mice,pink,squeak,home
 
 [Back to top](#weekly-schedule)
 
-## Week 5
+## Week 12
 
-### Week 5.1
+### Week 12.1
 
 #### Plan for today
 - Reading discussion
@@ -1502,7 +1501,7 @@ For more information and ideas
 - Reference page for [p5.Image](https://p5js.org/reference/p5/p5.Image/) for other methods
 - Examples -> image
 
-### Week 5.2
+### Week 12.2
 
 #### Plan for this week: 
 
@@ -1880,9 +1879,9 @@ next one when we click the mouse? What graphical effects can you synchronize to 
 [Back to top](#weekly-schedule)
 
 
-## Week 6
+## Week 13
 
-### Week 6.1
+### Week 13.1
 #### Plan for today: 
 - Midterm project idea feedback
   - General questions?
@@ -1978,7 +1977,7 @@ Posenet
   - [Posenet example (p5editor)](https://editor.p5js.org/ml5/sketches/PoseNet_webcam)
   - [Posenet example 1 (Coding Train / p5editor)](https://editor.p5js.org/codingtrain/sketches/ULA97pJXR)
 
-### Week 6.2
+### Week 13.2
 #### Plan for today: 
 - Review frame differencing
 - Project status
@@ -2090,8 +2089,8 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 [Back to top](#weekly-schedule)
 
-## Week 7
-### Week 7.1
+## Week 14
+### Week 14.1
 - Distribute Arduino kits
   - Write your name on your kit - you can leave it on our Intro to IM shelf
   - You need to provide your own hub / dongle to connect to your computer
@@ -2101,7 +2100,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 - Project status, debugging
 - Work session
 
-### Week 7.2
+### Week 14.2
 #### Plan for today: 
 - Midterm project presentations
 
