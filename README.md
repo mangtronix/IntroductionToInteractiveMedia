@@ -28,5 +28,4 @@ found here.
 
 [Weekly Schedule](https://intro.nyuadim.com/) Includes homework and projects assignments
 
-The current session is Spring 2025.
 Previous sessions can be explored [here](previousSessions/previousSessions.md).
