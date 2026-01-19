@@ -9,24 +9,22 @@
 [p5js Example Sketches](https://editor.p5js.org/mangtronix/collections/A3JbliQrM)
 
 ## Weekly Schedule
-- [Week 1](lectureNotes.md#week-1) - Introductions, p5.js
-- [Week 2](lectureNotes.md#week-2) - Variables, Animation, Conditionals
-- [Week 3](lectureNotes.md#week-3) - Functions, Arrays, Object-Oriented Programming (OOP)
-- [Week 4](lectureNotes.md#week-4) - Tool training (TBC), Working with text
-- [Week 5](lectureNotes.md#week-5) - Working with Pixels, Sound
-- [Week 6](lectureNotes.md#week-6) - Computer Vision
-- [Week 7](lectureNotes.md#week-7) - Midterm presentations
-- 7-WEEK FINALS BREAK
-- [Week 8](#week-8) - Introduction to Arduino, electricity
-- [Week 9](#week-9) - Analog and digital I/O
+- [Week 1](#week-1) - Introductions, Introduction to Arduino, electricity
+- [Week 2](#week-2) - Analog and digital I/O
+- [Week 3](#week-3) - Sound, movement, circuit schematics
+- [Week 4](#week-4) - Serial Communication, Connecting Arduino to p5.js
+- [Week 5](#week-5) - Motors, Soldering, Fabrication
+- [Week 6](#week-6) - Circuit debugging
+- [Week 7](#week-7) - Midterm project presentations
 - SPRING BREAK
-- [Week 10](#week-10) - Sound, movement, circuit schematics
-- [Week 11](#week-11) - Serial Communication, Connecting Arduino to p5.js
-- [Week 12](#week-12) - Motors, Fabrication
-- [Week 13](#week-13) - Soldering, Circuit debugging
-- [Week 14](#week-14) - NO CLASS (National Day) / Course review
-- [Week 15](#week-15) - Show setup, Final project presentations / IM Show
-- [IM Show](#im-show) - IM End of Semester Show - Tuesday Dec 9
+- [Week 8](lectureNotes2.md#week-8) - p5.js
+- [Week 9](lectureNotes2.md#week-9) - Variables, Animation, Conditionals
+- [Week 10](lectureNotes2.md#week-10) - Functions, Arrays, Object-Oriented Programming (OOP)
+- [Week 11](lectureNotes2.md#week-11) - Working with text, Artist Visit (Ross Flight)
+- [Week 12](lectureNotes2.md#week-12) - Working with Pixels, Sound
+- [Week 13](lectureNotes2.md#week-13) - Computer Vision
+- [Week 14](lectureNotes2.md#week-14) - Final project presentations, show setup
+- [IM Show](lectureNotes2.md#im-show) - IM End of Semester Show - May 8
 
 ## Week 8
 
