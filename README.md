@@ -15,7 +15,7 @@ Meeting times:
 - 2:10-3:25PM Tuesday
 - 2:10-4:50PM Thursday
 
-Session: Spring 2025
+Session: Spring 2026
 
 [Discord](https://discord.com/channels/714727038078025851/716332110268465172)   
 
@@ -28,5 +28,4 @@ found here.
 
 [Weekly Schedule](https://intro.nyuadim.com/) Includes homework and projects assignments
 
-The current session is Spring 2025.
-Previous sessions can be explored [here](previousSessions/previousSessions.md).
+Previous sessions can be explored [here](previousSessions/).
