@@ -28,4 +28,4 @@ found here.
 
 [Weekly Schedule](https://intro.nyuadim.com/) Includes homework and projects assignments
 
-Previous sessions can be explored [here](previousSessions/previousSessions.md).
+Previous sessions can be explored [here](previousSessions/).
