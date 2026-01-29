@@ -496,6 +496,7 @@ Overview:
 - Loops
 - Functions
 - Homework assignment + reading
+- Reminder: You get free tickets to [Arts Center](https://publicprograms.nyuad.nyu.edu/en/the-arts-center/upcoming-at-the-arts-center.html) events! Lots of great concerts and also check "Off the Stage" for workshops
 
 ##### Readings
 Each week there will be assigned reading. You need to read / watch the material before the start of
@@ -506,6 +507,11 @@ Monday's class and post a response. We will discuss the readings in groups in cl
 [Week 2 - Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups
 
 [List of readings (Weekly Schedule)](https://intro.nyuadim.com/)
+
+##### Artwork examples
+- [Vera Molnar](https://www.artsy.net/article/artsy-editorial-vera-molnar-mother-computer-art-pioneered-future-abstraction)
+	- [Promotional video from Sotheby's (YouTube)](https://www.youtube.com/watch?v=8tNESHtfkr0) 
+- [Manfred Mohr](http://www.emohr.com/)
 
 
 ##### Review
@@ -735,10 +741,6 @@ function draw() {
 ### Week 3.1
 - Review homework
 - In-class discussion
-
-##### Artwork examples
-- [Vera Molnar](https://magazine.artland.com/vera-molnar/)
-- [Manfred Mohr](http://www.emohr.com/)
 
 ##### Functions
 
