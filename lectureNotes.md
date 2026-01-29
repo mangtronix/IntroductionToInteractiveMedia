@@ -512,6 +512,8 @@ Monday's class and post a response. We will discuss the readings in groups in cl
 - [Vera Molnar](https://www.artsy.net/article/artsy-editorial-vera-molnar-mother-computer-art-pioneered-future-abstraction)
 	- [Promotional video from Sotheby's (YouTube)](https://www.youtube.com/watch?v=8tNESHtfkr0) 
 - [Manfred Mohr](http://www.emohr.com/)
+- [How to make your first generative art with P5.js (Medium)](https://medium.com/@shvembldr/how-to-make-your-first-generative-art-with-p5-js-3f10afc07de2)
+	- See some examples at the end 
 
 
 ##### Review
