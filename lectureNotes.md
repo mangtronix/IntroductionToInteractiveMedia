@@ -516,6 +516,10 @@ Monday's class and post a response. We will discuss the readings in groups in cl
 - [How to make your first generative art with P5.js (Medium)](https://medium.com/@shvembldr/how-to-make-your-first-generative-art-with-p5-js-3f10afc07de2)
 	- See some examples at the end 
 
+- Kent Monkman - Famous artist in Canada
+	- [The Scream](https://www.aci-iac.ca/art-books/kent-monkman/key-works/the-scream/)
+	- [The modern touch of an old master (The Globe And Mail)](https://www.theglobeandmail.com/arts/inside-the-process-behind-kent-monkmans-art/article37126241/)
+ 		- Fascinating look at his process as an "atelier" with multiple people working on the paintings 
 
 ##### Review
 
