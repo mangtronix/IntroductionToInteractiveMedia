@@ -1890,6 +1890,7 @@ next one when we click the mouse? What graphical effects can you synchronize to 
 
 ### Week 6.1
 #### Plan for today: 
+- Dustin Foster IM Lab Manager intro
 - Midterm project idea feedback
   - General questions?
   - Quick individual feedback
