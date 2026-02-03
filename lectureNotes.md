@@ -953,6 +953,14 @@ Additional learning resources
 
 
 #### Homework
+Next class we have mandatory tool training
+- Arrive promptly
+- Wear closed toed shoes (no sandals / flip flops)
+
+Complete [Coding Train tutorials 5-7](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=20)
+- 5.x Functions
+- 6.x Classes
+- 7.1-7.3 Arrays
 
 Complete your Week 3 homework for Tuesday's class
 
