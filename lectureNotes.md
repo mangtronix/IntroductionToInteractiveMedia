@@ -1005,6 +1005,8 @@ Contacts / Resources
   - [Week 4 - Ball class with text (p5editor)](https://editor.p5js.org/mangtronix/sketches/0Vgh2i2lh)
 
 Additional p5js resources:
+- [Patt Vira YouTube channel](https://www.youtube.com/@pattvira)
+	- Lots of great tutorials on p5, generative artworks, and Arduino
 - [Programming with p5.js (Coding Train)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 - [Introduction to p5.js](https://medium.com/comsystoreply/introduction-to-p5-js-9a7da09f20aa)
 
