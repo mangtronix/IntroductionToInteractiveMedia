@@ -1398,6 +1398,10 @@ computers,black,mice,pink,squeak,home
 
 ### Week 4.2
 
+Arabic text example
+- [Loading font outside p5 code](https://stackoverflow.com/questions/72644831/arabic-font-not-showing-correctly-in-p5-js)
+- [Week 4.2 Arabic Text](https://editor.p5js.org/mangtronix/sketches/QerLCmGBD) - example using Noto Kufi from Google Fonts
+
 [Back to top](#weekly-schedule)
 
 ## Week 5
