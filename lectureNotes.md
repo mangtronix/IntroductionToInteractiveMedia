@@ -2115,20 +2115,18 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 ## Week 7
 ### Week 7.1
-- Distribute Arduino kits
-  - Write your name on your kit - you can leave it on our Intro to IM shelf
-  - You need to provide your own hub / dongle to connect to your computer
-    - Test it - Not all hubs work
-    - Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
-
+**Class is online, check Brightspace announcements for Zoom link**
 - Project status, debugging
-- Work session
 
 ### Week 7.2
 #### Plan for today: 
 - Midterm project presentations
 
-
+- Distribute Arduino kits
+  - Write your name on your kit - you can leave it on our Intro to IM shelf
+  - You need to provide your own hub / dongle to connect to your computer
+    - Test it - Not all hubs work
+    - Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
 
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
