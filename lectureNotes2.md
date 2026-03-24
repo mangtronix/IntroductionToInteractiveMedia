@@ -32,6 +32,9 @@
 ### Week 8.1 
 
 #### Plan for today: 
+- Check-in
+- Remote teaching
+- Midterm
 - Introduction to Arduino
 - Electricity
 - Schematics (time permitting)
