@@ -162,16 +162,33 @@ Let's use a real switch
 
 ## Week 9
 
-### Week 9.1 - Digital / Analog IO
+### Week 9.1 - Midterm presentations
 #### Plan for today: 
-- Review homework
-- Reading discussion
-	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
+- Overall Check-in
+- Review midterm
+
+### Week 9.2 - Midterm presentations / Arduino Analog and Digital
+#### Plan for today
+- Midterm sharing
+
+- Arduino kit setup
+- Tinkercad Circuits
 
 - Series and Parallel
 - Arduino and Digital Output
 - Digital Input
-- Analog Input (time permitting)
+- Analog Input
+
+#### Arduino kit setup
+[SparkFun Inventor's Kit](https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html)
+- [Experiment Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41)
+- [Baseplate Assembly](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/baseplate-assembly)
+- [Download Arduino IDE](https://www.arduino.cc/en/software/)
+- [Connect the Microcontroller to Your Computer](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/connect-the-microcontroller-to-your-computer)
+- Connection issues?
+  - Try a different USB hub or dongle
+  - On Windows 11? Try this driver fix [Fixing CH340 Driver Windows 11 (YouTube)](https://www.youtube.com/watch?v=M6oq3dl5gBQ&t=114s)
+  - Our specific Arduino-compatible board is the [Sparkfun RedBoard QWIIC with CH340G serial chip](https://learn.sparkfun.com/tutorials/redboard-qwiic-hookup-guide/all)
 
 #### Series and Parallel
 
@@ -338,6 +355,7 @@ How is that possible?
 
 ### Week 9.2 - Arduino Programming Syntax
 #### Plan for today: 
+
 - Discuss reading
 - Analog Input
 - Analog Output
@@ -544,14 +562,9 @@ Name your repository "introduction to interactive Media".
 ### Week 10.1 - Schematics, Circuit conventions
 
 #### Plan for today: 
-- Lab Policies with IM Lab Manager Dustin Foster
 - Look at homework
 - Reading discussion
-- IM Lab tour
-  - Consumables
-  - Fabrication area
-  - 3D printers
-  - Laser cutter
+	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
 
 - Schematic conventions
 - Sound
