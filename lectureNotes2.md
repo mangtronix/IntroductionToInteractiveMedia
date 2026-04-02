@@ -174,6 +174,7 @@ Let's use a real switch
 - Arduino kit setup
 - Tinkercad Circuits
 
+
 - Series and Parallel
 - Arduino and Digital Output
 - Digital Input
@@ -189,6 +190,14 @@ Let's use a real switch
   - Try a different USB hub or dongle
   - On Windows 11? Try this driver fix [Fixing CH340 Driver Windows 11 (YouTube)](https://www.youtube.com/watch?v=M6oq3dl5gBQ&t=114s)
   - Our specific Arduino-compatible board is the [Sparkfun RedBoard QWIIC with CH340G serial chip](https://learn.sparkfun.com/tutorials/redboard-qwiic-hookup-guide/all)
+
+#### Tinkercad Circuits
+- Check Brightspace announcements or Content->Overview for class invite link
+- [Tinkercad interactive tutorials](https://www.tinkercad.com/learn/circuits)
+- Class-specific tutorials are in the Tinkercad classroom->Activities->Week 9 tutorials
+- Video tutorials
+  - [Arduino TINKERCAD Simulation Tutorial- Complete Guide (YouTube)](https://www.youtube.com/watch?v=Kehd7aH4rug)
+  - [Learn Arduino with Tinkercad Circuits (YouTube playlist)](https://youtube.com/playlist?list=PLV6cmKvnKRs5geApVORPW79U6s3wpa0Ht&si=5bvWB7e9S3qBBgmq) (note that in class we exclusively use the text code editor, not the visual blocks)
 
 #### Series and Parallel
 
