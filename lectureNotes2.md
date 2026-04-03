@@ -198,6 +198,10 @@ Let's use a real switch
 - Video tutorials
   - [Arduino TINKERCAD Simulation Tutorial- Complete Guide (YouTube)](https://www.youtube.com/watch?v=Kehd7aH4rug)
   - [Learn Arduino with Tinkercad Circuits (YouTube playlist)](https://youtube.com/playlist?list=PLV6cmKvnKRs5geApVORPW79U6s3wpa0Ht&si=5bvWB7e9S3qBBgmq) (note that in class we exclusively use the text code editor, not the visual blocks)
+ 
+#### Arduino tutorial videos
+- [Arduino is easy, actually (YouTube)](https://www.youtube.com/watch?v=tiGw9PQbvrg)
+- [Arduino Crash Course (YouTube)](https://www.youtube.com/playlist?list=PLYutciIGBqC0SWYHfQWxM-E6chIdc4zrJ)
 
 #### Series and Parallel
 
