@@ -369,7 +369,7 @@ How is that possible?
 - Analog Input
 - Analog Output
 - GitHub (time permitting)
-- 
+  
 #### Arduino Programming Syntax
 Programming in Arduino uses C/C++ with a very small number of modifications.
 
