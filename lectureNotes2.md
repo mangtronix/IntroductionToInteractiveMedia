@@ -1462,7 +1462,8 @@ without using `delay()`:
 - Soldering
 - Class links
 	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
- 	- [NeoPixel soldering guide (Adafruit)](https://learn.adafruit.com/make-it-glow-how-to-solder-neopixels-a-beginners-guide/overview) 
+ 	- [NeoPixel soldering guide (Adafruit)](https://learn.adafruit.com/make-it-glow-how-to-solder-neopixels-a-beginners-guide/overview)
+    - [The Only LED Strip Soldering Tutorial You'll Ever Need (YouTube)](https://www.youtube.com/watch?v=98t4NzqtD3E)
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
