@@ -597,6 +597,7 @@ ELEGOO UNO Project Super Starter Kit with Tutorial and UNO R3 Board or similar
 - [Amazon AE](https://www.amazon.ae/ELEGOO-Project-Tutorial-Controller-Projects/dp/B07T4869SY/)
 - [Amazon US](https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/)
 
+![Minimal Arduino Kit](/media/Minimal_Arduino_Kit.png)
 Required components for class (subset of components from the [original class kit](https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html)):
 - Arduino UNO board
 - Mini breadboard
