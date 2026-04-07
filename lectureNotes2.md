@@ -608,7 +608,7 @@ Required components for class (subset of components from the [original class kit
 - Light dependent resistor (LDR)
 - Piezo buzzer / speaker
 - Servo motor
-- DC motor (e.g. TT hobby motor) and motor driver
+- DC motor (e.g. [TT hobby motor](https://www.adafruit.com/product/3777)) and motor driver
 
 
 
