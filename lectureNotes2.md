@@ -575,6 +575,8 @@ Name your repository "introduction to interactive Media".
 ### Week 10.1 - Schematics, Circuit conventions
 
 #### Plan for today: 
+- Announcements
+	- Stipend for replacement kits and materials available, will be loaded to FAB cards
 - Look at homework
 - Reading discussion
 	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
