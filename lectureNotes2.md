@@ -577,6 +577,7 @@ Name your repository "introduction to interactive Media".
 #### Plan for today: 
 - Announcements
 	- Stipend for replacement kits and materials available, will be loaded to FAB cards
+ 	- Purchase replacement kit (linked below if possible) 
 - Look at homework
 - Reading discussion
 	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
@@ -588,6 +589,28 @@ Name your repository "introduction to interactive Media".
 - Data Types
 - Circuit theory
 - Examples
+
+#### Replacement class kit
+ELEGOO UNO Project Super Starter Kit with Tutorial and UNO R3 Board or similar
+[https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit](https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit
+)
+- [Amazon AE](https://www.amazon.ae/ELEGOO-Project-Tutorial-Controller-Projects/dp/B07T4869SY/)
+- [Amazon US](https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/)
+
+Required components for class (subset of components from the [original class kit](https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html)):
+- Arduino UNO board
+- Mini breadboard
+- Jumper wires
+- LEDs
+- Resistors (1k and 330ohm)
+- Push button switches
+- Potentiometer
+- Light dependent resistor (LDR)
+- Piezo buzzer / speaker
+- Servo motor
+- DC motor (e.g. TT hobby motor) and motor driver
+
+
 
 #### Schematics
 
