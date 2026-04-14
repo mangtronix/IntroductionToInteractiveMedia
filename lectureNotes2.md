@@ -618,16 +618,17 @@ Required components for class (subset of components from the [original class kit
 - [How to Read a Schematic (Sparkfun)](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all)
 - Hand-drawn
   - Best way to get started! Think about your circuit, then draw it
-
-## Michael Start Here
+  - *All submitted schematics must be hand-drawn* on paper. Digital schematics are not accepted. You need to be able to hand draw a schematic to communicate circuits spontaneously in-person.
 
 Here is an example:
 
 ![](media/handDrawnSchematicExample.jpg)
 
+<!--
 - [Tinkercad](https://www.tinkercad.com/circuits) (free)
 - [Fritzing](https://fritzing.org/) (~$8 download, simple, has many Arduino-related parts)
 - [KiCad](https://www.kicad.org/) (open source, complex)
+-->
 
 #### Conventions: Schematics and Wire Colours
 
