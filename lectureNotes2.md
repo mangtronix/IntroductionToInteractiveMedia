@@ -569,26 +569,15 @@ Name your repository "introduction to interactive Media".
 
 - [Git and GitHub for Poets (Coding Train / YouTube)](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=1)
 
-
 ## Week 10
 
-### Week 10.1 - Schematics, Circuit conventions
+### Week 10.1
 
-#### Plan for today: 
-- Announcements
-	- Stipend for replacement kits and materials available, will be loaded to FAB cards
- 	- Purchase replacement kit (linked below if possible) 
+Plan for today:
 - Look at homework
 - Reading discussion
 	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
 
-- Schematic conventions
-- Sound
-- Servo motor
-- PWM
-- Data Types
-- Circuit theory
-- Examples
 
 #### Replacement class kit
 ELEGOO UNO Project Super Starter Kit with Tutorial and UNO R3 Board or similar
@@ -612,6 +601,32 @@ Required components for class (subset of components from the [original class kit
 - DC motor (e.g. [TT hobby motor](https://www.adafruit.com/product/3777)) and motor driver
 
 
+## Week 11
+
+### Week 11.1
+Plan for today:
+- Reading discussion
+- Homework review
+- In-class design discussion
+
+### Week 11.2 - Schematics, Circuit conventions
+Announcements:
+- Check your FAB card for loaded funds for materials ($40) and alternate kit ($60)
+- Link for [alternate Arduino kit](#replacement-class-kit)
+
+Plan for today:
+- Introduce final project
+- Schematics continued
+- Sound and motors
+
+
+- Schematic conventions
+- Sound
+- Servo motor
+- PWM
+- Data Types
+- Circuit theory
+- Examples
 
 #### Schematics
 
@@ -658,6 +673,28 @@ Here is an example:
 		- Red bus for 5V only
 		- Black or Blue bus for GND only
 
+- Schematic tips
+	- Positive power symbols always point up, ground always points down
+ 	- Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
+ 	- Pin labels should be placed inside the IC symbol next to the pin
+   	- Have signals flowing from left to right where possible: inputs on the left and outputs on the right
+   	- Indicate the value of components like resistors (resistance value), if the color of an LED or button is important indicate it on the schematic
+  	- Voltage dividers: resistors should be vertically aligned
+  	- Consistently orient symbols (either horizontal OR vertical)
+ 	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
+ 		- Good overview of the basics of drawing connections and different component symbols
+- Tools for making schematics
+	- Draw by hand
+ 		- Good practice, very useful for communicating quickly
+   	- [Fritzing](https://fritzing.org/)
+   		- Theoretically open source (paid download)
+   	 	- Has many Arduino parts included
+   	- [Tinkercad Circuits](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
+   		- Web-based
+   	 	- Includes simulator - but beware that reality can be different!
+  	- [KiCad](https://www.kicad.org/)
+  		- Open source and free
+  	 	- Professional level tool
 
 #### Circuits
 
@@ -701,8 +738,6 @@ are
 - Voltage **does** change when you go across a component
 	- That is why it is **important** to make connections to the correct side of a
 		component!
-
-### Week 10.2 - Sound, servos
 
 #### Sound
 
@@ -930,18 +965,14 @@ void loop() {
 [Back to top](#weekly-schedule)
 
 
-## Week 11
+## Week 12
 
-### Week 11.1 - Serial Communication
+### Week 12.1 - Serial Communication
 #### Plan for today: 
-- Announcements
-  - [IM Show](#im-show) is Thursday May 8, 5-8pm
-  - Each IM student must show at least one project
-
 - Reading discussion
-- Look at homework (musical instruments)
+- Look at homework
 - Debugging
-- Serial Communication
+- Introduction to Serial Communication
 
 
 ##### Debugging
@@ -1050,21 +1081,18 @@ Examples
  -->
  
 
-### Week 11.2 - 11/13 - Serial communication
+### Week 12.2 - Motors, fabrication / Project feedback
 #### Plan for today
-- Serial communication continued
+- Motors
+- Fabrication techniques
+- In-class work session
+
+In-class work session
+- Divide into breakout rooms
+- Each person gives an update and asks for feedback / help on a specific problem
   
-#### In-class exercise (break class into groups of 2-3 students)
 
-- make something that uses only one sensor  on arduino and makes an ellipse (or other shape)
-	in p5 move on the horizontal axis, in the middle of the screen, and nothing
-	on arduino is controlled by p5 
-- make something that controls the LED brightness from p5 
-- take the [gravity wind example](https://editor.p5js.org/aaronsherwood/sketches/I7iQrNCul) and make it so
-	every time the ball bounces one led lights up and then turns off, and you
-	can control the wind from one analog sensor 
-
-
+<!--
 #### Discussion
 - What did the writer mean by Vision?
 - Do you agree with the writer when he says future tech neglects the
@@ -1080,53 +1108,11 @@ Examples
 	does it evolve with practice?
 - Does experiential perspective helps in creating visionary designs or does it
 	fades your vision?
+-->
 
-
-## Week 12
-### Week 12.1 - Motors, fabrication
-
-#### Plan for today: 
-- No reading discussion - reading is due Thursday
-- Review project proposals
-- Motors
-- Fabrication and Construction Techniques
 
 Inspiration
 - [Mechanical Techno Demonstration (Graham Dunning / YouTube)](https://youtu.be/wl1ZrEza7uY?si=tPjuOxoioo-I20gb)
-
-#### Fabrication and construction
-- Laser cutting 
-    - [Laser Cutting Basics](https://www.instructables.com/Laser-Cutting-Basics/)
-    - [IM Lab Laser Cutting presentation (Google Slides)](https://docs.google.com/presentation/d/1l6x9M0nAiH3uMHQKQtethxi2cAhx7vBo1srYkkMT4bA/edit?usp=sharing)
-
-- 2D Design for Laser Cutting
-    - [Inkscape](https://inkscape.org/)
-    - [Inkscape 11 minute tutorial (YouTube)](https://youtu.be/-_KJZPOYBeA)
-    - [Inkscape basic tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
-    - [Inkscape Tutorials (YouTube)](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&index=1)
-    - [Inkscape design for laser cutting (YouTube)](https://youtu.be/IzaiISOzXHo)
-    - [Inkscape Tutorial: Prepare your files for laser cutting](https://www.sculpteo.com/en/prepare-your-file-laser-cutting/prepare-your-model-laser-cutting-inkscape/)
-    - [Convert Text To A Path In Inkscape](https://logosbynick.com/convert-text-to-a-path-in-inkscape/)
- 
-- Laser cutter booking
-    - [IM Lab Resources](https://www.nyuadim.com/resources/) -> Machines
- 
-- 3D printing
-    - [https://www.instructables.com/3D-Printing-Basics/](https://www.instructables.com/3D-Printing-Basics/)
-    - 3D design
-        - [Tinkercad](https://www.tinkercad.com/dashboard)
-            - Free
-            - [Tinkercad tutorials](https://www.tinkercad.com/learn)
-        - [Autodesk Fusion](https://www.tinkercad.com/dashboard)
-            - Personal and educational licenses available
-    - Community models
-        - User uploaded models
-        - Quality varies
-        - Good for test prints and inspiration
-        - [Printables](https://www.printables.com/)
-        - [Thingiverse](https://www.thingiverse.com/)
-        - [Cults 3D](https://cults3d.com/)
-
 
 #### Motors
 
@@ -1302,17 +1288,56 @@ void loop() {
 }
 ````
 
+- More about our motor driver
+	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
+	- Tutorial for using motor driver board to control yellow geared motor
+
+	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
+	- Set your Arduino free to roam!
+
+#### Fabrication and construction
+- Cardboard
+	- Free!
+	- Easy to work with and great for making prototypes
+	- [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
+	- [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
+
+- Laser cutting 
+    - [Laser Cutting Basics](https://www.instructables.com/Laser-Cutting-Basics/)
+    - [IM Lab Laser Cutting presentation (Google Slides)](https://docs.google.com/presentation/d/1l6x9M0nAiH3uMHQKQtethxi2cAhx7vBo1srYkkMT4bA/edit?usp=sharing)
+
+- 2D Design for Laser Cutting
+    - [Inkscape](https://inkscape.org/)
+    - [Inkscape 11 minute tutorial (YouTube)](https://youtu.be/-_KJZPOYBeA)
+    - [Inkscape basic tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
+    - [Inkscape Tutorials (YouTube)](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&index=1)
+    - [Inkscape design for laser cutting (YouTube)](https://youtu.be/IzaiISOzXHo)
+    - [Inkscape Tutorial: Prepare your files for laser cutting](https://www.sculpteo.com/en/prepare-your-file-laser-cutting/prepare-your-model-laser-cutting-inkscape/)
+    - [Convert Text To A Path In Inkscape](https://logosbynick.com/convert-text-to-a-path-in-inkscape/)
+ 
+- Laser cutter booking
+    - [IM Lab Resources](https://www.nyuadim.com/resources/) -> Machines
+ 
+- 3D printing
+    - [https://www.instructables.com/3D-Printing-Basics/](https://www.instructables.com/3D-Printing-Basics/)
+    - 3D design
+        - [Tinkercad](https://www.tinkercad.com/dashboard)
+            - Free
+            - [Tinkercad tutorials](https://www.tinkercad.com/learn)
+        - [Autodesk Fusion](https://www.tinkercad.com/dashboard)
+            - Personal and educational licenses available
+    - Community models
+        - User uploaded models
+        - Quality varies
+        - Good for test prints and inspiration
+        - [Printables](https://www.printables.com/)
+        - [Thingiverse](https://www.thingiverse.com/)
+        - [Cults 3D](https://cults3d.com/)
+
 
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - Motors continued, Schematics, Multimeters
-- Plan for today
-	- Reading discussion 
-	- Review class schedule through end of semester
- 	- Motors, continued
- 	- Schematic tips 
-  	- Multimeters and circuit debugging 
 
 #### Discussion of *Design Meets Disability*
 
@@ -1328,46 +1353,8 @@ void loop() {
 1. In the case of glasses, the author mentions “what others see is more
 	 important than what you see yourself” - do you guys agree?
 
-
-- Schedule until the end of semester
-	- Final project is due Thursday May 8
- 	- Final project presentations will happen at our space in the Arts Center Lobby
-  	- Your project must be working for the final class and for the show
-	- [IM End of Semester Show](#im-show)
-  	- Any projects with special requirements?
-  	- Book equipment in Connect2 now
-  	- Book laser cutter now
-  	- Book 3D printers how
  
-- More about our motor driver
-	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
-	- Tutorial for using motor driver board to control yellow geared motor
 
-	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
-	- Set your Arduino free to roam!
- 
-- Schematic tips
-	- Positive power symbols always point up, ground always points down
- 	- Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
- 	- Pin labels should be placed inside the IC symbol next to the pin
-   	- Have signals flowing from left to right where possible: inputs on the left and outputs on the right
-   	- Indicate the value of components like resistors (resistance value), if the color of an LED or button is important indicate it on the schematic
-  	- Voltage dividers: resistors should be vertically aligned
-  	- Consistently orient symbols (either horizontal OR vertical)
- 	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
- 		- Good overview of the basics of drawing connections and different component symbols
-- Tools for making schematics
-	- Draw by hand
- 		- Good practice, very useful for communicating quickly
-   	- [Fritzing](https://fritzing.org/)
-   		- Theoretically open source (paid download)
-   	 	- Has many Arduino parts included
-   	- [Tinkercad Circuits](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
-   		- Web-based
-   	 	- Includes simulator - but beware that reality can be different!
-  	- [KiCad](https://www.kicad.org/)
-  		- Open source and free
-  	 	- Professional level tool
 
 #### How to use a Digital Multimeter (DMM)
 - The Multimeter is the most common tool used for debugging hardware circuits
@@ -1501,40 +1488,27 @@ without using `delay()`:
 - **Post** your user testing - Due before class Wednesday
 	- see [main page](https://intro.nyuadim.com/) for details 	
 
+[Back to top](#weekly-schedule) 
 
 ## Week 14
-### Week 14.1 - NO CLASS - National Day holiday
-
-### Week 14.2 - Course review
+### Week 14.1 - Project feedback / Course review
 - Course review
 - Course feedback
-	- Fill out [Course Feedback](https://go.blueja.io/26LwKSl6q0Srg0FwKTftKg)
+	- Fill out Course Feedback (check your email)
 - Work session
 
 #### Homework
 - **Finish** your final project
-- **Post** your final project documentation to your blog - Due midnight Sunday, Dec 7
+- **Post** your final project documentation to your blog - Due midnight Wednesday, May 6
   - MUST BE FINISHED BEFORE CLASS NOT ACCEPTED LATE
 	- see [main page](https://intro.nyuadim.com/) for details 
-- **Your project must be finished with the documentation posted by midnight Sunday, Dec 7**
-- Monday is for **showing** your project, not further development - don't risk your project not working on Monday at the last minute
+- **Your project must be finished with the documentation posted by midnight Wednesday, May 6**
+- Be ready to show your project in class
+  - Short demo (3-5 minutes) followed by questions / feedback
 
-## Week 15
+### Week 14.2 - Final project presentations
+- Final project presentations!
 
-### Week 15.1 - Final project presentations - Monday Dec 8
-- **Come directly to the Arts Center Lobby with everything you need for running your project**
-- 3:35-4:35pm setup projects in lobby
-- 4:35pm - start project presentations in the lobby - no slides necessary - just show your project :)
-
-### Week 15.2 - IM Show - Tuesday Dec 9
-## IM Show 5-8pm
-
-Tuesday Dec 9, 5-8pm
-- **Get** your project up and running by 4:30pm
-- **Exhibit** your project in the IM End of Semester Show
-- **Keep** your table area looking professional and clear of bags, etc.
-- **Clean up** your work at end of show
-- **Return** any checked out equipment immediately to IM Lab
 
 **Have a great summer!!!! Hope to see you in the Fall!**
 
