@@ -616,17 +616,13 @@ Announcements:
 
 Plan for today:
 - Introduce final project
-- Schematics continued
-- Sound and motors
-
-
-- Schematic conventions
 - Sound
 - Servo motor
 - PWM
 - Data Types
 - Circuit theory
 - Examples
+
 
 #### Schematics
 
@@ -966,14 +962,18 @@ void loop() {
 
 
 ## Week 12
+### Week 12.1 - Motors
 
-### Week 12.1 - Serial Communication
-#### Plan for today: 
+Announcements:
+- Revised homework schedule is in [Brightspace->Content->Spring 2026 Updates](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/13222958)
+- Campus access
+
+#### Plan for today:
 - Reading discussion
 - Look at homework
 - Debugging
-- Introduction to Serial Communication
-
+- Motors
+- Final project
 
 ##### Debugging
 
@@ -986,110 +986,6 @@ the best picture you can take of your breadboard circuit to GitHub
 	1. What you observe happens
 
 What techniques have you learned to help you find problems?
-
-
-#### Serial Communication
-
-Remember how we used `print()` in p5.js to help us find problems in our 
-program? You can do that in Arduino to but the function has a slightly
-different name: `Serial.println()`
-- Must be initialized `Serial.begin()`
-- Can not concatenate strings with the `+` function
-	- Instead, you need multiple calls to `Serial.print()` e.g.:
-
-````
-Serial.print("First value = ");
-Serial.print(firstValue);
-Serial.print(" Second value = ");
-Serial.print(secondValue);
-Serial.println();
-````
-
-Communicating between p5.js and Arduino
-  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-  	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks. 
-  - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
-  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
-
-- Bidirectional communication example
-	- This example exchanges information between p5 and Arduino using the serial connection
-	- [p5.webserial library (GitHub)](https://github.com/gohai/p5.webserial)
-	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/a96iTkEvR)
-	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
-
-- Before you incorporate this in your project, first test this as it is and
-	make sure you understand it
-- The example uses the [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-- For new sketches ou need to load the library in your sketch index.html file by adding this line:
-	```<script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>```
-
-<img width="1148" alt="p5 webserial script tag" src="https://github.com/user-attachments/assets/82b42bc9-8907-4cf4-8b68-a891e45b6e3f" />
-
-
-- Briefly, what this code does:
-	- Arduino waits for a message from p5.  
-	- Arduino expects two values separated by a comma. It uses these two values
-		to control two LEDs.  
-	- Arduino then reads two sensors and sends the values back to p5, separated
-		by a comma.
-	- p5 reads these two values from Arduino. One value controls the text color,
-		the other controls the text transparency
-	- p5 sends two values back to Arduino indicating if the mouse was clicked,
-		and if so, which half of the screen it was in.
-
-- Once it's working, duplicate the code and then start adapting it to your
-	needs:
-	- Duplicate Aaron's project so that you get the other files as well
-	- Increase or decrease the amount of data that is exchanged. You may need
-		more, or you may need less. 
-	- Modify the data that is exchanged. You may need a digital sensor on the
-		Arduino instead of an analog sensor. Similarly, on the p5 side, you may
-		need something different from a mouse click or changing the text color and
-		transparency.
-	- Once you are reliable sending information back and forth you can start
-		adding the rest of your program
-
-- More tutorials
-	- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
-	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
-	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
-	- **Note:** these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
-
-
-<!-- Older examples using serial server
-
-MacOS or Windows
-- Follow Jack's excellent tutorial
-[here](https://docs.google.com/document/d/1l7pgSkb9SqoOFyo6xVZTlW-ORQJ_iHNUrOBGdARW4j4/edit)
-	- When you download `p5.serialcontrol`, download Beta 1.1
-
-On linux
-1. Install a serial server 
-	1. sudo npm install -g p5.serialserver --unsafe-perm --build-from-source
-1. Invoke it
-	1. p5serial
-
-Examples
-- A minimal [example](https://editor.p5js.org/michaelshiloh/sketches/h2RQaOmYP) 
-	- Clicking the mouse turns on an LED
-	- Closing a switch on Arduino sends a signal to p5.js
-- Aaron's [example](https://editor.p5js.org/aaronsherwood/sketches/v8OM9VbGe)
-	- Two sensors on Arduino control the position of a circle on p5.js
-	- Clicking the mouse on different parts of the canvas controls two LEDs
-		on Arduino
- -->
- 
-
-### Week 12.2 - Motors, fabrication / Project feedback
-#### Plan for today
-- Motors
-- Fabrication techniques
-- In-class work session
-
-In-class work session
-- Divide into breakout rooms
-- Each person gives an update and asks for feedback / help on a specific problem
   
 
 <!--
@@ -1295,6 +1191,17 @@ void loop() {
 	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
 	- Set your Arduino free to roam!
 
+
+### Week 12.2 - More motors, fabrication / Project feedback
+#### Plan for today
+- Motors
+- Fabrication techniques
+- In-class work session
+
+In-class work session
+- Divide into breakout rooms
+- Each person gives an update and asks for feedback / help on a specific problem
+
 #### Fabrication and construction
 - Cardboard
 	- Free!
@@ -1334,9 +1241,6 @@ void loop() {
         - [Thingiverse](https://www.thingiverse.com/)
         - [Cults 3D](https://cults3d.com/)
 
-
-
-[Back to top](#weekly-schedule)
 
 
 #### Discussion of *Design Meets Disability*
@@ -1404,10 +1308,77 @@ void loop() {
 
 ## Week 13
 ### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
-- Announcements
-	- IM Show
-	- Keep lab clean
-	- Turn off soldering irons
+Plan for today:
+- Serial communication
+
+#### Serial Communication
+
+Remember how we used `print()` in p5.js to help us find problems in our 
+program? You can do that in Arduino to but the function has a slightly
+different name: `Serial.println()`
+- Must be initialized `Serial.begin()`
+- Can not concatenate strings with the `+` function
+	- Instead, you need multiple calls to `Serial.print()` e.g.:
+
+````
+Serial.print("First value = ");
+Serial.print(firstValue);
+Serial.print(" Second value = ");
+Serial.print(secondValue);
+Serial.println();
+````
+
+Communicating between p5.js and Arduino
+  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
+  	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks. 
+  - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
+  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
+
+- Bidirectional communication example
+	- This example exchanges information between p5 and Arduino using the serial connection
+	- [p5.webserial library (GitHub)](https://github.com/gohai/p5.webserial)
+	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/a96iTkEvR)
+	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
+	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
+
+- Before you incorporate this in your project, first test this as it is and
+	make sure you understand it
+- The example uses the [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
+- For new sketches ou need to load the library in your sketch index.html file by adding this line:
+	```<script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>```
+
+<img width="1148" alt="p5 webserial script tag" src="https://github.com/user-attachments/assets/82b42bc9-8907-4cf4-8b68-a891e45b6e3f" />
+
+
+- Briefly, what this code does:
+	- Arduino waits for a message from p5.  
+	- Arduino expects two values separated by a comma. It uses these two values
+		to control two LEDs.  
+	- Arduino then reads two sensors and sends the values back to p5, separated
+		by a comma.
+	- p5 reads these two values from Arduino. One value controls the text color,
+		the other controls the text transparency
+	- p5 sends two values back to Arduino indicating if the mouse was clicked,
+		and if so, which half of the screen it was in.
+
+- Once it's working, duplicate the code and then start adapting it to your
+	needs:
+	- Duplicate Aaron's project so that you get the other files as well
+	- Increase or decrease the amount of data that is exchanged. You may need
+		more, or you may need less. 
+	- Modify the data that is exchanged. You may need a digital sensor on the
+		Arduino instead of an analog sensor. Similarly, on the p5 side, you may
+		need something different from a mouse click or changing the text color and
+		transparency.
+	- Once you are reliable sending information back and forth you can start
+		adding the rest of your program
+
+- More tutorials
+	- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
+	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
+	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
+	- **Note:** these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
+ 
 
  - Requested topics
    - [Equipment Booking](https://www.nyuadim.com/resources/)
