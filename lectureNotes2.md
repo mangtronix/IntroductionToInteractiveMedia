@@ -1309,7 +1309,8 @@ In-class work session
 ## Week 13
 ### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
 Plan for today:
-- Serial communication
+- Review Brightspace->Content->Spring 2026 Updates and final project
+- Look at final project plans
 
 #### Serial Communication
 
@@ -1444,6 +1445,10 @@ without using `delay()`:
   - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
 ### Week 13.2 - Look at final projects, work session
+Plan for today:
+- Reading discussion
+- Work session for final project
+
 - Soldering
 - Class links
 	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
@@ -1456,8 +1461,8 @@ without using `delay()`:
 - Ask any questions now!
 
 ## Homework
-- **Post** your user testing - Due before class Wednesday
-	- see [main page](https://intro.nyuadim.com/) for details 	
+- **Post** your user testing - Due before class Tuesday
+	- see Brightspace->Content->Spring 2026 Updates for details 	
 
 [Back to top](#weekly-schedule) 
 
