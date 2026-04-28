@@ -22,10 +22,8 @@
 - [Week 10](#week-10) - Sound, movement, circuit schematics
 - [Week 11](#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](#week-12) - Motors, Fabrication
-- [Week 13](#week-13) - Soldering, Circuit debugging
-- [Week 14](#week-14) - NO CLASS (National Day) / Course review
-- [Week 15](#week-15) - Show setup, Final project presentations / IM Show
-- [IM Show](#im-show) - IM End of Semester Show - Tuesday Dec 9
+- [Week 13](#week-13) - Final project review, Soldering, Circuit debugging
+- [Week 14](#week-14) - Final project presentations
 
 ## Week 8
 
