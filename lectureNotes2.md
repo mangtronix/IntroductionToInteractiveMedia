@@ -1330,7 +1330,7 @@ Serial.println();
 Communicating between p5.js and Arduino
   - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
   	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks.
-   - **Note:** for the Sparkfun RedBoard if you get "No compatible devices found" you need to change `port.open('Arduino', baudrate)` to `port.open(baudrate)` to skip the port auto-detection
+   - **Note:** for the Sparkfun RedBoard if you get "No compatible devices found" you need to change `port.open('Arduino', baudrate)` to `port.open(baudrate)` to skip the port auto-detection and show a list of all ports to the user
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
 
