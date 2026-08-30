@@ -22,7 +22,7 @@ Session: Fall 2026
 Welcome to Introduction to Interactive Media. All class material can be
 found here. 
 
-[Syllabus](syllabus.md)
+[Syllabus](https://intro.nyuadim.com/syllabus/)
 
 [Lecture notes](lectureNotes.md)
 
