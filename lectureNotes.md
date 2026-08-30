@@ -36,9 +36,9 @@
 - Syllabus etc.
 - Reading discussions
 - Join the Discord server
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/495529/units/12103320)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775079)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
-  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/495529/units/12103321)
+  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775079)
 
 #### What’s the class about?
 
@@ -60,6 +60,7 @@ Low barrier to entry, high ceiling</li>
 
 #### Red Burns advice to new students
 [Let's Stop Focusing on Shiny Gadgets and Start Using Tech to Empower People](https://www.wired.com/2013/09/focus-on-people-not-tech-and-other-impt-lessons-for-interaction-design-and-life/)
+- [Reading Materials](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775081)
 
 **What I hope for you:**
 
@@ -181,9 +182,9 @@ harp</a></li>
 
 #### Homework
 - Join the Discord server (optional, recommended)
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859705)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775079)
 - Log into the class Wordpress using your user account. If you have problems let Mang know
-  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859706)
+  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775080)
 - Create an account on [p5js.org](https://p5js.org/)
 
 
