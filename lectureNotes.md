@@ -1479,15 +1479,18 @@ The `p5.Image` class
 	- Data (the pixels, width, height, etc.)
 	- Functionality `(image()`, `get()`, etc.)
  - [p5.Image reference](https://p5js.org/reference/p5/p5.Image/)
+- Note: the way to preload an image (pause the program until the image has loaded) [has changed in p5js v2](https://p5js.org/tutorials/v2_transition/). The new pattern is to mark ```setup()``` as async and use ```await``` for the image loading function (see below)
 
 ````
 let catImg;
-function preload() {
-  photo = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
-}
-function setup() {
-  createCanvas(400, 400);
+
+// The "async" keyword lets us use "await" inside the function to wait for the image to load
+async function setup() {
+  createCanvas(400, 500);
   background(255);
+
+  // Start loading the image from the server and wait for the result before continuing
+  photo = await loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flame_point_Ragdoll.jpg/500px-Flame_point_Ragdoll.jpg");
   image(photo, 0, 0); // this actually displays the image
 }
 ````
@@ -1501,12 +1504,12 @@ this image at this location and scale to this size
 
 ````
 let catImg;
-function preload() {
-  catImg = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
-}
-function setup() {
-  createCanvas(400, 400);
+
+async function setup() {
+  createCanvas(400, 500);
   background(255);
+  catImg = await loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flame_point_Ragdoll.jpg/500px-Flame_point_Ragdoll.jpg");
+
   image(catImg, 0, 0);
 
   let newImg = catImg.get( 50,60, 100,50);
