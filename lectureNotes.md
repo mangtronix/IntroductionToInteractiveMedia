@@ -1060,13 +1060,13 @@ Help->Reference->LoadFont
 meaning that `setup()` will continue even if the `loadFont()` hasn't finished.
 There are two ways to force your program to wait for the font to load:
 
-1. Use `preLoad()`
+1. Use `async setup()` and `await`
 1. Specify an optional callback function in `loadFont()`
 
 ###### Selecting one of many fonts
 
 Note that loading a font takes time, so if you expect to use multiple
-fonts it's best to preload all of them, and then switch between
+fonts it's best to await all of them, and then switch between
 them using [`textFont()`](https://p5js.org/reference/#/p5/textFont)
 
 ###### Other things to do with text
@@ -1143,14 +1143,14 @@ let maxLat;
 let minLong;
 let maxLong;
 
-function preload() {
-  // The text from the file is loaded into an array.
-  strings = loadStrings("uswtdb_v4_3_20220114.csv");
-}
-
-function setup() {
+async function setup() {
   createCanvas(500, 400);
   background(235);
+
+  // The text from the file is loaded into an array.
+  // We wait using 'await' until the strings are loaded or an error occurs
+  strings = await loadStrings("uswtdb_v4_3_20220114.csv");
+
 
   // Did we succeed to load anything?
   if (strings == null) {
@@ -1677,12 +1677,11 @@ A fun examples from Professor Sherwood:
 let tiles = [];
 let tileSize = 100;
 
-function preload() {
-  img = loadImage("aiweiwei.jpeg");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+
+  img = await loadImage("aiweiwei.jpeg");
+
   let numTiles = img.height / tileSize;
   while (numTiles > 0) {
     tiles.push(
@@ -1751,13 +1750,12 @@ let y;
 let walkSpeed = 3;
 let background_color = 'teal';
 
-function preload() {
-  spritesheet = loadImage("walking.png");
-}
-
-function setup() {
+async function setup() {
   // fullscreen(true);
   createCanvas(500, 450);
+
+
+  spritesheet = await loadImage("walking.png");
 
   // 12 images across, 4 down, in the spritesheet
 
@@ -1848,12 +1846,11 @@ Must upload doorbell.mp3
 Must include sound library in index.html
 */
 
-function preload() {
-  song = loadSound('doorbell.mp3');
-}
-
-function setup() {
+async function setup() {
   background(234);
+
+  song = await loadSound('doorbell.mp3');
+
   song.play();
 }
 
