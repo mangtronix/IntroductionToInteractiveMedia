@@ -773,6 +773,7 @@ at the indicated **Y** coordinate
 	1. Test as before
 1. Using these two functions, write a program 
 that draws a grid of lines at regular intervals on the canvas
+1. Make another function drawShape(x, y) that draws a shape at those coordinates and use the function to draw a grid of the shapes
 
 #### Callback Functions / Event Handlers
 
