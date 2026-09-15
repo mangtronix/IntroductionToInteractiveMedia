@@ -970,8 +970,9 @@ Complete your Week 3 homework for Tuesday's class
 
 ### Week 3.2
 Announcements
-- [IM Peer Tutor schedule](https://docs.google.com/spreadsheets/d/1BkgkDrPf832igE00rhXc9FYZAXu2zSX9RzVeTqBRl8A/edit?gid=308586751#gid=308586751)
-	- drop-in hours for peer tutor in IM Lab (look for the orange apron)
+- [IM Peer Tutor schedule](https://www.nyuadim.com/resources/)
+	- check on the IM Lab calendar for "Zaid (Peer tutor)"
+ 	- drop-in hours for peer tutor in IM Lab (look for the orange apron)
  	- no need to make an appointment, just drop-in	
 
 #### Topics today
