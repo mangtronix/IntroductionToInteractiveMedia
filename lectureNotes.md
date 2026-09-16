@@ -876,7 +876,15 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-  #### Arrays
+
+### Week 3.2
+Announcements
+- [IM Peer Tutor schedule](https://www.nyuadim.com/resources/)
+	- check on the IM Lab calendar for "Zaid (Peer tutor)"
+ 	- drop-in hours for peer tutor in IM Lab (look for the orange apron)
+ 	- no need to make an appointment, just drop-in	
+
+#### Arrays
 
 Very simply, arrays let you store multiple things under one variable name, and
 let you identify which thing you want by using an `index`
@@ -968,14 +976,12 @@ Complete [Coding Train tutorials 5-7](https://www.youtube.com/watch?v=wRHAitGzBr
 
 Complete your Week 3 homework for Tuesday's class
 
-### Week 3.2
-Announcements
-- [IM Peer Tutor schedule](https://www.nyuadim.com/resources/)
-	- check on the IM Lab calendar for "Zaid (Peer tutor)"
- 	- drop-in hours for peer tutor in IM Lab (look for the orange apron)
- 	- no need to make an appointment, just drop-in	
 
-#### Topics today
+[Back to top](#weekly-schedule)
+
+## Week 4
+
+## Week 4.1
 Mandatory tool and safety training
 - You must complete tool training in order to use the tools in the IM Lab and maintain your lab access
 - You must complete the Scene Shop induction with Tony Bragg and sign the liability form before doing **any** work in the Scene Shop
@@ -987,12 +993,6 @@ Contacts / Resources
 - Scene Shop
 	- Manager: Tony Bragg <anb6202@nyu.edu>
  	- Hours: Generally 9-5, only while Tony or another instructor / specialist is present. Contact Tony for use of specific tools (e.g. bandsaw, sanding machines) 
-
-[Back to top](#weekly-schedule)
-
-## Week 4
-
-## Week 4.1
 
 #### Plan for today
 
