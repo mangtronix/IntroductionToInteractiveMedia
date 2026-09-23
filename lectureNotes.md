@@ -1132,7 +1132,8 @@ format".
 - Now you can load this file into an array of `Strings` and then process each
 	line one at a time, pulling out individual fields:
 
-[Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U)
+[Week 4 vs - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/YUFVUWHl-)
+[Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U) - older version from p5js v1 that uses ```preload```
 ````
 /*
  * example to process a CSV file containing data
@@ -1149,14 +1150,18 @@ let maxLat;
 let minLong;
 let maxLong;
 
+function preload() {
+  // The text from the file is loaded into an array.
+
+}
+
 async function setup() {
   createCanvas(500, 400);
   background(235);
 
-  // The text from the file is loaded into an array.
-  // We wait using 'await' until the strings are loaded or an error occurs
-  strings = await loadStrings("uswtdb_v4_3_20220114.csv");
-
+  // The downloaded csv file was limited to 2000 lines using
+  // $ head -n 2000 uswtdb_v5_1_20220729.csv > uswtdb_2000lines.csv
+  strings = await loadStrings("uswtdb_2000lines.csv");
 
   // Did we succeed to load anything?
   if (strings == null) {
@@ -1185,7 +1190,7 @@ function findMinMaxLatLong() {
   for (let csvRowNumber = 1; csvRowNumber < strings.length; csvRowNumber++) {
     // get a single row and split that row
     // into individual words
-    singleRow = split(strings[csvRowNumber], ",");
+    singleRow = strings[csvRowNumber].split(",");
 
     // We know that the last two fields are the
     // latitude and longitude and so they are
@@ -1224,11 +1229,11 @@ function draw() {
 
   // get a single row and split that row into
   // individual words
-  singleRow = split(strings[csvRowNumber], ",");
+  singleRow = strings[csvRowNumber].split(",");
 
   // This really slows things
   // down so use only when debugging
-  //println("Row " +
+  //print("Row " +
   // csvRowNumber +
   //   " contains " +
   //   singleRow.length +
@@ -1241,7 +1246,7 @@ function draw() {
   let latitude = float(singleRow[26]);
 
   // use only when debugging
-  // println("Latitude " +
+  // print("Latitude " +
   // latitude +
   //   " longitude " +
   //   longitude );
@@ -1251,7 +1256,7 @@ function draw() {
     print("conversion to float failed; skipping row " + csvRowNumber);
   } else {
     // scale that to fit on our canvas
-    //println(csvRowNumber);
+    //print(csvRowNumber);
     let ypos = map(latitude, minLat, maxLat, 0, height);
     let xpos = map(longitude, minLong, maxLong, 0, width);
 
@@ -1261,7 +1266,7 @@ function draw() {
 
   csvRowNumber++;
   if (csvRowNumber >= strings.length) {
-    println("finished");
+    print("finished");
     noLoop();
   }
 }
