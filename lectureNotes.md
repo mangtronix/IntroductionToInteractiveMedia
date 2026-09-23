@@ -1133,6 +1133,7 @@ format".
 	line one at a time, pulling out individual fields:
 
 [Week 4 vs - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/YUFVUWHl-)
+
 [Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U) - older version from p5js v1 that uses ```preload```
 ````
 /*
@@ -1149,11 +1150,6 @@ let minLat;
 let maxLat;
 let minLong;
 let maxLong;
-
-function preload() {
-  // The text from the file is loaded into an array.
-
-}
 
 async function setup() {
   createCanvas(500, 400);
