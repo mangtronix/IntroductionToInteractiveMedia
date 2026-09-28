@@ -1417,7 +1417,7 @@ Arabic text example
 ### Week 5.1
 
 #### Plan for today
-- Reading discussion
+- Reading discussion x2
 	- [It's not you. Bad doors are everywhere.
 (Vox / YouTube)](https://www.youtube.com/watch?v=yY96hTb8WgI) 
 - Look at homework
