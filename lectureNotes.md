@@ -2098,7 +2098,46 @@ Look at other array methods in the reference page:
 
 - What are blocking and non-blocking functions?
 - How do you know when a non-blocking function is done?
-- Soundfile reference page
+
+## async/await in p5.js
+
+Some things take time to arrive, like a picture or data from a website, and your sketch can't use them until they're there. In the old p5.js, you put all your loading in a special ```preload()``` function, and p5 waited for everything before starting. In p5.js 2.0 that function is gone, and you do the waiting yourself in two steps. First, write ```async``` in front of ```function setup()```, which tells JavaScript that this function will have to wait for things. Second, write ```await``` in front of each loading command, like ```img = await loadImage("cat.png")```, which means "stop here until the picture has arrived, then carry on." If you forget the await, your sketch keeps going before the picture data has been loaded into your browser, and nothing shows up.
+
+```
+// A variable to hold our picture once it has loaded.
+// It's empty for now; we fill it in setup().
+let kitten;
+
+// "async" means this function will have to wait for something:
+// here, a picture downloading from the internet.
+async function setup() {
+
+  // "await" tells p5: stop here until the picture has fully arrived,
+  // then store it in the kitten variable and carry on.
+  // (Without "await", the next lines would run before the picture arrives,
+  // and nothing would show up.)
+  kitten = await loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Six_weeks_old_cat_%28aka%29.jpg/960px-Six_weeks_old_cat_%28aka%29.jpg");
+
+  createCanvas(400, 400);
+  image(kitten, 0, 0);
+}
+```
+
+### Start here (p5.js 2.0)
+- [Week 5 - Kitteh image (p5 editor)](https://editor.p5js.org/mangtronix/sketches/I5abrleuy) - simple example
+- [p5.js 2.0: async and await (The Coding Train)](https://thecodingtrain.com/tracks/p5js-2.0/p5js-2.0/async-await) - why `preload()` was replaced and how `async setup()` works
+- [p5.js 2.0: Loading Data - Images, APIs, JSON (The Coding Train)](https://thecodingtrain.com/tracks/p5js-2.0/p5js-2.0/loading-data/) - images, live APIs, common mistakes, `Promise.all`, loading animations
+- [async/await reference (p5js.org](https://p5js.org/reference/p5/async_await/) - short explanation with runnable examples
+- [Parallel Loading with Promise.all (p5js.org)](https://p5js.org/examples/Loading-And-Saving-Data-Load-Multiple-Images/) - load several images at once, then draw them together
+
+### Understanding what's going on underneath
+- [Asynchronous p5.js 2.0](https://dev.to/limzykenneth/asynchronous-p5js-20-458f) (Kenneth Lim): from callbacks to promises to async/await, plus how to move a 1.x sketch to 2.0
+- [Topics in Native JavaScript: Promises & async/await](https://thecodingtrain.com/tracks/lang/all/topic/promises) (The Coding Train): Promises, async/await, `Promise.all()`, try/catch
+
+### For API and data projects
+- [Working with Data and APIs in JavaScript](https://thecodingtrain.com/tracks/data-and-apis-in-javascript) (The Coding Train course): `fetch()` with the data drawn on a p5 canvas
+- [Intro to Data APIs JS](https://github.com/CodingTrain/Intro-to-Data-APIs-JS) (GitHub): example code for the course above
+- [p5.js compatibility add-ons](https://github.com/processing/p5.js-compatibility): run older `preload()` sketches in p5.js 2.0
 
 ##### Game techniques
 - [Week 6 - Game State](https://editor.p5js.org/mangtronix/sketches/lwALEq10U)
