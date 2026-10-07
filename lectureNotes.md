@@ -2123,21 +2123,17 @@ async function setup() {
 }
 ```
 
-### Start here (p5.js 2.0)
+### async/await references
 - [Week 5 - Kitteh image (p5 editor)](https://editor.p5js.org/mangtronix/sketches/I5abrleuy) - simple example
 - [p5.js 2.0: async and await (The Coding Train)](https://thecodingtrain.com/tracks/p5js-2.0/p5js-2.0/async-await) - why `preload()` was replaced and how `async setup()` works
 - [p5.js 2.0: Loading Data - Images, APIs, JSON (The Coding Train)](https://thecodingtrain.com/tracks/p5js-2.0/p5js-2.0/loading-data/) - images, live APIs, common mistakes, `Promise.all`, loading animations
 - [async/await reference (p5js.org](https://p5js.org/reference/p5/async_await/) - short explanation with runnable examples
 - [Parallel Loading with Promise.all (p5js.org)](https://p5js.org/examples/Loading-And-Saving-Data-Load-Multiple-Images/) - load several images at once, then draw them together
 
-### Understanding what's going on underneath
-- [Asynchronous p5.js 2.0](https://dev.to/limzykenneth/asynchronous-p5js-20-458f) (Kenneth Lim): from callbacks to promises to async/await, plus how to move a 1.x sketch to 2.0
-- [Topics in Native JavaScript: Promises & async/await](https://thecodingtrain.com/tracks/lang/all/topic/promises) (The Coding Train): Promises, async/await, `Promise.all()`, try/catch
-
 ### For API and data projects
-- [Working with Data and APIs in JavaScript](https://thecodingtrain.com/tracks/data-and-apis-in-javascript) (The Coding Train course): `fetch()` with the data drawn on a p5 canvas
-- [Intro to Data APIs JS](https://github.com/CodingTrain/Intro-to-Data-APIs-JS) (GitHub): example code for the course above
-- [p5.js compatibility add-ons](https://github.com/processing/p5.js-compatibility): run older `preload()` sketches in p5.js 2.0
+- [Working with Data and APIs in JavaScript (The Coding Train)](https://thecodingtrain.com/tracks/data-and-apis-in-javascript) - using `fetch()` with the data drawn on a p5 canvas
+- [Intro to Data APIs JS (GitHub)](**https://github.com/CodingTrain/Intro-to-Data-APIs-JS**https://github.com/CodingTrain/Intro-to-Data-APIs-JS) - example code for the course above
+- [p5.js compatibility add-ons](https://github.com/processing/p5.js-compatibility) - run older `preload()` sketches in p5.js 2.0
 
 ##### Game techniques
 - [Week 6 - Game State](https://editor.p5js.org/mangtronix/sketches/lwALEq10U)
