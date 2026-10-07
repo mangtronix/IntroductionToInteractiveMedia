@@ -2162,8 +2162,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 
 ## Week 7
 ### Week 7.1
-**Class is online, check Brightspace announcements for Zoom link**
-- Project status, debugging
+- Work session, project debugging
 
 ### Week 7.2
 #### Plan for today: 
