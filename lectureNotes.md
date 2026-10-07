@@ -2163,6 +2163,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 ## Week 7
 ### Week 7.1
 - Work session, project debugging
+- Distribute Arduino kits
 
 ### Week 7.2
 #### Plan for today: 
