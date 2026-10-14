@@ -2180,8 +2180,9 @@ Coding](https://happycoding.io/tutorials/p5js/)
   - Connect your Sparkfun RedBoard to your computer using the appropriate adapter. Probably you need a USB-A to C dongle/adapter
 
 <img width="400" height="393" alt="a-to-c-adapter" src="https://github.com/user-attachments/assets/126ae571-2d72-47a8-b6a8-add388fbeb26" />
- 
-Note: for our Sparkfun Arduino UNO compatible RedBoard Qwiic included in our kits after selecting the correct serial port you need to manually identify the board as an Arduino Uno by searching for "uno" in the board list.
+
+  - Open the Arduino IDE and select the correct serial port (usually "/dev/cu.usbserial.." on Mac) in the dropdown at the top
+  - For our Sparkfun Arduino UNO compatible RedBoard Qwiic included in our kits after selecting the correct serial port you need to manually identify the board as an Arduino Uno by searching for "uno" in the board list.
 
 <img width="1239" height="1045" alt="Screenshot 2026-10-14 at 6 00 24 PM" src="https://github.com/user-attachments/assets/76b266e7-d017-4391-9c16-89c36afd23bb" />
 
