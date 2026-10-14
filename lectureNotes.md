@@ -2179,6 +2179,11 @@ Coding](https://happycoding.io/tutorials/p5js/)
   - Check [main page](https://intro.nyuadim.com/)
   - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
   - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+ 
+For the Sparkfun Arduino UNO compatible RedBoard included in our kits after selecting the correct serial you need to manually identify the board as an Arduino Uno by searching for "uno" in the board list.
+
+<img width="1239" height="1045" alt="Screenshot 2026-10-14 at 6 00 24 PM" src="https://github.com/user-attachments/assets/76b266e7-d017-4391-9c16-89c36afd23bb" />
+
   - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
   - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
 
