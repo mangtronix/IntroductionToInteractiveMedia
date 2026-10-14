@@ -2187,6 +2187,7 @@ Coding](https://happycoding.io/tutorials/p5js/)
 <img width="1239" height="1045" alt="Screenshot 2026-10-14 at 6 00 24 PM" src="https://github.com/user-attachments/assets/76b266e7-d017-4391-9c16-89c36afd23bb" />
 
   - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
+  - Try changing the delay values to change the rhythm of the blinking
   - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break
   - *Note:* If you have difficulties getting the board to connect, don't worry! Make sure to bring a USB-A to C adapter to the first class after the break and we can sort it out
 
