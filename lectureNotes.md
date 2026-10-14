@@ -2155,8 +2155,11 @@ async function setup() {
 A nice set of p5.js tutorials by [Happy
 Coding](https://happycoding.io/tutorials/p5js/)
 
-
-
+- Distribute Arduino kits
+  - Write your name on your kit - you can leave it on our Intro to IM shelf
+  - You need to provide your own hub / dongle to connect to your computer
+    - Test it - Not all hubs work
+    - Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
 
 [Back to top](#weekly-schedule)
 
@@ -2169,23 +2172,22 @@ Coding](https://happycoding.io/tutorials/p5js/)
 #### Plan for today: 
 - Midterm project presentations
 
-- Distribute Arduino kits
-  - Write your name on your kit - you can leave it on our Intro to IM shelf
-  - You need to provide your own hub / dongle to connect to your computer
-    - Test it - Not all hubs work
-    - Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
-
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
   - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
-  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+    - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+    - [SparkFun Inventor's Kit Experiment Guide - Installing Arduino](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/install-the-arduino-ide-and-sik-code)
+  - Connect your Sparkfun RedBoard to your computer using the appropriate adapter. Probably you need a USB-A to C dongle/adapter
+
+<img width="400" height="393" alt="a-to-c-adapter" src="https://github.com/user-attachments/assets/126ae571-2d72-47a8-b6a8-add388fbeb26" />
  
-For the Sparkfun Arduino UNO compatible RedBoard included in our kits after selecting the correct serial you need to manually identify the board as an Arduino Uno by searching for "uno" in the board list.
+Note: for our Sparkfun Arduino UNO compatible RedBoard Qwiic included in our kits after selecting the correct serial port you need to manually identify the board as an Arduino Uno by searching for "uno" in the board list.
 
 <img width="1239" height="1045" alt="Screenshot 2026-10-14 at 6 00 24 PM" src="https://github.com/user-attachments/assets/76b266e7-d017-4391-9c16-89c36afd23bb" />
 
   - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
-  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
+  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break
+  - *Note:* If you have difficulties getting the board to connect, don't worry! Make sure to bring a USB-A to C adapter to the first class after the break and we can sort it out
 
 
 <!-- $$$ move to after break
