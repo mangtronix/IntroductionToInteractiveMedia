@@ -160,34 +160,16 @@ Let's use a real switch
 
 ## Week 9
 
-### Week 9.1 - Midterm presentations
-#### Plan for today: 
-- Overall Check-in
-- Review midterm
-
-### Week 9.2 - Midterm presentations / Arduino Analog and Digital
+### Week 9.1 - Arduino Analog and Digital
 #### Plan for today
-- Midterm sharing
-
-- Arduino kit setup
-- Tinkercad Circuits
-
-
+- Overall check-in
+- Review midterm
 - Series and Parallel
 - Arduino and Digital Output
 - Digital Input
 - Analog Input
 
-#### Arduino kit setup
-[SparkFun Inventor's Kit](https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html)
-- [Experiment Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41)
-- [Baseplate Assembly](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/baseplate-assembly)
-- [Download Arduino IDE](https://www.arduino.cc/en/software/)
-- [Connect the Microcontroller to Your Computer](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/connect-the-microcontroller-to-your-computer)
-- Connection issues?
-  - Try a different USB hub or dongle
-  - On Windows 11? Try this driver fix [Fixing CH340 Driver Windows 11 (YouTube)](https://www.youtube.com/watch?v=M6oq3dl5gBQ&t=114s)
-  - Our specific Arduino-compatible board is the [Sparkfun RedBoard QWIIC with CH340G serial chip](https://learn.sparkfun.com/tutorials/redboard-qwiic-hookup-guide/all)
+<!--
 
 #### Tinkercad Circuits
 - Check Brightspace announcements or Content->Overview for class invite link
@@ -196,6 +178,7 @@ Let's use a real switch
 - Video tutorials
   - [Arduino TINKERCAD Simulation Tutorial- Complete Guide (YouTube)](https://www.youtube.com/watch?v=Kehd7aH4rug)
   - [Learn Arduino with Tinkercad Circuits (YouTube playlist)](https://youtube.com/playlist?list=PLV6cmKvnKRs5geApVORPW79U6s3wpa0Ht&si=5bvWB7e9S3qBBgmq) (note that in class we exclusively use the text code editor, not the visual blocks)
+-->
  
 #### Arduino tutorial videos
 - [Arduino is easy, actually (YouTube)](https://www.youtube.com/watch?v=tiGw9PQbvrg)
@@ -364,9 +347,15 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
+#### Homework
+Read [The UX of LEGO Interface Panels (Interaction Magic Blog)](https://interactionmagic.com/UX-LEGO-Interfaces/)
+- What are some of your favourite physical interfaces?
+- Which interfaces can you navigate / use by touch alone, without looking?
+- What physical interfaces do you find confusing? Which interfaces do you have to look at while using?
+- No response required but be prepared to discuss in class
+
 ### Week 9.2 - Arduino Programming Syntax
 #### Plan for today: 
-
 - Discuss reading
 - Analog Input
 - Analog Output
