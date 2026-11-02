@@ -161,6 +161,9 @@ Let's use a real switch
 ## Week 9
 
 ### Week 9.1 - Arduino Analog and Digital
+Announcements
+- Must log in to use Wordpress
+
 #### Plan for today
 - Overall check-in
 - Review midterm
