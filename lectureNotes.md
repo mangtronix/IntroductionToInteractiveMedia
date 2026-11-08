@@ -36,9 +36,9 @@
 - Syllabus etc.
 - Reading discussions
 - Join the Discord server
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/495529/units/12103320)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775079)
 - Check Wordpress account on https://intro.nyuadim.com/wp-admin
-  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/495529/units/12103321)
+  - [Wordpress login info on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775079)
 
 #### What’s the class about?
 
@@ -60,6 +60,7 @@ Low barrier to entry, high ceiling</li>
 
 #### Red Burns advice to new students
 [Let's Stop Focusing on Shiny Gadgets and Start Using Tech to Empower People](https://www.wired.com/2013/09/focus-on-people-not-tech-and-other-impt-lessons-for-interaction-design-and-life/)
+- [Reading Materials](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775081)
 
 **What I hope for you:**
 
@@ -181,9 +182,9 @@ harp</a></li>
 
 #### Homework
 - Join the Discord server (optional, recommended)
-  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859705)
+  - [Discord invite link on Brightspace](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775079)
 - Log into the class Wordpress using your user account. If you have problems let Mang know
-  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/12859706)
+  - [Wordpress login information](https://brightspace.nyu.edu/d2l/le/lessons/606363/units/13775080)
 - Create an account on [p5js.org](https://p5js.org/)
 
 
@@ -772,6 +773,7 @@ at the indicated **Y** coordinate
 	1. Test as before
 1. Using these two functions, write a program 
 that draws a grid of lines at regular intervals on the canvas
+1. Make another function drawShape(x, y) that draws a shape at those coordinates and use the function to draw a grid of the shapes
 
 #### Callback Functions / Event Handlers
 
@@ -874,7 +876,15 @@ function mouseIsWithinRect( x, y, sizeX, sizeY) {
 	complicated](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence). It is best to put parenthesis to
 	force the order you want.
 
-  #### Arrays
+
+### Week 3.2
+Announcements
+- [IM Peer Tutor schedule](https://www.nyuadim.com/resources/)
+	- check on the IM Lab calendar for "Zaid (Peer tutor)"
+ 	- drop-in hours for peer tutor in IM Lab (look for the orange apron)
+ 	- no need to make an appointment, just drop-in	
+
+#### Arrays
 
 Very simply, arrays let you store multiple things under one variable name, and
 let you identify which thing you want by using an `index`
@@ -966,9 +976,12 @@ Complete [Coding Train tutorials 5-7](https://www.youtube.com/watch?v=wRHAitGzBr
 
 Complete your Week 3 homework for Tuesday's class
 
-### Week 3.2
 
-#### Topics today
+[Back to top](#weekly-schedule)
+
+## Week 4
+
+## Week 4.1
 Mandatory tool and safety training
 - You must complete tool training in order to use the tools in the IM Lab and maintain your lab access
 - You must complete the Scene Shop induction with Tony Bragg and sign the liability form before doing **any** work in the Scene Shop
@@ -980,12 +993,6 @@ Contacts / Resources
 - Scene Shop
 	- Manager: Tony Bragg <anb6202@nyu.edu>
  	- Hours: Generally 9-5, only while Tony or another instructor / specialist is present. Contact Tony for use of specific tools (e.g. bandsaw, sanding machines) 
-
-[Back to top](#weekly-schedule)
-
-## Week 4
-
-## Week 4.1
 
 #### Plan for today
 
@@ -1059,13 +1066,13 @@ Help->Reference->LoadFont
 meaning that `setup()` will continue even if the `loadFont()` hasn't finished.
 There are two ways to force your program to wait for the font to load:
 
-1. Use `preLoad()`
+1. Use `async setup()` and `await`
 1. Specify an optional callback function in `loadFont()`
 
 ###### Selecting one of many fonts
 
 Note that loading a font takes time, so if you expect to use multiple
-fonts it's best to preload all of them, and then switch between
+fonts it's best to await all of them, and then switch between
 them using [`textFont()`](https://p5js.org/reference/#/p5/textFont)
 
 ###### Other things to do with text
@@ -1125,7 +1132,9 @@ format".
 - Now you can load this file into an array of `Strings` and then process each
 	line one at a time, pulling out individual fields:
 
-[Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U)
+[Week 4 vs - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/YUFVUWHl-)
+
+[Week 4 - Datavis with csv](https://editor.p5js.org/mangtronix/sketches/W5sqRDo6U) - older version from p5js v1 that uses ```preload```
 ````
 /*
  * example to process a CSV file containing data
@@ -1142,14 +1151,13 @@ let maxLat;
 let minLong;
 let maxLong;
 
-function preload() {
-  // The text from the file is loaded into an array.
-  strings = loadStrings("uswtdb_v4_3_20220114.csv");
-}
-
-function setup() {
+async function setup() {
   createCanvas(500, 400);
   background(235);
+
+  // The downloaded csv file was limited to 2000 lines using
+  // $ head -n 2000 uswtdb_v5_1_20220729.csv > uswtdb_2000lines.csv
+  strings = await loadStrings("uswtdb_2000lines.csv");
 
   // Did we succeed to load anything?
   if (strings == null) {
@@ -1178,7 +1186,7 @@ function findMinMaxLatLong() {
   for (let csvRowNumber = 1; csvRowNumber < strings.length; csvRowNumber++) {
     // get a single row and split that row
     // into individual words
-    singleRow = split(strings[csvRowNumber], ",");
+    singleRow = strings[csvRowNumber].split(",");
 
     // We know that the last two fields are the
     // latitude and longitude and so they are
@@ -1217,11 +1225,11 @@ function draw() {
 
   // get a single row and split that row into
   // individual words
-  singleRow = split(strings[csvRowNumber], ",");
+  singleRow = strings[csvRowNumber].split(",");
 
   // This really slows things
   // down so use only when debugging
-  //println("Row " +
+  //print("Row " +
   // csvRowNumber +
   //   " contains " +
   //   singleRow.length +
@@ -1234,7 +1242,7 @@ function draw() {
   let latitude = float(singleRow[26]);
 
   // use only when debugging
-  // println("Latitude " +
+  // print("Latitude " +
   // latitude +
   //   " longitude " +
   //   longitude );
@@ -1244,7 +1252,7 @@ function draw() {
     print("conversion to float failed; skipping row " + csvRowNumber);
   } else {
     // scale that to fit on our canvas
-    //println(csvRowNumber);
+    //print(csvRowNumber);
     let ypos = map(latitude, minLat, maxLat, 0, height);
     let xpos = map(longitude, minLong, maxLong, 0, width);
 
@@ -1254,7 +1262,7 @@ function draw() {
 
   csvRowNumber++;
   if (csvRowNumber >= strings.length) {
-    println("finished");
+    print("finished");
     noLoop();
   }
 }
@@ -1409,7 +1417,7 @@ Arabic text example
 ### Week 5.1
 
 #### Plan for today
-- Reading discussion
+- Reading discussion x2
 	- [It's not you. Bad doors are everywhere.
 (Vox / YouTube)](https://www.youtube.com/watch?v=yY96hTb8WgI) 
 - Look at homework
@@ -1478,15 +1486,18 @@ The `p5.Image` class
 	- Data (the pixels, width, height, etc.)
 	- Functionality `(image()`, `get()`, etc.)
  - [p5.Image reference](https://p5js.org/reference/p5/p5.Image/)
+- Note: the way to preload an image (pause the program until the image has loaded) [has changed in p5js v2](https://p5js.org/tutorials/v2_transition/). The new pattern is to mark ```setup()``` as async and use ```await``` for the image loading function (see below)
 
 ````
 let catImg;
-function preload() {
-  photo = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
-}
-function setup() {
-  createCanvas(400, 400);
+
+// The "async" keyword lets us use "await" inside the function to wait for the image to load
+async function setup() {
+  createCanvas(400, 500);
   background(255);
+
+  // Start loading the image from the server and wait for the result before continuing
+  photo = await loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flame_point_Ragdoll.jpg/500px-Flame_point_Ragdoll.jpg");
   image(photo, 0, 0); // this actually displays the image
 }
 ````
@@ -1500,12 +1511,12 @@ this image at this location and scale to this size
 
 ````
 let catImg;
-function preload() {
-  catImg = loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Juvenile_Ragdoll.jpg/440px-Juvenile_Ragdoll.jpg");
-}
-function setup() {
-  createCanvas(400, 400);
+
+async function setup() {
+  createCanvas(400, 500);
   background(255);
+  catImg = await loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flame_point_Ragdoll.jpg/500px-Flame_point_Ragdoll.jpg");
+
   image(catImg, 0, 0);
 
   let newImg = catImg.get( 50,60, 100,50);
@@ -1516,6 +1527,8 @@ function setup() {
 For more information and ideas
 - Reference page for [p5.Image](https://p5js.org/reference/p5/p5.Image/) for other methods
 - Examples -> image
+
+- [async/await in JS (Intro to IM)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/lectureNotes.md#asyncawait-in-p5js)
 
 ### Week 5.2
 
@@ -1673,12 +1686,11 @@ A fun examples from Professor Sherwood:
 let tiles = [];
 let tileSize = 100;
 
-function preload() {
-  img = loadImage("aiweiwei.jpeg");
-}
-
-function setup() {
+async function setup() {
   createCanvas(400, 400);
+
+  img = await loadImage("aiweiwei.jpeg");
+
   let numTiles = img.height / tileSize;
   while (numTiles > 0) {
     tiles.push(
@@ -1747,13 +1759,12 @@ let y;
 let walkSpeed = 3;
 let background_color = 'teal';
 
-function preload() {
-  spritesheet = loadImage("walking.png");
-}
-
-function setup() {
+async function setup() {
   // fullscreen(true);
   createCanvas(500, 450);
+
+
+  spritesheet = await loadImage("walking.png");
 
   // 12 images across, 4 down, in the spritesheet
 
@@ -1844,12 +1855,11 @@ Must upload doorbell.mp3
 Must include sound library in index.html
 */
 
-function preload() {
-  song = loadSound('doorbell.mp3');
-}
-
-function setup() {
+async function setup() {
   background(234);
+
+  song = await loadSound('doorbell.mp3');
+
   song.play();
 }
 
@@ -1905,8 +1915,9 @@ next one when we click the mouse? What graphical effects can you synchronize to 
 ## Week 6
 
 ### Week 6.1
-#### Plan for today: 
-- Dustin Foster IM Lab Manager intro
+#### Plan for today:
+- Look at homework
+- Reading discussion
 - Midterm project idea feedback
   - General questions?
   - Quick individual feedback
@@ -2089,7 +2100,43 @@ Look at other array methods in the reference page:
 
 - What are blocking and non-blocking functions?
 - How do you know when a non-blocking function is done?
-- Soundfile reference page
+
+#### async/await in p5.js
+
+Some things take time to arrive, like a picture or data from a website, and your sketch can't use them until they're there. In the old p5.js, you put all your loading in a special ```preload()``` function, and p5 waited for everything before starting. In p5.js 2.0 that function is gone, and you do the waiting yourself in two steps. First, write ```async``` in front of ```function setup()```, which tells JavaScript that this function will have to wait for things. Second, write ```await``` in front of each loading command, like ```img = await loadImage("cat.png")```, which means "stop here until the picture has arrived, then carry on." If you forget the await, your sketch keeps going before the picture data has been loaded into your browser, and nothing shows up.
+
+```
+// A variable to hold our picture once it has loaded.
+// It's empty for now; we fill it in setup().
+let kitten;
+
+// "async" means this function will have to wait for something:
+// here, a picture downloading from the internet.
+async function setup() {
+
+  // "await" tells p5: stop here until the picture has fully arrived,
+  // then store it in the kitten variable and carry on.
+  // (Without "await", the next lines would run before the picture arrives,
+  // and nothing would show up.)
+  kitten = await loadImage("https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Six_weeks_old_cat_%28aka%29.jpg/960px-Six_weeks_old_cat_%28aka%29.jpg");
+
+  createCanvas(400, 400);
+  image(kitten, 0, 0);
+}
+```
+
+##### async/await references
+- [Week 5 - Kitteh image (p5 editor)](https://editor.p5js.org/mangtronix/sketches/I5abrleuy) - simple example
+- [p5.js 2.0: async and await (The Coding Train)](https://thecodingtrain.com/tracks/p5js-2.0/p5js-2.0/async-await) - why `preload()` was replaced and how `async setup()` works
+- [p5.js 2.0: Loading Data - Images, APIs, JSON (The Coding Train)](https://thecodingtrain.com/tracks/p5js-2.0/p5js-2.0/loading-data/) - images, live APIs, common mistakes, `Promise.all`, loading animations
+- [async/await reference (p5js.org](https://p5js.org/reference/p5/async_await/) - short explanation with runnable examples
+- [Parallel Loading with Promise.all (p5js.org)](https://p5js.org/examples/Loading-And-Saving-Data-Load-Multiple-Images/) - load several images at once, then draw them together
+
+##### For API and data projects
+- [Working with Data and APIs in JavaScript (The Coding Train)](https://thecodingtrain.com/tracks/data-and-apis-in-javascript) - using `fetch()` with the data drawn on a p5 canvas
+- [Intro to Data APIs JS (GitHub)](**https://github.com/CodingTrain/Intro-to-Data-APIs-JS**https://github.com/CodingTrain/Intro-to-Data-APIs-JS) - example code for the course above
+- [p5.js compatibility add-ons](https://github.com/processing/p5.js-compatibility) - run older `preload()` sketches in p5.js 2.0
+
 
 ##### Game techniques
 - [Week 6 - Game State](https://editor.p5js.org/mangtronix/sketches/lwALEq10U)
@@ -2108,32 +2155,41 @@ Look at other array methods in the reference page:
 A nice set of p5.js tutorials by [Happy
 Coding](https://happycoding.io/tutorials/p5js/)
 
-
-
-
-[Back to top](#weekly-schedule)
-
-## Week 7
-### Week 7.1
-**Class is online, check Brightspace announcements for Zoom link**
-- Project status, debugging
-
-### Week 7.2
-#### Plan for today: 
-- Midterm project presentations
-
 - Distribute Arduino kits
   - Write your name on your kit - you can leave it on our Intro to IM shelf
   - You need to provide your own hub / dongle to connect to your computer
     - Test it - Not all hubs work
     - Download the [Arduino IDE](https://www.arduino.cc/en/software/) and see that your board shows up under Select Board
 
+[Back to top](#weekly-schedule)
+
+## Week 7
+### Week 7.1
+- Work session, project debugging
+- Distribute Arduino kits
+
+### Week 7.2
+#### Plan for today: 
+- Midterm project presentations
+
 - Homework:
   - Check [main page](https://intro.nyuadim.com/)
   - Download and install [Arduino 2.x IDE](https://www.arduino.cc/en/software)
-  - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+    - [Arduino 2.x IDE installation instructions](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+    - [SparkFun Inventor's Kit Experiment Guide - Installing Arduino](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/install-the-arduino-ide-and-sik-code)
+  - Connect your Sparkfun RedBoard to your computer using the appropriate adapter. Probably you need a USB-A to C dongle/adapter
+
+<img width="400" height="393" alt="a-to-c-adapter" src="https://github.com/user-attachments/assets/126ae571-2d72-47a8-b6a8-add388fbeb26" />
+
+  - Open the Arduino IDE and select the correct serial port (usually "/dev/cu.usbserial.." on Mac) in the dropdown at the top
+  - For our Sparkfun Arduino UNO compatible RedBoard Qwiic included in our kits after selecting the correct serial port you need to manually identify the board as an Arduino Uno by searching for "uno" in the board list.
+
+<img width="1239" height="1045" alt="Screenshot 2026-10-14 at 6 00 24 PM" src="https://github.com/user-attachments/assets/76b266e7-d017-4391-9c16-89c36afd23bb" />
+
   - Get the LED blink example running (File -> Examples -> 01. Basics -> Blink)
-  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break 
+  - Try changing the delay values to change the rhythm of the blinking
+  - Bring your kit and any adapter you need from USB-A to your computer for the first class after the break
+  - *Note:* If you have difficulties getting the board to connect, don't worry! Make sure to bring a USB-A to C adapter to the first class after the break and we can sort it out
 
 
 <!-- $$$ move to after break

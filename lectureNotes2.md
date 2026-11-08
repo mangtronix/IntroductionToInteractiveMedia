@@ -22,10 +22,8 @@
 - [Week 10](#week-10) - Sound, movement, circuit schematics
 - [Week 11](#week-11) - Serial Communication, Connecting Arduino to p5.js
 - [Week 12](#week-12) - Motors, Fabrication
-- [Week 13](#week-13) - Soldering, Circuit debugging
-- [Week 14](#week-14) - NO CLASS (National Day) / Course review
-- [Week 15](#week-15) - Show setup, Final project presentations / IM Show
-- [IM Show](#im-show) - IM End of Semester Show - Tuesday Dec 9
+- [Week 13](#week-13) - Final project review, Soldering, Circuit debugging
+- [Week 14](#week-14) - Final project presentations
 
 ## Week 8
 
@@ -162,34 +160,19 @@ Let's use a real switch
 
 ## Week 9
 
-### Week 9.1 - Midterm presentations
-#### Plan for today: 
-- Overall Check-in
-- Review midterm
+### Week 9.1 - Arduino Analog and Digital
+Announcements
+- Must log in to use Wordpress
 
-### Week 9.2 - Midterm presentations / Arduino Analog and Digital
 #### Plan for today
-- Midterm sharing
-
-- Arduino kit setup
-- Tinkercad Circuits
-
-
+- Overall check-in
+- Review midterm
 - Series and Parallel
 - Arduino and Digital Output
 - Digital Input
 - Analog Input
 
-#### Arduino kit setup
-[SparkFun Inventor's Kit](https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html)
-- [Experiment Guide](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41)
-- [Baseplate Assembly](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/baseplate-assembly)
-- [Download Arduino IDE](https://www.arduino.cc/en/software/)
-- [Connect the Microcontroller to Your Computer](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/connect-the-microcontroller-to-your-computer)
-- Connection issues?
-  - Try a different USB hub or dongle
-  - On Windows 11? Try this driver fix [Fixing CH340 Driver Windows 11 (YouTube)](https://www.youtube.com/watch?v=M6oq3dl5gBQ&t=114s)
-  - Our specific Arduino-compatible board is the [Sparkfun RedBoard QWIIC with CH340G serial chip](https://learn.sparkfun.com/tutorials/redboard-qwiic-hookup-guide/all)
+<!--
 
 #### Tinkercad Circuits
 - Check Brightspace announcements or Content->Overview for class invite link
@@ -198,6 +181,7 @@ Let's use a real switch
 - Video tutorials
   - [Arduino TINKERCAD Simulation Tutorial- Complete Guide (YouTube)](https://www.youtube.com/watch?v=Kehd7aH4rug)
   - [Learn Arduino with Tinkercad Circuits (YouTube playlist)](https://youtube.com/playlist?list=PLV6cmKvnKRs5geApVORPW79U6s3wpa0Ht&si=5bvWB7e9S3qBBgmq) (note that in class we exclusively use the text code editor, not the visual blocks)
+-->
  
 #### Arduino tutorial videos
 - [Arduino is easy, actually (YouTube)](https://www.youtube.com/watch?v=tiGw9PQbvrg)
@@ -366,9 +350,15 @@ switch is pressed.
 Using two switches you can select between four patterns.
 How is that possible?
 
+#### Homework
+Read [The UX of LEGO Interface Panels (Interaction Magic Blog)](https://interactionmagic.com/UX-LEGO-Interfaces/)
+- What are some of your favourite physical interfaces?
+- Which interfaces can you navigate / use by touch alone, without looking?
+- What physical interfaces do you find confusing? Which interfaces do you have to look at while using?
+- No response required but be prepared to discuss in class
+
 ### Week 9.2 - Arduino Programming Syntax
 #### Plan for today: 
-
 - Discuss reading
 - Analog Input
 - Analog Output
@@ -1309,7 +1299,8 @@ In-class work session
 ## Week 13
 ### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
 Plan for today:
-- Serial communication
+- Review Brightspace->Content->Spring 2026 Updates and final project
+- Look at final project plans
 
 #### Serial Communication
 
@@ -1330,7 +1321,8 @@ Serial.println();
 
 Communicating between p5.js and Arduino
   - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-  	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks. 
+  	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks.
+   - **Note:** for the Sparkfun RedBoard if you get "No compatible devices found" you need to change `port.open('Arduino', baudrate)` to `port.open(baudrate)` to skip the port auto-detection and show a list of all ports to the user
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
 
@@ -1373,12 +1365,13 @@ Communicating between p5.js and Arduino
 	- Once you are reliable sending information back and forth you can start
 		adding the rest of your program
 
+<!--
 - More tutorials
 	- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
 	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
 	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
 	- **Note:** these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
- 
+-->
 
  - Requested topics
    - [Equipment Booking](https://www.nyuadim.com/resources/)
@@ -1444,6 +1437,10 @@ without using `delay()`:
   - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
 ### Week 13.2 - Look at final projects, work session
+Plan for today:
+- Reading discussion
+- Work session for final project
+
 - Soldering
 - Class links
 	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
@@ -1456,8 +1453,8 @@ without using `delay()`:
 - Ask any questions now!
 
 ## Homework
-- **Post** your user testing - Due before class Wednesday
-	- see [main page](https://intro.nyuadim.com/) for details 	
+- **Post** your user testing - Due before class Tuesday
+	- see Brightspace->Content->Spring 2026 Updates for details 	
 
 [Back to top](#weekly-schedule) 
 
