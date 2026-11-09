@@ -569,6 +569,7 @@ Plan for today:
 	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
 
 
+<!--
 #### Replacement class kit
 ELEGOO UNO Project Super Starter Kit with Tutorial and UNO R3 Board or similar
 [https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit](https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit
@@ -589,7 +590,7 @@ Required components for class (subset of components from the [original class kit
 - Piezo buzzer / speaker
 - Servo motor
 - DC motor (e.g. [TT hobby motor](https://www.adafruit.com/product/3777)) and motor driver
-
+-->
 
 ## Week 11
 
