@@ -561,52 +561,13 @@ Name your repository "introduction to interactive Media".
 
 ## Week 10
 
-### Week 10.1
+### Week 10.1 - Schematics, Circuit conventions
 
-Plan for today:
+#### Plan for today: 
 - Look at homework
 - Reading discussion
-	- [Random shuffle group (p5js)](https://editor.p5js.org/mangtronix/sketches/QxFRtipnL) - Choosing discussion groups 
 
-
-<!--
-#### Replacement class kit
-ELEGOO UNO Project Super Starter Kit with Tutorial and UNO R3 Board or similar
-[https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit](https://us.elegoo.com/products/elegoo-uno-r3-super-starter-kit
-)
-- [Amazon AE](https://www.amazon.ae/ELEGOO-Project-Tutorial-Controller-Projects/dp/B07T4869SY/)
-- [Amazon US](https://www.amazon.com/ELEGOO-Project-Tutorial-Controller-Projects/dp/B01D8KOZF4/)
-
-![Minimal Arduino Kit](/media/Minimal_Arduino_Kit.png)
-Required components for class (subset of components from the [original class kit](https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html)):
-- Arduino UNO board
-- Mini breadboard
-- Jumper wires
-- LEDs
-- Resistors (1k and 330ohm)
-- Push button switches
-- Potentiometer
-- Light dependent resistor (LDR)
-- Piezo buzzer / speaker
-- Servo motor
-- DC motor (e.g. [TT hobby motor](https://www.adafruit.com/product/3777)) and motor driver
--->
-
-## Week 11
-
-### Week 11.1
-Plan for today:
-- Reading discussion
-- Homework review
-- In-class design discussion
-
-### Week 11.2 - Schematics, Circuit conventions
-Announcements:
-- Check your FAB card for loaded funds for materials ($40) and alternate kit ($60)
-- Link for [alternate Arduino kit](#replacement-class-kit)
-
-Plan for today:
-- Introduce final project
+- Schematic conventions
 - Sound
 - Servo motor
 - PWM
@@ -614,23 +575,19 @@ Plan for today:
 - Circuit theory
 - Examples
 
-
 #### Schematics
 
 - [How to Read a Schematic (Sparkfun)](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all)
 - Hand-drawn
   - Best way to get started! Think about your circuit, then draw it
-  - *All submitted schematics must be hand-drawn* on paper. Digital schematics are not accepted. You need to be able to hand draw a schematic to communicate circuits spontaneously in-person.
 
 Here is an example:
 
 ![](media/handDrawnSchematicExample.jpg)
 
-<!--
 - [Tinkercad](https://www.tinkercad.com/circuits) (free)
 - [Fritzing](https://fritzing.org/) (~$8 download, simple, has many Arduino-related parts)
 - [KiCad](https://www.kicad.org/) (open source, complex)
--->
 
 #### Conventions: Schematics and Wire Colours
 
@@ -660,28 +617,6 @@ Here is an example:
 		- Red bus for 5V only
 		- Black or Blue bus for GND only
 
-- Schematic tips
-	- Positive power symbols always point up, ground always points down
- 	- Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
- 	- Pin labels should be placed inside the IC symbol next to the pin
-   	- Have signals flowing from left to right where possible: inputs on the left and outputs on the right
-   	- Indicate the value of components like resistors (resistance value), if the color of an LED or button is important indicate it on the schematic
-  	- Voltage dividers: resistors should be vertically aligned
-  	- Consistently orient symbols (either horizontal OR vertical)
- 	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
- 		- Good overview of the basics of drawing connections and different component symbols
-- Tools for making schematics
-	- Draw by hand
- 		- Good practice, very useful for communicating quickly
-   	- [Fritzing](https://fritzing.org/)
-   		- Theoretically open source (paid download)
-   	 	- Has many Arduino parts included
-   	- [Tinkercad Circuits](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
-   		- Web-based
-   	 	- Includes simulator - but beware that reality can be different!
-  	- [KiCad](https://www.kicad.org/)
-  		- Open source and free
-  	 	- Professional level tool
 
 #### Circuits
 
@@ -725,6 +660,8 @@ are
 - Voltage **does** change when you go across a component
 	- That is why it is **important** to make connections to the correct side of a
 		component!
+
+### Week 10.2 - Sound, servos
 
 #### Sound
 
@@ -952,19 +889,19 @@ void loop() {
 [Back to top](#weekly-schedule)
 
 
-## Week 12
-### Week 12.1 - Motors
+## Week 11
 
-Announcements:
-- Revised homework schedule is in [Brightspace->Content->Spring 2026 Updates](https://brightspace.nyu.edu/d2l/le/lessons/538981/units/13222958)
-- Campus access
+### Week 11.1 - Serial Communication
+#### Plan for today: 
+- Announcements
+  - Deadline for submitting last week's work extended until Wednesday (due to Internet flakiness)
+  - [IM Show](#im-show) is Tuesday Dec 10, 5-8pm 
 
-#### Plan for today:
 - Reading discussion
-- Look at homework
+- Look at homework (musical instruments)
 - Debugging
-- Motors
-- Final project
+- Serial Communication
+
 
 ##### Debugging
 
@@ -977,9 +914,98 @@ the best picture you can take of your breadboard circuit to GitHub
 	1. What you observe happens
 
 What techniques have you learned to help you find problems?
-  
 
+
+#### Serial Communication
+
+Communicating between p5.js and Arduino
 <!--
+- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
+  - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj)
+  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
+-->
+- Bidirectional communication example
+	- This example exchanges information between p5 and Arduino using the serial connection
+	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
+	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
+	- [p5.web-serial library (copy to Sketch files)](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js)
+	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
+
+- Before you incorporate this in your project, first test this as it is and
+	make sure you understand it
+- The example uses the [p5.web-serial.js](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js) library
+  - For new sketches ou need to upload this file to your Sketch files and load it from your index.html file, see below
+![](media/webserialSketchFiles.png)
+
+
+- Briefly, what this code does:
+	- Arduino waits for a message from p5.  
+	- Arduino expects two values separated by a comma. It uses these two values
+		to control two LEDs.  
+	- Arduino then reads two sensors and sends the values back to p5, separated
+		by a comma.
+	- p5 reads these two values from Arduino. One value controls the text color,
+		the other controls the text transparency
+	- p5 sends two values back to Arduino indicating if the mouse was clicked,
+		and if so, which half of the screen it was in.
+
+- Once it's working, duplicate the code and then start adapting it to your
+	needs:
+	- Duplicate Aaron's project so that you get the other files as well
+	- Increase or decrease the amount of data that is exchanged. You may need
+		more, or you may need less. 
+	- Modify the data that is exchanged. You may need a digital sensor on the
+		Arduino instead of an analog sensor. Similarly, on the p5 side, you may
+		need something different from a mouse click or changing the text color and
+		transparency.
+	- Once you are reliable sending information back and forth you can start
+		adding the rest of your program
+
+- More tutorials
+	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
+	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
+	- Note: these use a different serial library, don't mix and match code between the ITP WebSerial code and Aaron's web-serial. You need to start with one example and continue to use the same software library
+
+
+<!-- Older examples using serial server
+
+MacOS or Windows
+- Follow Jack's excellent tutorial
+[here](https://docs.google.com/document/d/1l7pgSkb9SqoOFyo6xVZTlW-ORQJ_iHNUrOBGdARW4j4/edit)
+	- When you download `p5.serialcontrol`, download Beta 1.1
+
+On linux
+1. Install a serial server 
+	1. sudo npm install -g p5.serialserver --unsafe-perm --build-from-source
+1. Invoke it
+	1. p5serial
+
+Examples
+- A minimal [example](https://editor.p5js.org/michaelshiloh/sketches/h2RQaOmYP) 
+	- Clicking the mouse turns on an LED
+	- Closing a switch on Arduino sends a signal to p5.js
+- Aaron's [example](https://editor.p5js.org/aaronsherwood/sketches/v8OM9VbGe)
+	- Two sensors on Arduino control the position of a circle on p5.js
+	- Clicking the mouse on different parts of the canvas controls two LEDs
+		on Arduino
+ -->
+ 
+
+### Week 11.2 - Serial communication
+#### Plan for today
+- Serial communication continued
+  
+#### In-class exercise (break class into groups of 2-3 students)
+
+- make something that uses only one sensor  on arduino and makes an ellipse (or other shape)
+	in p5 move on the horizontal axis, in the middle of the screen, and nothing
+	on arduino is controlled by p5 
+- make something that controls the LED brightness from p5 
+- take the [gravity wind example](https://editor.p5js.org/aaronsherwood/sketches/I7iQrNCul) and make it so
+	every time the ball bounces one led lights up and then turns off, and you
+	can control the wind from one analog sensor 
+
+
 #### Discussion
 - What did the writer mean by Vision?
 - Do you agree with the writer when he says future tech neglects the
@@ -995,11 +1021,31 @@ What techniques have you learned to help you find problems?
 	does it evolve with practice?
 - Does experiential perspective helps in creating visionary designs or does it
 	fades your vision?
--->
 
 
-Inspiration
-- [Mechanical Techno Demonstration (Graham Dunning / YouTube)](https://youtu.be/wl1ZrEza7uY?si=tPjuOxoioo-I20gb)
+## Week 12
+### Week 12.1 - Motors, fabrication
+
+#### Plan for today: 
+- Discussion
+- Motors
+- Fabrication and Construction Techniques
+
+
+#### Discussion of *Design Meets Disability*
+
+1. Considering only modern day technology like your phones, can you identify
+	 any "features" that are implemented to help people with certain
+	 disabilities
+1. Why did glasses become a matter of fashion and prostatic limbs are still
+	 conservative in design, when both of them are disability aids?
+1. How can we make sure that this narrative navigates towards more inclusive
+	 and keep the 'design in design' for disabilities?
+1. How can the language we use to address disability-wear affect our approach
+	 towards such designs? E.g. eyewear vs hearing aids?
+1. In the case of glasses, the author mentions “what others see is more
+	 important than what you see yourself” - do you guys agree?
+
 
 #### Motors
 
@@ -1175,81 +1221,56 @@ void loop() {
 }
 ````
 
+
+
+[Back to top](#weekly-schedule)
+
+### Week 12.2 - Motors continued, Schematics, Multimeters
+- Plan for today
+	- Review class schedule through end of semester
+ 	- Motors, continued
+ 	- Schematic tips 
+  	- Multimeters and circuit debugging 
+
+- Schedule until the end of semester
+	- Final project is due Monday Dec 9
+ 	- Final project presentations will happen at our space in the Arts Center Lobby
+  	- Your project must be working for the final class and for the show
+	- [IM End of Semester Show](#im-show)
+  	- Any projects with special requirements?
+  	- Book equipment in Connect2 now
+  	- Book laser cutter now
+  	- Book 3D printers how
+ 
 - More about our motor driver
 	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
 	- Tutorial for using motor driver board to control yellow geared motor
 
 	- [Sparkfun Inventor's Kit - 5C: Autonomous Robot](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5c-autonomous-robot)
 	- Set your Arduino free to roam!
-
-
-### Week 12.2 - More motors, fabrication / Project feedback
-#### Plan for today
-- Motors
-- Fabrication techniques
-- In-class work session
-
-In-class work session
-- Divide into breakout rooms
-- Each person gives an update and asks for feedback / help on a specific problem
-
-#### Fabrication and construction
-- Cardboard
-	- Free!
-	- Easy to work with and great for making prototypes
-	- [Building with Cardboard (pdf)](https://714b93b6-8f08-4438-a192-33c8b6312170.filesusr.com/ugd/534455_ad6ffb237afc468da86e74f6bdc07fbf.pdf)
-	- [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
-
-- Laser cutting 
-    - [Laser Cutting Basics](https://www.instructables.com/Laser-Cutting-Basics/)
-    - [IM Lab Laser Cutting presentation (Google Slides)](https://docs.google.com/presentation/d/1l6x9M0nAiH3uMHQKQtethxi2cAhx7vBo1srYkkMT4bA/edit?usp=sharing)
-
-- 2D Design for Laser Cutting
-    - [Inkscape](https://inkscape.org/)
-    - [Inkscape 11 minute tutorial (YouTube)](https://youtu.be/-_KJZPOYBeA)
-    - [Inkscape basic tutorial](https://inkscape.org/doc/tutorials/basic/tutorial-basic.html)
-    - [Inkscape Tutorials (YouTube)](https://www.youtube.com/watch?v=8f011wdiW7g&list=PLqazFFzUAPc5lOQwDoZ4Dw2YSXtO7lWNv&index=1)
-    - [Inkscape design for laser cutting (YouTube)](https://youtu.be/IzaiISOzXHo)
-    - [Inkscape Tutorial: Prepare your files for laser cutting](https://www.sculpteo.com/en/prepare-your-file-laser-cutting/prepare-your-model-laser-cutting-inkscape/)
-    - [Convert Text To A Path In Inkscape](https://logosbynick.com/convert-text-to-a-path-in-inkscape/)
  
-- Laser cutter booking
-    - [IM Lab Resources](https://www.nyuadim.com/resources/) -> Machines
- 
-- 3D printing
-    - [https://www.instructables.com/3D-Printing-Basics/](https://www.instructables.com/3D-Printing-Basics/)
-    - 3D design
-        - [Tinkercad](https://www.tinkercad.com/dashboard)
-            - Free
-            - [Tinkercad tutorials](https://www.tinkercad.com/learn)
-        - [Autodesk Fusion](https://www.tinkercad.com/dashboard)
-            - Personal and educational licenses available
-    - Community models
-        - User uploaded models
-        - Quality varies
-        - Good for test prints and inspiration
-        - [Printables](https://www.printables.com/)
-        - [Thingiverse](https://www.thingiverse.com/)
-        - [Cults 3D](https://cults3d.com/)
-
-
-
-#### Discussion of *Design Meets Disability*
-
-1. Considering only modern day technology like your phones, can you identify
-	 any "features" that are implemented to help people with certain
-	 disabilities
-1. Why did glasses become a matter of fashion and prostatic limbs are still
-	 conservative in design, when both of them are disability aids?
-1. How can we make sure that this narrative navigates towards more inclusive
-	 and keep the 'design in design' for disabilities?
-1. How can the language we use to address disability-wear affect our approach
-	 towards such designs? E.g. eyewear vs hearing aids?
-1. In the case of glasses, the author mentions “what others see is more
-	 important than what you see yourself” - do you guys agree?
-
- 
-
+- Schematic tips
+	- Positive power symbols always point up, ground always points down
+ 	- Make sure you are using the correct symbol for the component (e.g. photoresistor vs photodiode) 
+ 	- Pin labels should be placed inside the IC symbol next to the pin
+   	- Have signals flowing from left to right where possible: inputs on the left and outputs on the right
+   	- Indicate the value of components like resistors (resistance value), if the color of an LED or button is important indicate it on the schematic
+  	- Voltage dividers: resistors should be vertically aligned
+  	- Consistently orient symbols (either horizontal OR vertical)
+ 	- [Collin's Lab: Schematics (Make / YouTube)](https://www.youtube.com/watch?v=9cps7Q_IrX0)
+ 		- Good overview of the basics of drawing connections and different component symbols
+- Tools for making schematics
+	- Draw by hand
+ 		- Good practice, very useful for communicating quickly
+   	- [Fritzing](https://fritzing.org/)
+   		- Theoretically open source (paid download)
+   	 	- Has many Arduino parts included
+   	- [Tinkercad Circuits](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits)
+   		- Web-based
+   	 	- Includes simulator - but beware that reality can be different!
+  	- [KiCad](https://www.kicad.org/)
+  		- Open source and free
+  	 	- Professional level tool
 
 #### How to use a Digital Multimeter (DMM)
 - The Multimeter is the most common tool used for debugging hardware circuits
@@ -1299,97 +1320,6 @@ In-class work session
 
 ## Week 13
 ### Week 13.1 - Look at final project plans, Blink without delay, Soldering and fabrication
-Plan for today:
-- Review Brightspace->Content->Spring 2026 Updates and final project
-- Look at final project plans
-
-#### Serial Communication
-
-Remember how we used `print()` in p5.js to help us find problems in our 
-program? You can do that in Arduino to but the function has a slightly
-different name: `Serial.println()`
-- Must be initialized `Serial.begin()`
-- Can not concatenate strings with the `+` function
-	- Instead, you need multiple calls to `Serial.print()` e.g.:
-
-````
-Serial.print("First value = ");
-Serial.print(firstValue);
-Serial.print(" Second value = ");
-Serial.print(secondValue);
-Serial.println();
-````
-
-Communicating between p5.js and Arduino
-  - [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-  	- Library for reading from the serial port in p5js. Includes automatic reconnection of the serial port and non-blocking reads without callbacks.
-   - **Note:** for the Sparkfun RedBoard if you get "No compatible devices found" you need to change `port.open('Arduino', baudrate)` to `port.open(baudrate)` to skip the port auto-detection and show a list of all ports to the user
-  - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/D-d6WE7Eg)
-  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
-
-- Bidirectional communication example
-	- This example exchanges information between p5 and Arduino using the serial connection
-	- [p5.webserial library (GitHub)](https://github.com/gohai/p5.webserial)
-	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/a96iTkEvR)
-	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
-
-- Before you incorporate this in your project, first test this as it is and
-	make sure you understand it
-- The example uses the [p5.webserial library by gohai](https://github.com/gohai/p5.webserial)
-- For new sketches ou need to load the library in your sketch index.html file by adding this line:
-	```<script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>```
-
-<img width="1148" alt="p5 webserial script tag" src="https://github.com/user-attachments/assets/82b42bc9-8907-4cf4-8b68-a891e45b6e3f" />
-
-
-- Briefly, what this code does:
-	- Arduino waits for a message from p5.  
-	- Arduino expects two values separated by a comma. It uses these two values
-		to control two LEDs.  
-	- Arduino then reads two sensors and sends the values back to p5, separated
-		by a comma.
-	- p5 reads these two values from Arduino. One value controls the text color,
-		the other controls the text transparency
-	- p5 sends two values back to Arduino indicating if the mouse was clicked,
-		and if so, which half of the screen it was in.
-
-- Once it's working, duplicate the code and then start adapting it to your
-	needs:
-	- Duplicate Aaron's project so that you get the other files as well
-	- Increase or decrease the amount of data that is exchanged. You may need
-		more, or you may need less. 
-	- Modify the data that is exchanged. You may need a digital sensor on the
-		Arduino instead of an analog sensor. Similarly, on the p5 side, you may
-		need something different from a mouse click or changing the text color and
-		transparency.
-	- Once you are reliable sending information back and forth you can start
-		adding the rest of your program
-
-<!--
-- More tutorials
-	- [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
-	- [ITP Labs serial output, bidirectional communication](https://itp.nyu.edu/physcomp/labs/#Serial_Communication)
-	- [p5.js and Arduino serial communication - Send a digital sensor to a p5.js sketch (YouTube)](https://www.youtube.com/watch?v=feL_-clJQMs)
-	- **Note:** these use a different serial library, don't mix and match code between the different serial libraries. You need to start with one example and continue to use the same software library
--->
-
- - Requested topics
-   - [Equipment Booking](https://www.nyuadim.com/resources/)
-   	 - E.g. sensors, speakers
-     - Laser cutter
-     	- Book under "Machines"
-        - Make a vector .svg file using a program like Adobe Illustrator 
-      	- Bring an .svg file to the appointment for the lab assistant to cut
-     - 3D printers - under "Machines"
-        - Book under "Machines"
-        - Find an existing .stl model on site like Printables or Thingiverse
-        - Design an object in Tinkercad, export as .stl
-        - Come to Lab for appointment with .stl file and Prusaslicer
-        - Have Lab Assistant review and then start print
-	- INPUT_PULLUP
- 		- pinMode(pin, INPUT_PULLUP) sets a pin for input *and* enables an internal pullup resistor (so external no resistor needed) 
-
 - Look at final project progress
   - Example final projects
     - [Are you stressed?](https://intro.nyuadim.com/author/az2177/)
@@ -1438,24 +1368,10 @@ without using `delay()`:
   - [Adaptive Design Association](https://www.adaptivedesign.org/) - A nonprofit building custom adaptations, nurturing communities, and challenging assumptions about disability
 
 ### Week 13.2 - Look at final projects, work session
-Plan for today:
-- Reading discussion
-- Work session for final project
-
-- Soldering
-- Class links
-	- [NeoPixel Uberguide (Adafruit)](https://learn.adafruit.com/adafruit-neopixel-uberguide/the-magic-of-neopixels)
- 	- [NeoPixel soldering guide (Adafruit)](https://learn.adafruit.com/make-it-glow-how-to-solder-neopixels-a-beginners-guide/overview)
-    - [The Only LED Strip Soldering Tutorial You'll Ever Need (YouTube)](https://www.youtube.com/watch?v=98t4NzqtD3E)
 - Work session
 - Document / post your progress
 - Conduct user testing (see main page for description / documentation requirement)
-- Work on final projects
-- Ask any questions now!
-
-## Homework
-- **Post** your user testing - Due before class Tuesday
-	- see Brightspace->Content->Spring 2026 Updates for details 	
+	
 
 [Back to top](#weekly-schedule) 
 
