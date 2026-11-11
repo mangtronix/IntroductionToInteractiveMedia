@@ -667,7 +667,7 @@ are
 
 **`tone()`**
 
-- [Schematic](https://www.arduino.cc/en/Tutorial/ToneMelody)
+- [Code and Schematic](https://www.arduino.cc/en/Tutorial/ToneMelody)
 - Before you try that code, just try 
 `tone(spkrPin, 440);`
 and
