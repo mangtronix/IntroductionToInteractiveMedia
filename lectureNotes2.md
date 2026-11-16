@@ -924,6 +924,7 @@ Communicating between p5.js and Arduino
 -->
 
 One way connection from Arduino
+  - We are using the [gohai/p5.webserial.js](https://github.com/gohai/p5.webserial/) library for serial communication in p5
   - [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
   - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
     - Reads from A1 and sends the reading as a number converted to a string
@@ -932,14 +933,14 @@ One way connection from Arduino
 
 - Bidirectional communication example
 	- This example exchanges information between p5 and Arduino using the serial connection
+	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
 	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
 	- [Week 11 Arduino serial code (Arduino Sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week11Serial.ino)
-	- [p5.web-serial library (copy to Sketch files)](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js)
-	- [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
+	- [gohai/p5.webserial.js](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4) serial library
+      - needs to be loaded from index.html in your sketch
 
 - Before you incorporate this in your project, first test this as it is and
 	make sure you understand it
-- The example uses the [p5.web-serial.js](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js) library
   - For new sketches you need to upload this file to your Sketch files and load it from your index.html file, see below
 ![](media/webserialSketchFiles.png)
 
