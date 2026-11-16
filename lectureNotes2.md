@@ -894,8 +894,7 @@ void loop() {
 ### Week 11.1 - Serial Communication
 #### Plan for today: 
 - Announcements
-  - Deadline for submitting last week's work extended until Wednesday (due to Internet flakiness)
-  - [IM Show](#im-show) is Tuesday Dec 10, 5-8pm 
+  - [IM Show](#im-show) is Monday Dec 14, 5-8pm 
 
 - Reading discussion
 - Look at homework (musical instruments)
