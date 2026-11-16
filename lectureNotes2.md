@@ -921,8 +921,15 @@ Communicating between p5.js and Arduino
 <!--
 - [Serial Input to p5.js Using the p5.webserial Library (ITP)](https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-webserial-input-to-p5-js/)
   - [Week 11 Serial pot (p5 editor)](https://editor.p5js.org/mangtronix/sketches/vQzE2Yhpj)
-  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
 -->
+
+One way connection from Arduino
+  - [Week 11 Serial Communication Schematic](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_schematic.png)
+  - [Week 11 Serial pot (Arduino sketch)](https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/Week_11_Serial_pot.ino)
+    - Reads from A1 and sends the reading as a number converted to a string
+  - [Week 11 Simple p5 Receiver](https://editor.p5js.org/mangtronix/sketches/i5_6m3Zxy)
+    - Prints out received messages
+
 - Bidirectional communication example
 	- This example exchanges information between p5 and Arduino using the serial connection
 	- [Week 11 Bidirectional serial communication(p5js Sketch)](https://editor.p5js.org/mangtronix/sketches/s67XC0zT4)
@@ -933,7 +940,7 @@ Communicating between p5.js and Arduino
 - Before you incorporate this in your project, first test this as it is and
 	make sure you understand it
 - The example uses the [p5.web-serial.js](https://raw.githubusercontent.com/mangtronix/IntroductionToInteractiveMedia/master/code/p5.web-serial.js) library
-  - For new sketches ou need to upload this file to your Sketch files and load it from your index.html file, see below
+  - For new sketches you need to upload this file to your Sketch files and load it from your index.html file, see below
 ![](media/webserialSketchFiles.png)
 
 
