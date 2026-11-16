@@ -942,7 +942,8 @@ One way connection from Arduino
 - Before you incorporate this in your project, first test this as it is and
 	make sure you understand it
   - For new sketches you need to upload this file to your Sketch files and load it from your index.html file, see below
-![](media/webserialSketchFiles.png)
+<img width="1000" height="673" alt="Screenshot 2026-11-16 at 5 46 18 PM" src="https://github.com/user-attachments/assets/48773523-cc41-44aa-9b86-1b6a2f7ba218" />
+
 
 
 - Briefly, what this code does:
