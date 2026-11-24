@@ -1,7 +1,5 @@
-# Checks that the p5 ↔ Arduino Serial sketches still work on the latest p5.js.
-#
-# The sketches load p5.js without a version number, so a new p5.js release
-# can break them without anyone changing a file. This runs the check when a
+# Checks that the p5 ↔ Arduino Serial sketches work, on the p5.js version
+# they ask for and on the newest p5.js. This runs the check when a
 # file in the folder changes, and when you press "Run workflow" on the
 # Actions page (do that before teaching from the sketches). When it fails,
 # GitHub emails the repository owner, and the log shows which sketch broke
@@ -13,7 +11,7 @@
 #   schedule:
 #     - cron: "0 6 * * 1" # every Monday, 06:00 UTC
 
-name: p5 sketches on latest p5.js
+name: p5 sketches
 
 on:
   workflow_dispatch: # "Run workflow" button on the Actions page
@@ -38,5 +36,5 @@ jobs:
         run: |
           npm install --no-save playwright
           npx playwright install --with-deps chromium
-      - name: Run each sketch on the latest p5.js
+      - name: Run each sketch
         run: node code/p5ArduinoSerial/check_sketches.mjs

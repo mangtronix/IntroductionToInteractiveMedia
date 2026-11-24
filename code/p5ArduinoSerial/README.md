@@ -213,9 +213,10 @@ keep your own copy.
 
 - Each sketch here has a copy in the p5 editor, linked at the top of its
   `sketch.js`. When you change one, change the other.
-- The pages load the latest p5.js (there is no version number in the
-  address). `check_sketches.mjs` runs all the sketches without an Arduino
-  to find out whether a new p5.js release has broken one.
+- The pages load p5.js the way the p5 editor sets up a new sketch, so the
+  version can be changed from the editor's settings. `check_sketches.mjs`
+  runs all the sketches without an Arduino, on that version and on the
+  newest p5.js, to find out whether it is safe to move to a newer one.
 - The `serialTap.js` line above is served by jsDelivr straight from this
   GitHub repository. After the file changes on GitHub it can take up to a
   day for the new version to reach everyone.

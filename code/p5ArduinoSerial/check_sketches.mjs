@@ -1,10 +1,13 @@
-// Checks that the p5 sketches in this folder still work on the latest p5.js.
+// Checks that the p5 sketches in this folder work, on the p5.js version
+// they ask for and on the newest p5.js.
 //
-// The sketches load p5.js without a version number, so they always get the
-// newest release. That keeps the course on the current version, but a new
-// release can break a sketch without anyone touching it. This script opens
-// each sketch in a real browser, feeds it the messages an Arduino would
-// send, and checks that it does the right thing with them.
+// The sketches load the p5.js version that the p5 editor sets up for a new
+// sketch, so they look like any other sketch in the editor. This script
+// opens each sketch in a real browser, feeds it the messages an Arduino
+// would send, and checks that it does the right thing with them. It does
+// that twice: as the sketches are written, and with the newest p5.js put
+// in its place. The second run says whether it is safe to move the
+// sketches to a newer version.
 //
 // GitHub runs it when a file in this folder changes, and on request from
 // the Actions page (see .github/workflows/p5-sketches.yml). When it fails,
@@ -110,8 +113,19 @@ const browser = await chromium.launch({ channel: process.env.PW_CHANNEL || undef
 let failures = 0;
 let p5Version = "unknown";
 
+// The address of the newest p5.js (no version number in it)
+const LATEST_P5 = "https://cdn.jsdelivr.net/npm/p5/lib/p5.js";
+
+for (const useLatest of [false, true]) {
+console.log(useLatest ? "\nWith the newest p5.js:" : "As the sketches are written:");
 for (const check of CHECKS) {
   const page = await browser.newPage();
+  if (useLatest) {
+    // Hand over the newest p5.js whenever a page asks for its own version
+    await page.route(/cdn\.jsdelivr\.net\/npm\/p5@[^/]+\/lib\/p5(\.min)?\.js/, (route) =>
+      route.continue({ url: LATEST_P5 })
+    );
+  }
   const errors = [];
   const warnings = [];
   page.on("pageerror", (error) => errors.push(error.message));
@@ -159,13 +173,14 @@ for (const check of CHECKS) {
 
   await page.close();
 }
+console.log(`p5.js version: ${p5Version}`);
+}
 
 await browser.close();
 server.close();
 
-console.log(`\np5.js version: ${p5Version}`);
 if (failures > 0) {
-  console.log(`${failures} of ${CHECKS.length} sketches failed on this version of p5.js.`);
+  console.log(`\n${failures} checks failed.`);
   process.exit(1);
 }
-console.log(`All ${CHECKS.length} sketches work on this version of p5.js.`);
+console.log(`\nAll ${CHECKS.length} sketches work on both versions of p5.js.`);
