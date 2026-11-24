@@ -1,19 +1,21 @@
 # Checks that the p5 ↔ Arduino Serial sketches still work on the latest p5.js.
 #
 # The sketches load p5.js without a version number, so a new p5.js release
-# can break them without anyone changing a file. This runs the check every
-# week. When it fails, GitHub emails the repository owner, and the log shows
-# which sketch broke and on which p5.js version.
+# can break them without anyone changing a file. This runs the check when a
+# file in the folder changes, and when you press "Run workflow" on the
+# Actions page (do that before teaching from the sketches). When it fails,
+# GitHub emails the repository owner, and the log shows which sketch broke
+# and on which p5.js version.
 #
-# Note: GitHub switches off scheduled runs after 60 days with no commits to
-# the repository. It sends an email first; "Enable workflow" on the Actions
-# page turns it back on.
+# It does not run on a schedule. To run it every week as well, add this
+# under "on:" below:
+#
+#   schedule:
+#     - cron: "0 6 * * 1" # every Monday, 06:00 UTC
 
 name: p5 sketches on latest p5.js
 
 on:
-  schedule:
-    - cron: "0 6 * * 1" # every Monday, 06:00 UTC
   workflow_dispatch: # "Run workflow" button on the Actions page
   push:
     paths:

@@ -304,7 +304,10 @@ function runPretendArduino() {
 
   // Only the input chosen in the "Show" selector is sent
   if (showSelect.value() == "POT") {
-    let potChanged = abs(arduino.pot - arduino.lastPotSent) > 2;
+    // While the knob is being dragged nothing is sent in "On Change"
+    // mode: the new value goes out once, when the mouse is let go. That
+    // gives one message to follow, not a stream of them.
+    let potChanged = !draggingKnob && abs(arduino.pot - arduino.lastPotSent) > 2;
     if (mode == "LOOP" || potChanged) {
       send(toP5, "POT " + arduino.pot + "\r\n"); // println ends with \r\n
       arduino.lastPotSent = arduino.pot;

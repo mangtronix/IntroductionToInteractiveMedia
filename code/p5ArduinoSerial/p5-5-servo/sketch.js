@@ -19,8 +19,6 @@
 // Remember: close the Arduino Serial Monitor before connecting. Only one
 // program can use the serial port at a time.
 //
-// For demo only, not intended for production code
-//
 // Made by Michael Ang with Claude Fable 5.2
 //
 // MIT License

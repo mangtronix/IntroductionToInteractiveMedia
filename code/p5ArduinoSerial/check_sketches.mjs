@@ -6,9 +6,10 @@
 // each sketch in a real browser, feeds it the messages an Arduino would
 // send, and checks that it does the right thing with them.
 //
-// It runs every week on GitHub (see .github/workflows/p5-sketches.yml).
-// When it fails, GitHub sends an email, and the log says which sketch broke
-// and on which p5.js version.
+// GitHub runs it when a file in this folder changes, and on request from
+// the Actions page (see .github/workflows/p5-sketches.yml). When it fails,
+// GitHub sends an email, and the log says which sketch broke and on which
+// p5.js version.
 //
 // To run it yourself:
 //
@@ -62,6 +63,12 @@ const CHECKS = [
     sketch: "p5-5-servo",
     run: "positionSlider.value(140)",
     expect: "positionSlider.value() === 140",
+  },
+  {
+    // Any button starts a round; the blue button then moves the net right
+    sketch: "p5-6-game",
+    feed: ["POT 0\r\n", "B 0,0,0,1\r\n"],
+    expect: "playing === true && pot === 0 && netX > 220",
   },
   {
     // The visualizer has a pretend Arduino, so it produces its own

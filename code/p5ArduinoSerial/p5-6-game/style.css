@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* Keep the links below the buttons that the sketch creates */
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main,
+#links {
+  flex-basis: 100%;
+}
+#links {
+  order: 1;
+  margin: 12px 8px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+#links a {
+  margin-right: 16px;
+}
