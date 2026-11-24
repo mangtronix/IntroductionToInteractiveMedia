@@ -123,6 +123,8 @@ let outputSelect; // "LED" or "SERVO": which output is being explained
 
 // Used to tell a real Arduino the send mode shortly after connecting
 let wasConnected = false;
+let triedToConnect = false; // has the Connect button been pressed?
+let hasConnected = false; // did that connection ever open?
 let tellArduinoAt = 0;
 
 // ---------------------------------------------------------------------
@@ -203,8 +205,11 @@ function connectToArduino() {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
     // For faster transmission use 57600, and change it on the Arduino too:
     // port.open(57600);
+    triedToConnect = true;
+    hasConnected = false;
   } else {
     port.close();
+    triedToConnect = false;
   }
 }
 
@@ -289,6 +294,9 @@ function keepArduinoSendModeInStep() {
     tellArduinoAt = millis() + 2000;
   }
   wasConnected = port.opened();
+  if (port.opened()) {
+    hasConnected = true;
+  }
 
   if (tellArduinoAt > 0 && millis() > tellArduinoAt) {
     tellArduinoSendMode();
@@ -629,6 +637,15 @@ function drawTitle() {
   if (port.opened()) {
     fill(0, 130, 60);
     text("Connected to a real Arduino", width - 15, 30);
+  } else if (triedToConnect && hasConnected) {
+    fill(200, 40, 40);
+    text("Connection lost. Check the USB cable,", width - 15, 20);
+    text("then press Connect to Arduino", width - 15, 35);
+  } else if (triedToConnect) {
+    // Connect was pressed but the port isn't open (yet)
+    fill(200, 40, 40);
+    text("Not connected. Close the Serial Monitor and", width - 15, 20);
+    text("other tabs using the Arduino, then try again", width - 15, 35);
   } else {
     fill(120);
     text("Demo mode: pretend Arduino", width - 15, 30);

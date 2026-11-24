@@ -18,6 +18,8 @@
 
 let port;
 let connectButton;
+let triedToConnect = false; // has the Connect button been pressed?
+let wasConnected = false; // were we connected a moment ago?
 
 let pot = 0; // the latest potentiometer reading, 0 to 1023
 let lastMessage = ""; // the latest message, so we can show it
@@ -39,9 +41,29 @@ function connectToArduino() {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
     // For faster transmission use 57600, and change it on the Arduino too:
     // port.open(57600);
+    triedToConnect = true;
+    wasConnected = false;
   } else {
     port.close();
+    triedToConnect = false;
+    wasConnected = false;
   }
+}
+
+// What to tell the user while there is no connection
+function connectionStatus() {
+  if (!triedToConnect) {
+    return "Press Connect to Arduino";
+  }
+  if (wasConnected) {
+    return "Connection lost. Check the USB cable,\nthen press Connect to Arduino";
+  }
+  return (
+    "Choose your Arduino in the list.\n" +
+    "If it doesn't connect, close the Arduino\n" +
+    "Serial Monitor and any other tab that is\n" +
+    "using the Arduino, then try again."
+  );
 }
 
 function draw() {
@@ -68,12 +90,15 @@ function draw() {
   circle(width / 2, height / 2, diameter);
 
   fill(0);
-  text("Last message: " + lastMessage, 10, 25);
-  text("pot = " + pot, 10, 50);
-
+  // Say what to do next: connect first, then use the sketch
   if (port.opened()) {
+    wasConnected = true;
     connectButton.html("Disconnect");
+    text("Turn the potentiometer", 10, 25);
+    text("Last message: " + lastMessage, 10, 50);
+    text("pot = " + pot, 10, 75);
   } else {
     connectButton.html("Connect to Arduino");
+    text(connectionStatus(), 10, 25);
   }
 }

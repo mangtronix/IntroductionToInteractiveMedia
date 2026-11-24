@@ -25,6 +25,8 @@
 
 let port;
 let connectButton;
+let triedToConnect = false; // has the Connect button been pressed?
+let wasConnected = false; // were we connected a moment ago?
 let positionSlider;
 
 let lastPositionSent = -1; // the last position we told the Arduino
@@ -51,9 +53,29 @@ function connectToArduino() {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
     // For faster transmission use 57600, and change it on the Arduino too:
     // port.open(57600);
+    triedToConnect = true;
+    wasConnected = false;
   } else {
     port.close();
+    triedToConnect = false;
+    wasConnected = false;
   }
+}
+
+// What to tell the user while there is no connection
+function connectionStatus() {
+  if (!triedToConnect) {
+    return "Press Connect to Arduino";
+  }
+  if (wasConnected) {
+    return "Connection lost. Check the USB cable,\nthen press Connect to Arduino";
+  }
+  return (
+    "Choose your Arduino in the list.\n" +
+    "If it doesn't connect, close the Arduino\n" +
+    "Serial Monitor and any other tab that is\n" +
+    "using the Arduino, then try again."
+  );
 }
 
 // Sending: tell the Arduino the position, but only when it has changed
@@ -93,13 +115,15 @@ function draw() {
   circle(200, 260, 40);
 
   fill(0);
-  text("Drag the slider to move the servo", 10, 25);
-  text("position = " + servoPosition, 10, 50);
-  text("Sent: " + lastSent, 10, 75);
-
+  // Say what to do next: connect first, then use the sketch
   if (port.opened()) {
+    wasConnected = true;
     connectButton.html("Disconnect");
+    text("Drag the slider to move the servo", 10, 25);
+    text("position = " + servoPosition, 10, 50);
+    text("Sent: " + lastSent, 10, 75);
   } else {
     connectButton.html("Connect to Arduino");
+    text(connectionStatus(), 10, 25);
   }
 }
