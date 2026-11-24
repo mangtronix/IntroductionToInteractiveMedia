@@ -7,6 +7,10 @@
 //
 // To use it, add this line to index.html (before or after p5.webserial):
 //
+//   <script src="https://cdn.jsdelivr.net/gh/mangtronix/IntroductionToInteractiveMedia@master/code/serialTap.js"></script>
+//
+// Or put a copy of this file next to your sketch and use:
+//
 //   <script src="serialTap.js"></script>
 //
 // You don't need to change your sketch. The console will show e.g.

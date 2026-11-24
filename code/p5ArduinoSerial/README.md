@@ -113,8 +113,70 @@ next to the lines of code that send and receive them.
   sending every time round `loop()`.
 - Press Fullscreen to hide the code.
 
-To see the messages of your own sketch, add [serialTap.js](../serialTap.js)
-to it. It prints every message to the browser console.
+## See the messages of your own sketch: serialTap
+
+The Arduino Serial Monitor can't be open while p5 is connected, so you
+can't use it to see what the two sides are saying. `serialTap.js` shows
+you instead: it prints every message that goes through the serial port, in
+both directions, to the console.
+
+**Add it.** Put this one line in your sketch's `index.html`, next to the
+other `<script>` lines. You don't change `sketch.js` at all, and there is
+no file to upload.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/mangtronix/IntroductionToInteractiveMedia@master/code/serialTap.js"></script>
+```
+
+**Open the console.** In the p5 editor it is the panel under your code. In
+a browser tab, press F12 (Windows) or Cmd+Option+J (Mac).
+
+**Run your sketch and connect.** You will see lines like these:
+
+```text
+[serial] port opened at 9600 baud
+Arduino → p5    POT 512\r\n
+p5 → Arduino    LED ON\n
+Arduino → p5    B 0,1,0,0\r\n
+Arduino → p5    … same ×57
+[serial] port closed
+```
+
+How to read it:
+
+- **The arrow says who sent the message.** `Arduino → p5` is something the
+  Arduino sent; `p5 → Arduino` is something your sketch sent.
+- **`\r` and `\n` are the line ending**, the invisible characters that mark
+  the end of a message. They are written out so you can check them.
+  `Serial.println()` on the Arduino ends a message with `\r\n`; the p5
+  sketches here end theirs with `\n`.
+- **`… same ×57`** means the same message was sent 57 more times in a row.
+  Repeats are counted, not printed, so the console doesn't fill up.
+- **`[serial]` lines** are about the connection itself: the port opened,
+  closed, or the cable was unplugged.
+
+What to look for when something is wrong:
+
+| You see | It usually means |
+| --- | --- |
+| Nothing after `port opened` | The Arduino isn't sending. Is the right sketch uploaded? |
+| Strange characters like `�x�` | The speeds don't match. Check `Serial.begin()` and `port.open()` |
+| A message with no `\n` at the end | The Arduino used `Serial.print()` where it needs `Serial.println()`, so p5's `readUntil("\n")` never finds the end |
+| No `p5 → Arduino` lines when you expect them | Your sketch isn't sending. Check the code that calls `port.write()` |
+| Hundreds of the same message | You are sending every frame. Send only when the value changes |
+
+Settings, if you want them. Put one of these in `setup()`, or type it in
+the console while the sketch runs:
+
+```js
+serialTap.mode = "all"; // print every message, including repeats
+serialTap.mode = "off"; // print nothing
+serialTap.mode = "collapse"; // back to counting repeats (the default)
+```
+
+It works with any sketch that uses p5.webserial, in Chrome and Edge. The
+file itself is [serialTap.js](../serialTap.js), if you want to read it or
+keep your own copy.
 
 ## If it doesn't work
 
@@ -149,6 +211,9 @@ to it. It prints every message to the browser console.
 - The pages load the latest p5.js (there is no version number in the
   address). `check_sketches.mjs` runs all the sketches without an Arduino
   to find out whether a new p5.js release has broken one.
+- The `serialTap.js` line above is served by jsDelivr straight from this
+  GitHub repository. After the file changes on GitHub it can take up to a
+  day for the new version to reach everyone.
 - The pictures are generated: `p5ArduinoSerial_schematic.py` makes the
   schematic and `p5ArduinoSerial_breadboard.py` makes the two
   [Fritzing](https://fritzing.org) files.
