@@ -1233,9 +1233,11 @@ void loop() {
 
 [Back to top](#weekly-schedule)
 
-### Week 12.2 - Motors continued, Schematics, Multimeters
+### Week 12.2 - Motors continued, Schematics, Multimeter
+
 - Plan for today
 	- Review class schedule through end of semester
+ 	- Serial Communication - new resources 
  	- Motors, continued
  	- Schematic tips 
   	- Multimeters and circuit debugging 
@@ -1249,6 +1251,11 @@ void loop() {
   	- Book equipment in Connect2 now
   	- Book laser cutter now
   	- Book 3D printers how
+ 
+- Serial Communication
+	- [p5 <> Arduino Serial communication](https://github.com/mangtronix/IntroductionToInteractiveMedia/tree/master/code/p5ArduinoSerial)
+ 	- [Serial Visualizer](https://editor.p5js.org/mangtronix/sketches/z3XNYpZA1) - see how serial messages are sent and received (simulation and with Arduino board)
+	- [serialTap.js](https://github.com/mangtronix/IntroductionToInteractiveMedia/tree/master/code/p5ArduinoSerial#see-the-messages-of-your-own-sketch-serialtap) - include this library in your p5 sketch to see the messages being exchanged
  
 - More about our motor driver
 	- [Sparkfun Inventor's Kit - 5a Motor Basics](https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics)
