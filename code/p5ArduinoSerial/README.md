@@ -131,9 +131,11 @@ no file to upload.
 **Open the console.** In the p5 editor it is the panel under your code. In
 a browser tab, press F12 (Windows) or Cmd+Option+J (Mac).
 
-**Run your sketch and connect.** You will see lines like these:
+**Run your sketch.** The first line appears straight away and tells you
+serialTap is loaded. The rest appear once you connect:
 
 ```text
+serialTap loaded. Messages will be shown here once the serial port is open
 [serial] port opened at 9600 baud
 Arduino → p5    POT 512\r\n
 p5 → Arduino    LED ON\n
@@ -153,12 +155,15 @@ How to read it:
 - **`… same ×57`** means the same message was sent 57 more times in a row.
   Repeats are counted, not printed, so the console doesn't fill up.
 - **`[serial]` lines** are about the connection itself: the port opened,
-  closed, or the cable was unplugged.
+  closed, couldn't be opened, or the cable was unplugged.
 
 What to look for when something is wrong:
 
 | You see | It usually means |
 | --- | --- |
+| No `serialTap loaded` line | serialTap didn't load. Check the `<script>` line in `index.html` |
+| `[serial] couldn't open the port` | Something else is using the Arduino. Close the Serial Monitor and any other tab that is connected to it |
+| `[serial] no port was chosen` | The list of ports was closed without picking one. Press Connect again |
 | Nothing after `port opened` | The Arduino isn't sending. Is the right sketch uploaded? |
 | Strange characters like `�x�` | The speeds don't match. Check `Serial.begin()` and `port.open()` |
 | A message with no `\n` at the end | The Arduino used `Serial.print()` where it needs `Serial.println()`, so p5's `readUntil("\n")` never finds the end |

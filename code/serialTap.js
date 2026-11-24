@@ -15,6 +15,8 @@
 //
 // You don't need to change your sketch. The console will show e.g.
 //
+//   serialTap loaded. Messages will be shown here once the serial port is open
+//   [serial] port opened at 9600 baud
 //   Arduino → p5   512,301\r\n
 //   p5 → Arduino   0,0\n
 //   p5 → Arduino   … same ×57
@@ -61,8 +63,21 @@
   // rather than failing later with a confusing error.
   // ---------------------------------------------------------------------
 
+  // Messages about serialTap itself wait until the page has finished
+  // loading. The p5 editor shows only what is logged after its own console
+  // has been set up, which happens after the scripts in <head> have run. A
+  // message logged straight away would appear in the browser's console but
+  // not in the editor's.
+  function sayWhenPageHasLoaded(message) {
+    if (root.document && root.document.readyState === "loading") {
+      root.document.addEventListener("DOMContentLoaded", () => tap.log(message));
+    } else {
+      tap.log(message);
+    }
+  }
+
   if (typeof root.SerialPort === "undefined") {
-    tap.log("[serialTap] This browser doesn't support Web Serial - use Chrome or Edge");
+    sayWhenPageHasLoaded("serialTap loaded, but this browser doesn't support Web Serial - use Chrome or Edge");
     return;
   }
 
@@ -304,7 +319,7 @@
   // instead of silently showing nothing
   const ok = wrapGetter("readable", tapReadable) && wrapGetter("writable", tapWritable);
   if (!ok) {
-    tap.log("[serialTap] Couldn't attach to the serial port - messages won't be shown");
+    sayWhenPageHasLoaded("serialTap loaded, but couldn't attach to the serial port - messages won't be shown");
     return;
   }
 
@@ -318,9 +333,22 @@
   // mixed up with or compared to messages from the next.
   // ---------------------------------------------------------------------
 
+  // A port that fails to open is the most common problem of all (usually
+  // another program is using it), and without this it would leave the
+  // console empty. So say that it failed, and why, then pass the error on
+  // exactly as before.
   const open = proto.open;
   proto.open = async function (options) {
-    const result = await open.apply(this, arguments);
+    let result;
+    try {
+      result = await open.apply(this, arguments);
+    } catch (error) {
+      note(
+        "couldn't open the port: " + (error && error.message ? error.message : error) +
+          " Is the Arduino Serial Monitor, or another tab or program, using it?"
+      );
+      throw error;
+    }
     channels.in.reset();
     channels.out.reset();
     startReporting();
@@ -338,6 +366,21 @@
     return result;
   };
 
+  // Choosing a port comes before opening it. If the list is closed without
+  // a choice nothing else happens, so say that too.
+  if (root.navigator && root.navigator.serial && root.navigator.serial.requestPort) {
+    const serial = root.navigator.serial;
+    const requestPort = serial.requestPort;
+    serial.requestPort = async function () {
+      try {
+        return await requestPort.apply(this, arguments);
+      } catch (error) {
+        note("no port was chosen");
+        throw error;
+      }
+    };
+  }
+
   if (root.navigator && root.navigator.serial && root.navigator.serial.addEventListener) {
     root.navigator.serial.addEventListener("disconnect", () => {
       channels.in.reset();
@@ -347,4 +390,8 @@
     });
     root.navigator.serial.addEventListener("connect", () => note("device plugged in"));
   }
+
+  // Say that the tap is there, so an empty console means "nothing has
+  // happened yet" and not "serialTap didn't load"
+  sayWhenPageHasLoaded("serialTap loaded. Messages will be shown here once the serial port is open");
 })();
