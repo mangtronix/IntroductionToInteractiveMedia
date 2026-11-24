@@ -1,4 +1,4 @@
-// Serial Explainer
+// Serial Visualizer (part of p5 ↔ Arduino Serial)
 //
 // Draws the messages travelling between p5 and Arduino, in slow motion,
 // so you can see how serial communication works. Each message is sent,
@@ -15,7 +15,7 @@
 // board: drag the knob, hold a button and click the LED buttons. Click "Connect to
 // Arduino" to use a real one.
 //
-// Arduino sketch: SerialExplainer.ino
+// Arduino sketch: p5ArduinoSerial.ino
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // For demo only, not intended for production code
@@ -77,7 +77,7 @@ let arduino = {
   servo: 90, // the position the servo was told to go to, 0 to 180
   servoShown: 90, // where the drawn arm is now, on its way there
   lastPotSent: -1, // these three are used by the pretend Arduino,
-  lastButtonsSent: "", // and work the same as in SerialExplainer.ino
+  lastButtonsSent: "", // and work the same as in p5ArduinoSerial.ino
   lastSendTime: 0,
 };
 
@@ -203,7 +203,7 @@ function draw() {
 // Where messages come from
 //
 // With a real Arduino, messages come in over the serial port. In demo
-// mode a pretend Arduino follows the same rules as SerialExplainer.ino.
+// mode a pretend Arduino follows the same rules as p5ArduinoSerial.ino.
 // The selector under the canvas chooses when the reading is sent:
 //
 //   Loop       both readings, every time round loop() (at most 20 times

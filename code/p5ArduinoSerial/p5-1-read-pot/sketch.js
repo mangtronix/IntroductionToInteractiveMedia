@@ -4,7 +4,7 @@
 // potentiometer. This sketch reads them and uses the number to set the
 // size of a circle.
 //
-// Arduino sketch: SerialExplainer.ino
+// Arduino sketch: p5ArduinoSerial.ino
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one

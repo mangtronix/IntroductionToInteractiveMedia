@@ -1,6 +1,6 @@
-// Serial Explainer - Arduino side
+// p5 ↔ Arduino Serial: the Arduino side
 //
-// Goes with the p5 sketches in this folder. p5-explainer draws the messages
+// Goes with the p5 sketches in this folder. p5-visualizer draws the messages
 // travelling between p5 and Arduino so you can see how serial
 // communication works.
 //
@@ -14,7 +14,7 @@
 //                      "LED OFF"   turn the LED off
 //                      "SERVO 90"  move the servo to 90 degrees (0 to 180)
 //
-// The explainer sketch can also choose when the readings are sent:
+// The visualizer sketch can also choose when the readings are sent:
 //
 //   p5 -> Arduino      "SEND CHANGE"   only when they change (the default)
 //                      "SEND LOOP"     every time round loop()
@@ -25,8 +25,8 @@
 //                 and each with its own 10k pull-down resistor to GND
 // - 2  - LED with resistor
 // - 9  - servo signal wire (the servo's other wires go to 5V and GND)
-// Schematic: SerialExplainer_schematic.png
-// https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/SerialExplainer/SerialExplainer_schematic.png
+// Schematic: p5ArduinoSerial_schematic.png
+// https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5ArduinoSerial_schematic.png
 // The built-in LED does the same as the LED on pin 2, so you can also try
 // this without an LED connected.
 //

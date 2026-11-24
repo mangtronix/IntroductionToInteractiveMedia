@@ -1,12 +1,12 @@
 # /// script
 # dependencies = ["schemdraw", "matplotlib"]
 # ///
-"""Wiring for SerialExplainer.ino: a potentiometer on A0, four pushbuttons on
+"""Wiring for p5ArduinoSerial.ino: a potentiometer on A0, four pushbuttons on
 pins 5 to 8, an LED on pin 2 and a servo on pin 9.
 
-Regenerate the diagram (writes SerialExplainer_schematic.svg and .png here):
+Regenerate the diagram (writes p5ArduinoSerial_schematic.svg and .png here):
 
-    uv run SerialExplainer_schematic.py
+    uv run p5ArduinoSerial_schematic.py
 
 Component values are taken from the Week 11 schematic
 (../Week_11_Serial_schematic.png): 10kΩ potentiometer, 330Ω LED resistor.
@@ -22,7 +22,7 @@ import schemdraw
 schemdraw.use("matplotlib")
 import schemdraw.elements as elm
 
-OUT = str(Path(__file__).with_name("SerialExplainer_schematic"))
+OUT = str(Path(__file__).with_name("p5ArduinoSerial_schematic"))
 
 AX, AW = 8.0, 6.0              # Arduino box left edge and width
 TOP, BOTTOM = 3.0, -19.5       # Arduino box top and bottom
@@ -47,7 +47,7 @@ with schemdraw.Drawing(show=False) as d:
     # ---- Arduino -----------------------------------------------------------
     box(AX, BOTTOM, RX, TOP)
     text(AX + AW / 2, -8.0, "Arduino Uno", 13, "center")
-    text(AX + AW / 2, TOP + 3.4, "Serial Explainer Schematic", 18, "center")
+    text(AX + AW / 2, TOP + 3.4, "p5 ↔ Arduino Serial Schematic", 18, "center")
 
     def ground(xy):
         # Every ground symbol is labelled, to match the GND pins on the Uno

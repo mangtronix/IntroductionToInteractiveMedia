@@ -6,7 +6,7 @@
 //   Arduino -> p5    "POT 512"              sets the size of the circle
 //   p5 -> Arduino    "LED ON" / "LED OFF"   sent by the two buttons
 //
-// Arduino sketch: SerialExplainer.ino
+// Arduino sketch: p5ArduinoSerial.ino
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one

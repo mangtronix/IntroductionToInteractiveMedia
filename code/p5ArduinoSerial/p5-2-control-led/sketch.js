@@ -4,7 +4,7 @@
 // Arduino. Each button sends the message written on it - the same
 // messages you typed by hand in the Arduino Serial Monitor.
 //
-// Arduino sketch: SerialExplainer.ino
+// Arduino sketch: p5ArduinoSerial.ino
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one

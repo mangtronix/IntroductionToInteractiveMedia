@@ -11,7 +11,7 @@
 // flooded with messages. It is the same idea the Arduino uses when it
 // sends the potentiometer reading.
 //
-// Arduino sketch: SerialExplainer.ino
+// Arduino sketch: p5ArduinoSerial.ino
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one
