@@ -16,6 +16,8 @@
 // Arduino" to use a real one.
 //
 // Arduino sketch: p5ArduinoSerial.ino
+// p5 editor copy: https://editor.p5js.org/mangtronix/sketches/z3XNYpZA1
+// (keep that copy and this file in sync)
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // For demo only, not intended for production code
@@ -113,7 +115,8 @@ let heldButton = -1; // which pretend button the mouse is holding, or -1
 let lastDragX, lastDragY; // where the mouse was at the last drag step
 
 // Controls below the canvas
-let connectButton, speedSlider, asciiCheckbox;
+let connectButton, fullscreenButton, speedSlider, asciiCheckbox;
+let canvasElement; // the canvas, so its displayed size can be changed
 let potSendSelect; // "LOOP" or "CHANGE": when the Arduino sends
 let showSelect; // "POT" or "B": which input is being explained
 let outputSelect; // "LED" or "SERVO": which output is being explained
@@ -127,7 +130,7 @@ let tellArduinoAt = 0;
 // ---------------------------------------------------------------------
 
 function setup() {
-  createCanvas(790, 490);
+  canvasElement = createCanvas(790, 490);
   textFont("monospace");
 
   ARDUINO_COLOR = color(0, 135, 143);
@@ -135,33 +138,71 @@ function setup() {
 
   port = createSerial();
 
+  // The controls go under the canvas, in the "mainRow" block that is
+  // written in index.html. style.css lays them out in a row.
   connectButton = createButton("Connect to Arduino");
   connectButton.mousePressed(connectToArduino);
+  connectButton.parent("mainRow");
 
-  createSpan(" &nbsp; Speed: fast ");
+  fullscreenButton = createButton("Fullscreen");
+  fullscreenButton.mousePressed(toggleFullscreen);
+  fullscreenButton.parent("mainRow");
+
+  let speedControl = createSpan("Speed: fast ");
+  speedControl.parent("mainRow");
   speedSlider = createSlider(0.3, 5, 1.2, 0.1); // seconds to cross the wire
-  createSpan(" slow &nbsp; ");
+  speedSlider.parent(speedControl);
+  createSpan(" slow").parent(speedControl);
 
-  asciiCheckbox = createCheckbox(" Show the number sent for each character (ASCII code)", false);
-  asciiCheckbox.style("display", "inline");
+  asciiCheckbox = createCheckbox(" Show ASCII codes", false); // the number sent for each character
+  asciiCheckbox.parent("mainRow");
 
-  // The two selectors and the links are written in index.html.
-  // Move them below the controls.
+  // The three selectors are written in index.html
   potSendSelect = select("#potSend");
   potSendSelect.changed(tellArduinoSendMode);
   showSelect = select("#showInput");
   showSelect.changed(showChanged);
-  select("#showControl").parent(document.body);
   outputSelect = select("#showOutput");
   outputSelect.changed(outputChanged);
-  select("#outputControl").parent(document.body);
-  select("#potSendControl").parent(document.body);
-  select("#links").parent(document.body);
+}
+
+// ---------------------------------------------------------------------
+// Fullscreen
+//
+// Useful in the p5 editor, where the code takes up half the window: in
+// fullscreen only the sketch is shown, as big as fits. The drawing code
+// still works on a 790 x 490 canvas; only the size it is displayed at
+// changes, so nothing else in the sketch needs to know about it.
+// ---------------------------------------------------------------------
+
+function toggleFullscreen() {
+  fullscreen(!fullscreen());
+}
+
+// The window changes size when fullscreen starts or ends
+function windowResized() {
+  let zoom = 1;
+  if (fullscreen()) {
+    // As big as fits, counting the controls under the canvas (about 130
+    // pixels tall) as part of what has to fit
+    zoom = min(windowWidth / width, windowHeight / (height + 130));
+  }
+  // Set the displayed size on the canvas's HTML element directly. (Going
+  // through p5's style() would also change width and height, and with
+  // them where p5 thinks the mouse is.)
+  canvasElement.elt.style.width = width * zoom + "px";
+  canvasElement.elt.style.height = height * zoom + "px";
+
+  // Make the controls bigger by the same amount, so they stay as wide
+  // as the canvas and are easy to read from the back of a room
+  select("#controls").style("zoom", zoom);
 }
 
 function connectToArduino() {
   if (!port.opened()) {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
+    // For faster transmission use 57600, and change it on the Arduino too:
+    // port.open(57600);
   } else {
     port.close();
   }
@@ -197,6 +238,7 @@ function draw() {
   drawP5Explanation();
 
   connectButton.html(port.opened() ? "Disconnect" : "Connect to Arduino");
+  fullscreenButton.html(fullscreen() ? "Exit fullscreen" : "Fullscreen");
 }
 
 // ---------------------------------------------------------------------
@@ -216,11 +258,11 @@ function readFromRealArduino() {
   let msg = port.readUntil("\n");
   while (msg.length > 0) {
     // Show the real knob and buttons straight away
-    let parts = split(trim(msg), " ");
+    let parts = msg.trim().split(" ");
     if (parts[0] == "POT") {
       arduino.pot = int(parts[1]);
     } else if (parts[0] == "B") {
-      arduino.buttons = int(split(parts[1], ","));
+      arduino.buttons = int(parts[1].split(","));
     }
     // Only the input chosen in the "Show" selector is explained
     if (parts[0] == showSelect.value()) {
@@ -342,10 +384,10 @@ function send(lane, text) {
   }
 
   // Find the newest waiting message of the same kind ("POT", "BUTTON"...)
-  let kind = split(text, " ")[0];
+  let kind = text.split(" ")[0];
   let same = -1;
   for (let i = 0; i < lane.waiting.length; i++) {
-    if (split(lane.waiting[i], " ")[0] == kind) {
+    if (lane.waiting[i].split(" ")[0] == kind) {
       same = i;
     }
   }
@@ -418,7 +460,7 @@ function updateLane(lane, useMessage) {
 // ---------------------------------------------------------------------
 
 function p5UsesMessage(text, step) {
-  let parts = split(trim(text), " ");
+  let parts = text.trim().split(" ");
 
   if (parts[0] == "POT") {
     if (step == 2) {
@@ -428,7 +470,7 @@ function p5UsesMessage(text, step) {
     }
   } else if (parts[0] == "B") {
     if (step == 2) {
-      p5side.buttons = split(parts[1], ","); // buttons = split(parts[1], ",")
+      p5side.buttons = parts[1].split(","); // buttons = parts[1].split(",")
     } else if (step == 3) {
       p5side.arrows = p5side.buttons; // drawArrows(buttons)
     }
@@ -436,7 +478,7 @@ function p5UsesMessage(text, step) {
 }
 
 function arduinoUsesMessage(text, step) {
-  let msg = trim(text);
+  let msg = text.trim();
   let isServo = msg.startsWith("SERVO ");
 
   // Only the last line of code changes anything: digitalWrite for an LED
@@ -886,7 +928,7 @@ function drawWire(lane, y, leftToRight) {
       example = "SERVO " + p5side.servo;
     }
     if (lane.flying != null) {
-      example = trim(lane.flying.text);
+      example = lane.flying.text.trim();
     }
     drawCode('port.write("' + example + '\\n");', WIRE_RIGHT - 10, y - 30, RIGHT, sending);
     drawCode("message = Serial.readStringUntil('\\n');", WIRE_LEFT + 10, y + 52, LEFT, reading);
@@ -929,8 +971,8 @@ function drawMessageOnWire(lane, y, leftToRight, col) {
     // The receiver looks at one character after another until it finds
     // the newline. The search takes the first 80% of the stage, then we
     // pause on the newline.
-    let cursor = min(floor((p / 0.8) * msg.length), last);
-    drawTiles(msg, endX, top, col, 255, cursor);
+    let readIndex = min(floor((p / 0.8) * msg.length), last);
+    drawTiles(msg, endX, top, col, 255, readIndex);
   } else if (stage == "fade") {
     // Reading removes the characters from the buffer
     drawTiles(msg, endX, top, col, 255 * (1 - p), last);
@@ -971,40 +1013,40 @@ function drawCode(code, x, y, align, running) {
 }
 
 // Draw a message as a row of character tiles, with its top left at x, y.
-// alpha makes the tiles see-through (255 is solid, 0 is invisible).
-// cursor is the position of the character being read right now:
+// opacity makes the tiles see-through (255 is solid, 0 is invisible).
+// readIndex is the position of the character being read right now:
 // characters before it have been read already. Leave it out when the
 // message isn't being read.
-function drawTiles(msg, x, y, col, alpha = 255, cursor = -1) {
+function drawTiles(msg, x, y, col, opacity = 255, readIndex = -1) {
   for (let i = 0; i < msg.length; i++) {
     let c = msg[i];
     let invisible = c == "\n" || c == "\r" || c == " ";
 
-    stroke(red(col), green(col), blue(col), alpha);
+    stroke(red(col), green(col), blue(col), opacity);
     strokeWeight(1.5);
-    if (i < cursor) {
-      fill(255, 244, 190, alpha); // already read
-    } else if (i == cursor && c == "\n") {
-      fill(150, 225, 150, alpha); // the newline we were looking for
+    if (i < readIndex) {
+      fill(255, 244, 190, opacity); // already read
+    } else if (i == readIndex && c == "\n") {
+      fill(150, 225, 150, opacity); // the newline we were looking for
       strokeWeight(3);
-    } else if (i == cursor) {
-      fill(255, 215, 70, alpha); // being read now
+    } else if (i == readIndex) {
+      fill(255, 215, 70, opacity); // being read now
       strokeWeight(3);
     } else if (invisible) {
-      fill(235, alpha);
+      fill(235, opacity);
     } else {
-      fill(255, alpha);
+      fill(255, opacity);
     }
     rect(x + i * TILE_W, y, TILE_W - 2, TILE_H, 4);
 
     noStroke();
-    fill(invisible ? 110 : 20, alpha);
+    fill(invisible ? 110 : 20, opacity);
     textAlign(CENTER, CENTER);
     textSize(invisible ? 11 : 15);
     text(visibleName(c), x + i * TILE_W + (TILE_W - 2) / 2, y + TILE_H / 2);
 
     if (asciiCheckbox.checked()) {
-      fill(120, alpha);
+      fill(120, opacity);
       textSize(10);
       text(c.charCodeAt(0), x + i * TILE_W + (TILE_W - 2) / 2, y + TILE_H + 8);
     }
@@ -1046,16 +1088,16 @@ function drawSteps(lane, x, title, col, msg, steps, resultX) {
   // When no message is being worked on, all of them have run.
   let running = runningStep(lane);
   let stepsRun = steps.length;
-  let alpha = 255;
+  let opacity = 255;
   if (stageName(lane) == "fade") {
     // The text is just arriving from the buffer: no line has run yet
     stepsRun = 0;
-    alpha = 255 * stageProgress(lane);
+    opacity = 255 * stageProgress(lane);
   } else if (running >= 0) {
     stepsRun = running + 1;
   }
 
-  drawTiles(msg, x, 370, col, alpha);
+  drawTiles(msg, x, 370, col, opacity);
 
   for (let i = 0; i < steps.length; i++) {
     drawCode(steps[i][0], x, 430 + i * 17, LEFT, i == running);
@@ -1070,16 +1112,16 @@ function drawArduinoExplanation() {
   // Serial.readStringUntil('\n') doesn't include the newline in the text
   // it returns, so it isn't shown here
   let msg = toArduino.lastRead.replace("\n", "");
-  let trimmed = trim(msg);
+  let trimmed = msg.trim();
 
   // The first line is the same for every message. What happens next
   // depends on how the message starts.
   let steps = [["message.trim();", '"' + trimmed + '"']];
   if (trimmed.startsWith("SERVO ")) {
-    let position = constrain(int(trimmed.substring(6)), 0, 180);
+    let servoPosition = constrain(int(trimmed.substring(6)), 0, 180);
     steps.push(['message.startsWith("SERVO ")', "true"]);
-    steps.push(["position = message.substring(6).toInt();", position]);
-    steps.push(["servo.write(position);", position + "°"]);
+    steps.push(["position = message.substring(6).toInt();", servoPosition]);
+    steps.push(["servo.write(position);", servoPosition + "°"]);
   } else {
     let on = trimmed == "LED ON";
     steps.push(['message == "' + trimmed + '"', "true"]);
@@ -1091,26 +1133,31 @@ function drawArduinoExplanation() {
 
 function drawP5Explanation() {
   // port.readUntil("\n") does include the newline, which is why the
-  // first step is trim()
+  // first step is to trim it
   let msg = toP5.lastRead;
-  let trimmed = trim(msg);
-  let parts = split(trimmed, " ");
+  if (msg == "") {
+    // Nothing has been read yet, so there are no steps to show
+    drawSteps(toP5, 410, "p5 read: msg =", ARDUINO_COLOR, msg, [], 225);
+    return;
+  }
+  let trimmed = msg.trim();
+  let parts = trimmed.split(" ");
 
   // The first two lines are the same for every message. What happens
   // next depends on the first word.
   let steps = [
-    ["trim(msg)", '"' + trimmed + '"'],
-    ['split(msg, " ")', '["' + parts.join('", "') + '"]'],
+    ["msg.trim()", '"' + trimmed + '"'],
+    ['msg.split(" ")', '["' + parts.join('", "') + '"]'],
   ];
   if (parts[0] == "B") {
-    let buttons = split(parts[1], ",");
+    let buttons = parts[1].split(",");
     let arrows = [];
     for (let i = 0; i < buttons.length; i++) {
       if (buttons[i] == "1") {
         arrows.push({ left: "←", up: "↑", down: "↓", right: "→" }[BUTTONS[i].arrow]);
       }
     }
-    steps.push(['buttons = split(parts[1], ",")', '["' + buttons.join('","') + '"]']);
+    steps.push(['buttons = parts[1].split(",")', '["' + buttons.join('","') + '"]']);
     steps.push(["drawArrows(buttons)", arrows.length > 0 ? arrows.join(" ") : "no arrows"]);
   } else {
     steps.push(["pot = int(parts[1])", "pot = " + int(parts[1])]);

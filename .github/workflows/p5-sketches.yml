@@ -1,0 +1,40 @@
+# Checks that the p5 ↔ Arduino Serial sketches still work on the latest p5.js.
+#
+# The sketches load p5.js without a version number, so a new p5.js release
+# can break them without anyone changing a file. This runs the check every
+# week. When it fails, GitHub emails the repository owner, and the log shows
+# which sketch broke and on which p5.js version.
+#
+# Note: GitHub switches off scheduled runs after 60 days with no commits to
+# the repository. It sends an email first; "Enable workflow" on the Actions
+# page turns it back on.
+
+name: p5 sketches on latest p5.js
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday, 06:00 UTC
+  workflow_dispatch: # "Run workflow" button on the Actions page
+  push:
+    paths:
+      - "code/p5ArduinoSerial/**"
+      - ".github/workflows/p5-sketches.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install the browser
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Run each sketch on the latest p5.js
+        run: node code/p5ArduinoSerial/check_sketches.mjs

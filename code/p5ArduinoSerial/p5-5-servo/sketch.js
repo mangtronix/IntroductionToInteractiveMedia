@@ -12,6 +12,8 @@
 // sends the potentiometer reading.
 //
 // Arduino sketch: p5ArduinoSerial.ino
+// p5 editor copy: https://editor.p5js.org/mangtronix/sketches/vO1mlVwjb
+// (keep that copy and this file in sync)
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one
@@ -49,6 +51,8 @@ function setup() {
 function connectToArduino() {
   if (!port.opened()) {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
+    // For faster transmission use 57600, and change it on the Arduino too:
+    // port.open(57600);
   } else {
     port.close();
   }
@@ -56,20 +60,20 @@ function connectToArduino() {
 
 // Sending: tell the Arduino the position, but only when it has changed
 function sendPosition() {
-  let position = positionSlider.value();
+  let servoPosition = positionSlider.value();
 
-  let changed = position != lastPositionSent;
+  let changed = servoPosition != lastPositionSent;
   let timeSinceSend = millis() - lastSendTime;
 
   if (port.opened() && changed && timeSinceSend >= 50) {
     // Join the word and the number into one message: "SERVO 90"
-    let msg = "SERVO " + position;
+    let msg = "SERVO " + servoPosition;
 
     port.write(msg + "\n"); // "\n" marks the end of the message
     lastSent = msg;
 
     // Remember what we sent and when, for the comparisons next time
-    lastPositionSent = position;
+    lastPositionSent = servoPosition;
     lastSendTime = millis();
   }
 }
@@ -81,8 +85,8 @@ function draw() {
 
   // Draw our own servo arm so we can compare it with the real one.
   // 0 degrees points left, 90 points up and 180 points right.
-  let position = positionSlider.value();
-  let angle = radians(180 + position);
+  let servoPosition = positionSlider.value();
+  let angle = radians(180 + servoPosition);
   stroke(60);
   strokeWeight(12);
   line(200, 260, 200 + cos(angle) * 130, 260 + sin(angle) * 130);
@@ -92,7 +96,7 @@ function draw() {
 
   fill(0);
   text("Drag the slider to move the servo", 10, 25);
-  text("position = " + position, 10, 50);
+  text("position = " + servoPosition, 10, 50);
   text("Sent: " + lastSent, 10, 75);
 
   if (port.opened()) {

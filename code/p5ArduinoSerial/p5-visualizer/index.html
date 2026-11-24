@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.11/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.11/addons/p5.sound.min.js"></script>
+    <!-- p5.js: always the latest version (there is no version number in the address) -->
+    <script src="https://cdn.jsdelivr.net/npm/p5/lib/p5.js"></script>
     <!-- p5.webserial library by gohai: https://github.com/gohai/p5.webserial -->
     <script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -12,42 +12,45 @@
   <body>
     <main>
     </main>
-    <!-- These blocks are shown at the bottom of the page
-         (sketch.js moves them below its own controls) -->
-    <div id="showControl">
-      <label for="showInput">Show input:</label>
-      <select id="showInput">
-        <option value="POT" selected>Potentiometer</option>
-        <option value="B">Buttons</option>
-      </select>
+    <!-- The controls under the canvas. The canvas itself is put in <main>
+         by p5, and sketch.js adds its buttons and slider to "mainRow". -->
+    <div id="controls">
+      <div class="row" id="mainRow"></div>
+      <div class="row">
+        <label>Show input:
+          <select id="showInput">
+            <option value="POT" selected>Potentiometer</option>
+            <option value="B">Buttons</option>
+          </select>
+        </label>
+        <label>Show output:
+          <select id="showOutput">
+            <option value="LED" selected>LED</option>
+            <option value="SERVO">Servo</option>
+          </select>
+        </label>
+        <label>When to send:
+          <select id="potSend">
+            <option value="LOOP">Loop</option>
+            <option value="CHANGE" selected>On Change</option>
+          </select>
+        </label>
+      </div>
+      <div class="row links">
+        <a href="https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5ArduinoSerial.ino" target="_blank">Arduino code</a>
+        <a href="https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5-visualizer/sketch.js" target="_blank">p5 sketch</a>
+        <a href="https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5ArduinoSerial_schematic.png" target="_blank">Schematic</a>
+        <a href="https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5ArduinoSerial_breadboard_half.png" target="_blank">Breadboard</a>
+      </div>
+      <div class="row links">
+        <span>Step-by-step sketches:</span>
+        <a href="https://editor.p5js.org/mangtronix/sketches/BK4nCyyIk" target="_blank">1. Read the pot</a>
+        <a href="https://editor.p5js.org/mangtronix/sketches/2F9qXmmkm" target="_blank">2. Control the LED</a>
+        <a href="https://editor.p5js.org/mangtronix/sketches/5ne2zOz-E" target="_blank">3. Both directions</a>
+        <a href="https://editor.p5js.org/mangtronix/sketches/wYxJaFu3n" target="_blank">4. Buttons</a>
+        <a href="https://editor.p5js.org/mangtronix/sketches/vO1mlVwjb" target="_blank">5. Servo</a>
+      </div>
     </div>
-    <div id="outputControl">
-      <label for="showOutput">Show output:</label>
-      <select id="showOutput">
-        <option value="LED" selected>LED</option>
-        <option value="SERVO">Servo</option>
-      </select>
-    </div>
-    <div id="potSendControl">
-      <label for="potSend">When to send:</label>
-      <select id="potSend">
-        <option value="LOOP">Loop</option>
-        <option value="CHANGE" selected>On Change</option>
-      </select>
-    </div>
-    <footer id="links">
-      <a href="../p5ArduinoSerial.ino" target="_blank">Arduino code</a>
-      <a href="sketch.js" target="_blank">p5 sketch</a>
-      <a href="../p5ArduinoSerial_schematic.png" target="_blank">Schematic</a>
-      <p>
-        Step-by-step sketches:
-        <a href="../p5-1-read-pot/">1. Read the pot</a>
-        <a href="../p5-2-control-led/">2. Control the LED</a>
-        <a href="../p5-3-both-directions/">3. Both directions</a>
-        <a href="../p5-4-button/">4. Buttons</a>
-        <a href="../p5-5-servo/">5. Servo</a>
-      </p>
-    </footer>
     <script src="sketch.js"></script>
   </body>
 </html>

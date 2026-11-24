@@ -5,6 +5,8 @@
 // messages you typed by hand in the Arduino Serial Monitor.
 //
 // Arduino sketch: p5ArduinoSerial.ino
+// p5 editor copy: https://editor.p5js.org/mangtronix/sketches/2F9qXmmkm
+// (keep that copy and this file in sync)
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one
@@ -46,6 +48,8 @@ function setup() {
 function connectToArduino() {
   if (!port.opened()) {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
+    // For faster transmission use 57600, and change it on the Arduino too:
+    // port.open(57600);
   } else {
     port.close();
   }

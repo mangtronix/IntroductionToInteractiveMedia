@@ -1,18 +1,24 @@
 """Breadboard wiring for p5ArduinoSerial.ino, as a Fritzing sketch.
 
-Regenerate the Fritzing file (writes p5ArduinoSerial_breadboard.fzz here):
+Regenerate the Fritzing files:
 
     python3 p5ArduinoSerial_breadboard.py
 
-Then update the picture, p5ArduinoSerial_breadboard.png. Either open the .fzz
+This writes two versions of the same circuit:
+- p5ArduinoSerial_breadboard.fzz       on a full-size breadboard
+- p5ArduinoSerial_breadboard_half.fzz  on a half-size breadboard (tighter)
+
+Then update the pictures (the same names, ending .png). Either open the .fzz
 in Fritzing and use File > Export > as Image > PNG, or do it from the
 command line (Fritzing exports every sketch in a folder to SVG, and
 rsvg-convert turns the breadboard view into a PNG):
 
-    mkdir -p /tmp/fz && cp p5ArduinoSerial_breadboard.fzz /tmp/fz/
+    mkdir -p /tmp/fz && cp p5ArduinoSerial_breadboard*.fzz /tmp/fz/
     /Applications/Fritzing.app/Contents/MacOS/Fritzing -svg /tmp/fz
     rsvg-convert -w 1800 -b white /tmp/fz/p5ArduinoSerial_breadboard_breadboard.svg \
         -o p5ArduinoSerial_breadboard.png
+    rsvg-convert -w 1800 -b white /tmp/fz/p5ArduinoSerial_breadboard_half_breadboard.svg \
+        -o p5ArduinoSerial_breadboard_half.png
 
 This needs Fritzing installed in /Applications. Most parts are copied from
 the example sketches that come with Fritzing, so that each part is written
@@ -42,7 +48,6 @@ from pathlib import Path
 FRITZING = Path("/Applications/Fritzing.app/Contents/Resources")
 PARTS = FRITZING / "fritzing-parts"
 EXAMPLES = FRITZING / "sketches" / "core"
-OUT = Path(__file__).with_name("p5ArduinoSerial_breadboard.fzz")
 
 RED, BLACK = "#cc1414", "#404040"
 ORANGE, YELLOW, GREEN, BLUE = "#ef6100", "#fff800", "#47cc79", "#418dd9"
@@ -79,8 +84,48 @@ FIVE_V, GND = "connector87", "connector88"
 # X and Z are - (blue line).
 ROW_Y = {"Z": 9, "Y": 18, "J": 45, "I": 54, "H": 63, "G": 72, "F": 81,
          "E": 108, "D": 117, "C": 126, "B": 135, "A": 144, "X": 171, "W": 180}
-BREADBOARD_SIZE = (585.2975, 189.0)
-RAIL_HOLES = [n for n in range(3, 62) if (n - 3) % 6 != 5]  # groups of five
+
+# The two breadboards. For each: Fritzing's part, the size of its image,
+# where its holes are along its length, which rail holes exist (they come
+# in groups of five), and which column or rail hole each thing goes in.
+#
+# On the full-size board the rail holes line up with the columns. On the
+# half-size board they sit between columns, so a wire from a column to
+# the rail leans a little, as it does on the real board.
+FULL_SIZE = {
+    "file": "p5ArduinoSerial_breadboard.fzz",
+    "part": "breadboard2.fzp",
+    "module_id": "Breadboard-RSR03MB102-ModuleID",
+    "size": (585.2975, 189.0),
+    "corner": (360.0, 0.0),
+    "columns": 63,
+    "column_x": lambda column: 4.65 + 9 * column,
+    "rail_x": lambda n: 4.65 + 9 * n,
+    "rail_holes": [n for n in range(3, 62) if (n - 3) % 6 != 5],
+    "servo_rail": 3,
+    # for each button: its first column, the rail hole for its 5V wire,
+    # the rail hole for its resistor
+    "buttons": {"yellow": (10, 10, 12), "red": (19, 19, 21), "blue": (28, 28, 30), "green": (37, 37, 39)},
+    "led": (47, 47),            # column of the short leg, rail hole for the resistor
+    "pot": (55, 55, 57),        # first column, rail hole for 5V, rail hole for GND
+    "power": (59, 61, 60),      # rail holes for GND, 5V and the wire joining the - rails
+}
+HALF_SIZE = {
+    "file": "p5ArduinoSerial_breadboard_half.fzz",
+    "part": "Half_breadboard_v2.fzp",
+    "module_id": "0152b316-ca6e-11ee-a6fa-8be78db221f8BreadboardModuleID",
+    "size": (292.41, 189.0),
+    "corner": (360.0, 120.0),
+    "columns": 30,
+    "column_x": lambda column: 4.4 + 9 * column,
+    "rail_x": lambda n: -10.25 + 9 * n,
+    "rail_holes": [n for n in range(3, 32) if (n - 3) % 6 != 5],
+    "servo_rail": 3,
+    "buttons": {"yellow": (2, 4, 6), "red": (7, 9, 11), "blue": (12, 13, 16), "green": (17, 19, 21)},
+    "led": (22, 24),
+    "pot": (25, 27, 29),
+    "power": (30, 31, 31),
+}
 
 # Image sizes of the parts, needed to turn them (a part turns about the
 # middle of its image)
@@ -310,14 +355,15 @@ class Sketch:
         return Part(inst, bb, index, layer="breadboardWire")
 
 
-def build():
+def build(board):
     button_example = read_example("Button")
     servo_example = read_example("AnalogInputToServo")
     sketch = Sketch()
 
     # ---- Where things go -------------------------------------------------
     AX, AY = 0.0, 80.0          # the Arduino's corner
-    BX, BY = 360.0, 0.0         # the corner of the upright breadboard
+    BX, BY = board["corner"]    # the corner of the upright breadboard
+    BREADBOARD_SIZE = board["size"]
 
     def on_board(point):
         """Turn a point on the lying-down breadboard into its place in the
@@ -327,10 +373,10 @@ def build():
 
     def hole_xy(column, row):
         if row in "WXYZ":
-            assert column in RAIL_HOLES, f"no rail hole {column}{row}"
-        else:
-            assert 1 <= column <= 63
-        return (4.65 + 9 * column, ROW_Y[row])
+            assert column in board["rail_holes"], f"no rail hole {column}{row}"
+            return (board["rail_x"](column), ROW_Y[row])
+        assert 1 <= column <= board["columns"]
+        return (board["column_x"](column), ROW_Y[row])
 
     def hole(column, row):
         return on_board(hole_xy(column, row))
@@ -353,13 +399,13 @@ def build():
         corner = sub(on_board(add(shift, position)), new_shift)
         return sketch.add_part(tpl, title, fzp_path, corner, turned, new_shift, **kwargs)
 
-    breadboard_tpl = ET.Element("instance", moduleIdRef="Breadboard-RSR03MB102-ModuleID")
+    breadboard_tpl = ET.Element("instance", moduleIdRef=board["module_id"])
     ET.SubElement(breadboard_tpl, "title")
     views = ET.SubElement(breadboard_tpl, "views")
     ET.SubElement(ET.SubElement(views, "breadboardView", layer="breadboardbreadboard"), "geometry", z="1.5")
     for view in ("schematicView", "pcbView"):
         ET.SubElement(ET.SubElement(views, view, layer="breadboardbreadboard"), "geometry", z="-1", x="0", y="0")
-    breadboard = board_part(breadboard_tpl, "Breadboard", PARTS / "core" / "breadboard2.fzp",
+    breadboard = board_part(breadboard_tpl, "Breadboard", PARTS / "core" / board["part"],
                             (0, 0), BREADBOARD_SIZE)
 
     # Start the Arduino with no connectors listed; they are added as
@@ -403,20 +449,27 @@ def build():
         plug(r, "connector0", column, row)
         plug(r, "connector1", column + 4, row)
 
-    def resistor_to_rail(title, ohms, column, row, rail):
-        """A resistor from a hole straight across into a power rail in the
-        same column, with no extra wire. The hole and the rail must be four
-        holes apart, which is the length of a resistor."""
-        first, second = sorted((row, rail), key=lambda name: ROW_Y[name])
+    def resistor_to_rail(title, ohms, column, row, rail, rail_hole):
+        """A resistor from a hole straight across into a power rail, with no
+        extra wire. The hole and the rail must be four holes apart, which
+        is the length of a resistor. If the rail hole isn't exactly in line
+        with the column, the leg at the rail is bent across to reach it."""
+        rail_first = ROW_Y[rail] < ROW_Y[row]
+        first, second = (rail, row) if rail_first else (row, rail)
         assert ROW_Y[second] - ROW_Y[first] == 36, "the resistor doesn't reach"
         size = SIZE["resistor"]
         centre = (size[0] / 2, size[1] / 2)
         shift = sub(centre, apply(QUARTER_TURN, centre))
-        position = add(sub(hole_xy(column, first), shift), (4.541, -1.316))
+        position = add(sub((hole_xy(column, row)[0], ROW_Y[first]), shift), (4.541, -1.316))
         r = board_part(template(button_example, "R1"), title, PARTS / "core" / "resistor.fzp",
                        position, size, QUARTER_TURN, shift, properties={"resistance": ohms})
-        plug(r, "connector0", column, first)
-        plug(r, "connector1", column, second)
+        sideways = hole_xy(rail_hole, rail)[0] - hole_xy(column, row)[0]
+        rail_connector = "connector0" if rail_first else "connector1"
+        for connector in r.bb.findall("connectors/connector"):
+            if connector.get("connectorId") == rail_connector:
+                connector.findall("leg/point")[1].set("y", f"{-sideways:.4f}")
+        plug(r, "connector0" if rail_first else "connector1", rail_hole, rail)
+        plug(r, "connector1" if rail_first else "connector0", column, row)
 
     # ---- Wire lanes ---------------------------------------------------------
     # Each wire from the Arduino gets its own lane, chosen so that wires
@@ -464,11 +517,12 @@ def build():
         connect(previous, "connector1", end_part, end_connector)
 
     sx, sy = signal_end
+    servo_rail = board["servo_rail"]
     lead_wire(PURPLE, [(sx, sy), (sx, 14), (pin(D9)[0], 14), pin(D9)], "connector2", arduino, D9)
-    lead_wire(RED, [(sx + 9, sy), (sx + 9, 6), (hole(3, "W")[0], 6), hole(3, "W")],
-              "connector1", breadboard, "pin3W")
-    lead_wire(BLACK, [(sx + 18, sy), (sx + 18, -2), (hole(3, "X")[0], -2), hole(3, "X")],
-              "connector0", breadboard, "pin3X")
+    lead_wire(RED, [(sx + 9, sy), (sx + 9, 6), (hole(servo_rail, "W")[0], 6), hole(servo_rail, "W")],
+              "connector1", breadboard, f"pin{servo_rail}W")
+    lead_wire(BLACK, [(sx + 18, sy), (sx + 18, -2), (hole(servo_rail, "X")[0], -2), hole(servo_rail, "X")],
+              "connector0", breadboard, f"pin{servo_rail}X")
 
     # ---- Four pushbuttons, each with a pull-down resistor ----------------------
     # Each button sits across the gap in the middle. Its first column goes
@@ -481,12 +535,13 @@ def build():
     # laid flat: Up, Left, Right, Down. That order is not the order of the
     # pins, so the Left and Up wires each cross the Right and Down wires.
     buttons = [
-        ("yellow", "Yellow / Up", D6, YELLOW, 10, 2),
-        ("red", "Red / Left", D5, ORANGE, 19, 1),
-        ("blue", "Blue / Right", D8, BLUE, 28, 4),
-        ("green", "Green / Down", D7, GREEN, 37, 3),
+        ("yellow", "Yellow / Up", D6, YELLOW, 2),
+        ("red", "Red / Left", D5, ORANGE, 1),
+        ("blue", "Blue / Right", D8, BLUE, 4),
+        ("green", "Green / Down", D7, GREEN, 3),
     ]
-    for colour, name, arduino_pin, wire_colour, col, lane in buttons:
+    for colour, name, arduino_pin, wire_colour, lane in buttons:
+        col, five_v_hole, resistor_hole = board["buttons"][colour]
         button = board_part(template(button_example, "S1"), f"Button {name}",
                             f"{button_module_id(colour)}.fzp",
                             sub(hole_xy(col, "G"), (12.25, 2.0)), SIZE["button"],
@@ -495,45 +550,48 @@ def build():
         plug(button, "connector3", col, "D")
         plug(button, "connector0", col + 2, "G")
         plug(button, "connector1", col + 2, "D")
-        jumper(RED, (col, "A"), (col, "W"))
-        resistor_to_rail(f"10k {name}", "10kΩ", col + 2, "J", "Z")
+        jumper(RED, (col, "A"), (five_v_hole, "W"))
+        resistor_to_rail(f"10k {name}", "10kΩ", col + 2, "J", "Z", resistor_hole)
         routed(wire_colour, arduino_pin, (col + 2, "A"), top_lane(lane), digital_x(lane))
 
     # ---- LED on pin 2, with its resistor to GND ---------------------------------
     # The LED's legs are drawn straight into two holes side by side.
+    led_col, led_rail = board["led"]
     led = board_part(template(button_example, "LED1"), "LED", PARTS / "core" / "LED-generic-5mm.fzp",
-                     sub(hole_xy(47, "D"), (5.6583, 67.279)), SIZE["led"])
+                     sub(hole_xy(led_col, "D"), (5.6583, 67.279)), SIZE["led"])
     for connector in led.bb.findall("connectors/connector"):
         end = connector.findall("leg/point")[1]
         end.set("x", "0")
         end.set("y", "30.7705")
-    plug(led, "connector0", 47, "D")   # cathode (the short leg)
-    plug(led, "connector1", 48, "D")   # anode
-    resistor_to_rail("330", "330Ω", 47, "B", "X")
-    routed(WHITE, D2, (48, "A"), top_lane(0), digital_x(0))
+    plug(led, "connector0", led_col, "D")       # cathode (the short leg)
+    plug(led, "connector1", led_col + 1, "D")   # anode
+    resistor_to_rail("330", "330Ω", led_col, "B", "X", led_rail)
+    routed(WHITE, D2, (led_col + 1, "A"), top_lane(0), digital_x(0))
 
     # ---- Potentiometer on A0 -------------------------------------------------------
+    pot_col, pot_five_v, pot_gnd = board["pot"]
     pot = board_part(template(servo_example, "R1"), "Potentiometer",
                      PARTS / "core" / "potentiometer_rotary_9mm_6.fzp",
-                     sub(hole_xy(55, "D"), (9.27, 73.62)), SIZE["pot"])
-    plug(pot, "connector0", 55, "D")
-    plug(pot, "connector1", 56, "D")
-    plug(pot, "connector2", 57, "D")
-    jumper(RED, (55, "A"), (55, "W"))
-    jumper(BLACK, (57, "A"), (57, "X"))
-    routed(BROWN, A0, (56, "A"), bottom_lane(0), power_x(0))
+                     sub(hole_xy(pot_col, "D"), (9.27, 73.62)), SIZE["pot"])
+    plug(pot, "connector0", pot_col, "D")
+    plug(pot, "connector1", pot_col + 1, "D")
+    plug(pot, "connector2", pot_col + 2, "D")
+    jumper(RED, (pot_col, "A"), (pot_five_v, "W"))
+    jumper(BLACK, (pot_col + 2, "A"), (pot_gnd, "X"))
+    routed(BROWN, A0, (pot_col + 1, "A"), bottom_lane(0), power_x(0))
 
     # ---- Power: the Arduino's GND and 5V to the left-hand rails -----------------
-    routed(BLACK, GND, (59, "X"), bottom_lane(1), power_x(1))
-    routed(RED, FIVE_V, (61, "W"), bottom_lane(2), power_x(2))
+    gnd_hole, five_v_hole, link_hole = board["power"]
+    routed(BLACK, GND, (gnd_hole, "X"), bottom_lane(1), power_x(1))
+    routed(RED, FIVE_V, (five_v_hole, "W"), bottom_lane(2), power_x(2))
     # The pull-down resistors use the - rail on the right, so join the two
     # - rails together
-    jumper(BLACK, (60, "X"), (60, "Z"))
+    jumper(BLACK, (link_hole, "X"), (link_hole, "Z"))
 
     return sketch, button_example
 
 
-def write(sketch, example):
+def write(sketch, example, out):
     module = ET.Element("module", fritzingVersion=example.get("fritzingVersion"))
     for child in example:
         if child.tag in ("project_properties", "views"):
@@ -543,8 +601,8 @@ def write(sketch, example):
         instances.append(inst)
     ET.indent(module, space="    ")
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(module, encoding="unicode") + "\n"
-    with zipfile.ZipFile(OUT, "w", zipfile.ZIP_DEFLATED) as z:
-        z.writestr(OUT.with_suffix(".fz").name, xml)
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
+        z.writestr(out.with_suffix(".fz").name, xml)
         # The custom pushbuttons travel inside the sketch file
         for colour in BUTTON_COLOURS:
             name = button_module_id(colour)
@@ -553,7 +611,9 @@ def write(sketch, example):
 
 
 if __name__ == "__main__":
-    sketch, example = build()
-    write(sketch, example)
-    wires = sum(1 for i in sketch.instances if i.get("moduleIdRef") == "WireModuleID")
-    print(f"wrote {OUT.name}: {len(sketch.instances) - wires} parts, {wires} wires")
+    for board in (FULL_SIZE, HALF_SIZE):
+        out = Path(__file__).with_name(board["file"])
+        sketch, example = build(board)
+        write(sketch, example, out)
+        wires = sum(1 for i in sketch.instances if i.get("moduleIdRef") == "WireModuleID")
+        print(f"wrote {out.name}: {len(sketch.instances) - wires} parts, {wires} wires")

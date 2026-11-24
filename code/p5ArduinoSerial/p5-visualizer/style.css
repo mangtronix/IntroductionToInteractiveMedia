@@ -1,22 +1,36 @@
 html, body {
   margin: 0;
   padding: 0;
+  /* The same colour as the canvas, so the page looks like one piece,
+     also in fullscreen */
+  background: #fafafa;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 14px;
 }
 canvas {
   display: block;
+  margin: 0 auto;
 }
-#showControl,
-#outputControl,
-#potSendControl {
-  margin: 12px 8px 0 8px;
-  font-family: sans-serif;
-  font-size: 14px;
+
+/* The controls sit under the canvas and are as wide as it is */
+#controls {
+  width: 790px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 4px 15px 10px 15px;
 }
-#links {
-  margin: 12px 8px;
-  font-family: sans-serif;
-  font-size: 14px;
+#controls .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 18px;
+  margin-top: 8px;
 }
-#links a {
-  margin-right: 16px;
+#controls button,
+#controls select {
+  font: inherit;
+}
+#controls .links {
+  font-size: 13px;
 }

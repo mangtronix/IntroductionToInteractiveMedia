@@ -27,6 +27,9 @@
 // - 9  - servo signal wire (the servo's other wires go to 5V and GND)
 // Schematic: p5ArduinoSerial_schematic.png
 // https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5ArduinoSerial_schematic.png
+// Breadboard: p5ArduinoSerial_breadboard_half.png (half-size breadboard)
+// https://github.com/mangtronix/IntroductionToInteractiveMedia/blob/master/code/p5ArduinoSerial/p5ArduinoSerial_breadboard_half.png
+// The same on a full-size breadboard: p5ArduinoSerial_breadboard.png
 // The built-in LED does the same as the LED on pin 2, so you can also try
 // this without an LED connected.
 //
@@ -93,6 +96,8 @@ void setup() {
   // The p5 sketch must use the same speed, or the two sides won't
   // understand each other.
   Serial.begin(9600);
+  // For faster transmission use 57600, and change it in the p5 sketch too:
+  // Serial.begin(57600);
 
   pinMode(button1Pin, INPUT);
   pinMode(button2Pin, INPUT);

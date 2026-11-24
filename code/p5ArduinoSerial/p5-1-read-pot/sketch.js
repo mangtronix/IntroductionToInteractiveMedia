@@ -5,6 +5,8 @@
 // size of a circle.
 //
 // Arduino sketch: p5ArduinoSerial.ino
+// p5 editor copy: https://editor.p5js.org/mangtronix/sketches/BK4nCyyIk
+// (keep that copy and this file in sync)
 // Uses the p5.webserial library by gohai (loaded in index.html)
 //
 // Remember: close the Arduino Serial Monitor before connecting. Only one
@@ -37,6 +39,8 @@ function setup() {
 function connectToArduino() {
   if (!port.opened()) {
     port.open(9600); // must match Serial.begin(9600) on the Arduino
+    // For faster transmission use 57600, and change it on the Arduino too:
+    // port.open(57600);
   } else {
     port.close();
   }
@@ -48,10 +52,10 @@ function draw() {
   let msg = port.readUntil("\n");
 
   if (msg.length > 0) {
-    msg = trim(msg); // remove the line ending:  "POT 512"
+    msg = msg.trim(); // remove the line ending:  "POT 512"
     lastMessage = msg;
 
-    let parts = split(msg, " "); // split at the space: ["POT", "512"]
+    let parts = msg.split(" "); // split at the space: ["POT", "512"]
 
     if (parts[0] == "POT") {
       pot = int(parts[1]); // turn the text "512" into the number 512
