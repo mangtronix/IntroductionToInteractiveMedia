@@ -1243,7 +1243,7 @@ void loop() {
   	- Multimeters and circuit debugging 
 
 - Schedule until the end of semester
-	- Final project is due Monday Dec 9
+	- Final project is due Wednesday Dec 9
  	- Final project presentations will happen at our space in the Arts Center Lobby
   	- Your project must be working for the final class and for the show
 	- [IM End of Semester Show](#im-show)
@@ -1399,10 +1399,9 @@ without using `delay()`:
 
 #### Homework
 - **Finish** your final project
-- **Post** your final project documentation to your blog - Due midnight Wednesday, May 6
-  - MUST BE FINISHED BEFORE CLASS NOT ACCEPTED LATE
+- **Post** your final project documentation to your blog - Due noon Wednesday, Dec 9
 	- see [main page](https://intro.nyuadim.com/) for details 
-- **Your project must be finished with the documentation posted by midnight Wednesday, May 6**
+- **Your project must be finished with the documentation posted by noon Wednesday, Dec 9**
 - Be ready to show your project in class
   - Short demo (3-5 minutes) followed by questions / feedback
 
