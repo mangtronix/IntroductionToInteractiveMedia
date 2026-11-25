@@ -1244,7 +1244,6 @@ void loop() {
 
 - Schedule until the end of semester
 	- Final project is due Wednesday Dec 9
- 	- Final project presentations will happen at our space in the Arts Center Lobby
   	- Your project must be working for the final class and for the show
 	- [IM End of Semester Show](#im-show)
   	- Any projects with special requirements?
@@ -1413,6 +1412,8 @@ without using `delay()`:
 
 # IM Show
 ### Timeline
+- Sunday Dec 13 - Legislative Wednesday
+	- Bring your project to the Black Box at 5pm (normal class time)
 - Monday Dec 14 - Last day of classes (runs on **Thursday** schedule)
   - Set up our projects in Arts Center Lobby - 3:35pm - 5pm
   - Show your final project in the lobby - 5pm-6:15pm
