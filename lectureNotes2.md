@@ -1411,12 +1411,12 @@ without using `delay()`:
 
 **Have a great summer!!!! Hope to see you in the Fall!**
 
-<!--
+# IM Show
 ### Timeline
-- Monday Dec 9 - Last class
+- Monday Dec 14 - Last day of classes (runs on **Thursday** schedule)
   - Set up our projects in Arts Center Lobby - 3:35pm - 5pm
   - Show your final project in the lobby - 5pm-6:15pm
-- Tuesday Dec 10 - IM End of Semester Show - 5-8pm in the Arts Center Lobby and Black Box
+- Monday Dec 14 - IM End of Semester Show - 5-8pm in the Arts Center Lobby and Black Box
   - All IM students must show at least one project (from across their classes)
   - **Your project must be up and running at 4:30pm**
   - Installations open 5-7pm
@@ -1425,8 +1425,8 @@ without using `delay()`:
     - Equipment checked out from IM Lab must be returned and checked in (barcode scanned)
     - Clear your space
     - Help move tables, etc
-- Have a great summer!
--->
+- Have a great break!
+
 
 
 [Back to top](#weekly-schedule) 
